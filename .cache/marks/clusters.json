@@ -1,0 +1,9347 @@
+[
+ {
+  "keys": [
+   "c9b82d57cfff4954",
+   "d7a8b5e19121fbe4",
+   "081e171494958ee5",
+   "505e12501bff0f6e",
+   "0d9d98a59ccced27",
+   "3fe1d5f98ee484f2",
+   "0177612a4143a991",
+   "75aa4a4c62f803ff",
+   "e3f6679c4f9f0a1d",
+   "ca20656e83328124",
+   "87fa512904c797a9",
+   "3516eb7c43f27197",
+   "751c56321febbf3e",
+   "f8cf78bfe42fc70e",
+   "b32e5db615843159",
+   "a9c7ee5e689618ea",
+   "e42ed5e11b85a120",
+   "ea809f17c168576a",
+   "3b25805311b855d2",
+   "8ab476c637fbc7af",
+   "6ea242013a460e75",
+   "ac1e429e6182d04e",
+   "1a8edf0d0c50d76a",
+   "93c8a8e8687da73e",
+   "cdb695bf440d7673",
+   "be7ddb18a464ea82",
+   "53c8ec996df98236",
+   "dc6f3c855ba1a47f",
+   "695e6fba9bdc4e02",
+   "fd265e3c22f4202f",
+   "de854095c1eafe2a",
+   "a32dca7c18e02117",
+   "bd6c2bb7d84e38ea",
+   "c2131cacccdd1869",
+   "d8f02f965db658d0",
+   "ea9da6e7b115a7e6",
+   "4e1f4db0807d92ce",
+   "2929db13ccf50f76",
+   "d6371f790043425f",
+   "4fa66d365a31a012",
+   "55a1ba27879ff0d7",
+   "4eb8961fa6df943a",
+   "00fbc9c41fee2c0e",
+   "1ffacc79eb8e4622",
+   "74a19c94a83018bb",
+   "6667f38d2191986e",
+   "3e707f9fc79dec68",
+   "94a52e765b4ce584",
+   "74df7a3d447d8edb",
+   "c4f7bf6fa04ba50b",
+   "e9130f35ba6e5a83",
+   "3b7481f7c0f95f58",
+   "244140d1ccbaa0aa",
+   "a4bfc5361e46d9f1",
+   "30e6aee74e1b994d",
+   "9c3f61d2f34d764d",
+   "6694a6163a7a0f2b",
+   "518d5151b2971e82",
+   "d7da944908ae164f",
+   "67e699876ba59d28",
+   "58e4ab45c962c77d",
+   "757910df9a056bab",
+   "d7896ebe85d6a50e",
+   "d18cd9abbf5021d5",
+   "f5dac908b73f2c9d",
+   "1b6fd078c321c9cc",
+   "e9aaaadb17738c79",
+   "2cac755490da500f",
+   "97079c00ef90fa27",
+   "73cc05f6fa7f8bd2",
+   "8c0a9798ffdd6250",
+   "5701335dacd9409a",
+   "4aaf68d0e7b5dd91",
+   "48b86fa9d411b2a0",
+   "2114e8a68235e39a",
+   "63e373538b801c8d",
+   "f5b913d4343e2736",
+   "5a7ed2df2bc50c1b",
+   "145588f8aa18c10e",
+   "d42038b5663a074c",
+   "9d5601320ce8184b",
+   "2dc1d71567b665cd",
+   "7f98d803a1f55601",
+   "84bae22fc5203838",
+   "b2898cb77bc1bb98",
+   "39ce182ac17e4f22",
+   "78a6bfd8a3e364af",
+   "ebd3caea72ac5fb9",
+   "ffd51c25f4eb5332",
+   "fbc5ec0dad5453ec",
+   "1d736c089cb2fdc4",
+   "bd4d20f625296575",
+   "2a308c37a2878a8c",
+   "1e94f2a91374910d",
+   "d247a81e5613778b",
+   "c1c1b1ef77534d85",
+   "9c32208e5c860e70",
+   "48b08ca9a81beff5",
+   "46c14a7ca01489d2"
+  ],
+  "count": 168361,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "fatha": 45753,
+   "kasra": 9781,
+   "damma": 703,
+   "hamza": 386,
+   "maddah": 129,
+   "pause": 200,
+   "shadda": 971,
+   "dot": 4388,
+   "small-circle": 106,
+   "small-ya": 29,
+   "two-dots": 1302,
+   "small-alef": 210,
+   "sukun": 702,
+   "wasla": 479,
+   "meem-iqlab": 264,
+   "three-dots": 71,
+   "small-waw": 7,
+   "fathatan": 196,
+   "dammatan": 56,
+   "kasratan": 398
+  }
+ },
+ {
+  "keys": [
+   "d2506e4f8b4e28e5",
+   "0b4a81b3125cb074",
+   "93ee30879481b01b",
+   "713b92789ee50d31",
+   "062ff08b61e5f3d6",
+   "fffd5cc622496623",
+   "7964303996be6954"
+  ],
+  "count": 64364,
+  "label": "dot",
+  "auto": "dot",
+  "sugg": null,
+  "votes": {
+   "dot": 17108,
+   "kasra": 1158,
+   "damma": 361,
+   "fatha": 3082,
+   "sukun": 636,
+   "shadda": 393,
+   "wasla": 96,
+   "meem-iqlab": 195,
+   "hamza": 129,
+   "two-dots": 229,
+   "pause": 36,
+   "dammatan": 17,
+   "small-circle": 23,
+   "small-alef": 60,
+   "small-waw": 6,
+   "maddah": 30,
+   "three-dots": 29,
+   "fathatan": 25,
+   "kasratan": 5,
+   "small-ya": 4
+  }
+ },
+ {
+  "keys": [
+   "635379fd7ffa0d49",
+   "243eef607e4d52e8",
+   "adff9e6592b4a266",
+   "f4e74c223ff610b0",
+   "757e077089ed4c2d",
+   "051ad3b7de3d399f",
+   "17d4278527492e63",
+   "7c756dfbba9eaa53",
+   "d874ee4df22d1aa3",
+   "6eb63b7b39b3ab47",
+   "06e2a6484b375ffa",
+   "bcbd46cd0b91a2ee",
+   "8bf0f559aff81d57",
+   "d0f806277ce7be03",
+   "6625237d7ec9febd",
+   "0a83652ead222aba",
+   "03181d2e83d76f40",
+   "568cec455db499df",
+   "789eafa91ed701aa",
+   "884ef3eb09f1558e",
+   "01b35b3d1bb5e1bf",
+   "324f31f1a8c808d1"
+  ],
+  "count": 38905,
+  "label": "damma",
+  "auto": "damma",
+  "sugg": null,
+  "votes": {
+   "damma": 12683,
+   "shadda": 128,
+   "two-dots": 217,
+   "fatha": 665,
+   "hamza": 60,
+   "pause": 163,
+   "dot": 365,
+   "small-circle": 32,
+   "sukun": 205,
+   "wasla": 57,
+   "small-alef": 54,
+   "small-waw": 90,
+   "fathatan": 14,
+   "meem-iqlab": 44,
+   "dammatan": 33,
+   "small-ya": 6,
+   "maddah": 37,
+   "three-dots": 13,
+   "kasra": 3
+  }
+ },
+ {
+  "keys": [
+   "a316a3b8eb2508b0",
+   "08eefab40dd580e9",
+   "ac6813d8ad938c36",
+   "7b6d9ae29394b6ea",
+   "6156c0df73e57fcf",
+   "45013ef6c24aecf2",
+   "8ce76885407764b5",
+   "df07193124a2cb1e",
+   "8dd8239b6dee8126",
+   "a0a6c97f8cdb531c",
+   "9bda7246bfcebfd2",
+   "5a80a48f2dc1e746",
+   "11738e781f929302",
+   "546cf37e5d789e51",
+   "b472cf47647bda03",
+   "8377de35b65d6d52",
+   "ad9a6e2ec9187fed",
+   "746f1a2c8e743cdf",
+   "59bfb3f32c93598a",
+   "cb84fa6e21cf186d",
+   "9530692168518474",
+   "d0cc6dbb85651cb5",
+   "5ef545fe5cb3f590",
+   "5d582d30722965e4",
+   "1c75e83e410be3de",
+   "b913fbf8a507a19a",
+   "b4f7d07d55f0ed36",
+   "56a48e570a4aedac",
+   "8bd9c55c2cfcd002",
+   "da6aec849271cf5e",
+   "f9271e8befeef8d3",
+   "549c20c3b7b7f69f",
+   "b5dca276616dd5ea",
+   "47c6f26645675fcd",
+   "ddaee6d84e36b60a",
+   "9514d03811904f2e",
+   "6a0f8dde7a1b7156",
+   "6f6d69e6b0344f38",
+   "adcef473226d0920",
+   "9664d27079a5e206",
+   "7c03e0ad274f3e44",
+   "01ec011d57b4c2ec",
+   "dfdfdcaf1bfa55f9",
+   "9dd4e6497e4c63a4",
+   "465c74bc0e5c39b1",
+   "481b2bf715be87ae",
+   "907dfd2f81c8468e",
+   "4010a3552ebecd5c",
+   "5d8cab52852f2581",
+   "efbb0bf12ed78426",
+   "b15c971190f561a2",
+   "120fe879e43f5ad1",
+   "2d3244a511c8cb6a",
+   "b08ca35da24c3f4b",
+   "12313d7c3e9d67db",
+   "183792fa252ecc28",
+   "2844256b2861cde1",
+   "0cac62145e8ee84b",
+   "564d2b8970d9a1e3",
+   "ea6575f7a5de15e8",
+   "8b49e795ca7d4fe8",
+   "3a375d405715b904",
+   "a5c83312efc514df",
+   "4180b432327a55bb",
+   "b10f78eea1c74ccc",
+   "e853b28167915f9a",
+   "7e900dd668162217",
+   "4cc45ce08ae413a8",
+   "5752078d98434aef",
+   "bdd724d2ac0088af",
+   "7c3065b0b42c9b72",
+   "6514e76c29dc224e",
+   "a2c1327702ab8f99",
+   "21add72adce4428e",
+   "2787f9b50440e89a",
+   "a12862d20192fc62",
+   "23faf700402fa191",
+   "d150461f83332a13",
+   "a1a022539bead6c7",
+   "a5aa90d3980aeaf8",
+   "10dc64cf3a07550e",
+   "f3291a6fb41ae9db",
+   "1bce4c6bc085f889",
+   "c0b135e195c118dd",
+   "c3c28136522a34c8",
+   "9c059e8ea381386d",
+   "144d54dc3bfbb8ac",
+   "f37cf9a5b450d69d",
+   "1429d1f7682c2452",
+   "9899d40451d145a6",
+   "e14068ebbab12a93",
+   "d6318946510ff2b3",
+   "7b3841bc00b1cc8b",
+   "a945067f5ce0fc92",
+   "69cba9a3f6b63190",
+   "0befaa07126eaba0",
+   "d49df7215fc9ba2e",
+   "80dbbe064b2effd8",
+   "6c24e906d14122e3",
+   "56cc1a0267972f22",
+   "cfc9ed02f9568515",
+   "e8772e78c41cdc93",
+   "c212c164a3bfd7c5",
+   "d56fd5fbb4dd43c9",
+   "e089b3c18563f81e",
+   "cef238554725efc2",
+   "1155361a2175e77b",
+   "33e8be3d6542453c",
+   "c698e174045d6818",
+   "b6654d3ded99f837",
+   "deccfa65920a8cff",
+   "09ddc5292751164d",
+   "0b40692c4a5f75fd",
+   "cbe0f77e57fbc31c",
+   "bcfeba0c3e08d2d5",
+   "507ca42db2b606d4",
+   "4322dd7924f53674",
+   "9720b1006a43df14",
+   "f2ac82a81bebcd15",
+   "c1c285f495d6c045",
+   "a695121261fda03b",
+   "ca778361aafc3805",
+   "afb6d97d74e10ad8",
+   "4a94b398d0d9afc3",
+   "1b6328b9d49d3799",
+   "120aab6de6c5faf3",
+   "6bd1c60972bf4be7",
+   "ef496dafacd372fc",
+   "a3335d7ba5c19d7b",
+   "9d0a696133cdc144",
+   "53b25933449b44fd",
+   "de9b8e5d17988ece",
+   "5398615bac9d7269",
+   "db15fb94578a0281",
+   "f89f2447f9b5694e",
+   "810e36f4ad416818",
+   "01669685629238c6",
+   "93de52fe9c9e3f98",
+   "682c38465d536a9b",
+   "dfd97d010d7c7e6a",
+   "42124b0020a4fec8",
+   "b9993e814399fed9",
+   "db5582be2a886574",
+   "b3b15fc54826d63f",
+   "19f2744144c5eb3a",
+   "ba5d29aec2b917a3",
+   "d8c48f0f96bb34dd",
+   "aab1e9b9ae8e0039",
+   "966d9e2fb1c9714f",
+   "b39ef78f563892f3",
+   "5582a303b08fbc24",
+   "460096136f1fed4b",
+   "db00d40f8b4014b5",
+   "52fee171d9b6e915",
+   "20e4af925c22a0bf",
+   "195a987014e2c4fc",
+   "ea29df9dcfdac2d7",
+   "2bc6d7ae88d597ce",
+   "0726bfd4fa13b6eb",
+   "36d4167d1c3e05cf",
+   "f05e24a340697b89",
+   "918ab37582d5acc6",
+   "ce727d22616227c9",
+   "3f433d6b56ecde9e",
+   "1fa7cc5692436e17",
+   "5ea596fbac9c02b3",
+   "64606030ea2fcfed",
+   "0954c22b3831bfe4",
+   "b1709340afaf25ec",
+   "3342bd2d2336c418",
+   "23ff2acfddb7edd9",
+   "c8df8f567c01aa7d",
+   "da513d3d1423c50c",
+   "7d746fbd5cff3531",
+   "9c191d33351e7bc9",
+   "04fc6f4a1bfc8fba",
+   "c31594c297abbac5",
+   "4527c4e1d935474d",
+   "beb8ee01019e1761",
+   "b6520720575f2777",
+   "57625b5d2ac1cdc6",
+   "51f868226f8350d3",
+   "b8b754e1351dc01f",
+   "e231922111a72223",
+   "7c373357fb2c8cca",
+   "445f9a2f475bf6ad",
+   "c32ff4cbb28aeceb",
+   "711f9135089413eb",
+   "b989942a3ea2b95c",
+   "5a4a32b207749ee6",
+   "5cac148bd0d3f92e",
+   "5cc2f1c001ede03d",
+   "97e3a35928c82b96",
+   "e6a97147c4b4da8f",
+   "01c744d526a44c79",
+   "9225e658f6ff906f",
+   "36b99d62019dc13c",
+   "096890323571f507",
+   "4f7df64f3079d5af",
+   "04285b97567b3c9e",
+   "30f58a83824c99ad",
+   "7a7fca2c2f41a4b1",
+   "95372072d80843c6",
+   "8c529162bb2d4b65",
+   "3961a2b5c52e4462",
+   "06ec4746f11257bf",
+   "7dea368a958a445c",
+   "8191ae931232913a",
+   "de68e651232f1778",
+   "24e0dd5bccea4710",
+   "fdf56125487c782c",
+   "4be25d9e7ed3588d",
+   "9adb51d08a65cdf8",
+   "22eb4ef642635ff4",
+   "0d078b273ceae037",
+   "8ebdbfe92e178db5",
+   "309685801a987381",
+   "b2c2c135a78ab0d2",
+   "2208a139ba565bea",
+   "ac47b3cc17915664",
+   "8cf9a14269e9c384",
+   "2551d73416408e1b",
+   "b243dce4a538d11e",
+   "616d1969d3717f66",
+   "5c07c93a46b71545",
+   "1229657d12faff24",
+   "48f3a5e852177838",
+   "1f7c641d048168d0",
+   "2328d6b5f270969e",
+   "83e0171f1873af44",
+   "a99932376998ca30",
+   "7ad9be5a5d352ce0",
+   "f0e3c87cbb2a8767",
+   "8c7bae83796dc34b",
+   "d2ca94af64ebdb8a",
+   "5ae182f8c83b55c0",
+   "4ae374afae48af92",
+   "456376f82a8970a5",
+   "f1529e3f3095c000",
+   "3f1f97d62477d2d8",
+   "7797ea28d4c996dc",
+   "f7dc3a7a49f44e71",
+   "ab5f008d43d30693",
+   "f90936b312e9d115",
+   "15f06c1ca4bfa49d",
+   "511ae19938d8c197",
+   "b0553a730708a0a9",
+   "111830680ad6f334",
+   "522940b7058ff5f1",
+   "f9c24a84443877a4",
+   "80726aff9414eb9c",
+   "d93fcaaf1f7e93e5",
+   "4655b3dbb14f39d1",
+   "e0162fb4dfc019b1",
+   "d738f6bba3656d5b",
+   "8de76139def7fe09",
+   "32591d9d120c8af0",
+   "a62a3c1f57e9e8ca",
+   "f1e16c0e475f5f53",
+   "96a1e81c0ff267bb",
+   "163b24a884a38da5",
+   "0f50fd612690e370",
+   "4e43110704685dee",
+   "a5735564126354c2",
+   "4c0d7a63a26819d1",
+   "4fa2c7fdaa8c8b2f",
+   "f49e2c4a86a21a30",
+   "913c084aa7820dca",
+   "0f5484938f7629e3",
+   "bbb7f1f6025d2701",
+   "8a53ef79807476d8",
+   "6ec054166d408e9d",
+   "4afaa76e6a66ab46",
+   "41e9387baee2dc59",
+   "b49199c0e1863b49",
+   "4d02ddf0364b79a7",
+   "ce7893c954f7e7c0",
+   "7fc76346cd364de1",
+   "4c266c118c789911",
+   "ca193fc089332f34",
+   "67fe2046a46c470a",
+   "a4747124ec707e00",
+   "418e6f479d999048",
+   "08a497b04b0dd934",
+   "0d4b22fea4a3c31a",
+   "260c6d775eb6475f",
+   "2930521c7f250bfe",
+   "81b9f85b3b8815cc",
+   "8f309edc76158635",
+   "16477887c5749937",
+   "bc6268bdb8d141d7",
+   "38d83fe7d420f6e6",
+   "33c4b1617ceb8a8c",
+   "5366d9b709880e25",
+   "690c3f6b856b013c",
+   "5f04ad6b423312ea",
+   "7356089456a04125",
+   "f403b31049e0fe9b",
+   "e1528120de19ddf7",
+   "324afcc6b536d6ab",
+   "8d793d6bd6b8b69a",
+   "8623326d6fffd918",
+   "efde9e78b8d5cb8c",
+   "e9e744d231328638",
+   "58c968e78509071c",
+   "40f052675978b737",
+   "64836e3c4cf9f25b",
+   "082365482d9a83ec",
+   "748f5e7f2a9298a5",
+   "af7809232019ebc1",
+   "490d520b0795a904",
+   "9afadcffa619da92",
+   "d4b6d72af015cb7a",
+   "8ab3df6af3fd5400",
+   "afbd32b6e8ba6bd8",
+   "90ef53a1c5727bb6",
+   "0687c0e8ae3f3719",
+   "3386675080e73bef",
+   "2bf5d3b4d09c48bc",
+   "a2520009c2b3b5b4",
+   "3d5bc1c319b0c83e",
+   "5a802abbf5ede6dc",
+   "a1711b2466e39ca2",
+   "41434aab5e1bb589",
+   "2eb711755dea3e0d",
+   "4dbae62e1595e3e6",
+   "c2d73f2d645c7c7e",
+   "285516baf50c0dab",
+   "09ba5d40e891e1c4",
+   "2275a31f6d2fa572",
+   "886dc6ba4dadc71e",
+   "5c9704173b62eefa",
+   "12c6e1fbb076c3b1",
+   "b698181a5fcc36c4",
+   "40a2528bea30d750",
+   "12d42819837b8d0d",
+   "ea256b9f7c7eee27",
+   "51e3fc45ebc6067a",
+   "d379a355cc2d966a",
+   "de74e53b8b914340",
+   "061f03da06c65bff",
+   "ddabb9ffecc1afaf",
+   "93eb7a70bec099b0",
+   "ae0da016f2e0a0c2",
+   "10def11ff242b2ac",
+   "ab9fb0da1f25d96c",
+   "6a5facf10b92f349",
+   "339c6b2ef753c1e4",
+   "0b17554b63152c83",
+   "28d91cf5a48f3d64",
+   "08b0a12f7a0a6d54",
+   "bb67971dcd9a9431",
+   "bd532b3e6cae10e8",
+   "276ab1767f0561cf",
+   "8ffe05ec4eda4c6b",
+   "56856942ebc5ef00",
+   "5a10fe7b8df3be55",
+   "98fd5561ec0c29f5",
+   "3ee1e4127c1dc6ca",
+   "646d41a84caae88f",
+   "816313db78efa1db",
+   "6d1b13018e2aad94",
+   "2cb8456531796014",
+   "c9600274b25384ae",
+   "8cd7ba4fe7b40e42",
+   "ec010933b23f5996",
+   "42028fd142b6ab64",
+   "ef1060dbeb10c2df",
+   "8ad20a5bfe26da90",
+   "4fa0728848b4beb1",
+   "4859beed0062db36",
+   "ddc027ccff39cd95",
+   "496ac10a040952ba",
+   "d695f47eb169b53f",
+   "a3ff0870e3148176",
+   "bfbe69cb99b23af0",
+   "fe4b586bd4ee5daa",
+   "dd562ce0bcfb291b",
+   "dbc84f4fed001090",
+   "fe4b51c37cade9a0",
+   "e9db454c0960c139",
+   "514b2a1b7b81c6fe",
+   "0643b00439416cf9",
+   "f427514d25fa55de",
+   "feffff12be19ca8e",
+   "2c1e973b315c8e41",
+   "c48c2d64671b7c13",
+   "5b002a7498b68a45",
+   "d96a98a4b6fbb5e6",
+   "423aeaf87e2cc71a",
+   "171ccef017138989",
+   "f430114f52efc154",
+   "564d397ea0cfb995",
+   "5e52ae6c79c8c110",
+   "c512d893261d6fab",
+   "fc8d13fd896ed6a6",
+   "b2a5fc5291c49f30",
+   "3ec3e44515452d13",
+   "baeed82391ce4af8",
+   "1a7a2ed2f1ef5dcb",
+   "e1b42fdc31465f77",
+   "bc62680ddd178960",
+   "1724ec74ee2e584a",
+   "54e2033d812f1ea7",
+   "4eec0d09d656ad76",
+   "05c209274f31feec",
+   "f7521bbaf747a0db",
+   "3876c11feeb87997",
+   "93d9ce4605c3ac92",
+   "828fee7cc3b61b62",
+   "85d02ff772acef64",
+   "647ea5645122c3ff",
+   "e5dbc76352e5ae8b",
+   "8348c3cae47fa74d",
+   "4690308fae759224",
+   "f77efebc2d913346",
+   "6d56db0680e58677",
+   "53f7483798e843f7",
+   "8a8f326675cd9038",
+   "852d7e3c34f34e7f",
+   "5e1dadd33b8267f9",
+   "7c622304239a8d31",
+   "c8c77733fc556e08",
+   "4f33134d30d54d99",
+   "3e7279b27e2fe333",
+   "b4c5714afe67c43e",
+   "578a1333af8bbc90",
+   "370a2145e0a200d4",
+   "fde4fc5655d62981",
+   "89066e63102623db",
+   "b066e50a7fd41c96",
+   "c758233f091d746b",
+   "087674e2288a7d58",
+   "e719c87382970ac3",
+   "6e805c6428d8ca5a",
+   "d5c546d4136fc565"
+  ],
+  "count": 37095,
+  "label": "two-dots",
+  "auto": "two-dots",
+  "sugg": null,
+  "votes": {
+   "damma": 177,
+   "two-dots": 9273,
+   "sukun": 227,
+   "small-alef": 41,
+   "fathatan": 17,
+   "kasra": 235,
+   "fatha": 932,
+   "meem-iqlab": 99,
+   "dot": 244,
+   "wasla": 74,
+   "shadda": 105,
+   "hamza": 77,
+   "pause": 30,
+   "dammatan": 29,
+   "kasratan": 9,
+   "maddah": 6,
+   "three-dots": 10,
+   "small-circle": 5,
+   "small-waw": 2,
+   "small-ya": 1
+  }
+ },
+ {
+  "keys": [
+   "509b941302ffd69c",
+   "79b89e4964dec761",
+   "ab2af10b82d0ae5e",
+   "dd5cab3eb1bdb198",
+   "39262af5ef09b535",
+   "4331be26e76c5c5f",
+   "3cbb4dca4e732917",
+   "91ac107895008777"
+  ],
+  "count": 36997,
+  "label": "sukun",
+  "auto": "sukun",
+  "sugg": null,
+  "votes": {
+   "sukun": 10895,
+   "fatha": 616,
+   "dot": 527,
+   "damma": 177,
+   "two-dots": 193,
+   "pause": 132,
+   "shadda": 84,
+   "wasla": 106,
+   "small-alef": 56,
+   "three-dots": 27,
+   "maddah": 48,
+   "meem-iqlab": 27,
+   "hamza": 50,
+   "small-circle": 15,
+   "small-waw": 1,
+   "dammatan": 12,
+   "kasra": 5,
+   "fathatan": 23,
+   "small-ya": 2
+  }
+ },
+ {
+  "keys": [
+   "db5a2ef9afc8c2c9",
+   "47a629b61b725bc3",
+   "17e3c6a2a7445660",
+   "f9412badc9e9f939",
+   "250a0327f7a0ae15",
+   "15028fa5255f7c99",
+   "762605aed53d8a34",
+   "bcd99ec30c60f145"
+  ],
+  "count": 22544,
+  "label": "shadda",
+  "auto": "shadda",
+  "sugg": null,
+  "votes": {
+   "shadda": 8290,
+   "sukun": 96,
+   "dot": 353,
+   "fatha": 784,
+   "hamza": 59,
+   "two-dots": 92,
+   "damma": 84,
+   "maddah": 6,
+   "wasla": 46,
+   "three-dots": 16,
+   "small-alef": 19,
+   "pause": 4,
+   "small-circle": 1,
+   "small-ya": 2,
+   "meem-iqlab": 18,
+   "dammatan": 5,
+   "fathatan": 6,
+   "kasra": 4
+  }
+ },
+ {
+  "keys": [
+   "47c49c400b93c632",
+   "2fb9f1b6e49c570e",
+   "f11855c7e982110e",
+   "fdccb772e567fe6f",
+   "6fa448c16a0f1f24",
+   "9050911bd298bc94",
+   "44e30404168a1fe5",
+   "0589a1bcefcbbc40",
+   "a3a0deeb86c3022c",
+   "bf8ebcee840e5ea3",
+   "816bbbc6633a3993",
+   "813753cfcd9e3749",
+   "e740c9e95671fd72",
+   "ee819f3b58df86b7",
+   "ca1ab10694f8e730",
+   "c325b14455a43a05"
+  ],
+  "count": 15137,
+  "label": "hamza",
+  "auto": "hamza",
+  "sugg": null,
+  "votes": {
+   "hamza": 1669,
+   "kasra": 1073,
+   "fathatan": 9,
+   "damma": 67,
+   "fatha": 328,
+   "dot": 89,
+   "sukun": 87,
+   "small-circle": 37,
+   "wasla": 192,
+   "maddah": 18,
+   "two-dots": 41,
+   "shadda": 24,
+   "small-alef": 13,
+   "meem-iqlab": 27,
+   "small-ya": 6,
+   "three-dots": 4,
+   "pause": 7,
+   "dammatan": 3
+  }
+ },
+ {
+  "keys": [
+   "120ca2e4516fb37a",
+   "05e8d61fc0448569",
+   "8e3ed81e54ba27f6",
+   "2a112fc93815f8d1",
+   "a46f9291b0b7aa17",
+   "3c92f442a3f3c2c5",
+   "c78d8788d2dcf233",
+   "a6a89e2dee630c6e",
+   "b863f3921ad01832",
+   "82017d21488334a7",
+   "b5fa3cc362362089",
+   "10235368b39f2039",
+   "0a8bce32f6f85e50",
+   "3af277477163a4e2",
+   "bb16b1f805eed868",
+   "a0819ee221ff0eaf",
+   "1c0a0708c760e297"
+  ],
+  "count": 13460,
+  "label": "wasla",
+  "auto": "wasla",
+  "sugg": null,
+  "votes": {
+   "wasla": 7936,
+   "fatha": 546,
+   "damma": 73,
+   "small-circle": 85,
+   "two-dots": 37,
+   "dammatan": 14,
+   "sukun": 49,
+   "dot": 94,
+   "pause": 13,
+   "three-dots": 7,
+   "shadda": 4,
+   "kasratan": 1,
+   "fathatan": 4,
+   "small-alef": 8,
+   "meem-iqlab": 5,
+   "small-ya": 4,
+   "small-waw": 2,
+   "maddah": 5,
+   "hamza": 1
+  }
+ },
+ {
+  "keys": [
+   "e2d0fd140fc49dfc",
+   "ce59ef05213bc7c6",
+   "8eb38c5528bd83e7",
+   "917397fab156492a",
+   "4e021f2ca00d98d2",
+   "b631f71b4956be63",
+   "80ffdc256de19508",
+   "d57bafbf97e51461",
+   "cae84673eb9f8779",
+   "270868ce07117e2e",
+   "c9ccd2b3c6cc4737",
+   "264093cce73397c4",
+   "312a72da76511319",
+   "03c9b83fe748af2c",
+   "f896be8d88ce2435",
+   "34988c65e58240bd",
+   "eca32ec25626958d",
+   "1236e3306a5103b8",
+   "282dd9ad7097a065",
+   "605f63bdf0b4c29e",
+   "b92b1339a58aab39",
+   "7b85cfb23dbc540d",
+   "de7d6fc9d3c473c0",
+   "23276e32a4bd01ba",
+   "6e2e26dbecf789a6",
+   "6bbac9de51defadc",
+   "408e810d51625fa2",
+   "cbf424cbce3dbe60",
+   "d931337907246075",
+   "6ba75bee5303920b",
+   "13d17dd4c8c131d9",
+   "0a86c9b597312cab",
+   "06285d22982824a7",
+   "04db000b64bb6e48",
+   "26db4b53ca0f31a6",
+   "df6f0b8e0fa888d7",
+   "00474bd49c0580f5",
+   "db9a37582c2d27a5",
+   "7bef6353ff76aa33",
+   "b3bbaec6976152b5",
+   "537324b3d2509871",
+   "ada60d77e1d7e29d",
+   "6376c1624893ec24",
+   "4303c9a6b6c615c9",
+   "ff6fca0b108c9b89",
+   "0397f0da0bf63018",
+   "f3fbfb915e007cd2",
+   "bc9f1b196b48e3b1",
+   "4269efb2f3feba13",
+   "1297071a5fb8818e",
+   "e3f318feaf4734f9",
+   "328dd28e795a060f",
+   "5f9140bc86e53861",
+   "b4188ad63d3ae463",
+   "175e22ee71ce4d88"
+  ],
+  "count": 11865,
+  "label": "fatha",
+  "auto": "hamza",
+  "sugg": null,
+  "votes": {
+   "fatha": 456,
+   "kasra": 355,
+   "meem-iqlab": 119,
+   "kasratan": 209,
+   "pause": 14,
+   "two-dots": 105,
+   "shadda": 27,
+   "dot": 136,
+   "fathatan": 69,
+   "dammatan": 2,
+   "hamza": 1071,
+   "wasla": 11,
+   "sukun": 30,
+   "damma": 39,
+   "small-alef": 14,
+   "small-circle": 7,
+   "small-waw": 2,
+   "three-dots": 1,
+   "maddah": 5,
+   "small-ya": 1
+  }
+ },
+ {
+  "keys": [
+   "dac7873015c3b18a",
+   "ad57ac0204f0b489",
+   "6a7a8080d10aa287",
+   "fe68d97f3b7f7800",
+   "f173cd84c14422f1",
+   "4138ca6d494c52e2",
+   "e99c27f7d900ac8d",
+   "ffea393633cb0c8b"
+  ],
+  "count": 9647,
+  "label": "small-alef",
+  "auto": "small-alef",
+  "sugg": null,
+  "votes": {
+   "small-alef": 3425,
+   "damma": 45,
+   "sukun": 47,
+   "fatha": 152,
+   "dot": 47,
+   "two-dots": 22,
+   "pause": 20,
+   "fathatan": 2,
+   "small-waw": 3,
+   "small-circle": 9,
+   "shadda": 20,
+   "hamza": 13,
+   "maddah": 33,
+   "wasla": 4,
+   "three-dots": 5,
+   "meem-iqlab": 3,
+   "dammatan": 4,
+   "small-ya": 3
+  }
+ },
+ {
+  "keys": [
+   "df1b4ce13db3d19b",
+   "f55e4f247a658813",
+   "cf7c787126c71dbc",
+   "4471719fd3502f0b",
+   "8195b1393e99e297",
+   "f02d28ecc62a5ec9",
+   "284952daad83c837",
+   "1f8d8fb5bac7cdeb",
+   "6682aa1b8141fa53",
+   "e09df3c73c454285"
+  ],
+  "count": 5311,
+  "label": "maddah",
+  "auto": "maddah",
+  "sugg": null,
+  "votes": {
+   "maddah": 1852,
+   "fatha": 101,
+   "pause": 29,
+   "sukun": 24,
+   "damma": 47,
+   "dot": 25,
+   "small-circle": 6,
+   "wasla": 2,
+   "small-waw": 57,
+   "small-alef": 28,
+   "three-dots": 2,
+   "fathatan": 5,
+   "small-ya": 11,
+   "shadda": 9,
+   "hamza": 9,
+   "two-dots": 6,
+   "dammatan": 3,
+   "meem-iqlab": 2
+  }
+ },
+ {
+  "keys": [
+   "e39039b8c8e6712d",
+   "ea96ea8ee5a783e3",
+   "0927fb776f81ae1e",
+   "b0d4c624fdd39065",
+   "b72ab5ed8181a9db",
+   "10739cc160300bcd",
+   "f86b25906b3f74ad",
+   "3ca2924545642a8a",
+   "7671eec1a6ec2155",
+   "a35a60898f96091c",
+   "2162522f8ddee3fa"
+  ],
+  "count": 3986,
+  "label": "small-circle",
+  "auto": "small-circle",
+  "sugg": null,
+  "votes": {
+   "small-circle": 432,
+   "sukun": 29,
+   "damma": 99,
+   "fatha": 90,
+   "maddah": 32,
+   "pause": 8,
+   "shadda": 1,
+   "meem-iqlab": 1,
+   "wasla": 16,
+   "small-alef": 4,
+   "fathatan": 5,
+   "dot": 14,
+   "dammatan": 3,
+   "two-dots": 4,
+   "small-ya": 1,
+   "small-waw": 1
+  }
+ },
+ {
+  "keys": [
+   "a2e4cd287fe7ebd6",
+   "c40c38f2a4edf014",
+   "558fc8b5273fff87",
+   "2d3bc2aa0ac92e9d",
+   "5c7c711afba10497",
+   "ee6aa18c6262708a",
+   "f799548d7b81fa49",
+   "cf50e02b75295bb2",
+   "fdbe33fe024bc6d7",
+   "d5a4e7886d1eb707",
+   "02746783214d7cf1",
+   "d8eadd99d2791325",
+   "40ee55951a948b34",
+   "be706023f053c162",
+   "5d66c403e30aa18a",
+   "d3e23b0bc11dd0e0",
+   "f2a4a3839c3e9f57",
+   "a93020776610f8bf",
+   "c45e02af1dc85699",
+   "0bbbb0bdac1ba619",
+   "33986ba1e9d32813",
+   "661817d8a44e8c37",
+   "ce6bc54810d01cb8",
+   "0d81d9d4b274bae9",
+   "0d95fce88b9023e1",
+   "fae122a0ef8970e0",
+   "b2b190f684ec84e2",
+   "93340b7c1e17dfbb",
+   "20a10342c36ad212",
+   "f442844cc9a4db3f",
+   "ee5ed1fc251e2136",
+   "e837c0304061b284",
+   "f12113c3b1b07bb8",
+   "1d9d3b61fece65da",
+   "2d2256f947061152",
+   "8ad38d633bf0639d",
+   "b295841dce7479db",
+   "9f80e9863a0318dd",
+   "5da878af48e2ab33",
+   "f192db6e0512de9e",
+   "739fd4d2c187ae32",
+   "5a77be8152703cb3",
+   "a72bf05ebb90f612",
+   "aef720836bea0737",
+   "3d5e9a108753544c",
+   "b87799a026b221bf",
+   "044f32adb0a28695",
+   "cf090a55a32288fa",
+   "ebe8b90c0f0a89a4",
+   "406c900dde6c5a94",
+   "0997c19ad7cd8951",
+   "68e3692b55fbadcf",
+   "89e2fa1b54ffdc28",
+   "faffad02a7843824",
+   "0b82e36c54e3ffa7",
+   "aac4e194ddd4e83d",
+   "cfa91600afe10093",
+   "1dc2ca5e11d867fa",
+   "8fa117733ea7250c",
+   "5bea9935111b6a79",
+   "035c6721bba2cedc",
+   "9dc64fa798b276fe",
+   "ac7134cec039dce2",
+   "876b860eddd57265",
+   "499513126d7027a2",
+   "df0d2a709610c414",
+   "d7cbf5f2717ece98",
+   "abf7cc56875b1913",
+   "2de5fd61c35fec24",
+   "aac06d617c771e28",
+   "cfdaf8aaa5073656",
+   "6ca86fa1c55f279b",
+   "8508b1b18916770c",
+   "0ad2140835696091",
+   "ca9afd707fbe026b",
+   "27e57494216a685c",
+   "7b439f34e7e122ea",
+   "d1477de8c8c8af53",
+   "9947592dd2fad146",
+   "aa9076c42cf2081d",
+   "4e8b48af571cd848",
+   "e0e0bada96899ab2",
+   "1219d624662dfda3",
+   "6c409240d7b70c0b",
+   "7b17c695185848d2",
+   "d49180ea07d9bebe",
+   "8f7cfa723e4b1b77",
+   "696d6912f08e92e7",
+   "190ec90576679a5e",
+   "f72cd7536d3bb404",
+   "40eb762b1600d24c",
+   "dc2b368bc5da1d7e",
+   "79f90c6eb74f92b1",
+   "14758d9af29f8f65",
+   "a74844240e77648b",
+   "15e933813d33359a",
+   "46f165ebd937faad",
+   "7510db3a06b3b4e3",
+   "353e1b9d56797a73",
+   "73345377b19e2237",
+   "1528969f78ecbc09",
+   "57f90086beac5226",
+   "e07ceb987112a652",
+   "b3212aad9c4cde5c",
+   "4d3aba6db730c004",
+   "2cf4c75a3bbbbd1f",
+   "8ba6a7652bf46354",
+   "8bc9d15a7dc794f4",
+   "61a0d1c259fe9e4b",
+   "e7967f49fc05f3f0",
+   "4928e7a644921d0f",
+   "bb1cf974d01782c2",
+   "b291119a0024056c",
+   "4ed0177307ec11be",
+   "5d63baccfdb06a7a",
+   "7ae59e10df1c6db6",
+   "607f3ed7da2b7375",
+   "981eb6f15d4962da",
+   "af7ca5075d10d547",
+   "c22c007961f43870",
+   "4c9866aef53da56f",
+   "a020fe8e3dc5bf1d",
+   "e7893a23e8486681",
+   "8d2ab610b5b8f49d",
+   "a0a0c75e25d08638",
+   "e87e2487a7deea8b",
+   "7bb7622ac072eb03",
+   "ed3b5fd6a7daa077",
+   "d190b0563d584370",
+   "64784c527b9b1559",
+   "fc4c683ef8cfa884",
+   "9c15421ff3daf12f",
+   "2efa728255445ac0",
+   "44b844ff76791bf3",
+   "d46ffa4234a8e095",
+   "3ac75ebb50afc57a",
+   "5ad14d0e386094ff",
+   "3d6066e572f4fb93",
+   "f8fee3052249897b",
+   "65f6ccc6bb52a117",
+   "ebc02fd4264c7f67",
+   "b8f28f266b20ad59",
+   "c4bbba9cb696d51f",
+   "70989751015bb154",
+   "3b69701f5a682a88",
+   "67e183160a0862dd",
+   "de9d47a3ababbe9a",
+   "9a90ddc865a1b81b",
+   "ab9f3c302dfd7fd8",
+   "3be2ac1cff7bc08e",
+   "ba4008fb3c1ac793",
+   "61dbfe0c19c619e9",
+   "a49082c7e242575b",
+   "f9dacc716ce5c6ca",
+   "c7915127fd9467eb",
+   "288dad16cf8d5d2c",
+   "7e62859d0fb3e35d",
+   "b00b9c68cec43d87",
+   "7fd8937dc9d59c32",
+   "cd197a1c879dfec4",
+   "2ec941a66af81206",
+   "a175412c80a0534c",
+   "3739238b6d179542",
+   "c688ad9da3e583fd",
+   "326f3cbad841b89d",
+   "68ae06e9a9b54371",
+   "fd343218b318c408",
+   "da0d70c234198664",
+   "d814102bf00ba6ca",
+   "fbf71020e88ed168",
+   "2c99fcffe4a72152",
+   "6e51e150d1272684",
+   "212c18b028facde7",
+   "0c764a40fe77e190",
+   "5d8c2604a3d6da41",
+   "37cc9e7b459c7529",
+   "ee8ca91f52b0eed3",
+   "0b86a32cba2794f9",
+   "c8c8d0f281ea1cc6",
+   "1cace537a6109ec0",
+   "1465f7fb8acb6c78",
+   "81a4e56ef1944ae8",
+   "80ad891814050ad7",
+   "052f6a5abef78c34",
+   "33bf224da2e9bbac",
+   "35ce4c86d5a79493",
+   "4e5920446446a257",
+   "9efbda77414b269c",
+   "9f17db4b42da7221",
+   "a7a1f668e2aaeb17",
+   "a3854b082796f677",
+   "21dd17f690958adc",
+   "eda1653ef9aeb5d7",
+   "e4cc4ddb49932c8f",
+   "d7f80ed334a86845",
+   "56f28e93672e989f",
+   "182172b3dc67290c",
+   "d051d66a0ad8cdc1",
+   "83fd59cdb8844da8",
+   "ea4098b363279771",
+   "d3d6cd6c770d4b82",
+   "7c93f0e63551ddba",
+   "9819f6bc10be6e82",
+   "8e42442447ef8870",
+   "6d0a2a26e2811e2e",
+   "c408d4024f69c186",
+   "69fb44fe53b79bcc",
+   "9ddc95a6bf392793",
+   "ab24df9ac9f8d0f0",
+   "e56828c00ba39600",
+   "dc04090a7b71ebd4",
+   "e54d14a62cca21df",
+   "6606f9481ac04a70",
+   "7a6c9a0bd8e11b3e",
+   "fb9951497f39055f",
+   "ce34b2448c76f850",
+   "706cb1d31ccb8d5f",
+   "8c4ef4fbf028b9de",
+   "2107dc672f5cfce4",
+   "41a6518d480e5862",
+   "d9420f5c7ab73fb7",
+   "243f64a8745b85e3",
+   "fe64cb3c669db147",
+   "c87b0b44dd35fdd5",
+   "ffe0a1f46498d38a",
+   "1a6030e5bb9ace5c",
+   "73d0e32f5b1c0a25",
+   "83d56da8c0229565",
+   "a72c614aa807ceec",
+   "04e3d6df1be42054",
+   "9fc370d7b716e9ea",
+   "f05f6e464b0c2574",
+   "229a3060a31bada7",
+   "b544b3455a0dc595",
+   "b894b492e1c08675",
+   "0ca9f871471a24b4",
+   "174bc9cd90865729",
+   "65bab4f45d4ae28c",
+   "0a4ab470061aeaf3",
+   "d5b3400290c7ade2",
+   "31fcbe7bf0090d78",
+   "e1d71a81d5912f01",
+   "3d95daee1c09a792",
+   "f24c42a1cf1c78b0",
+   "c9dfef754b3fd6c7",
+   "ff617defc96de816",
+   "30dec3d1bf19d742",
+   "14f6bca352c947c9",
+   "7c51066e0b20d02c",
+   "e91d130672d5a947",
+   "fbf60cb699adf359",
+   "5537de696e2005f8",
+   "84832edcc4d119e8",
+   "286ec6d91f043c92",
+   "d82fb04957b3f8d5",
+   "3543e041e7a13942",
+   "98c365e2ae739dce",
+   "425dc83bd541a432",
+   "8ca730087587464b",
+   "feb2be722b48df80",
+   "6d788a756c6d38d0",
+   "ca91259881bd2bc6",
+   "5ee222fe71c109b6",
+   "09115b62d19e2309",
+   "01ea8277396c4315",
+   "dc8ee8c102f3d450",
+   "f858109351ebe1c8",
+   "060e729713392026",
+   "e38cf4ab179c1842",
+   "49779705606bd0f7",
+   "cc178da3be30bbdc",
+   "4ea9b7f9239b0838",
+   "97f78b65f46a5a2c",
+   "6ef3ec1b299c9d46",
+   "1df33f0673d42f74",
+   "f0192fbd11c61be1",
+   "c8aa179f9983ab14",
+   "8a0fd0593f6afc66",
+   "a8e2cbefa12184e7",
+   "047a99eb95e580ee",
+   "3e4b9abfb97aad0d",
+   "ff9ad65435a82ab2",
+   "dbee0538ca3f70e4",
+   "8281bf84bd78bdec",
+   "d6305f789ca5c978",
+   "6695061659f23fbb",
+   "c964a95686521e56",
+   "cfbeefeaac7b921d",
+   "5aeb89d211dad6ab",
+   "66d95c4f245e44a5",
+   "a47eb3ab1931765b",
+   "4549c987a860afb2",
+   "e3b8c3e31c054066",
+   "1e7313236031921a",
+   "70633aa0e623e711",
+   "5a3648963366f736",
+   "679f45c1d813bbb4",
+   "7417949e73fc9744",
+   "47ed457e42b02a4e",
+   "58ec98d459c7bcef",
+   "445be847a1f0aa60",
+   "0737444d5dd9a366",
+   "59c9712bc16cfafa",
+   "dfe72f4fec117fec",
+   "6ba2a0d358a9801f",
+   "1f37a8419208a873",
+   "8f2ac79adf98cc26",
+   "0e10e8973dcf3ebf",
+   "fe5da194cbcc8eae",
+   "de81f9d3c78d39e8",
+   "76eb1e9199aee133",
+   "3b84b036561ad463",
+   "fced2f6d179fcd8f",
+   "c4526e69415f7438",
+   "d79ecf2a31db9608",
+   "5f9d565028f93c1f",
+   "0d544e0a49959580",
+   "c7a0d4891d41063a",
+   "9e940e79ee2c4bba",
+   "aafcc43725d5c89a",
+   "75e09b0043860fda",
+   "34cb9423f4b314d1",
+   "0a3bdb98ae00e7cc",
+   "c6f2c7c60be2a4c8",
+   "76fb8f531b97424f",
+   "97bda016a7c4ad46",
+   "0b3f96af1d53eaca",
+   "8218432a6d7e03ad",
+   "fdf71c22c8aec325",
+   "bca02c12cd09689e",
+   "ded0547798440324",
+   "27d654b98963cac3",
+   "67b23a242ef6dd5f",
+   "6949351f147f2c8f",
+   "848754f52abb9a34",
+   "e8ce6bb6e0884fd3",
+   "83ecf61c3522b758",
+   "5cf9da7d3414b6ff",
+   "c9f86140a0199920",
+   "c08cc27864a10d3f",
+   "939d5f7ba4424463",
+   "9dc5addad5bf5d97",
+   "37013d41a470d4fc",
+   "29e2b9dd5cf56494",
+   "7f488981cc3436ac",
+   "1d226cea66e34c46",
+   "702434db8e9c6c99",
+   "fbfef45f26ed96e2",
+   "735fd490fc750e3a",
+   "43eb06489e92302b",
+   "e4b90ea584a76ead",
+   "03b8219efe5fe619",
+   "642686446def002c",
+   "0e3b7c29b3bd7fe4",
+   "779e1f779deb21a8",
+   "0a958e04c8ffa9f1",
+   "48a027103d68ab0f",
+   "aab79f302737ea85",
+   "d23e77c17694e890",
+   "50f6112b17bb2f36",
+   "f3f02b0c298da2c0",
+   "afb0927092c4a153",
+   "d1ccfa4b182544e5",
+   "51a82059c98f2e74",
+   "1e8a149a9588eee7",
+   "2d146b2440dfdab1",
+   "e667d1749ec0f217",
+   "dc291286b49c1fed",
+   "4a1a5c8abb9fb40a",
+   "5845fc0730b3ec01",
+   "f07fbb8749a19607",
+   "7af5bd67f48de781",
+   "d6e638b3384be33e",
+   "0bd6dc84b5373f21",
+   "9e98562b2a204f0d",
+   "d732cb0fed1d1d57",
+   "bbfa6922fd1c63fd",
+   "8b328eb72e3d25d4",
+   "b0ed0af05edb9858",
+   "b3c5bc520430e4e8",
+   "b6c21674842e2b84",
+   "82a1243aec582664",
+   "3a135c2d552ca472",
+   "6e57340d1ae06ae9",
+   "a09172837395b597",
+   "e01126f6f013664e",
+   "5773daf0b0e3643f",
+   "6d127d44531e27cf",
+   "15219ae85449b8bd",
+   "7722211b9577be07",
+   "e6e57fb5daf81a32",
+   "94ea6e38368ab1e4",
+   "6118c38cf1869340",
+   "1ebfe73d8fe91f4a",
+   "17b8b8122201cb23",
+   "bbe887c03463a84b",
+   "9d5dabdca2316aa1",
+   "1d4af42cf593f9d4",
+   "ef78e71897b9de45",
+   "893684f28b7c3463",
+   "83acaa282d517cbb",
+   "eab81ce0b4ee173b",
+   "7713e9cfb2a188a3",
+   "77227ef2a383d381",
+   "125dd3fb927e84f1",
+   "e28a1b6f49024372",
+   "ede3d70df9e66464",
+   "ffe1ce271d662ab0",
+   "b37860695f9a5914",
+   "be258f1dbf6880d1",
+   "a7dc2990740b63ab",
+   "1b30feb51e6be8ff",
+   "373e1cd742874589",
+   "33ed425d883bbdab",
+   "3cbc28473971cba8",
+   "f59cfa45b6848926",
+   "808f02f3dd46602a",
+   "c9c2bed5751a04be",
+   "45f9c82ce4a3bff4",
+   "526b2fb0435115c4",
+   "eff6cd4fa931663c",
+   "9d1d49cce413e38c",
+   "63094af4e524dc07",
+   "7fb8107ad0bde631",
+   "81247c893d1fbfbb",
+   "9abc443e3b942903",
+   "1bc5ad863aa69215",
+   "1707e91bfb3e196d",
+   "e2c253118fd46ec2",
+   "b81d65ba47eea06c",
+   "c30c038c14e67048",
+   "0275818164701648",
+   "b9d6b0e2ea927bd4",
+   "5709bd25dfe853c5",
+   "190c01b19ce70add",
+   "3ac0883a2ae59d8e",
+   "7375c35a0c3340f6",
+   "990508dfb63b351a",
+   "7200236160c24d13",
+   "ea07abd997680672",
+   "c89a7de9d740d950",
+   "3ca2e5ba5c929823",
+   "6426cc70e30ce9fd",
+   "69e55956f527bd4d",
+   "952bcc259f113ec8",
+   "8c951ab90fb73147",
+   "92c73b3f4298372f",
+   "262e84f540a0276f",
+   "836d110cf35583a0",
+   "ee24a6dfe4787e2f",
+   "e22d1c299a7d79b7",
+   "607ad720f5766ec9",
+   "934e5e298099dd60",
+   "bce328ff27506479",
+   "6af3b0cbd2da2b23",
+   "ee9a7bcc51778ff2",
+   "4c850aba938fb938",
+   "f89dd0e69098b786",
+   "56ce6de8b5aaf35a",
+   "2b763666d23e51f9",
+   "12b6bd7f398f2607",
+   "9fcf3722d7f2dc31",
+   "4ca55bd9b2cf899b",
+   "b46e38d01c4e4643",
+   "da957451f8533fd1",
+   "ef09bb751e6d73b8",
+   "3c952646ec1b9045",
+   "3feefaca8efba5c1",
+   "b09763fe2d920f2c",
+   "aff9e9706d89c151",
+   "2e87baa85ee63060",
+   "1a4716982fec76de",
+   "cc854888740109c1",
+   "5b46005faa2b21e0",
+   "298be5bf2b0f3a0c",
+   "98ea4fe4707e07a1",
+   "87d84960529fb7fa",
+   "329eef145b290eba",
+   "6e73e66887c78e9d",
+   "63e8115c0b4d27db",
+   "5307a4e5ab447110",
+   "438bfdd09dff7a7c",
+   "c1333b8afe6d9c2a",
+   "17657de6455b76bf",
+   "68c9dbf5749a9fc1",
+   "c387c2a97ee537f3",
+   "80a0004b75263556",
+   "995cbbaf58fb6f65",
+   "1d4d69e4389a2e95",
+   "d80cf5502454bc25",
+   "84265da3da69adfc",
+   "6bbb11df653c615e",
+   "8afe4804ba6dccb9",
+   "150b239af0228cf1",
+   "b984c27fce1783b8",
+   "6f7b785b15b8ad1a",
+   "dd32ac7d9cce5827",
+   "a3068fcf3e305538",
+   "32b2bc10144e1d4a",
+   "8f06804bf4f5bd37",
+   "e6a5c57e11757386",
+   "7bce798e7f28e697",
+   "822c711fbeb95b2b",
+   "46549ad405c60c78",
+   "f3381732b946dbde",
+   "6e877b75ce4535a8",
+   "66312b7a4a343de5",
+   "8aa48e0722f7548b",
+   "715df93d000e2c23",
+   "f071d57e4ea9a025",
+   "f4c434f27f25207f",
+   "f0300541ee4f44c0",
+   "c35ac2bacbefd149",
+   "1a3f12f8dc722ad2",
+   "10049366c5eb3e0b",
+   "29bd7f1a0dfc7718",
+   "518f9206dbfb81f2",
+   "e052fd78dbb82549",
+   "7271dff282ae3f2b",
+   "f8cb1a9f521726e6",
+   "f60f51d64a34a1cc",
+   "ae14cdcc211b4ba8",
+   "36c0623618ee1a35",
+   "5cf27ee4122d8f01",
+   "833cdede80d5738a",
+   "e3f299b8e920c223",
+   "6b84913719a4ff24",
+   "b06b0c58a6eb6535",
+   "cee084bbd13bed0a",
+   "717e3ee7f382eec1",
+   "3ed05c334700553c",
+   "cd06db58e27a2f0e",
+   "d188960bb07cb99e",
+   "126cb2cf404f3c49",
+   "64bdbb954e834de4",
+   "86cb312a22e4c2de",
+   "430a4f62925bfeda",
+   "2ae789cac091e7ec",
+   "3a0c6092c363d60f",
+   "289a8214636d230e",
+   "80e171bd158174b0",
+   "116cd8f114a1c59b",
+   "c09fa74681400657",
+   "c662909ee4b576b5",
+   "ad2046ff12ef8129",
+   "3345f468173cb10d",
+   "05b5353436fd1a3b",
+   "225df971920a3630",
+   "643bf983cf6ff1ed",
+   "c917a87a85980c37",
+   "a2df761f79914879",
+   "65d1285341f6443b",
+   "4a619a166bbd5265",
+   "7e78e9e34cc076ac",
+   "77096d8dbbe4e179",
+   "6b99a5485a5f1d8c",
+   "0aebe93b6026e20f",
+   "aa828924ce4988a5",
+   "74bdd799ef725e3f",
+   "6b921857af0d9856",
+   "9fb0d083a6e10d1d",
+   "1b478bf857bca9bf",
+   "bfa5bb9013232994",
+   "e6432e1243932918",
+   "a9cd3d9a69820e7d",
+   "823f59d21ba1e73a",
+   "97e9fcd55b217c22",
+   "9cc62359bc6ab839",
+   "f43eb0b5ff8dc5ae",
+   "befba6af9b15532b",
+   "4efb14b6bef38f0f",
+   "58e4faa578487530",
+   "5b2a1283eab027c3",
+   "f1dcb0384f67c3e0",
+   "2aea6cac81e57513",
+   "f39607b55014bdd0",
+   "81ab5a86a57b7d94",
+   "e2fb2b6dec57691f",
+   "da159a9c59157c7e",
+   "e80889548cf599b3",
+   "075bd802c064306a",
+   "654e459ae914a5a8",
+   "7723fc6490132741",
+   "624eb16e10a604bf",
+   "2a968fe2757e4bf8",
+   "832b61155bd467a4",
+   "17bb0ee5ca6965cd",
+   "fec854129df1f64d",
+   "b4eb9cdb8160da7d",
+   "3c50dda84bd4ab53",
+   "fbe8fd2f1ff83755",
+   "3b80eb1f28a6c95b",
+   "5f38b1fb6831bcfa",
+   "c6a5f31af00ae3f1",
+   "ce3c4b162ab5e990",
+   "b70c50a70253baee",
+   "7e9e8446e23dc3c9",
+   "84486f6e870486eb",
+   "3d020dd6669b0247",
+   "3e8daf208f108254",
+   "8d9033c4329a5fc6",
+   "a1f426560e3528b2",
+   "46b5ad9e476bc963",
+   "a1e5586495d8f223",
+   "dce2414bfa4b5566",
+   "0cbb728a32ea9e64",
+   "def43ca67f25df7c",
+   "4b6cf658af76335d",
+   "41e3a6400d800d38",
+   "06401f2b6285cdb2",
+   "4f73ef788843cf8d",
+   "feca99cf78b98e93",
+   "57f210ba69d21d6d",
+   "7ca0804946398be4",
+   "22120a00727efb5f",
+   "390af24fb18129ef",
+   "de5b1f3f71cee153",
+   "977b375ffa8c6c6b",
+   "bcb20cbcd79f8246",
+   "cca210bc124664a2",
+   "e794b9b8b660aaf3",
+   "487ba816fecfba69",
+   "8187070f7f17553d",
+   "a9446367f3583825",
+   "769f40ee454145ed",
+   "dfae2cab7469bd1d",
+   "b89800777a9a632e",
+   "f1e2119d1a5ae1f6",
+   "7f384f85474e00a4",
+   "f42d7d1ef847af2e",
+   "f922afe1819e0c00",
+   "5029f80fb5159c7a",
+   "2d8907bf2009b2d8",
+   "6ba37db7b4ed50e1",
+   "43bc1396965bf473",
+   "2e436eb414d21551",
+   "1c416ff9992669e2",
+   "ab765a6d21c1561d",
+   "4a186eafe7ed5b4c",
+   "5a4e299539ca1d86",
+   "f55bd652f8ad1290",
+   "240986ade53128d3",
+   "7001e6fa5a216849",
+   "bc066a67ae2048e3",
+   "2a6bce7584cf03c7",
+   "4d4e5c7b14ab7c8d",
+   "6201b0a39d2e3d0b",
+   "37f9fe36b89af9c0",
+   "d6e15654959233cf",
+   "c1e4799ebf0b3174",
+   "6e69477b7f4fba69",
+   "c50c0c2b3b2dd4d4",
+   "60b03a45a40825c6",
+   "5f13b09fdfe54516",
+   "e94210c64fe6b9ae",
+   "84c5c3f94b1a15d1",
+   "b1676efcacd6119f",
+   "219c50a9d974d3c2",
+   "8ccb9fbe361ed077",
+   "502b26a344a3db91",
+   "46857082cf498a81",
+   "ce293fb5ee1fb810",
+   "74edcfef08c5e8fb",
+   "1cbe83709c7c322f",
+   "39576ad5c40fbb43",
+   "5785298e01c377a9",
+   "12cf1b8d6a615c0e",
+   "58051714c725f488",
+   "e65ad4f610a5e6b1",
+   "d30c35459c27f425",
+   "ec0d5aa3c219f39f",
+   "db4b4c7ba6f69082",
+   "b3d1d1fbbf98ca1f",
+   "f3f02a65174d55ab",
+   "8b77df9cab352e3f",
+   "9eae906ad44e1b7b",
+   "af168cc094e010ea",
+   "9b0b9341bb66039e",
+   "1030957678514f18",
+   "932aa9fd395884cb",
+   "c07c2b50f3531bc2",
+   "1dbe7732cb786535",
+   "74876a43f1ca050d",
+   "b9910ddcf2d1b1c4",
+   "9a5f8c6f4a16d20b",
+   "86302d01d4dc699f",
+   "2adc07f841da8281",
+   "3db83d353c3240c1",
+   "2c9142632ba7b793",
+   "8c2381bbf321dc74",
+   "db6c1a7032f6a0f5",
+   "ac5f768f417a339e",
+   "12b64d28b24a9d9c",
+   "122bf6251a94d2f6",
+   "017d6e7254f5029b",
+   "d8a690788afb3847",
+   "f53a7d9e8dc6592e",
+   "472a74967c0f15a8",
+   "00fff35d6ad990f3",
+   "06d4fff035e648b8",
+   "69da8a833e15c14c",
+   "facb02350db2bbeb",
+   "ae7ca4fa998cadbb",
+   "0b60ae4210300a2b",
+   "95595e63ecf27d4f",
+   "7cc3127c72cdc668",
+   "20f94fd5f4c1e570",
+   "3c72636f276a8ee5",
+   "7726c3025ff8c102",
+   "badd571cd5e343cb",
+   "87a7b37640d01434",
+   "6a2832dfae46d9fa",
+   "9ee9f5955158487f",
+   "2c2764b527361faf",
+   "15a6a07c633f5660",
+   "9451f3a46450aae1",
+   "bffb7303c6425573",
+   "b84efd5da40a2279",
+   "cd4e78b0872d767b",
+   "5490c9729f7a2e1b",
+   "d81e7b2ee350597a",
+   "515047be11bb730f",
+   "b446041c19e93638",
+   "0a0bcf8610c5a0b2",
+   "c5a7c547a1ba4956",
+   "3009c6090c4c8529",
+   "6920f58ff2881f86",
+   "6a89c83855c5dc4b",
+   "71afc73a57fea184",
+   "7641a9d145ff8830",
+   "933f358ceacf6b9e",
+   "ce43bbce7ea25641",
+   "8b0c3982d25cee40",
+   "a1b6c3dc1a8a3a6f",
+   "251f429e07179f7d",
+   "7e42a28fc9c24577",
+   "26ba57d4d616d865",
+   "8987eec57ce39570",
+   "e8320ce12e445e44",
+   "e103eab18eb21534",
+   "55299bf7e6816e57",
+   "fbd537a34cf7ed8e",
+   "9ac0f6d6bf4a2fc4",
+   "cbb8d9f6a0b851d4",
+   "d64ae6d4d5072fa9",
+   "09860f2e07f14dea",
+   "97f6eb1c8db5f0d7",
+   "97038f8557aec6dc",
+   "18eff99d9a50995c",
+   "b2404301ca099b6c",
+   "76aa752ca1265a60",
+   "16ec5ddf2d075834",
+   "3b1a922cc6ca56b3",
+   "7f316d48191889f9",
+   "60f86e6106e8ebad",
+   "8930fe24272d9fd8",
+   "7ae22c3f15e49ec3",
+   "6180e40dc63f7b52",
+   "1549c233b44bb639",
+   "75c455f597d279bf",
+   "344a01292bd0c96d",
+   "b91ccfdbaf5f6619",
+   "e572f3d33f8a9383",
+   "ea6e11dc22fa0603",
+   "8a6c0df9cbeb3741",
+   "8d530c744a45aea7",
+   "61fad1be3e615532",
+   "b871951bd202b47b",
+   "e3db3fd5417a29ee",
+   "4f70fa28a3554096",
+   "b3c25f6d6b2792d7",
+   "e80b233886d493d0",
+   "bddf2718c390dec2",
+   "8ca39172d3525f02",
+   "c0408d603455b1ac",
+   "73b0d5a92cdd5d65",
+   "dd760e307782234b",
+   "47d95f5401dd4bc7",
+   "be1b7153e0888b39",
+   "51f1b764c6d2b268",
+   "446de8632f0286de",
+   "c637eee704a3ddc7",
+   "82e01cf6d1b1aabd",
+   "b3b6b5d559f92d6f",
+   "e6630b0fd6f157af",
+   "842bcfc81aa68df6",
+   "d81ce3550ace1f99",
+   "998b0e0853e50856",
+   "95f035af7b943c54",
+   "ec8610f70a014fbf",
+   "413e22874872e3a2",
+   "f851e2cd5c34e50b",
+   "b90a6a6da137206b",
+   "9a1c48a2955f2cb2",
+   "c79649baa7f0d474",
+   "43a795b01d36ff00",
+   "d114c2bad95eeff3",
+   "ea0b693c74c58f56",
+   "d79ef2386b0c9af4",
+   "d3a126c9fa17634d",
+   "f87a580c3cccbe15",
+   "000d3fed8e41544e",
+   "8d6aff7fd93ee369",
+   "c62fa7059b058802",
+   "855bccfc26399887",
+   "45b91cec68f43475",
+   "8b48fbc7d615c7e3",
+   "bf6d72baeae018e5",
+   "661a3d55e1893ba3",
+   "8cc4ac1e624e1a50",
+   "9455bef41ecf285d",
+   "41a64b03b4844f05",
+   "cdee996cf6d9b956",
+   "7703bf594aa32401",
+   "298bab1e476fe1d9",
+   "106c589299e8f10b",
+   "99181110dac240ce",
+   "b98cfe9b8783fc2e",
+   "aeaeec43f54fb6bc",
+   "46c09247f76f1c66",
+   "371ba46655f30298",
+   "60d4c66d5a0b1c1a",
+   "2cd4ebc0508e5c26",
+   "ad519b4724befdf4",
+   "1a5815c15cddeb3e",
+   "6f0362b802ce216b",
+   "4b1f4f7c6f91b72f",
+   "444af9286b5871d3",
+   "303015a306789f0a",
+   "133ebb336c277e77",
+   "126dcd28a406a1e4",
+   "080d4214c11ab847",
+   "377e499652fc4bbc",
+   "36b92bd5fa9aa3f1",
+   "2e380b4d15eaea54",
+   "6bad0e7ca7c4cd00",
+   "39a69c7f94526738",
+   "d32bcdf45d45194f",
+   "755a4af292c39f4f",
+   "5db27a3e14ed4931",
+   "6d11002d87ef160e",
+   "c0f430aa67668336",
+   "8102af79cf068920",
+   "12ce056d3417b3de",
+   "f26691c9f5b0c073",
+   "ae11745957f6adb5",
+   "84c9fea88c340393",
+   "514ecf7902ee27e1",
+   "db23c9b921b00891",
+   "ade2876f6ceab6d4",
+   "d7b448870cd1537d",
+   "1af541eb72349e39",
+   "0995db077d25323b",
+   "a8a7d3f6cc9be8de",
+   "0423433b3c65a32a",
+   "87d2f1e50db24de8",
+   "c33073890b7ea6e7",
+   "3c590e80831f96e4",
+   "efc2693a282e6d61",
+   "db5d3c66449435b0",
+   "4cf06a1d29f7b647",
+   "a5bf2da01fe895f6",
+   "ee39a1f1c72fb803",
+   "a26f3b1527c8973e",
+   "a22e50474293b544",
+   "b6331125f6a471ab",
+   "f93e3d5141392989",
+   "b5fe0f7be073e2b2",
+   "7a620fe999b33de2",
+   "39ef9e7bd4f71efc",
+   "ba93f12d151cd43f",
+   "41cf1c2ab3817c2c",
+   "8741e7110991032f",
+   "64266cb6cb2f0048",
+   "97d8fdd55677f0ec",
+   "c5cc921e12ad506d",
+   "42b3df7c414bbfcd",
+   "e5964ba88293ce92",
+   "2c7ead51a8c17981",
+   "1d1dee76a72836d7",
+   "8b217af82d53ae6b",
+   "06b8810089fe5a25",
+   "7d9de667a0360768",
+   "335439da9e0b8c9c",
+   "a2a1cf368828a475",
+   "548a0756825d3a21",
+   "35c6717407085bc2",
+   "25f3b9b7fe4a24d0",
+   "0dd67ef18708bc11",
+   "2b3c06016d4cc90e",
+   "3766d18e36400b2d",
+   "cb425e3606d7ebbb",
+   "58e08c0a9f4c6a95",
+   "d87cf197b817e9fb",
+   "1ca9f49624b523d7",
+   "2cb5c9f0962dc46b",
+   "a86a6fe9e167cd00",
+   "6d49c7363ca5896c",
+   "f9214e86ca7b6026",
+   "5b655fb668f97569",
+   "6e8f5d519d356def",
+   "115d58eff2ad8a59",
+   "d5e63800527108f6",
+   "8f6e27fba31f0d40",
+   "27bfca2fa79c0a93",
+   "2412bb6c277af075",
+   "6af04f0ce196f5e1",
+   "3a6ed569ae2c7af3",
+   "0792b9d53a61eaef",
+   "edd798be5c4e0348",
+   "ff0a4ffb31331274",
+   "b8933148a2307197",
+   "7e7290445f4fc848",
+   "ac135c56fbad25cd",
+   "e934473d4e6b9df9",
+   "80feb323d7a0ee5a",
+   "0a5c2d83e6b72f19",
+   "f4126993b07d8652",
+   "1179091cefc8a96c",
+   "adc7595368e2b949",
+   "fbd9d537e6dc2391",
+   "b58e6b4372b76be2",
+   "e3a8b2940c7d802c",
+   "6219e804638a6b52",
+   "689feed9980e7f1e",
+   "7f1c85e296dd4f78",
+   "7f76f7e8f47ef636",
+   "8fd1a1fd38ed8d83",
+   "e85d8ad1b5d9b402",
+   "bfaddefd64af02e8",
+   "7a4b8e3a198ba86d",
+   "8265f52c6bc353f6",
+   "e8de5b6157bccc48",
+   "e0942d75bde56c5c",
+   "3e3d9a7d43f7987b",
+   "af8ccfebf29365d4",
+   "1ab319d78b54d4fe",
+   "242b9ec5f71aab62",
+   "e0e68e8c2f2b6d7b",
+   "9001ff8c13c457f8",
+   "23590fc64940d306",
+   "8911d56aafa4f9cb",
+   "3710f93909116747",
+   "103baa3dff1ae129",
+   "360070f8aa144bc9",
+   "b2be6b87b1a8d46b",
+   "1d786368f7533f03",
+   "081bc1811ff21f6b",
+   "507cc1d3434453e0",
+   "d5c1c68c23d31ab8",
+   "c6df931e3d21f53c",
+   "4d86a4dff38c889d",
+   "99fd6806cff9e35a",
+   "0783ae8adecfc8cc",
+   "e33296d5be66204d",
+   "e858daecf7d32709",
+   "d4db34f1d7364505",
+   "bb435884c5f93810",
+   "2816cc6e76aeb25d",
+   "dbd88afb3ad23b29",
+   "d17a6ddce9cc292d",
+   "95c3d66ffc6f9da3",
+   "7d08e80ea2b14156",
+   "5b05353f8699e2d4",
+   "e3f9d5f32e0ed929",
+   "0e594f732f15c94a",
+   "6e831a0205236c60",
+   "230a240e533e18e2",
+   "039cd5c731c0a1a4",
+   "8f98997a415c79aa",
+   "eab7c5758674764a",
+   "261033375706b8e1",
+   "422a68b2a52e2ddb",
+   "5b4e72a3748ed4c5",
+   "4477850c239020e7",
+   "7daf73b70640713f",
+   "6ed92f4120d07ca9",
+   "cd25b5632270f653",
+   "6cc076272f8d864d",
+   "5fbf115fa07f16fb",
+   "1e7b09b07e1dc701",
+   "1fa3543a99ea0291",
+   "192aed0d397a5caf",
+   "b34445c0e5ed5749",
+   "50d905e806bfcf30",
+   "b791bdaed7b91975",
+   "ec953a02a11fde47",
+   "5e853218b3e031b8",
+   "df0f23ed97b7c8c0",
+   "0143e7ebdc5369d5",
+   "8d78e66cff6e32d6",
+   "09252c7263a54aa2",
+   "0a1983ea0035d130",
+   "8db61bd60eda6670",
+   "edc14b3333ec8582",
+   "9a03bf247bcb83bf",
+   "cc64c16b7c172899",
+   "d0a7547a35e5e020",
+   "3c50f34e34a4b202",
+   "f29b09e4c08c0721",
+   "adbdb24b5c495017",
+   "335e4659ff34bf48",
+   "4360e2536570dd52",
+   "67ab47d9deb995d4",
+   "af5bb96e29d8e7f2",
+   "4d890fa4bce3bc08",
+   "ea9587a5b8a66172",
+   "def26cf2a5a1fffc",
+   "7752622f382c5ac2",
+   "0d0925331f72c3f6",
+   "29e5d54aaec433b7",
+   "7876574486846c69",
+   "21013cdb727a7740"
+  ],
+  "count": 3392,
+  "label": "three-dots",
+  "auto": "three-dots",
+  "sugg": null,
+  "votes": {
+   "three-dots": 1013,
+   "fatha": 44,
+   "wasla": 14,
+   "damma": 7,
+   "sukun": 16,
+   "shadda": 22,
+   "dot": 25,
+   "two-dots": 5,
+   "maddah": 1,
+   "meem-iqlab": 1,
+   "hamza": 6,
+   "pause": 1,
+   "small-alef": 4
+  }
+ },
+ {
+  "keys": [
+   "7d3b5bf233b0270a",
+   "3c9f81a716bc165b",
+   "2fda6a7d925b218b",
+   "cdbc93f4cce3b075",
+   "8057f00b740d19ef",
+   "30b1d652928210af",
+   "5809feb3ac5b5379",
+   "d862fd4f9d0263e4",
+   "5ba3b0a3b1a67d0c",
+   "72e070d0711c412e",
+   "0039f5d4bcb38612",
+   "7619ec93442cc690",
+   "de65943e1ab8b723"
+  ],
+  "count": 2032,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "sukun": 10,
+   "fatha": 69,
+   "two-dots": 4,
+   "hamza": 39,
+   "pause": 1,
+   "meem-iqlab": 7,
+   "dot": 14,
+   "damma": 15,
+   "shadda": 9,
+   "small-alef": 6,
+   "dammatan": 2,
+   "small-waw": 1,
+   "maddah": 1,
+   "fathatan": 1
+  }
+ },
+ {
+  "keys": [
+   "39aee4d41e67b89e",
+   "f21eccb80ac42168",
+   "3fe8a9ecab41da04",
+   "e66438d918e73f86",
+   "d35a289ec0da5d2f",
+   "f61c5dd15ac7de1a",
+   "1fe7e5a25dcaa3af",
+   "687d5d6c1e859f1c",
+   "66c84399f0e97bbd",
+   "784ed4ff1bf8bb8c"
+  ],
+  "count": 1968,
+  "label": "pause",
+  "auto": "pause",
+  "sugg": null,
+  "votes": {
+   "dot": 21,
+   "fatha": 50,
+   "pause": 340,
+   "damma": 100,
+   "shadda": 7,
+   "small-circle": 3,
+   "sukun": 47,
+   "two-dots": 16,
+   "small-ya": 24,
+   "small-alef": 7,
+   "dammatan": 6,
+   "kasra": 3,
+   "hamza": 3,
+   "meem-iqlab": 6,
+   "maddah": 9,
+   "small-waw": 1,
+   "wasla": 1,
+   "kasratan": 1,
+   "fathatan": 1
+  }
+ },
+ {
+  "keys": [
+   "901e2a872bed1ac8",
+   "803b5740cde23528",
+   "ef0e61bed4881b7a",
+   "1ccd2cf1af1d9395",
+   "7c20fbf0ee627c28",
+   "bbc311f35c04c801",
+   "d0123fdd0f07178a",
+   "eb11b92a015a0e4e",
+   "bf10514e99209d38",
+   "a1c390b12f776a82"
+  ],
+  "count": 1796,
+  "label": "dammatan",
+  "auto": "dammatan",
+  "sugg": null,
+  "votes": {
+   "dammatan": 75,
+   "fatha": 36,
+   "pause": 18,
+   "small-circle": 3,
+   "damma": 9,
+   "sukun": 11,
+   "wasla": 1,
+   "two-dots": 2,
+   "dot": 7,
+   "small-alef": 4,
+   "fathatan": 1,
+   "meem-iqlab": 1,
+   "maddah": 1,
+   "small-ya": 1
+  }
+ },
+ {
+  "keys": [
+   "f5581079d942b4ee",
+   "7b69f288a1170261",
+   "43c89cc37872e1db",
+   "2634f76ff2ea5f1f",
+   "e03096e6de15b3ff"
+  ],
+  "count": 1646,
+  "label": "pause",
+  "auto": "pause",
+  "sugg": null,
+  "votes": {
+   "sukun": 55,
+   "pause": 212,
+   "fatha": 44,
+   "maddah": 10,
+   "small-alef": 9,
+   "two-dots": 17,
+   "damma": 49,
+   "dot": 37,
+   "hamza": 2,
+   "shadda": 9,
+   "small-ya": 20,
+   "kasra": 8,
+   "kasratan": 2,
+   "three-dots": 1,
+   "small-waw": 3,
+   "small-circle": 3,
+   "fathatan": 2,
+   "meem-iqlab": 1
+  }
+ },
+ {
+  "keys": [
+   "cb44a1986c467cd8",
+   "cf3d644b23e30e7e",
+   "146c58a7144db28b",
+   "192cb3e77d5b3ce1",
+   "7319c5f4121584db",
+   "ea6b8d1c34cbf157",
+   "be144ab3d4336465",
+   "f773119cd12d232e",
+   "54d272037bdf89f7",
+   "8ce1e0ea4655f906",
+   "fb1c1bcf3bfc48ad",
+   "b267978b1ba64f41",
+   "03dcb9386bb33d55",
+   "357440b60a80e94f",
+   "7e0c3ad3d7439d5a",
+   "3e8282ef6b5013e3"
+  ],
+  "count": 1182,
+  "label": "small-waw",
+  "auto": "small-waw",
+  "sugg": null,
+  "votes": {
+   "small-waw": 291,
+   "pause": 48,
+   "damma": 6,
+   "dot": 8,
+   "fatha": 22,
+   "shadda": 3,
+   "maddah": 57,
+   "hamza": 4,
+   "sukun": 3,
+   "two-dots": 2,
+   "small-alef": 1,
+   "fathatan": 1,
+   "wasla": 1
+  }
+ },
+ {
+  "keys": [
+   "24e8e71fcbe9d38e",
+   "203026c375376ce9",
+   "8c865e2953afb5a5",
+   "cde72bda005369c2"
+  ],
+  "count": 986,
+  "label": "small-ya",
+  "auto": "small-ya",
+  "sugg": null,
+  "votes": {
+   "fatha": 23,
+   "small-ya": 157,
+   "wasla": 2,
+   "damma": 8,
+   "pause": 50,
+   "sukun": 4,
+   "small-alef": 1,
+   "maddah": 16,
+   "dot": 4,
+   "fathatan": 1,
+   "meem-iqlab": 1,
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "82bbe2d7ff9be765",
+   "ec461553fbdc1a13",
+   "7028fabc0870b7c6",
+   "ccff6fb4db386113"
+  ],
+  "count": 611,
+  "label": "damma",
+  "auto": "damma",
+  "sugg": null,
+  "votes": {
+   "fatha": 2,
+   "meem-iqlab": 1,
+   "dot": 3,
+   "damma": 4,
+   "dammatan": 1,
+   "maddah": 2,
+   "hamza": 1,
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "67ef5cb3d2b2861f",
+   "f2f63aefc9dfdb32",
+   "06faf00f918c16ab",
+   "90e21e2472e20b9e",
+   "38661a6995d6ef33",
+   "88c915b69b2d1223",
+   "546223044105a359",
+   "151f6bb40dd72643",
+   "539f547a41fe19d8",
+   "6e68738b176fcae2",
+   "74bea3668fe716e0",
+   "3c6f4cc2c98a49a5",
+   "a2060686bd4cfd95",
+   "e68f76e5d52715d6",
+   "527332bfe974b881",
+   "dbcdd3cd5809b6e5",
+   "04365451bf1d8b3a",
+   "03c5d0608a7a9dc8",
+   "4191414666250c59",
+   "b3fc8435b054b125",
+   "9869374d14af6e59",
+   "b31287d84a0ea040",
+   "3f3429c2dc06abfa",
+   "ad790748525aeaec",
+   "50525ef96819f1e6",
+   "17c0ecaed17c164c",
+   "da68f54d6492a793",
+   "2edde2a8ab13a1dc",
+   "058df36616046aa2",
+   "2ba75ffd18a69329",
+   "97b6bd647ab6ac51",
+   "95a0b6c701210c7f",
+   "9a31e8600d121145",
+   "007b796d27ed7443",
+   "90612150684f22dc",
+   "e5972ccdb6df05a7",
+   "4ed5f7e3ee952924",
+   "c48f17d93ab3c6b5",
+   "26cea629dcf25e5f",
+   "eb1207140a88b4fa",
+   "a6a8cbac325b74b9",
+   "d7ae5a6fc7483fc3",
+   "bf46c0ced3a1718e"
+  ],
+  "count": 580,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "shadda": 1,
+   "dot": 2,
+   "maddah": 1,
+   "wasla": 1,
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "65f03a32eb46bfa0",
+   "5bc5eb564c4a1cb0"
+  ],
+  "count": 567,
+  "label": "dammatan",
+  "auto": "dammatan",
+  "sugg": null,
+  "votes": {
+   "dammatan": 178,
+   "fatha": 11,
+   "sukun": 4,
+   "pause": 9,
+   "two-dots": 3,
+   "small-circle": 2,
+   "small-waw": 1,
+   "damma": 1,
+   "maddah": 1,
+   "dot": 3,
+   "meem-iqlab": 1,
+   "wasla": 1,
+   "small-alef": 1,
+   "three-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "392f88a17d2dc5f3",
+   "e2cc595a7657a8cb",
+   "b4bde1e2f9ba6fe8",
+   "4fb54335907f34fe",
+   "894e623331c4a5f7",
+   "3b560307b34089f3",
+   "02f671ff32d8dd8b",
+   "2d93639b4b2483b2",
+   "9ac1d4c171f865d5",
+   "54ca856f7a746874",
+   "ee155824288d67cc",
+   "4b5414723bed8cde",
+   "1c0977e3eb50f836",
+   "e39206a168760455",
+   "206f6e296f41a355",
+   "5505dead7c3c625e",
+   "c04a49fb4a5fdffe",
+   "8041426e49c1822f",
+   "0791c78d43495694",
+   "565f7e65864f0195",
+   "a8c3d977300f4c21",
+   "b290075240a2da6d",
+   "aefea5381832d289",
+   "7da7a63575c7c4fb",
+   "a9217554cf7346ec",
+   "3242863fc996b1ee",
+   "4850fe1664b803ba",
+   "1cff83efd3e839d9",
+   "00f38bf1aab70aab"
+  ],
+  "count": 360,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "sukun": 1,
+   "dot": 4,
+   "fatha": 7,
+   "wasla": 1,
+   "fathatan": 1,
+   "three-dots": 1,
+   "shadda": 3,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "37d2f56e0346846b",
+   "43287820fc43b3be",
+   "6665b3bce4f29040",
+   "532ee048d32f7250",
+   "94eda139c1e0cea7",
+   "607eb5fb813b18d4",
+   "7805c76965b29fb9",
+   "3bde0c3663c184a3",
+   "455d71862d42ca3c",
+   "bf2cb678fb85e86d",
+   "cc4a3198d9f2784f",
+   "5e8b33d7ca395254",
+   "313c95200e3abcde",
+   "d6279432c064710e",
+   "52566d3a8b1f2559",
+   "4c622086f01332fd"
+  ],
+  "count": 343,
+  "label": "pause",
+  "auto": "pause",
+  "sugg": null,
+  "votes": {
+   "hamza": 1,
+   "pause": 54,
+   "sukun": 10,
+   "damma": 13,
+   "two-dots": 6,
+   "meem-iqlab": 3,
+   "small-ya": 2,
+   "fatha": 3,
+   "dot": 9,
+   "small-alef": 4,
+   "kasra": 1,
+   "maddah": 3,
+   "small-circle": 1,
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "33511d26e40889d0",
+   "23f4ca2afe4414fe",
+   "8c76f7f1c98c0e5d",
+   "c4eabe1de0a2cf3d",
+   "d4414682e57882d9",
+   "55f0715ce069b8c0",
+   "268ad788358233a4",
+   "dd9ba25914a11cfe"
+  ],
+  "count": 333,
+  "label": "wasla",
+  "auto": "wasla",
+  "sugg": null,
+  "votes": {
+   "wasla": 9,
+   "fatha": 7,
+   "two-dots": 2,
+   "small-circle": 1,
+   "dot": 3,
+   "damma": 4,
+   "maddah": 1,
+   "small-alef": 1,
+   "meem-iqlab": 1,
+   "sukun": 4,
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "8556005c1ab1b2a9",
+   "93f7bd0303985fde",
+   "adfb674937901a23",
+   "41feb2275dbafaf8",
+   "cd5951713bb26954",
+   "630bf4e49f7bc8d9",
+   "b3d665b4acf87ff4",
+   "3696fdd453d00de4",
+   "27ebe574865a80a2",
+   "f3a2b1872e6a2168",
+   "709436a5acc353df",
+   "34c114dbd4570b92",
+   "90854746adffd12d",
+   "c3502db241d21732",
+   "243a4f1c3d9c8005",
+   "e237612450c91abd",
+   "2a645509b70afda6",
+   "165d6f40e8e73d25",
+   "be7114e2c2763c7d"
+  ],
+  "count": 244,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "two-dots": 2,
+   "damma": 3,
+   "shadda": 1,
+   "fatha": 7,
+   "sukun": 3
+  }
+ },
+ {
+  "keys": [
+   "e16bd1e86ff38ec7"
+  ],
+  "count": 222,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "fatha": 11,
+   "sukun": 4,
+   "maddah": 1,
+   "pause": 2,
+   "wasla": 4,
+   "shadda": 1,
+   "three-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "068509773283eaaf",
+   "c0eac3369690984a",
+   "745437da474cc52e",
+   "101a9046984ade92",
+   "e7ea471a994e976d",
+   "a83090de8969cdbc",
+   "e095699dc7efb668",
+   "f2d514d7bf8678e1",
+   "4dbd05eaa5e64aa3",
+   "409ce85997942d00",
+   "21d9e3235abc6684",
+   "cca2c63f7561fe14",
+   "91f8f25d9b9fac05",
+   "a40e7cb42a7a8da9",
+   "ae0bfdd7cdd6d44b",
+   "09f7e96369a23805",
+   "a834d19fcc12743e",
+   "867053f9033781fe",
+   "fc297c4a312d5350",
+   "83f15df3eaef797d",
+   "1d2a5da936f9d3f0",
+   "269adb858f0771d8",
+   "25fae09c58c40b86",
+   "ad6799a8fdae7a8e",
+   "00a7f55d4a64cee6",
+   "f31ba1764863ac31",
+   "b92e2da68ceae2a2",
+   "cb3905c81c719281",
+   "07953dece9f99983",
+   "209a39275ad639ec",
+   "86a7af459a16d45f",
+   "8eb6b1a9a3255c95",
+   "a8d14aa9872dbd72",
+   "0f8b3bb17c518917",
+   "568db86838480529"
+  ],
+  "count": 215,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 2,
+   "small-alef": 1,
+   "damma": 2
+  }
+ },
+ {
+  "keys": [
+   "a61410d33b8ed8df",
+   "6c063358a8de23a6",
+   "0da011e0165b4bd0",
+   "00a9baded4b220d0",
+   "eab8f125e816b90f",
+   "05439a0868e1bd8a",
+   "fb57e9732240b149"
+  ],
+  "count": 204,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "fatha": 55,
+   "two-dots": 6,
+   "kasra": 25,
+   "dot": 1,
+   "three-dots": 1,
+   "fathatan": 1,
+   "sukun": 1,
+   "shadda": 1,
+   "damma": 1,
+   "meem-iqlab": 1,
+   "wasla": 1
+  }
+ },
+ {
+  "keys": [
+   "3658ab47863a1eee",
+   "1e9d709128983ec5",
+   "a9905ce5fdf68ecf",
+   "465e475cbe4e70e6",
+   "d03da1644983c454"
+  ],
+  "count": 199,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "fatha": 4,
+   "damma": 3,
+   "two-dots": 1,
+   "shadda": 1,
+   "small-alef": 1,
+   "dot": 1,
+   "wasla": 1
+  }
+ },
+ {
+  "keys": [
+   "c1b756039f98d7e0",
+   "f404d14c6e7b8cde",
+   "0653981312220126",
+   "1bcacd6b8da08e65",
+   "ae1ed9b77d286081",
+   "eae789ae58938817",
+   "60312f42e66afaf6",
+   "8171b52a0285fe77",
+   "e4d363b44b829219",
+   "8fe7e7900d44cb59",
+   "bee34b1f989ea361",
+   "b8ce769147b48765",
+   "91ed43e6fae467f9",
+   "37ee6eea350c3264",
+   "fe57c2f929307da4",
+   "d127f7a195163d03",
+   "a64d681c5b9fa3be",
+   "59ad4a1f8a1e25e0",
+   "5a504ecf1edbc1ab",
+   "826a15ffac7a1012",
+   "a01637599c7f0f8e",
+   "1c8d53dff2bf05d5",
+   "137c8e9920d38dcc",
+   "50d195a47030630e",
+   "ed9d96d91579e529",
+   "38b2d7b72f4a086c",
+   "1c15f2378a58a2f0",
+   "5a2f6ee821fcf1ff",
+   "508693e280bfb315",
+   "2a48c9717804cf17",
+   "a15e34b35f8dc6dd",
+   "b8f287a33eb22b71",
+   "214abab7da1b5a32",
+   "d3d9b1496285b823",
+   "ad7b9da8ba246026",
+   "5b479c303342f94b",
+   "8914bf550e3b002f",
+   "57c3ec07f0c95336",
+   "10bb4c13fce861a1",
+   "2aa136b2be4268d1",
+   "44133132be06c201",
+   "7f71345d6e514e17",
+   "eea11f650aa5759e",
+   "207511c5141aba83",
+   "12a338a3d4726aa6",
+   "fec7d013774b10cf",
+   "51d9d8ac934f8ea8",
+   "4125daa568fab54a",
+   "b6c606fbdb59909f",
+   "d7b24932a8ef3517",
+   "0a772c8dcceb7c9f",
+   "5e857611dbe15d6f",
+   "23535592b1849daf",
+   "82df3e8289db66e8",
+   "652778ce898cca7c",
+   "ce558505744e6df9",
+   "7f8538124979e4be",
+   "fb44bf7e48cf002a",
+   "5e6700173dd118e5",
+   "dbcf723b4ae08158",
+   "32415eae43a40e81",
+   "35d42c7d683e3c50",
+   "90327850ccf14abd",
+   "c9d736a2c99f9b1a",
+   "843629839013c427",
+   "5da841fb078e92f7",
+   "d0b15c6964095870",
+   "b7ddc91d6b035441",
+   "46c9be6c9113c14c",
+   "0244dad17abf9b95",
+   "e82276d6ca45cbeb",
+   "57a9dc53ef352e93",
+   "14329509bf85e086",
+   "d440229c27493146",
+   "1bafc76f7d5b8bf6",
+   "0e1bd94ed8189540",
+   "b95d4aa47f1a51ae",
+   "283e4cfc97435335",
+   "60153f749edd09ee",
+   "24380934dca1dad2",
+   "cb17a1bdeed60554",
+   "19e1524a3c137561",
+   "dd7746c7d31f11f6",
+   "de36c338ca1bffe6",
+   "6037d6797f521405",
+   "ab630eefb94a8458",
+   "473a7df6a825ff0e",
+   "1426a8a18c28e590",
+   "72739219ef146169",
+   "5aa23bdaa5d7d8e3",
+   "d6beef7186c4c3b2",
+   "a89c50e7353a03a4",
+   "3490a0fa19d90cce",
+   "ea22c10bedfad747",
+   "133b8d9e0344cff9",
+   "a2812678686d5c16",
+   "738baccd2a4c532b",
+   "9d9ed53af7f463a7",
+   "6c43678ec05dee61",
+   "c227391f3d50d371",
+   "367197b509c5e671",
+   "93e036e9bd167f1f",
+   "672e16b6cbb52a5e",
+   "01ec5d2945339fea",
+   "e2512de793471eb0",
+   "46eeee1b2b1aaa9e",
+   "d62fdc972b01edae",
+   "2e00a6e5daaa57f4",
+   "129852469e3d332a",
+   "70bdc03c7c0168db",
+   "70d80281aaef002f",
+   "7f1b4f224e329fd4",
+   "376ac5d583aeec00",
+   "cf6b100263aeea1a",
+   "6768e3e3f3dcb53d",
+   "649b93b923c2949c",
+   "166eb52d2eb866fb",
+   "15cd129a57f3b054",
+   "29a247df3a59c3e0",
+   "b0bbd255b4806597",
+   "0a4dccb9d32430f1",
+   "f4c98ef62bb67e85",
+   "5a57dc70b4882c19",
+   "35e2dafc1246d783",
+   "edd68d4e07653e2a",
+   "ec806f93f064a9e7",
+   "a350a183e389d34f",
+   "54e2e3b6c2c33a2c",
+   "ecb6dd1463f09a5b",
+   "8332a5c6892f120c",
+   "aae04f0eb37c8540",
+   "b8397c4d29e4ed37",
+   "17dc136861055867",
+   "83f3580215041b6f",
+   "d0a0472b2426c9e8",
+   "461bafaa16f92cd1",
+   "86b873a5907f481f",
+   "c409070d5243a5cc",
+   "ca088077abae824e",
+   "45dcfc5b668fc0fa",
+   "76345f596a3327b0",
+   "2c6590f22d80823a",
+   "10e8b6820c772123",
+   "fa4774a1138742fc",
+   "aa2780b4874028f5",
+   "120d72ed40158adb",
+   "eb0a3f9bb23f4f43",
+   "4e837af2ec8cee4f",
+   "f9f9e68b18656f91",
+   "acffe0b6c41f492a",
+   "47fef94489c0c904",
+   "c5dd1cf63fad04a0",
+   "a8f38a6e22625f27",
+   "e3a79f9ad81ccda9",
+   "c324b87a2d36c2f4",
+   "842282c815cc38cc",
+   "63cfa590b03dc87b",
+   "738cfac2c03cdade",
+   "8146b6f044c412b9",
+   "db7d48b2803bcc09",
+   "497c34cfc79b49ff",
+   "634b06d36317b057",
+   "9d13ad890111b48e",
+   "ac82b29af61d3470",
+   "afcbd4cca1a6f1be",
+   "3c629919ccca0495",
+   "f02619b4d3335f37",
+   "e9265d0109db3d6d",
+   "236f68978951eb88",
+   "a4413196495bfab7",
+   "516005dff14b6784",
+   "28719ba108f98192",
+   "7e314a7924acdb4d",
+   "9d44c58896099fcb",
+   "f02bac5d53a6e62f",
+   "fed09bf013ee4f17",
+   "713af4d597a73969",
+   "64f504f3ffa31724"
+  ],
+  "count": 188,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "sukun": 4,
+   "fatha": 7,
+   "damma": 2,
+   "dot": 6,
+   "two-dots": 2,
+   "hamza": 3,
+   "wasla": 1
+  }
+ },
+ {
+  "keys": [
+   "2a7dbf4284107953",
+   "665eac491b4f1f2e",
+   "fcfbc1cc57587781",
+   "8c82bec5b4877f11",
+   "694190d19eceb60d",
+   "d7727ba54b884da5",
+   "e4e62f2634952b49",
+   "cf13cdf17225fe1e",
+   "259d95ab15105d82",
+   "9548cc8c563ac309",
+   "7a1329ea4a66d9a1",
+   "a2bc83f2815d3d40",
+   "1ee6f5d8915f4746",
+   "60550377545cbf5b",
+   "40da2598fd60d4c3",
+   "8cb79516c0cbada4",
+   "5002bb337358d902",
+   "5e01a0dbefbfce57",
+   "f81e58a564e3bc74",
+   "794b229857c31750",
+   "9d71d69d7573bc90",
+   "65b1d589e1fbc605",
+   "abe1dfbcd0173afa",
+   "7ff217f9beadb70d",
+   "caeba88133f6908e",
+   "d6d8e1634a3689af",
+   "176f745aabd548b5",
+   "090cd7ea8c76dbbe",
+   "76dcdf5d27bc20f7",
+   "8688615155d12ca6",
+   "2195d2cb5d1c91f6",
+   "106fbfc1b7e3fe07",
+   "9cd38e400f992bc7",
+   "55c7fb5b58e04264",
+   "0008262194fcd1a6",
+   "a15141cebff77686",
+   "fb180c6955352270",
+   "d9044c314b184da5",
+   "c6d1a89985a17e30",
+   "07c2365f22ee5d20",
+   "3d40342d9462616b",
+   "972b27613be9e47c",
+   "6f1bf9a1762ef818",
+   "e19f4624fecd723f",
+   "c307d1f84ae11f6a",
+   "64d6caaca2ca39ad",
+   "3efce959798bf539",
+   "068b13808032f506",
+   "63875d2b1412c5f7",
+   "a214aa422a215110",
+   "6b09e30c93c853db",
+   "62aec65c7cd3d574",
+   "4091ca9cbee82f7b",
+   "6cd3d4d0b3ed04d2",
+   "6846ea8864cb3901",
+   "888b7e40cf68c363",
+   "bffd91a5559d35d5",
+   "430df0fd1005569d",
+   "a7ed2462010a414d",
+   "26979dc4f336f993",
+   "b177c5d92efbe1b1",
+   "1fa36bda019d0620",
+   "9f7d34cf3b521cbf",
+   "aaa1fe4eacb7df6d",
+   "dfbd862cad0cd486",
+   "1b7df7f1185d1dd4",
+   "1d3b0177b3119ae1",
+   "611d38ba321e4e02",
+   "ec38f494110b67db",
+   "35ebcd0d8fa307ec",
+   "7e6d4caadd27b2b3",
+   "3483b2aceb523078",
+   "a1fd6bde814b6343",
+   "b51c4d46fe773c07",
+   "4a0d64d8e2678205",
+   "c10cbdd3c18250e2",
+   "6390e7d02382cd09",
+   "5f7dd3a31156dc6d",
+   "ea1774bee253e0dd",
+   "b9e64f285da7f72a",
+   "66d0316ddf7f50fe",
+   "1113252e1a72c09e",
+   "5ec7ae74a65f15d2",
+   "f749a1c1016d5722",
+   "2d87ed2e71173b6f",
+   "ecbbb9251ae06411",
+   "e5c0354c6003ec55",
+   "358023514aeaa502",
+   "61e31d4246ec29d6",
+   "2f9fa474ccbb00a6",
+   "db8ecdd2a4cff4f9",
+   "d97697500e56db4d",
+   "5572e9f3497a119a",
+   "e8daf4377d015eb3",
+   "5c31a9f99d0af483",
+   "c6af9a07edc501d2",
+   "2fe56978f272b105",
+   "9c6a1fdf2d15b98d",
+   "615f561ee8057c14",
+   "b12a49285efc86d6",
+   "292925189cef9b00",
+   "9c70a8fe617e4cc7",
+   "50bdab9c1fef8d30",
+   "b4d132cfd611dcfc",
+   "b1b4d01f17306769",
+   "a5aa97f44a0e15d6",
+   "6284882e3381652e",
+   "ab6cef9155698ef9",
+   "f00dfc67d7b12f2f",
+   "e60e3e828582a26f",
+   "f445b7819fc5be76",
+   "725b97886cdc9f00",
+   "81a81b7bd3ccf539",
+   "f8141d0ff0d994bc",
+   "a9963c1432a30547",
+   "0e334bbdd3b8b777",
+   "5011d181eb68c88e",
+   "bd9d0ecdf625a3f4",
+   "8b4c29a816cefc88",
+   "af5af886eb5d283a",
+   "81cc8d9758af5f0d",
+   "61f3a74542fcde98",
+   "860d909345bd3d8e",
+   "9aac3c50cf9f8363",
+   "9216cf7ae5a3224f",
+   "a9d5a76de1fabc57",
+   "13357ddea3ee4ae0",
+   "022b1a9bebd1d83b",
+   "c2be14b7b1878724",
+   "e93331557ffb4dda",
+   "bdd2496f7a8bd344",
+   "6c95989d9d9702f4",
+   "bc215f236c18d154",
+   "623a4d65c4e7115b",
+   "9dfc52c7cba5cb37",
+   "78b442bd99b34bfb",
+   "6c76a18478438a47",
+   "a77f7cd0f179d7ed",
+   "b93d3fd15e90e03c",
+   "51ad576658e7d9b7"
+  ],
+  "count": 166,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "wasla": 3,
+   "fatha": 7,
+   "sukun": 4,
+   "two-dots": 3,
+   "kasra": 5,
+   "damma": 2,
+   "dot": 4,
+   "maddah": 1,
+   "small-circle": 1,
+   "hamza": 1,
+   "shadda": 1,
+   "meem-iqlab": 1
+  }
+ },
+ {
+  "keys": [
+   "b91846abd1491f48",
+   "42a2d68df98e3bd9",
+   "37a6d3f1ed4b5b60",
+   "c959c7e1d9ff0ae0",
+   "a0a04fdae7165d99",
+   "31b5d230c6021cba",
+   "1665e39913eefe96",
+   "590bed89780b85ff",
+   "f15951ef6d61ade2",
+   "9bc8a0af76e0f91b",
+   "2e4e2d2beae606c8",
+   "3e683dcf3899a843",
+   "f8299fd076f9c8fb",
+   "b2727958d1a69bf3",
+   "c34a3dfc077948f6",
+   "2d7fbec098e1af03",
+   "6a51bd4124f06ee5",
+   "7bcbbeeacf8f4883",
+   "1541bfbbaec7ba17",
+   "3f33347d20181263",
+   "702ae2c20ffb25d2",
+   "7289b3fdd9027f96",
+   "486bf6a9b724143e",
+   "c3ebf2bdc139d8c9",
+   "d698c365fbad379a",
+   "75fc5198a8743987",
+   "70b0d9afb164a5d4",
+   "01b375c232daec4a",
+   "6895d4bc9018bc9c",
+   "ec05a8efa020dbf6",
+   "df2a92b21d743719",
+   "9f022bcce6eda1f9",
+   "b6bd79d18703609a",
+   "b0a7b20283eda3ef",
+   "3f198497157460fc",
+   "66c35a9ae43cea0f",
+   "53ae793980b7c2a8",
+   "9a893b5f3466ab51",
+   "ec03231932b7b37c",
+   "9df3b92029fa6956",
+   "b2a56b4de2b4a67c",
+   "9caa0c0dd98b710e",
+   "4c4dcddafbaebb8e",
+   "29429cfa6839163c",
+   "6f896bed38a295ae",
+   "cafbb677a2579cad",
+   "6e98c1a6771a6e77",
+   "4dce862f30edbb6a",
+   "72ca05ba5322a2b3",
+   "aca580099fec5533",
+   "9adcb2addb4470ba",
+   "ee14a1d757eeef88",
+   "c91247469fcee660",
+   "5e0ac071a96cec77",
+   "3dad87f45092b0c6",
+   "b32e6548e82ded60",
+   "650d9f5a00444fe6",
+   "4ffbb2262699a004",
+   "01d736db411b01c9",
+   "bc980ebeabb364ea",
+   "99b5cc3e64e96111",
+   "24a17e607d6074aa",
+   "32d4f658fa3e5c8a",
+   "860266b5ae5d6540",
+   "1a099abe26a0e204",
+   "320819e32df3e721",
+   "3843863e8571cb13",
+   "9c3dd8aaffd841ea",
+   "7d33fffc5590680c",
+   "a5a8ad22a4d94667",
+   "45b99e70232351a1",
+   "25da7147a2a878b1",
+   "038cef8d0d4856ff",
+   "2817768cac23cb3b",
+   "c6f581b6b466df5c",
+   "9c0fd6c8135752a2",
+   "7016f88b78764d93",
+   "d7994de78a530ee6",
+   "4fcaa35b08032c43",
+   "18021e9067a83348",
+   "0028199930d51080",
+   "98ecebaaebadc898",
+   "ee42f700b9d612f5",
+   "749d5efae3551b71",
+   "2d5b80a24747ebd0",
+   "6acc78724fa06a12",
+   "91bc80fc0a3c09e5",
+   "2d06c4bd0076a50d",
+   "ab0a35b54894b020",
+   "49a46b05f973fd37",
+   "18e0110d52c98395",
+   "aeab847721685470",
+   "7f6c3cbffd7e6ec9",
+   "994dcdc7210fdb29",
+   "d8c26901bbb752a1",
+   "d5c313cb3c78a41c",
+   "58787c491c06b4d8",
+   "6fb1da1e37acd061",
+   "73051981ff467889",
+   "29c37ec12b1098a8",
+   "be97920ecd829677",
+   "0a508807ca79b4c3",
+   "943be7a371f68d84",
+   "0e3ac5ff64c9318f",
+   "fcfaf981b628c91b",
+   "4c6ad0d36dcb1da2",
+   "877f0cf1b9b9fa0e",
+   "5d9af2659135b7d2",
+   "a7d937030148b53e",
+   "101234aa9478a3ba",
+   "477f80c6200ae493",
+   "dd430085c9db770a",
+   "32872b5bac79ec46",
+   "53865217e7c20818",
+   "c48f1e09fdbfa9c6",
+   "4827191101b81139",
+   "90c2785c6aedae7e",
+   "0fd68b6b103d28df",
+   "06b323beff5c31d4",
+   "3da78e218388ce6e",
+   "a0d3c1df9b7abcb6",
+   "88336ef2cda31628",
+   "f7d3eec1f48e6fd2",
+   "a946530574ccfff5",
+   "bdbd14b984c178cd",
+   "a76e66a47ff1e6c2",
+   "c3094d88496cc352",
+   "e7b367f9a79cf431",
+   "d3b591be656c457e",
+   "36a0436ba2d0d95d",
+   "2170f4b9bb3088f2",
+   "95c99f4c61545aaa",
+   "4d247d31fcadee6d",
+   "f3a4308c097454de",
+   "704505d721aa473e",
+   "004f81c1f63801c2",
+   "888b673c8d30a5cf",
+   "05ef0c4fdb2ad901"
+  ],
+  "count": 145,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "maddah": 3,
+   "fatha": 4,
+   "small-circle": 1,
+   "pause": 1,
+   "dot": 1
+  }
+ },
+ {
+  "keys": [
+   "59d1072b0c515b47",
+   "c3ed93879a6c5005",
+   "95213b0c74a5b6b9",
+   "6c75d33297abaeed",
+   "86eb0d0858ae8f65",
+   "5f537eaa636f981d",
+   "e9d67b439122b3f8",
+   "3dc6d55abf7630fb",
+   "0ecfa395af2f444f",
+   "4506903b21a0b131",
+   "e3e3f6680e94f921",
+   "b79574f364bb15e8",
+   "1e47bd35f17cdf8d",
+   "476796adde4b264f",
+   "78db579738601600",
+   "e1b53f12e687f959",
+   "33fcf50bbe1e2e28",
+   "c48c7260aab3df83",
+   "7c0adf9e547b01c9",
+   "e87e486cad353398",
+   "72421b68d7078219",
+   "c9c0c6d1ba206778",
+   "a3787d19942edb82",
+   "5e8ac9ddd7ac121f",
+   "7464016ea2c94e65",
+   "9628c798f860b7bc",
+   "18cd1e8a3b063990",
+   "5f5b355b07647da7",
+   "aaaec2462f0c97a8",
+   "cab9c2282ac32ded",
+   "607a796fafaba1f2",
+   "0400ec0eca4d6792",
+   "5d5ebe38a89cd69e",
+   "7f6dcc03b8082dd8",
+   "4a172da1a8160bb3",
+   "302a9f2ecf16018b",
+   "8b5ae1d13f96e244",
+   "aa0969896318d9cb",
+   "78d9d81e09abc5e9",
+   "456629764bd499df",
+   "a5c64607f122eef7",
+   "579d2a4a4e0c245c",
+   "2a8af05a4584514b",
+   "e6b89b69e7cc80fd",
+   "12d0745e8cd02f94",
+   "f6cee4a602023d50",
+   "cfa924b7c8721fc6",
+   "f83f3de6941b9e30",
+   "63035641f18dc5b0"
+  ],
+  "count": 136,
+  "label": "two-dots",
+  "auto": "two-dots",
+  "sugg": null,
+  "votes": {
+   "damma": 2,
+   "two-dots": 3,
+   "fatha": 2,
+   "dot": 1,
+   "small-ya": 1,
+   "fathatan": 1,
+   "maddah": 1
+  }
+ },
+ {
+  "keys": [
+   "e198ceeaf62f04bd",
+   "7d5794569f2edcfb",
+   "244e58ec6fdc293c",
+   "ff16eb044e9ebc17",
+   "2d76a674ba3e836b",
+   "274716aaa67a405a"
+  ],
+  "count": 135,
+  "label": "pause",
+  "auto": "pause",
+  "sugg": null,
+  "votes": {
+   "fatha": 9,
+   "damma": 2,
+   "three-dots": 1,
+   "pause": 21,
+   "sukun": 6,
+   "dot": 2,
+   "small-ya": 4,
+   "two-dots": 2,
+   "wasla": 2,
+   "small-alef": 1
+  }
+ },
+ {
+  "keys": [
+   "268f640f5b72d7c7",
+   "914aa5515daf7341",
+   "e6baa25d150605ab",
+   "f0ff7bf561067eff",
+   "c5d023b1d5a970e3",
+   "ee12c4e1eae5881f",
+   "4fbf0352f53bb1d4",
+   "d536366acb235c50",
+   "7e7c972e05f458ff",
+   "3d4069f419b36e8e",
+   "54c5a9b97486cf2d",
+   "277bc8c30eaa8ec6"
+  ],
+  "count": 121,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "damma": 1,
+   "maddah": 3,
+   "fatha": 5,
+   "dot": 4,
+   "hamza": 1
+  }
+ },
+ {
+  "keys": [
+   "09197435cccabc9f",
+   "2561c41a3c1fa499",
+   "b1d4c90024116b08",
+   "892122b785a90c44",
+   "c2546a153bdc7918",
+   "c7a6becf37153caf",
+   "e6c2beeb3c2b7d78",
+   "da67a2bd7f2459e2",
+   "15c1a97f2faf140e",
+   "35292d3bde20c3ed",
+   "b889e546008464f8",
+   "088f0183cbf3db2b",
+   "5d265bd2ce7cf4dd",
+   "bf2d38b3e3283182",
+   "218ace3774401b95",
+   "8dc7f1eb96381e6d",
+   "f37c5f730bad46eb",
+   "e9f858697128d5d1",
+   "3bfd222084dd02f9",
+   "161e5bdd8a069e1b",
+   "cbff8f5970be2b1e",
+   "73ac94aa5b4d9701",
+   "26a9ffca5188ecdd",
+   "b4aab3f7896aa89a",
+   "0aa796d68a519c47",
+   "38ac89eb47bbcbba",
+   "6b5f4c32d87a0a9f",
+   "91a12916ab1cea0f",
+   "8a01a76a332e5326",
+   "5edb03ab4cf5a4e8",
+   "3bbb83373bd09ca6",
+   "26980c2c7f4dc9ec",
+   "7cdcff23e0505a42",
+   "53483ba70ef82369",
+   "9c3a0b7f24ad7966",
+   "64f86755d0121bf2",
+   "5c59514027999065",
+   "bf89d579e4c383c2",
+   "0372c03fba1c2375",
+   "d6c5e43e0c453dd9",
+   "572ec117120db7fe",
+   "c8d16d7055f8d7d7",
+   "546e106df210d4b6",
+   "bfab7aa703f63d68",
+   "ceb20ff772ac2f4c",
+   "46df00a78537d914",
+   "c7b1c4e9ac24741a",
+   "4e25d82c56f17a43",
+   "b03c301abeea230b",
+   "8708c420ca8984c5",
+   "83a91735a047bbae",
+   "aa2779bdc5c7c702",
+   "8d209c8bdc0ed04f",
+   "a5c470a2288be959",
+   "3a9e47fddeb692b5",
+   "0b5dbd393ef13e19",
+   "b36dd97a2e6377dc",
+   "23ea387681e8b269",
+   "470892a7be8b728f",
+   "4dbb7489159c4ec2",
+   "88277874347d3447",
+   "a89490dea2380db3",
+   "76be37b3781b8c41",
+   "9bc79a86f08676a8",
+   "b2eb62d8909b196d",
+   "45b68e0bdd2781dd",
+   "121ed06ef18a0bfe",
+   "9cf3915d745ca95e",
+   "9361b5d75b0cb91a",
+   "547b65c9080ff9cd",
+   "0b88fb6f4449ae0b",
+   "b64af340d8de89c5",
+   "0cec3f416f639cfe",
+   "ea4912be006d8608",
+   "ae304fcb42104071",
+   "28faf4d91ff1282d",
+   "43e44a702e8fef15",
+   "9494a2f7bfc1078c",
+   "09fcc26617a0039c",
+   "b34bc73a5dba2859",
+   "f59b14987914a6ea",
+   "801518903e54b22a",
+   "d1a40160af227d53",
+   "3713b81575c78b5b",
+   "b10427bcca61789d",
+   "d2dce0f5e6a8700d",
+   "1884ba359da4d973",
+   "0fbabe2ce49e39d6",
+   "749aceacb88a857c",
+   "6be2e541dd858b9b",
+   "069fa80a0ab6f3f5",
+   "295a710a0b472129",
+   "ebf8f543ca839883",
+   "bf9a69f5b12f9228",
+   "2a7522ec8cc9abfa",
+   "a7dcdcf51aafe38d",
+   "3850bbbc020a2882",
+   "11f1a4bbc86bd8f3",
+   "5ebd01a986b57a5f",
+   "f68b31d79a3142c3",
+   "7e97baeb9b832cba",
+   "7036e47f36a4a419",
+   "23fad1e6840f6a39",
+   "a313bad40b3c6343",
+   "944c9cbd7d5c24ca",
+   "8af05e2a0306f27f",
+   "8324d2012f6026e9",
+   "440576d3f70bcd8b",
+   "24f7928525636223",
+   "095064422819b7d8",
+   "37ead88d045b13fd",
+   "7fe8e537ec738b39",
+   "b3a550f4cbfbc54d",
+   "d522184200ad3110",
+   "4636476043264dc3",
+   "6dd9ae05c788ed6d"
+  ],
+  "count": 117,
+  "label": "damma",
+  "auto": "damma",
+  "sugg": null,
+  "votes": {
+   "damma": 21,
+   "two-dots": 9,
+   "small-circle": 2,
+   "fathatan": 1,
+   "hamza": 1,
+   "fatha": 1,
+   "small-ya": 1
+  }
+ },
+ {
+  "keys": [
+   "0592f4303faa44ba",
+   "9677d13a5ea7d051",
+   "c7347bf1504fd794",
+   "a3796849eaa91bb8",
+   "665989dfd6554a92",
+   "b4a8fe0769f4c92f"
+  ],
+  "count": 114,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "hamza": 1,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "5869cc2b38457898",
+   "3bd698e61bb64e30",
+   "97bb0b80118ebe90",
+   "6d23772def9b46f3"
+  ],
+  "count": 113,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "dot": 1,
+   "meem-iqlab": 1,
+   "fatha": 3,
+   "shadda": 1
+  }
+ },
+ {
+  "keys": [
+   "003ae59f6e595a90"
+  ],
+  "count": 108,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "small-alef": 1,
+   "dot": 1,
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "b853837ad878aba2"
+  ],
+  "count": 108,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "dot": 2,
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "43a32ac65e71998a"
+  ],
+  "count": 96,
+  "label": "sukun",
+  "auto": "sukun",
+  "sugg": null,
+  "votes": {
+   "fatha": 6,
+   "sukun": 29,
+   "dot": 2,
+   "two-dots": 2
+  }
+ },
+ {
+  "keys": [
+   "74f568361070f492",
+   "3ced40ad93746edf",
+   "3ef15bd599477825",
+   "b56809291f7d197d",
+   "61f63dc59c77eccf",
+   "9261894c3a5f52fb",
+   "8a2395c48ff35c3d",
+   "faa27e371e80686e",
+   "93e7013818a81e25",
+   "c7aec3720652092f",
+   "1156fc9936374808",
+   "d88fb3ded543d2e6",
+   "de7d211cbcc5df85",
+   "8722b2ff6fed6dd3",
+   "ce59ce77915b6f1c",
+   "0dc04ff469e05679",
+   "5779ffdf83246b70",
+   "b372c8474ffa35df",
+   "be0382f9c2844ada",
+   "7c500feb4cb1babf",
+   "bd4c2082cfbe4cbc",
+   "bd95f829fd84f6d3",
+   "4608a1ee65b4a69d",
+   "bd903ab684226216",
+   "d99395c84664aa85",
+   "cfec1e2061077e98",
+   "146cccc462cbbc91",
+   "0df322f50f904752",
+   "a66798d17d3ff6f8",
+   "d2328b50c301f09b",
+   "74f84d079f0fa96d",
+   "717dc0891fe02986",
+   "916754c885944dda",
+   "da972c58fb0c910a",
+   "6cc3e5692bf03d97"
+  ],
+  "count": 94,
+  "label": "two-dots",
+  "auto": "two-dots",
+  "sugg": null,
+  "votes": {
+   "two-dots": 32,
+   "meem-iqlab": 1,
+   "fatha": 6,
+   "sukun": 3,
+   "shadda": 1
+  }
+ },
+ {
+  "keys": [
+   "17355d85438becb0",
+   "d63fcb4c28917b2d",
+   "545aca9f3f7e3377",
+   "926783c4b4adbda2"
+  ],
+  "count": 88,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 2,
+   "small-circle": 1,
+   "two-dots": 1,
+   "dot": 2,
+   "hamza": 1,
+   "shadda": 1,
+   "three-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "63bc8027926601a3",
+   "8157c31ec98db508"
+  ],
+  "count": 85,
+  "label": "dot",
+  "auto": "dot",
+  "sugg": null,
+  "votes": {
+   "dot": 29,
+   "fatha": 4,
+   "three-dots": 1,
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "61fc413186bbae9b"
+  ],
+  "count": 82,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "4772cca2add5d192",
+   "3a0d2864458ed08a",
+   "d8abca74e833f94b",
+   "5f44f5e3727c338b",
+   "ba0dbc08369a8b74",
+   "78a94eff5c8d42ad",
+   "82e845567c6a35ed",
+   "1c7242d869e595be"
+  ],
+  "count": 74,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 2,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "63b85624775d991c",
+   "dd2cb81f93c24f47",
+   "1ce7ddaf5f059688",
+   "5ab098157f7caf58",
+   "1caed9a03b3820e7",
+   "edc1e3625d595273",
+   "c6a7f9ba1e00b460",
+   "c70b804f21dce4c1",
+   "849469b5f4f9b436",
+   "2a6a4291587ae9e2",
+   "16b92ce5556fbc9e",
+   "18dba56a5deee6a7",
+   "3d382e9ff14a9ae6",
+   "4eabc2b4b7cacc4b",
+   "32d9c5376f73c384",
+   "a48f0707dc3e150f",
+   "e6dc92a9ae08e9c4",
+   "d1fa14bbe4cf0abe",
+   "77c1802f34d7f732"
+  ],
+  "count": 66,
+  "label": "small-circle",
+  "auto": "small-circle",
+  "sugg": null,
+  "votes": {
+   "small-circle": 9
+  }
+ },
+ {
+  "keys": [
+   "6c6c8571ff0f33e0"
+  ],
+  "count": 62,
+  "label": "damma",
+  "auto": "damma",
+  "sugg": null,
+  "votes": {
+   "damma": 6,
+   "small-waw": 1
+  }
+ },
+ {
+  "keys": [
+   "2c26fe4e625d41f2",
+   "5a1d4c3143436fde",
+   "23b37f8a04291fd4",
+   "8039fdf221e14d75",
+   "f87d99af1fcf4441",
+   "982af974ad0f352a",
+   "68b29d41d8c74aed",
+   "3791d4c695ca7852",
+   "95ce6186361a6fe7",
+   "d99e684f81e50269"
+  ],
+  "count": 52,
+  "label": "shadda",
+  "auto": "shadda",
+  "sugg": null,
+  "votes": {
+   "wasla": 1,
+   "shadda": 3,
+   "fatha": 2,
+   "hamza": 3,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "77e506eb290619a8",
+   "35484c0cedb35816"
+  ],
+  "count": 51,
+  "label": "pause",
+  "auto": "pause",
+  "sugg": null,
+  "votes": {
+   "small-ya": 2,
+   "pause": 6,
+   "two-dots": 1,
+   "sukun": 6,
+   "wasla": 1,
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "1413e95f33f5d6aa",
+   "c7f3f043aabde1a3",
+   "6f56767eecb30715",
+   "02cad524233b8bd5",
+   "b785901ab4ea4092",
+   "bca4c3a27b62178c",
+   "772659749dea6cd7",
+   "cccddd4f2ac6deec",
+   "ebb82eb1c31fc3fb",
+   "99dd2bc4c08a5706",
+   "7e90ff01169d0dd0",
+   "1cc026fe5814a8e9",
+   "e56b107cd7fe970f",
+   "efd98cde50f926c0",
+   "778815e346368ecb",
+   "70c35ba0423c81a2",
+   "07f42ce934fdb631",
+   "fa6f08cd57b63816",
+   "7f7c8f29e8e6b748",
+   "0e142b3aa213faca",
+   "310edc5b90fb03c1",
+   "3cd19dc7ad434582",
+   "6f6e594119f06087",
+   "d132568a4afe359c",
+   "0e92852e51cb1dee",
+   "876e51688610ee08",
+   "8ef2c0b8b7457611",
+   "d9be56675fab1561",
+   "bc32623d671df273",
+   "d90b5e4635423a94",
+   "50432dcd3d23d1d7",
+   "cf85216d26d7b62a",
+   "9d5ff685a9b40530",
+   "0a193b3be34c311d",
+   "379c029448811192",
+   "a5713e1b66b8b694",
+   "871ebf2125deaa2c",
+   "ba1d71be2f9509b2",
+   "1d4915ad7df834b2",
+   "91e3539883dd8f25",
+   "f92810b11ed92b4b",
+   "40dbad26f4eb6771",
+   "3ddb90f44fccf03b",
+   "cb4895eaef56f337",
+   "7cef6b79e1477dea",
+   "aa6f5db9ad137b0a",
+   "b8ca495438f93b86",
+   "1b2d9b1dc9bb790a",
+   "86fc327c1614dd51"
+  ],
+  "count": 49,
+  "label": "two-dots",
+  "auto": "two-dots",
+  "sugg": null,
+  "votes": {
+   "two-dots": 3,
+   "dot": 1,
+   "fatha": 3,
+   "fathatan": 1
+  }
+ },
+ {
+  "keys": [
+   "9dc1099e7c0c6a34",
+   "02f3d486b1658c33",
+   "38db85cb46e59f8f",
+   "fa8201718ba29ede",
+   "5114a04d001b4f0c",
+   "b99a4a0342c4f5f2",
+   "799fe590882602fe",
+   "762985c406f4d6b1",
+   "34d7b60154948516",
+   "abc6df90126e2baa",
+   "4f03c27b42ae6789",
+   "21572f5c90004098",
+   "3a58cef02a2a66e5",
+   "19bf0b3977279cea",
+   "c6841bda6564c802",
+   "9153ed33fdb8c512",
+   "0f4455a2bd2d425e",
+   "b29f54204d9ea283",
+   "a9f1bf8686aba182",
+   "57917c7204aea022",
+   "26fe2c8ed543aefe",
+   "83d559b9c663baa3",
+   "a6271f7492ce963b",
+   "759c33733d3d2ce4",
+   "6d85a9f507ccbacb",
+   "71918a65e6299553",
+   "56cfdbf515ed7ec1",
+   "a6262b47383cff1c",
+   "f70495efd823ddf3",
+   "06fd6dac76273d8e",
+   "dc71089805bb695b",
+   "be997c9c2f20a9ce",
+   "3e6b00715ec62a6c",
+   "daa8256e1e56a805",
+   "92f0b618c130ee96",
+   "76033ba39e1a4ff2",
+   "97da82de9a2626c9",
+   "4a512ba63b07a44d",
+   "149984a3f900b5de",
+   "9943053dbfc7a1df",
+   "3dbf43f782b6f2a8",
+   "0458e03f651f497b",
+   "c01a873ee39b4d51",
+   "364c611911931148",
+   "3f202819e584fe8f"
+  ],
+  "count": 47,
+  "label": "pause",
+  "auto": "pause",
+  "sugg": null,
+  "votes": {
+   "pause": 9,
+   "fatha": 8,
+   "small-alef": 2,
+   "damma": 4
+  }
+ },
+ {
+  "keys": [
+   "601deedf24e22ae1",
+   "84b28849c0952ee0",
+   "74f3146759b3815e",
+   "65795d1fc1423bc8",
+   "1af766a3f5b3472a",
+   "9ed23c790dede906",
+   "e01ac1375761f0dd",
+   "aa2532750575a393",
+   "65f9894c3177411b",
+   "17be7880d2a05287",
+   "b1b8b76bbd27b87c",
+   "201b0eea979f28db",
+   "d3957acbcf7d4b3a",
+   "1da628d9ff5f13a0",
+   "7d6abf72f38dd7c8",
+   "30fa72b630aec7fd",
+   "4d2d024ba7c83e12",
+   "b47ee7ddd5d831a4",
+   "ed6a77d9a82b5839",
+   "73f8f55fc9bc5d94",
+   "b96bb4f78cb4be0e",
+   "81b352e084538664",
+   "94e5c5bfe1f131f6",
+   "ad275668103a64a2",
+   "4792ecba49436b6c",
+   "60f802372ebb75a8",
+   "1377990ad51cab4c",
+   "faabcef359a193c8",
+   "c3548bbf099b3fdf",
+   "6c640946329b183b",
+   "e1f1fa53c0def62e",
+   "6daf5f6bb4b56197",
+   "9fac535ad9f5516a",
+   "74a5586c9afec551",
+   "ea91b883a7cfc8f6",
+   "b0dd87dfca08e21d",
+   "87a3a2b2323aae87",
+   "12910ff3e0beceb1",
+   "a83315607301916e",
+   "5e593d28532b2d08",
+   "b12256f1d97989aa",
+   "14d5f0b20f7e69ca",
+   "6235ac79f42cf402",
+   "619154e22871745b",
+   "4a4ab5b4eda15e55",
+   "cc1f5d1e6b82093b"
+  ],
+  "count": 46,
+  "label": "three-dots",
+  "auto": "three-dots",
+  "sugg": null,
+  "votes": {
+   "three-dots": 15,
+   "shadda": 1
+  }
+ },
+ {
+  "keys": [
+   "04e80d75b8f844ae"
+  ],
+  "count": 45,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "wasla": 2
+  }
+ },
+ {
+  "keys": [
+   "e8a6e04b657d1624",
+   "dfef3eb82f1fdbf8"
+  ],
+  "count": 45,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "hamza": 1,
+   "wasla": 1,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "1cf43a1e0688a798",
+   "77c016de0a8c59aa",
+   "52e9d387023a40e0",
+   "c30f852af2740af8",
+   "a2547d6b00c96888",
+   "40eff2afc0449ab3",
+   "e413ea6c3fc794d2",
+   "12829c9f159bea93",
+   "a8fb5a5ab57fd2a9",
+   "9f658b2a1a8a8b87",
+   "612cec45c8ef714d",
+   "62d877fee9fa05be",
+   "60007de09a4a8747",
+   "a58b4529fab9bc3f",
+   "9a64e7e1b70865c7",
+   "dd8dd9b61edfb42d",
+   "7c700b511a0813d0",
+   "79b6df6088b8a4d2",
+   "eee7029a0270e202",
+   "5186983b1877409d",
+   "141ff9917b206128",
+   "8226b5e2e21fc622",
+   "b7e779df8528565a",
+   "c2c3f86464c00f2e",
+   "c8896cbd81818cf0",
+   "24e252c437cc36a0",
+   "fd65ffba0c0efcf4",
+   "79432334c4d6d430",
+   "dffbf427536114fa",
+   "d249361fd18be6ae",
+   "d050a01129607c83",
+   "2c0266ffb6357d3f",
+   "2cb7bf4f7f5a1e72",
+   "4393ba3e16722c80",
+   "75bc6254f8381bbc",
+   "ddd40156ea60993a",
+   "66d2f315718ac7ff",
+   "94b0c80247a6bd10",
+   "1e800d3868ed1f4c",
+   "fc3279abeaa0359a",
+   "81e9d8aea5381a87",
+   "a16e82250793c685"
+  ],
+  "count": 43,
+  "label": "two-dots",
+  "auto": "two-dots",
+  "sugg": null,
+  "votes": {
+   "two-dots": 3,
+   "damma": 3
+  }
+ },
+ {
+  "keys": [
+   "e6959adb0d65b3fe",
+   "285c28389bf5349e",
+   "1aeb6dad69c9ee64"
+  ],
+  "count": 40,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "150087297dea3c63",
+   "7a8be6cce3e68e0e",
+   "cb308360f5c8c4df",
+   "0c759f1f8ff3c57b",
+   "be6fa731b3cf5f34",
+   "5ef063937bf26683",
+   "74a69ab38457d3b0",
+   "1782bff6ce3e2a91",
+   "cfb2777f478bed62",
+   "ee6a4be0ab02b780",
+   "e4d075287d72fcdb",
+   "d0d58065c986a4ed",
+   "080269cc82ceb15a",
+   "a8f1da8daffa353e",
+   "5fa5379f86e9e17e",
+   "7c21329fc0a5254a",
+   "928f69a7fca60722",
+   "47e621b2371d9ddf",
+   "e4c964ff6efa3868",
+   "14233306b361fc4f"
+  ],
+  "count": 38,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "shadda": 1
+  }
+ },
+ {
+  "keys": [
+   "47dd66a0b9a0be8f"
+  ],
+  "count": 33,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1,
+   "two-dots": 1,
+   "wasla": 1
+  }
+ },
+ {
+  "keys": [
+   "f1dc2769ef147839",
+   "cbfdcb5f8c790aa4",
+   "c5ae60ca8f36485e"
+  ],
+  "count": 33,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1,
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "9be0942eae5b0312",
+   "379836a286cf3d6b"
+  ],
+  "count": 29,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1,
+   "wasla": 1
+  }
+ },
+ {
+  "keys": [
+   "194986a38e4b16b5",
+   "3b9b071847f66715",
+   "0e7afe16659a5bdd",
+   "1ff41e39ef61bac6",
+   "934f8fc2f5af30a6",
+   "92a1f928f3ee52fa",
+   "075eccd4b706e68b",
+   "05483169d965ef1f",
+   "65544d72aa0db82b",
+   "66a4287652731e2e",
+   "8f81920508d58724",
+   "856b3a00635c8a7e",
+   "16a266a096aa99e6",
+   "5227b340ec3e84cd",
+   "f837b097f271eaf1",
+   "30983cebbac69f85",
+   "7873424232da14ff",
+   "fb00303577904c06",
+   "f869d926a62bf922",
+   "02d614119bac2d9c",
+   "2de7cc15e8db976d"
+  ],
+  "count": 29,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "two-dots": 2,
+   "sukun": 2,
+   "fatha": 3,
+   "maddah": 1,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "cbd395e61241e2b2",
+   "e715f8e6b39194b5",
+   "5faf4776b0defc33",
+   "72922c974964a886",
+   "53e2a3ef1cb7c050",
+   "6e7382d2172bac23",
+   "60d92faed08cd708",
+   "1cec136de249afe2",
+   "f43b7a9acbfd8d5b",
+   "08f3b1dc3a8d0d93",
+   "8854db2fb07075ca",
+   "a2f065a8c54b4b50",
+   "e328bf0c67339d82",
+   "8d631f797f4449dd",
+   "339b290e24dccce6",
+   "4795d110c032ab69",
+   "47a1b6715172e2b6",
+   "2d17e681d30ecf5f",
+   "0883bb6156a13b02",
+   "37a17aaa3403b035",
+   "0ec7c91d6f8837c7",
+   "f19d056205311316",
+   "3a1900685403dcfe",
+   "4d2fca9ccba3d242"
+  ],
+  "count": 24,
+  "label": "kasratan",
+  "auto": "kasratan",
+  "sugg": null,
+  "votes": {
+   "kasratan": 7,
+   "meem-iqlab": 4,
+   "kasra": 1
+  }
+ },
+ {
+  "keys": [
+   "06a7d045f47ace44",
+   "00e0fe49a9c05ec7",
+   "208d81fde484a745",
+   "178c4f642c2618be",
+   "7c3392146b5cb458",
+   "e71c090bb5a2eae3",
+   "2dc368849165c8e4",
+   "c5a4b82dc6fca21f",
+   "1deaf59aadc29786",
+   "68cbc9b3e7365be8",
+   "000bd02aa92bf43f",
+   "fab723442b551b9f",
+   "57ced0ace6d4697d",
+   "768f56eaa5a3c88d",
+   "c1ca4e021cf49efd",
+   "e2d43f6e2579750a",
+   "7561d2e2bfe467fb",
+   "74b4b64c8aaded19",
+   "680d87ec94b7e843",
+   "e3b56a6e21c8e085",
+   "f63964838b41550a",
+   "9f89f4fb627cca88",
+   "13df870a99a36782"
+  ],
+  "count": 23,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "dot": 2,
+   "hamza": 1,
+   "damma": 1,
+   "sukun": 1,
+   "wasla": 1,
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "7ea53021090c1460",
+   "fd82f9c2d9474a73",
+   "8c2a7481970ac20a",
+   "13fa5778682a0da4",
+   "9d7b8fea08ee9f35",
+   "5379609fd2969810",
+   "15135cd49dd1aeca",
+   "6cc2a141b489afe0",
+   "c3cccc522fde25f3",
+   "d4313f1553454b10",
+   "17bcb126238f829e",
+   "575324b290a6cebe",
+   "178bb2fcfa1a7dcb",
+   "cbc6ebcf2bf68d2f",
+   "04340936b4ddcae2",
+   "0af3b016413e3c80",
+   "28ba0e00be00ea07",
+   "6837f3eb77a83b10",
+   "6d6368ef35251376",
+   "e08a557308195500",
+   "84bbf7efa87f7e2c",
+   "534ca6d933ff26b5"
+  ],
+  "count": 22,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "fatha": 5,
+   "two-dots": 2,
+   "damma": 1,
+   "dot": 1,
+   "shadda": 1
+  }
+ },
+ {
+  "keys": [
+   "91e84601aaf8c47c",
+   "984160391b205d9c",
+   "1daa1c9b586204ec",
+   "dd3bf79e1ec194f3",
+   "033028c231b571ee",
+   "694f4c47e4577c71",
+   "50f8930285f822e2",
+   "0956d0aeaaeb3c8e",
+   "66757e0a925b96e4",
+   "9034b753154a8b34",
+   "ccd735c3f3cb258a",
+   "252c0fe9fbc3b5b5",
+   "7604fcbca7cd06a9",
+   "c035a7e4e02b1c44",
+   "1db103f11c8170dc",
+   "1c9f5462f989208b",
+   "810e60394ca1233b",
+   "ec85a4c7c96b71b0",
+   "b07ce79aa5647405",
+   "74e36075a276895e",
+   "bf783bae63048f2b",
+   "be48a4a712030cad"
+  ],
+  "count": 22,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "small-ya": 1,
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "1f3bbaa5de540392"
+  ],
+  "count": 20,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8f86769cc7db73b3",
+   "50a19a1f5a7424ef",
+   "4d6257855ddc90e6",
+   "1c34b185bc621bbc",
+   "090e20a6744132c0",
+   "a135e2836b7ba7ed",
+   "eeb3224869263475",
+   "bea1cb6fd463babf",
+   "930f6e29c41bbc54",
+   "3e80216c4c6d327d",
+   "e2bee267b3060240",
+   "74e42a576fc8ced2",
+   "0549aa6148cdc307",
+   "2049dae6e26226c0",
+   "56046dd470d70316",
+   "c908e92147475f36",
+   "a61dedb9f4949d73",
+   "afcf9435aa8aa534",
+   "c1e985c5c71b2220",
+   "42a489041bd440a1"
+  ],
+  "count": 20,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "fatha": 3,
+   "pause": 3,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "9b12703246fdf8b5",
+   "1627a8a120eba42c",
+   "a2c0f89317c9532a",
+   "35dff91eb9203d3d",
+   "e033826de03aa7c4",
+   "00645b197c960a98",
+   "e4126372e90280dc",
+   "ec153bab580617c1",
+   "9b390201a0804da0",
+   "89cf0c207ce184d0",
+   "dab1396fb08c2a23",
+   "ed175180d0c9ee12",
+   "965f830a226a1731",
+   "f2fa35212a9cf27c",
+   "d296a61e18642984",
+   "39745ae3ac356538",
+   "62f81d286f3fd97f",
+   "90e5624a773ff0b7",
+   "02e7f5ae134c76db",
+   "b1e59f07d88e9352"
+  ],
+  "count": 20,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "dot": 2,
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "7615e45b08764f80"
+  ],
+  "count": 19,
+  "label": "fatha",
+  "auto": "fatha",
+  "sugg": null,
+  "votes": {
+   "fatha": 4
+  }
+ },
+ {
+  "keys": [
+   "26865c940bb9f017",
+   "d72e9fe8627c8d5e",
+   "ad11856d4296c88f",
+   "e0f608b1540e4710",
+   "62719f788abf752c",
+   "6edf9d33399e1aa4",
+   "b7fbed53ea407a0b",
+   "053f836afe581f75",
+   "46b7c8ce6d1631bc",
+   "ddf0a36755547ba1",
+   "e61f532633c5b4e5",
+   "eb4f759b7598fb76",
+   "8772577038b4f393",
+   "257a8bbbc97389f1",
+   "0e632b2dcee4f642",
+   "a0c7af85fc7ef54a",
+   "afb371d302cd7957",
+   "2d9cfc7919c6cb4a"
+  ],
+  "count": 18,
+  "label": "two-dots",
+  "auto": "two-dots",
+  "sugg": null,
+  "votes": {
+   "damma": 1,
+   "dot": 1,
+   "two-dots": 3
+  }
+ },
+ {
+  "keys": [
+   "14967e532b5fe7aa",
+   "dcae1651a74fa54e",
+   "add9108729b2df93",
+   "b5c9da1f3a113a69",
+   "7f5ca6962e5c31ce",
+   "aa57783a2078f540",
+   "d814108bc0360b68",
+   "2ed2216a4a7178a5",
+   "e0343cc65ba726d6",
+   "c4f9ba350ebe4385",
+   "d1c37f86084c08ee",
+   "2c99d3845fd3b51b",
+   "020dc5231e1c7ca3",
+   "d6c9b7f9aab69489",
+   "5ee06602279d164b",
+   "56ba090ac917de85",
+   "8cdf7e4fd7cd1cba"
+  ],
+  "count": 17,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "31dcd55aadcaa56d"
+  ],
+  "count": 16,
+  "label": "shadda",
+  "auto": "shadda",
+  "sugg": null,
+  "votes": {
+   "shadda": 8
+  }
+ },
+ {
+  "keys": [
+   "eafb81c062df5aca",
+   "47392ae0cdff87aa",
+   "0c0b37e4398d8c82",
+   "dffc8a825c47ca75",
+   "61a02b3356e0252a",
+   "31c586ed3a316653",
+   "b3a9407241e44156",
+   "80e2213ae495851d",
+   "a74c5b1177e190a3",
+   "1a03daf3ee0abafb",
+   "56180465ab09482e",
+   "d391e6203db156ce",
+   "c70be1c5d942e63b",
+   "7134de7ab46d6536",
+   "d568c8ea4d05a89e",
+   "46d9ca3818f77f99"
+  ],
+  "count": 16,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "shadda": 1,
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "65a8d7bc050e7545",
+   "58cf8193fdfd3291",
+   "97494f23b05bd2ea",
+   "f750c68286fe4624",
+   "40cb167f59969f1d",
+   "32d50a966a852140",
+   "6ad495287aee92f1",
+   "5df6a0a8893130e6",
+   "29870bbe0ee1131b",
+   "54f6c024ad39946f",
+   "e1476eee85dbcea8",
+   "519e5e23898c930d",
+   "422fd33aeb985af6",
+   "c1ac687d69467bcd",
+   "961a86136dfba773",
+   "f4a26dc411daf32d"
+  ],
+  "count": 16,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "two-dots": 2,
+   "kasra": 1,
+   "dot": 1
+  }
+ },
+ {
+  "keys": [
+   "a2ea82834a154877",
+   "c35c2c2388956561",
+   "03f1bddebe0ed160",
+   "20c1550ab795593f",
+   "378aa1d0ce8e38a6",
+   "4dec5ea62b7dd903",
+   "4e25a71d7b3e560c",
+   "837cefd871b36274",
+   "8bbab74513280c97",
+   "5aaeee3d81ba0a51",
+   "7f2113e2c569f72f",
+   "b6b279c721fb7a35",
+   "139b94ba71d9dd99",
+   "1a6f9ca57bfcb145",
+   "b793ef0b3d8e0a5d",
+   "10a9c8e2681e3bb0"
+  ],
+  "count": 16,
+  "label": "kasratan",
+  "auto": "kasratan",
+  "sugg": null,
+  "votes": {
+   "kasratan": 4,
+   "kasra": 1,
+   "fathatan": 1
+  }
+ },
+ {
+  "keys": [
+   "54699668ff3dc635",
+   "0281973ec21308b3"
+  ],
+  "count": 14,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "424a5d0d8e1de101",
+   "2977d1023f5d077d",
+   "3d8abb62783f56c1",
+   "baf26570b80acb79",
+   "5ae94de770748095",
+   "f30f01528cf16225",
+   "3715d16493b691fe",
+   "bced08a0628ac5f6",
+   "0e5310d3aef79e63",
+   "431a2d2b421bec34",
+   "0081c032b9dc9bc4",
+   "78d88ae4720af167",
+   "a7c8c94a74d9bb18",
+   "82d289e3981498ac"
+  ],
+  "count": 14,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "meem-iqlab": 1
+  }
+ },
+ {
+  "keys": [
+   "7317de86feff9860",
+   "0ee0316c95236742",
+   "6a3da74ae0708f5f",
+   "928624738cf168e0",
+   "8f3e2d3ccaf11473",
+   "67daa71ba68ba5f0",
+   "e0a5a4b64804a720",
+   "122dcf536891d799",
+   "d6bf5ca5b8995f0f",
+   "452a7091b0fa7358",
+   "d5115e3fa188445f",
+   "db4fd2c97f2a0707",
+   "ae2010eb04a77c11",
+   "51345b932812723c"
+  ],
+  "count": 14,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "b87c665bc6c45864",
+   "6fd4717060da2860",
+   "ca9de62178583b61",
+   "2f2ad72ba665e7d0",
+   "d67bb96e7d4be43d",
+   "9346cf049336eb6d",
+   "b4cda0bba0eaf5cc",
+   "727bda94f954fcf6",
+   "f54a3739d50d04b3",
+   "7427f34c30af1345",
+   "905c6431a5f02f85",
+   "385808b785bdf0b8",
+   "e797c25dcf27b64c",
+   "2f4c0e5801ac4703"
+  ],
+  "count": 14,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {
+   "fatha": 2,
+   "dot": 1,
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "ac810c318ac736c4"
+  ],
+  "count": 13,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "3b9fbd634914b2fe"
+  ],
+  "count": 13,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c6b95341b2f3c482"
+  ],
+  "count": 13,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "72e26883f0458a7e"
+  ],
+  "count": 13,
+  "label": "small-alef",
+  "auto": "small-alef",
+  "sugg": null,
+  "votes": {
+   "small-alef": 8
+  }
+ },
+ {
+  "keys": [
+   "4d5ce654ce0ae42d",
+   "6c6a9f71a2150948",
+   "9acc129e5fefff7b"
+  ],
+  "count": 13,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "e6cf4ea18475b4e9",
+   "5f4982bfdcb75a75"
+  ],
+  "count": 13,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "97f6acb393ca2664",
+   "a5a9c8d1c9e23cb5",
+   "2ceb9831fabd26a1"
+  ],
+  "count": 12,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "c92eccb9b106171b",
+   "518227a0cd254aef",
+   "1bb008a5bf16ceca",
+   "1e5990d93bc0887c",
+   "bd097af378d2d985",
+   "8ca31f233e28ecaa",
+   "074448a64f22c9db",
+   "c010a506440d0a59",
+   "a5ec09f93354d673"
+  ],
+  "count": 12,
+  "label": null,
+  "auto": null,
+  "sugg": "damma",
+  "votes": {
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "994f9504bae4f481",
+   "061ff5e7aee10eb9",
+   "37e87ec5b8018a2b",
+   "a60846eac5c53a06",
+   "c51c456f0a3a5bae",
+   "e447fe646247fd10",
+   "bd58dbf47f4b25ad",
+   "d7f0cb64a246436c",
+   "d49ce44bddd5d4f7",
+   "fad4952af9459154",
+   "8c1bbd80b1da054e"
+  ],
+  "count": 12,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a75319641f53a3fa",
+   "f51cc3949750c797",
+   "16022deac87d48d9",
+   "b5c4f5de20060bdb",
+   "e82e9044233a454d",
+   "c19dd465120fbadd",
+   "19362ec712beb48c",
+   "d9799409a6e15882",
+   "fe313adc1115afe3",
+   "8aef7db23f33419b",
+   "723d64e496f6abd7"
+  ],
+  "count": 12,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "shadda": 2,
+   "fatha": 1,
+   "dot": 1,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "1eacb3bbd652f98f",
+   "f0a5844860bf6af1",
+   "19786ede43d101bc",
+   "7728ba79679ffc3d",
+   "dd2c7333cc310da4",
+   "0658a4c77e70499f",
+   "d8848e43eff871b6",
+   "d216b1a459505f10",
+   "a8e241a55788ec81",
+   "6d18a26d8e627aef",
+   "bd1dbcc92b436f14",
+   "869c9c96fe90b789"
+  ],
+  "count": 12,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "574269ea6689bbd2",
+   "a23d7d303118a498",
+   "d6ad463371c0aacd",
+   "479d980f4c21f16d",
+   "3cd21db1a88eb99e",
+   "c4bca7c6bf585521",
+   "3c7631bbe97b2758",
+   "44ff67fad44ef1de",
+   "e7ca6ebc8c337553",
+   "55b882d5ea708d54",
+   "32e499ca81a2ba41",
+   "048985cc4a37bd60"
+  ],
+  "count": 12,
+  "label": "two-dots",
+  "auto": "two-dots",
+  "sugg": null,
+  "votes": {
+   "two-dots": 4
+  }
+ },
+ {
+  "keys": [
+   "4b1acf9a397e345c",
+   "55f16fbcf27c8fcf",
+   "58f2bb4345dc6b9e",
+   "03bf18d6e7196cd4",
+   "0d761681b9686cd1",
+   "6f56768f19c630df",
+   "71727bde8c0b9eed",
+   "083ab59de8b46336",
+   "ca22f7c1e2fdd479",
+   "9303e243f563f7a7",
+   "8ce8a19bfced5304",
+   "98cd106e119ff189"
+  ],
+  "count": 12,
+  "label": "kasratan",
+  "auto": "kasratan",
+  "sugg": null,
+  "votes": {
+   "kasratan": 3,
+   "meem-iqlab": 2,
+   "pause": 1,
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "de05e8e3c235ca71",
+   "796dce60ead9fd8b",
+   "b79c2c1df9f4b4ab",
+   "06c47661927ea126",
+   "035f77a1a0655831",
+   "ca669f327ef6831b",
+   "eceba71b2c8e3c08",
+   "08ca9a300d6a86c8",
+   "171747499c4d9367",
+   "de5c13dee5a10f1e",
+   "a57b2bbfba1fcb24"
+  ],
+  "count": 11,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "two-dots": 1,
+   "kasra": 1
+  }
+ },
+ {
+  "keys": [
+   "e495daadaea3a995",
+   "c5665b1c2b0e4adb",
+   "5998aa19518d2e10",
+   "1365a7892b3cc048",
+   "19a6f369a07bdb54",
+   "9303b7b76a7285ec",
+   "358cbbf23535a22e",
+   "8ba6d044bca98306",
+   "5c9337452ee856ba",
+   "af18572e2ed6c5ea",
+   "dbd51de6ddbefa15"
+  ],
+  "count": 11,
+  "label": "shadda",
+  "auto": "shadda",
+  "sugg": null,
+  "votes": {
+   "shadda": 3
+  }
+ },
+ {
+  "keys": [
+   "23c55ffac2d9cc50",
+   "3cc266cf2629486b",
+   "26bca1c65818ea72",
+   "b61810ae0078dde1",
+   "fc68e3251e9eb2ac",
+   "02a3c014b43a3dde",
+   "65abe29a1cd0be91",
+   "fbf56e6aa3c01e55",
+   "e8a677ca1ee5de57",
+   "ae0bf77c39e449f4",
+   "8ee5cd827fd50514"
+  ],
+  "count": 11,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7b7c85bba82a1284",
+   "e54bc01049f0b987",
+   "62888fe621c0976b",
+   "144dbcfb33d8d0ae",
+   "6a9a20b375bab29b",
+   "f45b018f389216e2",
+   "c41dc19027324ecf",
+   "7c68fb104f3288d2",
+   "7e721b3ab37aa74b",
+   "406f9cefab4e25ef",
+   "0e1afc3cc66728e1"
+  ],
+  "count": 11,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1,
+   "meem-iqlab": 1
+  }
+ },
+ {
+  "keys": [
+   "d079380edfe4ac24",
+   "364e13c9dd987bb6",
+   "51630ca0c1e684e7",
+   "852d47060ff588ca",
+   "feb91819b242ab15",
+   "5ef4067ba750600d",
+   "8d86b9e51159901e",
+   "b63ccf82a73b9692",
+   "9d1b92018bffa73b",
+   "ad3e626ba0ef681a",
+   "1c7682060a6245e8"
+  ],
+  "count": 11,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "690a148123ac2b0b",
+   "07b036a4fbf94671",
+   "b14f13685ada3c69",
+   "0750e66a92e1afca",
+   "f14928b90415ebf8"
+  ],
+  "count": 10,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "25927a1acab27d2e",
+   "33f40c7eb158dcc7",
+   "1a41790401d37c00",
+   "3f382c65a51e7b29",
+   "850e57e62f51017b",
+   "d7075e49b0fe1f72",
+   "639c77c9645fc14c",
+   "fb89ebf19e16cb66",
+   "bf973e9384960329"
+  ],
+  "count": 10,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "damma": 1,
+   "pause": 1
+  }
+ },
+ {
+  "keys": [
+   "ada8e3350ef337b9",
+   "f18e43473c82b291",
+   "4157df615242957b",
+   "8381c28d80653d07",
+   "14d06b7a200b0126",
+   "1548da2306dc2fec",
+   "68b4b63c1b09dd1c",
+   "1b620b5622b76999",
+   "29ba4bc2976977dd",
+   "07275b318fff6de6"
+  ],
+  "count": 10,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f9b597fa93a33bb6",
+   "04085d32bfa1458f",
+   "db3c226bec4d6b56",
+   "3921c9ace978d5fe",
+   "027787b3d73e40e3",
+   "03693641162f4b88",
+   "ef4dd01d1c777547",
+   "779fb5e9865fcbdf",
+   "39f9f7c140507867",
+   "7da5aa1eeac5441e"
+  ],
+  "count": 10,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "cced90ccfcf2d5b8",
+   "dda3c203f48e4753",
+   "c11e6f6394af75dc",
+   "c220d35d9125cce8",
+   "7d528f6e86479acb",
+   "4291886523ba010f",
+   "9190657ce7fdb633",
+   "28f792989d7e8587",
+   "d87d3367e1356476",
+   "20d15006a72648be"
+  ],
+  "count": 10,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "2dfa7640e3718644",
+   "f790563be5623875",
+   "23eb53294f6aec13",
+   "64505329c8c3c9b5",
+   "004973da09b86eda",
+   "2e5d323154f583d8",
+   "1b9abe945bfae4b8",
+   "a884ea76901f010c",
+   "3992a634d87e01c2",
+   "47b9ae7ae6b0c160"
+  ],
+  "count": 10,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "wasla": 1
+  }
+ },
+ {
+  "keys": [
+   "005430b3c8b67c6a"
+  ],
+  "count": 9,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "9b13dcf36743e953",
+   "1a79da1ba2d42a2e",
+   "d7b73c9601f6c263",
+   "4fe11136dcc50f55",
+   "0e3c0ff95dc5e407",
+   "21d6bc7209f257f9",
+   "b9eec5e14c7189fe",
+   "68830f15f719f952",
+   "72b30c223aeb94c7"
+  ],
+  "count": 9,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "263d2548ec8c6ed4",
+   "682d59bbd8923b7c",
+   "e48525499bf636a2",
+   "497407c9b5720d18",
+   "62902dae2c4e75fb",
+   "77ced4787d408694",
+   "f911a088a413793c",
+   "24c4d24bb5072453",
+   "6d1b5e18020270fd"
+  ],
+  "count": 9,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "damma": 2,
+   "pause": 1
+  }
+ },
+ {
+  "keys": [
+   "679fd7cec83f56e3"
+  ],
+  "count": 8,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "maddah": 2
+  }
+ },
+ {
+  "keys": [
+   "68cadd05c7c42dc8",
+   "21560fdac08af2c9",
+   "12f023b38ecdeeb5",
+   "0fb20725a7faabef",
+   "2ec5c4c40ffcc259",
+   "0b22f093ab1fff9d"
+  ],
+  "count": 8,
+  "label": "two-dots",
+  "auto": "two-dots",
+  "sugg": null,
+  "votes": {
+   "two-dots": 3,
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "fe33a0f49718166d",
+   "31deade3ce7094af",
+   "cbe8886301b14663",
+   "93c434c487c37d10",
+   "b80b6a05b35c2bdf",
+   "d9456e67d22559f2",
+   "4e61ef1d9635575c",
+   "e300cd359f45b8ec"
+  ],
+  "count": 8,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "25b086f590d27dae",
+   "60caf6ae297f076d",
+   "dadeeae7bd25ca92",
+   "76a9b27943af1cc1",
+   "e9c759f3c0ccceeb",
+   "dd64552db734e61a",
+   "dad245cc93a267b6",
+   "96908bff5f537371"
+  ],
+  "count": 8,
+  "label": "pause",
+  "auto": "pause",
+  "sugg": null,
+  "votes": {
+   "fatha": 1,
+   "pause": 2
+  }
+ },
+ {
+  "keys": [
+   "a9de156543e415be",
+   "2e65837ece4f89ff",
+   "e98a27c3cfe3bbc6",
+   "b9b76e41aae09520",
+   "9e43132b021b0f86",
+   "e1d0fa554da5bf49",
+   "4e1df83755e656bb",
+   "35ae75b303833072"
+  ],
+  "count": 8,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "shadda": 1,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "db2915745fd50e9f"
+  ],
+  "count": 7,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "damma": 1,
+   "fathatan": 1,
+   "hamza": 1,
+   "kasratan": 1
+  }
+ },
+ {
+  "keys": [
+   "70d07d0ad905d4b8",
+   "4ebdbdc5209d1283",
+   "bc83cb03ceb6dfc7",
+   "93f87ee090339bdf",
+   "1acd45418f204a9d",
+   "6c930e55b4e68ea8",
+   "356e21963e601fa1"
+  ],
+  "count": 7,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "three-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "59ad83941af39179",
+   "20f2a6190b5baba6",
+   "d23276f4ecd6310c",
+   "8686883582a6a4b4",
+   "403a0d3e69b68514",
+   "f655d2ee5ed53892",
+   "12c499ae5e62943a"
+  ],
+  "count": 7,
+  "label": "kasratan",
+  "auto": "kasratan",
+  "sugg": null,
+  "votes": {
+   "kasratan": 3,
+   "meem-iqlab": 1
+  }
+ },
+ {
+  "keys": [
+   "8d247588425d9840",
+   "77dfbc3e237eff41",
+   "f7672672a5c4da80",
+   "bddc25df3f0dd7c3",
+   "f31b52ba49401c78",
+   "a832a0bbe04025cf",
+   "b2ed04831ce2821b"
+  ],
+  "count": 7,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "470fc84402eda08e",
+   "9311cd7e66d76016",
+   "beee06d9e080648b",
+   "fd590f509c903221",
+   "ff49b687934562ef",
+   "a2347755aa137756",
+   "b452a066aa9cfb08"
+  ],
+  "count": 7,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a8dfd9e5f7bb5cd5"
+  ],
+  "count": 6,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "meem-iqlab": 1
+  }
+ },
+ {
+  "keys": [
+   "83bc00b0e60e5f9c",
+   "3725b297155a6543",
+   "1912e6ac73b5a24b",
+   "b02a5db4fe180c72"
+  ],
+  "count": 6,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "dot": 1
+  }
+ },
+ {
+  "keys": [
+   "f3e332268015e392",
+   "7efa41b0b93e9096",
+   "843f066bf826fbe4",
+   "adeb83733dac7c28"
+  ],
+  "count": 6,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a578fc8b031dacc0",
+   "c336398df039237d",
+   "6748d77680f5bd4e",
+   "f232a745878cd34b",
+   "707c273c578c0012"
+  ],
+  "count": 6,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "kasra": 1,
+   "dot": 1,
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "ee2fb54dd9d07487",
+   "808d146fb5c54b4d",
+   "3254d379759accd7",
+   "c961cfca7664cc8f",
+   "d8216331cf139a24",
+   "3143998242450bfd"
+  ],
+  "count": 6,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f627b2887f7386fa",
+   "63f3a8dcd90dd03e",
+   "d144288210c6afe9",
+   "77592ba9999f8244",
+   "447e1e8c3daad9bb",
+   "a94c5aff2e0e9b8d"
+  ],
+  "count": 6,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "3588b2d36978079a",
+   "15a147bf5d20d75d",
+   "4630f5f0d7049b93",
+   "bfc5f6ee9770f3a0",
+   "193dcaa4ab3eb1f8",
+   "0f420ede50cf4cd3"
+  ],
+  "count": 6,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "three-dots": 2
+  }
+ },
+ {
+  "keys": [
+   "8bd9d6fee042b06a",
+   "2ae6543c8f883790",
+   "633b6a5b97a3843f",
+   "e243948f9f16075d",
+   "b619c99235fd6963"
+  ],
+  "count": 5,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "43fb703019edea55",
+   "3f8fa6de4920e3bd",
+   "c3ec68d2a4c3d6d7",
+   "a47f18bf72076617",
+   "201e3ba1e499b4f2"
+  ],
+  "count": 5,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "pause": 1
+  }
+ },
+ {
+  "keys": [
+   "748bbc218e4f5317",
+   "cc012469909ea375",
+   "57f812593de349df",
+   "abbb78ad5ba5344d",
+   "09b079b536bb250c"
+  ],
+  "count": 5,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8361b80c5fb3974a",
+   "a4be2c111b42c85e",
+   "43eb5d580afc663f",
+   "ad3adfe413a78567",
+   "8cb10218880a40b0"
+  ],
+  "count": 5,
+  "label": "two-dots",
+  "auto": "two-dots",
+  "sugg": null,
+  "votes": {
+   "two-dots": 3
+  }
+ },
+ {
+  "keys": [
+   "0a481a2ff24b6be9",
+   "c28ae0d0b89028da",
+   "5b6972c329dfe044",
+   "51efb871e2430725",
+   "3b4ea96c40c4c2cc"
+  ],
+  "count": 5,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8f414f33e06b3c9f",
+   "cbc086a8fe64b278",
+   "2754cebe1bb86f53",
+   "64b7ec84a96c6434",
+   "de96bf5f9ce3fb04"
+  ],
+  "count": 5,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c63853f10a0002de",
+   "9ecfd655c3bd3820",
+   "6474cc85d57c7bf4",
+   "9a5430a7a9db4617",
+   "4887f52e8eb4b1cb"
+  ],
+  "count": 5,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "1ac9ab4767b7bf92",
+   "0f9d5fc8f57875d6",
+   "a4dfa8810027e26c",
+   "9d331342673ccbd9",
+   "efbf2c7a963eb248"
+  ],
+  "count": 5,
+  "label": null,
+  "auto": null,
+  "sugg": "kasratan",
+  "votes": {
+   "kasratan": 2,
+   "dammatan": 1,
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "6c66fcd239cb49d4",
+   "c7b53553003c8b57",
+   "4ec35f4e16cac90f",
+   "1b64c63ce668fadd",
+   "dac841d9cfb7360e"
+  ],
+  "count": 5,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fathatan": 1
+  }
+ },
+ {
+  "keys": [
+   "6b9a56e385c147ef"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "67679a8cd782b6f6"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f0bd6b45e7fdf5ce",
+   "88d55f389502819d"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "4781d969aa68a8bf",
+   "0ce07eb919b1199b"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "609954a81633ef06",
+   "450ee3869cca8509",
+   "ab426bdf1939636f"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6c68c1c0e48b1096",
+   "02f83a23916f5bf4",
+   "d095f45e3039a132"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "005aeba5886396b8",
+   "b2403b21a1450642",
+   "373885a5e95825e0"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6e5894f06b398b9f",
+   "0163f344988a80f1",
+   "352f1424fc5d109f",
+   "fd1ecf29fa873f34"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "e4018ed07179af24",
+   "21fc19f5d0c34c73",
+   "614b96e5163e261a",
+   "5dc6e73476545475"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "aaa3a2e0c11b948c",
+   "3d6c4778844609ab",
+   "63fda6e9b5becdda",
+   "c4972489efb5da18"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {
+   "shadda": 2,
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "904c6ed76c2181a9",
+   "786636ae81a95fb9",
+   "9dcc44810c64ab4a",
+   "86768f6cac71bc07"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "512d6ba8fe1317b7",
+   "de34d7f77c7107ea",
+   "937e31b927d5d17e",
+   "085d810813664533"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "285e30771d643244",
+   "63ffdc059fc42af5",
+   "5301795e3e0e10fe",
+   "5eaef9c5ab7cc1b0"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e83dae2495326770",
+   "e4c9b3ff4958558d",
+   "4cd8f014c63dc926",
+   "4745aca69d25cb6d"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ad7530ea751e43e8",
+   "dafee4b6951ccb27",
+   "df50b1cc9de7491e",
+   "738e56ee0e2af556"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "dot": 1
+  }
+ },
+ {
+  "keys": [
+   "7d621517c5c0a3f1",
+   "28aab7cb05a7e1de",
+   "ecc27061aa4089ae",
+   "6db91e0dcf3ecc6b"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "90f8f5e60e79cf92",
+   "dda30fff1a5b702d",
+   "1fa3b847dd32ef0b",
+   "f38acc5c07b9b798"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "270273f1b6f9d7ff",
+   "60589b0372aa6d63",
+   "e3e4ff3a496b0041",
+   "dd0ca9a6b6065604"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "796efaddd928576a",
+   "0185e297696ea7ce",
+   "2b5e6aace3907881",
+   "3f990f4bbeec8936"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "0b63543f57df0950",
+   "ecb8c6fed6fd1379",
+   "580f89b29f2d7613",
+   "c12cda62f48faf93"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "626361f75295f1d6",
+   "d1dc37849443cd83",
+   "43a41b0d3fcfd008",
+   "ba6a795729fe1acf"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {
+   "small-alef": 1
+  }
+ },
+ {
+  "keys": [
+   "04bb77fcbae3828a",
+   "c1f4cdc6bca44f73",
+   "5ed2566bac7191d2",
+   "2476b00ea08ae85e"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d5450a8e78a85584",
+   "f5d90330b676c04f",
+   "79dbc19b44e9f762",
+   "163bc2c01c01b09f"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e34f84aaa4f091d7",
+   "a1d5c3f2ddbf0a1a",
+   "06e534fb5bd06444",
+   "02dc8b9754044e15"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fathatan": 1
+  }
+ },
+ {
+  "keys": [
+   "71fff05c57dc7948",
+   "92110decfc9f2ad4",
+   "044fa52dc54e97f5",
+   "48b8dc6eea8d8a53"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "83063b31b2889cd1",
+   "312c20488338e6bb",
+   "d9c90fbec783022b",
+   "2899b99dd88988e6"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "fe58597b7dca22ac",
+   "988b3f08b4edaa43",
+   "eda96fdc8785a055",
+   "086313534f7746b3"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "50781e70a6d8b76f",
+   "fab093d052074514",
+   "f7fd30e35768476a",
+   "6d8a89be01cbd8f2"
+  ],
+  "count": 4,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "fd49d986807e3ffd",
+   "8ece6ab90d26d52b"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "830f89327566ada3",
+   "a97ecb7f6442abfe"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "b7e760ff9278459d",
+   "5359a2be987fc6fe"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a3e94a7fe4098eae",
+   "1e7a6256588f1eac"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "shadda",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "429047b2493d5fbc",
+   "c7162b407b05a700",
+   "29e529846d45b6ce"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "75eef2ceba70e0cc",
+   "45a8f015f07175e1",
+   "6852a01f3895d1ca"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "064b284118137cda",
+   "481c5ba857df9e70",
+   "cb17e89a5a09eadd"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e297b52dfa7f3ceb",
+   "a0e2c60c53b9e1f0",
+   "366b10c2272bf03c"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7e6c99e603e70df4",
+   "20c3b9184ecd9dc8",
+   "ca6ba073d1d695c7"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "shadda",
+  "votes": {
+   "fathatan": 1
+  }
+ },
+ {
+  "keys": [
+   "1b3b125bebc6d689",
+   "ff1e5bf1497a6fb5",
+   "f402edb7279299ac"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "shadda",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "d1b59b93d7013088",
+   "3d0daa24feaacc01",
+   "366f53cb42c85831"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "66f5f2d799501a21",
+   "ad3f86d2c2f2cbc5",
+   "639ffb3614d49acb"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "88c2e1c0e1740215",
+   "cf69c179da6c9f8d",
+   "9b84cb7a5c53ecd3"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "dot": 1
+  }
+ },
+ {
+  "keys": [
+   "e60678a17e69d9b6",
+   "397bbb44214009b7",
+   "884748be3ae609ee"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "9d9ca60ec853130d",
+   "d78c463be6e45d81",
+   "a8016c628baf6271"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "69702eebb19fef2f",
+   "84e27b7f313b6431",
+   "297b9cad6670351e"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "maddah": 1
+  }
+ },
+ {
+  "keys": [
+   "1cd0b129bf32dfbe",
+   "06b7bd0dfafe6928",
+   "9229bef2d04e6fbe"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a085a5d25ed87b64",
+   "52742180733266a1",
+   "71fc399e4fad6395"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "hamza": 1
+  }
+ },
+ {
+  "keys": [
+   "ab89d4f7c54932f9",
+   "89fde2d05ed7f7f7",
+   "075b95e0654233a0"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "b93196e3fa604271",
+   "d4821ea18c99352d",
+   "acdcbf661d86ead5"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "66bd38459a54706f",
+   "151062328d63c793",
+   "bc473d45def7e229"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "84ed2b556bec0e30",
+   "c9e47313a43aeb27",
+   "1b49a527a4cd9091"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "78d07afd90309f82",
+   "14447c591fe59dac",
+   "a09f3e527ee3fda0"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "damma",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "2972039eeeb94667",
+   "751126ebcc93bcae",
+   "b1dc1b48dd914b36"
+  ],
+  "count": 3,
+  "label": null,
+  "auto": null,
+  "sugg": "three-dots",
+  "votes": {
+   "shadda": 1
+  }
+ },
+ {
+  "keys": [
+   "a7beeba50742e621"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "45ba8904ca1ed0d9"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "356249ffdc4de78c"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "72f28a584da3f0b0"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "damma",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "591095d8cd1a3754",
+   "5ebeae4260a67025"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "de094da8fc11756f",
+   "e30df44216991a5f"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e7fba3e0a7bd8faa",
+   "aacf742666fe0ac2"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 2
+  }
+ },
+ {
+  "keys": [
+   "69640de162ecb500",
+   "27e242a90020688e"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e4c7e9d2158e835a",
+   "f577c25dd53dbb41"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ab5e48a8f0e2b503",
+   "5d791032917ede89"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "c117105129e436a8",
+   "631ea008cf4d3933"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "a28db07d40041a24",
+   "d84a9c02e911b561"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "10c7e86395c7feb8",
+   "98e490b71a25364c"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "fae012d201875a3c",
+   "550b327687a3bfdf"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "kasra": 1
+  }
+ },
+ {
+  "keys": [
+   "ae59e0996c12dd9f",
+   "ff47dbd0c4b8455c"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "044df214ab600f72",
+   "d55c477197b45af8"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "72caba5783d787ee",
+   "311591afa5afb58d"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "shadda",
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "0fddee158f3d1242",
+   "de2dc9516375364c"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "shadda",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "493eaeb4c142b1b8",
+   "f90b83057c78636a"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "28f46c82f6c6a929",
+   "ff0c86285843e716"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "515bca9fcd34ce4f",
+   "0ab61e2ea4a50c0c"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "319bc093b26eb1f9",
+   "1ec2f44c472229cd"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "1fc51b9bfcba671d",
+   "6995b78c2b366ea8"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3631cc0fc3f9e55c",
+   "4f5da3c07831f2a2"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d3fddfa7a740f3b9",
+   "5ea400f4888e086d"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "dot": 1
+  }
+ },
+ {
+  "keys": [
+   "29374ead39a08ac4",
+   "7859127e5c3ba492"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "c84be087df0651a1",
+   "40833e093b892a00"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a21b53636c79d398",
+   "4d66f32dd2f1c247"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "two-dots": 2
+  }
+ },
+ {
+  "keys": [
+   "85d7df437433470a",
+   "b3ffc25d5ec97115"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "b5db140fbe9a0a2e",
+   "7b2a5937fdce0d2d"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "05664f60a329efa4",
+   "826a4825ed194bbb"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c6a553167d4a54dc",
+   "a91bdd620ba2357c"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "da297ff27b8ef8bd",
+   "016025d5d4ba0db7"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "4e6c5e3b5373ca5a",
+   "25abd9862359daf9"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "e357b96af9aed4a0",
+   "cbb3cff03951863b"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "63ad271f26be3cb3",
+   "f29c48834269a1b3"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "4ba7940e36e469c7",
+   "cf7b3b8ecec219ec"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "pause": 1
+  }
+ },
+ {
+  "keys": [
+   "0e18801ad3d7bb60",
+   "e1b8d8de8a1a59e6"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "16b42906a30f1f82",
+   "84aa418d355d3d85"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "08e62bf2fcad1d3d",
+   "2c0cb20b3ecfa0df"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "b5ab1eedb7839ff3",
+   "34cd8c2f74424034"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "damma",
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "23651852f8a5e489",
+   "13d50bb13d5ec8ea"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "748b292f8317fab4",
+   "cf0be43261111a50"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "19fe95de9bf12f78",
+   "bfdc6959262d6b30"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "2e6714fd6ce8c43f",
+   "b742999ae8254d7d"
+  ],
+  "count": 2,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "dot": 1
+  }
+ },
+ {
+  "keys": [
+   "52110e3f5f394261"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7ba74fcffc8421fa"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "cf6215ce773e49ce"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "b3b974ede76d0466"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "fcddc52a990ac8de"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "fff42bbfae7887b9"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f48885dfa18e42fb"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "d97bce511e668e13"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "e9ec634a6adfa7f3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "90febd15117175ad"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "three-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "297328e6fe40720a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7add62d7bafb4bd3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a64647bbbf7f2a29"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c0b7259a86eec877"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "pause": 1
+  }
+ },
+ {
+  "keys": [
+   "afe57b9e03ddb84f"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ac854c787da6b61b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "31d76805a8477d34"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c3c39df170d525dc"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ca73eadc6779b38c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "fa6f1c57d935a621"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "daf686dae02ec911"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "dc5861dba4d7af01"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "bb7a948c5de56343"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "e51be94f6e708ffd"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c40a11d6e06d8ee2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "aca8db730de5fb2b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "333b2b187382e8c8"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "414bf2b2f05b0a11"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6b39aaf78fba3d66"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e01553eb7a995d76"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "dot": 1
+  }
+ },
+ {
+  "keys": [
+   "26e015eacfb7fa65"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "452b51b16c23dcf2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d5006b6fafe20538"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "shadda",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ff01eda7c5ef2596"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a5c94490b7e4b91c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7e4ec28c4ea76f05"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "fd845267656b21db"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "dfec6bd6b3c9f2a2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6aaf6c539213cbfd"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a7eb3d2e979f1b0b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d0b5287719b45d03"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8a3dd27b652b5098"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ebf45d7043c5d164"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9082c4d0d8431a4f"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8ec0d19b5cba541c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "a5c3debc9dc40389"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9ac52a04739a885c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ba999e5108e0efd7"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3a9b40da7c7c7d01"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8b463822aa7bda60"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "12c9d717f3bd120b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d54119763a94dfbf"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d3ed02f28032d0b0"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9a8d9459db107b04"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "79633762532a0f16"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "5a1f6bea318081ad"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f6584f0be7ab3081"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "5fb4a4c04a5faa75"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7ef41382e7208f22"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f9f3e0768bec6d79"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7a5cac612409f087"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f9c2e6ba6cebc7b2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "277eb7d4817686b9"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d53d5ac6f7f6271f"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9a9210817ec228ab"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "0e40f85ec55515a2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "66a6f6cc27698bd5"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "shadda",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e5319baff291e111"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "b34cc93a47100f1d"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e9231a2fa3acd7bd"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3270418e1686f991"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "833ff954fdb6efef"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "eaf5d46ebabc6844"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c20cebe83d42f563"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fathatan": 1
+  }
+ },
+ {
+  "keys": [
+   "2c5766199f36db99"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "20fdff1f3302f059"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "b55ff22e33de521b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7e5ab47c3cc08a35"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "5decd01d6895a891"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ae6f43ee25e9cbc9"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "d65466743fc26b00"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "59c7613cdeacf5a8"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a3cb4cc5dc3a92e7"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "834d797c46864cd3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e9023961655291c3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "shadda",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "2b28387e8586a38b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e40c471552076b5a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a4d611913c654a30"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "4394e4d2a7f319f7"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "hamza": 1
+  }
+ },
+ {
+  "keys": [
+   "913ca329feff5863"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "99bc7a605f138bed"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7ddfd037109d6ccf"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "3687278f757562b0"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "2f5e4f5854e82efd"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e313a0329d3ed90a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "71ff3e1e23470f48"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "dot",
+  "votes": {
+   "dot": 1
+  }
+ },
+ {
+  "keys": [
+   "b1e79e1bf3b0934a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ae2e752e87c76028"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c819d04fdf086fe2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "5a3c3f01342227d2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "5d8a5f78d8814524"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "a2522fa42d60674b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "0740e3d74d3f8abc"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f4e19dbc9271dc3b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "306aff2cdc8e47e4"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "40132e5452e27d9a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "0a2f0c349d9c1fb4"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "71d880bcbecb2fa4"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "83a71c9ec13414a4"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "867feb167609f144"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "609131943d743dcb"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "00bee8332c0f84e1"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6fb5163b9617524c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7d03d955631a6a96"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f64599190180a182"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "wasla",
+  "votes": {
+   "wasla": 1
+  }
+ },
+ {
+  "keys": [
+   "d1d84587e800dbd2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "cb620a3771e979d5"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "17557701d1649efe"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "1cd059a60bcb7087"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "2cd26b9d2ea8e3f7"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a99fb0ebee6163ee"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "01bc6aef986845a5"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d8d7c26e535e9cd5"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9448605252ffce4b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3efc05f8b5ea6b8c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "small-alef": 1
+  }
+ },
+ {
+  "keys": [
+   "390fec2561cd7ff2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "953eef5f7db633a1"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "8a465624204ce1b3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "4a059eadd1bd05ba"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e2ccfd7eeef244d5"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "dac0edb8b58271c0"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "5bee976dfc3516e8"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "48602400a3870849"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "349abf636861308c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "235e9974815447cd"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "89dcc20ed5859719"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "3f6b679f2f051dac"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7a4171648b2cd198"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "2f9514d4ba8b8008"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "76088aab313bf8ae"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "9e348cc220537b05"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "5665e56d60b12aa2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "991a14c5dfc602b7"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "5f7b639bcc35a726"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9c6053c46bc0dd88"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "40212b419ad68cdb"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "b277496798818191"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c43489791843d204"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "18027b699e7b934f"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "661da1238d16d621"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7a72219a905e0ac3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3bcfda98a6459df1"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "0fd172d932dda3f3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "4a302a024662934c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a5264873a3d1b42a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8641f075f207a220"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "696ab79bef71f237"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e249f8853ebc0b60"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "85870210d08bcf7e"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "fa7105e35eed2f76"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ba78266394755b10"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e7e7dd679a1b244a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "01e407b5d2b5fe66"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3d12e596d37e9f33"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "eae4308d36619833"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "754af907cbf691b1"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3e5c988ec7ef90d1"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "42d027682ddba9b3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "94ac8726b511ffc3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "6d26f0fb6580493c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "5af9e7323a3080ff"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "91297452cd23869f"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8ec082a0b0caa0cb"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9d77ca7df888fc64"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3d20e328e63a87f4"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6225d265085c0765"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "035379755761e98a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3444f9e83a366d76"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "sukun": 1
+  }
+ },
+ {
+  "keys": [
+   "d5c98653ce7387eb"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ab285a4c16fa4511"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "2745b9d249a7c8b8"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ce124afa4ce59248"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "e8cd4ada58960481"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f85442d3eea0451d"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ffcbe08ee66ad6cb"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "42a5dfc08bb35c6d"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c670f40317cec21a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8438574727e542c9"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9c0e531e2ee742ec"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f740190054c11e7f"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "57c6924c03de5b2b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f76f9d6c6d820e46"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "460a58640e5953d3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9d73645e7fd6a298"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "588a19c9b709e23b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "kasratan",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6bdd6fe759aae05c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "62d9b26bc7914b4b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "10d7d3e9c171aea4"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "10d84f63bb28fc50"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "two-dots": 1
+  }
+ },
+ {
+  "keys": [
+   "77ad3355c8924d96"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9b493a6cd812c5c2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c9d8848faae145b5"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "30470c826f4f1203"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "wasla": 1
+  }
+ },
+ {
+  "keys": [
+   "f542932343d2553c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "287846e606dfd7bc"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "11697ecd865ae2a9"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "03c2352d03dcf2f2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a4ad166c6d8ae82d"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "93b1c167526ce5d4"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "59386d508adc00fa"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "41147cefbf3a0ca9"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9ec2943ec70d47a3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "f116e0a7d51be7d0"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "171b3a42bb33bd54"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "2adaf87639ad9e25"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3bdf5a7fc0657a4f"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d74b258ab37f1951"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "7fe8023159c300b6"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "eee0809b644d87c8"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "kasratan",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "b222af46620aac52"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a8aa96c8ae40940c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "980c89943535654c"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6ca39385e5ed95ea"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "075db48e15595842"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d6fbaaa400c4bff8"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ea9905f66bd5f4f2"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "two-dots",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9f25a528f9bbbdad"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d5e97b8e9b0c0ebe"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d13f5f3d79e2af02"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "ec116635aad0182a"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "4678537fa84c03db"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "a0892b5a81f79b26"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6daefa774f9c772f"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "4094c6169a7f2b76"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c489c0887d1a08c6"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "383735cc44736db7"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "047e31c655d6ffaa"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "bf9d345f04158727"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "9092c989463e18c6"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "99dcc2f65b3dacd3"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "614f90d200ab5f0d"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "241ae313741468db"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "dammatan": 1
+  }
+ },
+ {
+  "keys": [
+   "a0a33a1d06738fd8"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "0ca3e861515ff501"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6daeb7fbee393ea1"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "518b8e1eee2545c0"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "59a5f9ff021490b7"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "8fb7732d59128512"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c82578157c8da100"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "0059f4f1e9ab5ef8"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "3a6a928b2f22a3f1"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "440358885d779224"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "d50d5aab27472231"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "c861ec83fa8c87db"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "0755d698f29cafb1"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "damma": 1
+  }
+ },
+ {
+  "keys": [
+   "8d0ccc69312cbd75"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "damma",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "2832444021197f63"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {
+   "fatha": 1
+  }
+ },
+ {
+  "keys": [
+   "a0b005351fac7bc9"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": null,
+  "votes": {}
+ },
+ {
+  "keys": [
+   "6522b435d157dcbc"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "04a5b8b7c28fe77b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "word",
+  "votes": {}
+ },
+ {
+  "keys": [
+   "cd5386f960e5228b"
+  ],
+  "count": 1,
+  "label": null,
+  "auto": null,
+  "sugg": "fatha",
+  "votes": {}
+ }
+]

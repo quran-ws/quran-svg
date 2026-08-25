@@ -1,0 +1,87 @@
+{
+ "47c49c400b93c632": {
+  "label": "hamza"
+ },
+ "8eb38c5528bd83e7": {
+  "label": "fatha"
+ },
+ "6df5ad71d63e95b2": {
+  "label": "sukun"
+ },
+ "f11855c7e982110e": {
+  "label": "hamza"
+ },
+ "917397fab156492a": {
+  "label": "fatha"
+ },
+ "87fa512904c797a9": {
+  "label": "fatha"
+ },
+ "e16bd1e86ff38ec7": {
+  "label": "sukun"
+ },
+ "3658ab47863a1eee": {
+  "label": "dot"
+ },
+ "c1b756039f98d7e0": {
+  "label": "fatha+hamza"
+ },
+ "2a7dbf4284107953": {
+  "label": "hamza+kasra"
+ },
+ "b91846abd1491f48": {
+  "label": "hamza+kasra"
+ },
+ "7d3b5bf233b0270a": {
+  "label": "letter-part",
+  "note": "the small hamza part of letter \u0643"
+ },
+ "901e2a872bed1ac8": {
+  "note": "part of dammatan ( it shows one only but its part of the 2 dammas tanween )"
+ },
+ "82bbe2d7ff9be765": {
+  "label": "letter-hamza"
+ },
+ "392f88a17d2dc5f3": {
+  "label": "fatha+shadda"
+ },
+ "59d1072b0c515b47": {
+  "label": "letter-part"
+ },
+ "e198ceeaf62f04bd": {
+  "label": "two-dots"
+ },
+ "268f640f5b72d7c7": {
+  "label": "dot+kasra"
+ },
+ "09197435cccabc9f": {
+  "label": "damma+two-dots"
+ },
+ "5869cc2b38457898": {
+  "label": "letter-part"
+ },
+ "17355d85438becb0": {
+  "label": "letter-part"
+ },
+ "6c6c8571ff0f33e0": {
+  "label": "letter-part"
+ },
+ "2c26fe4e625d41f2": {
+  "label": "letter-part"
+ },
+ "1413e95f33f5d6aa": {
+  "label": "fatha+two-dots"
+ },
+ "1cf43a1e0688a798": {
+  "label": "damma+two-dots"
+ },
+ "194986a38e4b16b5": {
+  "label": "letter-part"
+ },
+ "06a7d045f47ace44": {
+  "label": "damma+hamza"
+ },
+ "7ea53021090c1460": {
+  "label": "fatha+two-dots"
+ }
+}

@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mushaf Review</title>
+<style>
+:root{
+  --bg:#f6f4ef; --panel:#ffffff; --ink:#2b2822; --muted:#8a8578;
+  --line:#e3ded3; --accent:#7a5c2e; --good:#3e7d4f; --warn:#b07d2c;
+  --bad:#b0453a; --sel:#1b6fae;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:14px/1.5 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.arab{font-family:"Amiri Quran","Amiri","Scheherazade New",serif;direction:rtl}
+header{display:flex;align-items:center;gap:16px;padding:10px 18px;
+  background:var(--panel);border-bottom:1px solid var(--line);
+  position:sticky;top:0;z-index:20}
+header h1{font-size:16px;margin:0;font-weight:600}
+header a{color:var(--accent);text-decoration:none}
+header a:hover{text-decoration:underline}
+.spacer{flex:1}
+.userbadge{color:var(--muted);font-size:12px}
+button{font:inherit;padding:5px 12px;border:1px solid var(--line);
+  border-radius:6px;background:#fff;color:var(--ink);cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button.primary:disabled{background:#c9bfa9;border-color:#c9bfa9;cursor:not-allowed}
+button.danger{color:var(--bad)}
+button.active{background:#efe7d8;border-color:var(--accent)}
+main{padding:18px}
+.notice{padding:8px 12px;border-radius:6px;background:#fdf6e3;
+  border:1px solid #ead9a8;margin-bottom:12px}
+
+/* ---------- dashboard ---------- */
+.stats{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:16px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;
+  padding:10px 16px;min-width:130px}
+.stat b{display:block;font-size:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:5px}
+.cell{position:relative;border:1px solid var(--line);border-radius:5px;
+  background:var(--panel);cursor:pointer;padding:2px 3px;font-size:10px;
+  color:var(--muted);text-align:center}
+.cell:hover{border-color:var(--accent)}
+.cell .bars{display:flex;height:6px;border-radius:3px;overflow:hidden;margin-top:2px}
+.cell .bars i{flex:1}
+.st-pending{background:#e6e1d5}
+.st-in-review{background:#d9a441}
+.st-done{background:#4f9c63}
+.cell.haspending::after{content:"";position:absolute;top:3px;right:3px;
+  width:6px;height:6px;border-radius:50%;background:var(--bad)}
+.legendline{display:flex;gap:16px;align-items:center;margin:10px 0;
+  color:var(--muted);font-size:12px}
+.legendline i{display:inline-block;width:12px;height:12px;border-radius:3px;
+  margin-right:4px;vertical-align:-2px}
+
+/* ---------- page review ---------- */
+.review-layout{display:flex;gap:16px;align-items:flex-start}
+.svg-holder{flex:1;background:#fff;border:1px solid var(--line);
+  border-radius:8px;overflow:auto;max-height:calc(100vh - 120px)}
+.svg-holder svg{display:block;width:100%;height:auto}
+.sidebar{width:320px;flex-shrink:0;display:flex;flex-direction:column;gap:12px;
+  position:sticky;top:66px;max-height:calc(100vh - 120px);overflow:auto}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;
+  padding:12px}
+.card h3{margin:0 0 8px;font-size:13px;text-transform:uppercase;
+  letter-spacing:.05em;color:var(--muted)}
+#hoverword{font-size:30px;text-align:center;min-height:46px}
+#hovermeta{text-align:center;color:var(--muted)}
+.flaglist{list-style:none;margin:0;padding:0;max-height:180px;overflow:auto}
+.flaglist li{padding:4px 6px;border-radius:4px;cursor:pointer;font-size:12px}
+.flaglist li:hover{background:#f1ece0}
+.flaglist li.current{background:#efe7d8;outline:1px solid var(--accent)}
+.editlist{list-style:none;margin:0;padding:0;max-height:220px;overflow:auto;font-size:12px}
+.editlist li{padding:4px 6px;border-bottom:1px dashed var(--line)}
+.editlist .st{font-size:10px;padding:1px 5px;border-radius:6px;margin-left:4px}
+.st.proposed{background:#f4e6c8}.st.approved{background:#d9ecd9}
+.st.rejected{background:#f2d7d3;text-decoration:none}
+.legend{max-height:260px;overflow:auto;font-size:12px}
+.legend label{display:flex;gap:6px;align-items:center;padding:1px 0;cursor:pointer}
+.legend i{width:12px;height:12px;border-radius:3px;flex-shrink:0}
+kbd{background:#eee9dc;border:1px solid var(--line);border-radius:3px;
+  padding:0 4px;font-size:11px}
+.shortcuts{color:var(--muted);font-size:12px}
+
+/* svg interaction styling */
+/* overlay layers (ayah polygons, markers, ornaments) must not swallow the mouse */
+.svg-holder .ayahPolygon,.svg-holder [class*="ayah_markers"],
+.svg-holder polygon{pointer-events:none}
+.word-hit{fill:transparent;stroke:none;pointer-events:fill}
+.audgrid{display:flex;flex-wrap:wrap;gap:10px;direction:rtl;padding:8px 0}
+.audcard{border:1px solid #e2dccc;border-radius:8px;background:#fff;padding:8px 10px 6px;
+  min-width:96px;max-width:220px;cursor:pointer;text-align:center;
+  display:flex;flex-direction:column;align-items:center;gap:4px}
+.audcard:hover{border-color:var(--accent)}
+.audcard.mismatch{border-color:#c2452e;background:#fbeeec;box-shadow:0 0 0 1px #c2452e}
+.aud-ink{height:52px;max-width:200px;display:block}
+.aud-word{font-size:26px;line-height:1.5;font-family:"KFGQPC Uthmanic Script HAFS",
+  "KFGQPC HAFS Uthmanic Script","Amiri Quran","Scheherazade New",serif}
+.aud-id{font-size:10px;color:var(--muted);direction:ltr}
+.delbtn{border:none;background:none;color:#c2452e;font-size:12px;float:right;
+  padding:0 4px;cursor:pointer}
+.delbtn:hover{background:#f6e4e0;border-radius:3px}
+#floatbar{display:none;position:fixed;z-index:60;background:#fff;
+  border:1px solid var(--line,#d8d2c4);border-radius:8px;
+  box-shadow:0 6px 22px rgba(0,0,0,.14);padding:8px 10px;font-size:12.5px;
+  max-width:270px}
+#floatbar .fb-title{font-weight:600;margin-bottom:4px}
+#floatbar .fb-hint{color:var(--muted);margin-bottom:6px}
+#floatbar button{margin-right:6px;font-size:12px;padding:3px 8px}
+.multi-sel{stroke:#7a3fd1 !important;stroke-width:.7 !important}
+.step-words path[data-eid]{cursor:pointer}
+.wc0 path[data-kind]{fill:#5b7a9d}.wc1 path[data-kind]{fill:#8a6d3b}
+.wc2 path[data-kind]{fill:#5e8a63}.wc3 path[data-kind]{fill:#9d5b70}
+.wc4 path[data-kind]{fill:#6d5b9d}.wc5 path[data-kind]{fill:#3b8a8a}
+.step-words g.word:hover path[data-kind]{fill:#c2452e}
+.step-marks path[data-kind="body"]{fill:#c7c2b6}
+.step-marks path[data-kind="mark"]{cursor:pointer}
+.step-marks path[data-kind="mark"]:not([data-mark]){
+  fill:#d21f1f;animation:pulse 1.1s ease-in-out infinite}
+@keyframes pulse{0%,100%{fill-opacity:1}50%{fill-opacity:.25}}
+path.sel-el{stroke:var(--sel);stroke-width:1.2;fill:var(--sel)!important}
+path.edited-el{stroke:#b07d2c;stroke-width:.8}
+g.word.merge-pick path[data-kind]{fill:#d97b16!important}
+rect.line-hl{fill:none;stroke:var(--bad);stroke-width:1;stroke-dasharray:4 3}
+
+/* label picker */
+#labelpicker{position:fixed;z-index:50;background:#fff;border:1px solid var(--line);
+  border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,.18);width:250px;display:none}
+#labelpicker input{width:100%;border:0;border-bottom:1px solid var(--line);
+  padding:8px 10px;font:inherit;outline:none;border-radius:8px 8px 0 0}
+#labelpicker .opts{max-height:260px;overflow:auto}
+#labelpicker .opts div{padding:4px 10px;cursor:pointer;font-size:13px}
+#labelpicker .opts div:hover,#labelpicker .opts div.hot{background:#efe7d8}
+#labelpicker .special{color:var(--bad)}
+
+/* ---------- queue ---------- */
+.qitem{display:flex;gap:14px;background:var(--panel);border:1px solid var(--line);
+  border-radius:8px;padding:12px;margin-bottom:12px}
+.qctx{width:230px;height:120px;flex-shrink:0;border:1px solid var(--line);
+  border-radius:6px;background:#fff;display:flex;align-items:center;
+  justify-content:center;overflow:hidden}
+.qctx svg{max-width:100%;max-height:100%}
+.qctx .noctx{color:var(--muted);font-size:12px}
+.qbody{flex:1}
+.qdesc{font-size:15px;margin-bottom:4px}
+.qmeta{color:var(--muted);font-size:12px;margin-bottom:8px}
+.qpayload{font-family:ui-monospace,Menlo,monospace;font-size:11px;
+  background:#faf8f2;border:1px solid var(--line);border-radius:6px;
+  padding:6px 8px;white-space:pre-wrap;word-break:break-all}
+.qactions{display:flex;gap:8px;margin-top:8px;align-items:flex-start}
+.qedit{width:100%;min-height:80px;font-family:ui-monospace,Menlo,monospace;
+  font-size:12px;margin-top:8px;display:none}
+.badge{font-size:11px;padding:1px 7px;border-radius:8px;background:#eee9dc;
+  margin-right:6px}
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="/">Mushaf Review</a></h1>
+  <nav id="nav"></nav>
+  <div class="spacer"></div>
+  <span class="userbadge" id="userbadge"></span>
+</header>
+<main id="main"></main>
+<div id="labelpicker">
+  <input id="labelsearch" placeholder="filter labels…" autocomplete="off">
+  <div class="opts" id="labelopts"></div>
+</div>
+
+<script>
+function boxOf(el){
+  // geometry in page units — stable across pipeline changes, unlike the eid
+  try{
+    const b = el.getBBox();
+    return [b.x, b.y, b.x + b.width, b.y + b.height].map(v => Math.round(v * 10) / 10).join(",");
+  }catch(e){ return null; }
+}
+
+"use strict";
+const qs = new URLSearchParams(location.search);
+const USER = qs.get("user") || localStorage.getItem("reviewer") || "anonymous";
+localStorage.setItem("reviewer", USER);
+document.getElementById("userbadge").textContent = "user: " + USER;
+const $ = s => document.querySelector(s);
+const el = (tag, attrs = {}, html) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  if (html !== undefined) e.innerHTML = html;
+  return e;
+};
+const api = async (path, body) => {
+  const r = await fetch(path, body ? {
+    method: "POST", headers: {"Content-Type": "application/json"},
+    body: JSON.stringify(body)
+  } : undefined);
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.error || r.statusText);
+  return j;
+};
+const withUser = extra => {
+  const p = new URLSearchParams(extra);
+  p.set("user", USER);
+  return "?" + p.toString();
+};
+document.getElementById("nav").innerHTML =
+  `<a href="${withUser({})}">Dashboard</a> &nbsp;·&nbsp; ` +
+  `<a href="${withUser({queue: 1})}">Approval queue</a>`;
+
+const KIND_DESC = e => {
+  const p = e.payload || {};
+  switch (e.kind) {
+    case "move-element": return `Move element <b>${p.eid}</b> from <b>${p.from}</b> → <b>${p.to}</b>`;
+    case "relabel-mark": return `Relabel mark <b>${p.eid}</b>: <b>${p.from_label}</b> → <b>${p.to_label}</b>`;
+    case "label-unlabeled": return `Label unlabeled mark <b>${p.eid}</b> → <b>${p.to_label}</b>`;
+    case "merge-words": return `Merge words <b>${(p.words || []).join("</b> + <b>")}</b>`;
+    case "split-word": return `Split word <b>${p.word}</b>${p.note ? " — " + p.note : ""}`;
+    case "note": return `Note${p.eid ? " on <b>" + p.eid + "</b>" : ""}: ${p.note || ""}`;
+    default: return e.kind;
+  }
+};
+
+/* ============================ router ============================ */
+if (qs.get("queue")) renderQueue();
+else if (qs.get("page") && qs.get("step") === "audit") renderAudit(+qs.get("page"));
+else if (qs.get("page")) renderPage(+qs.get("page"), qs.get("step") === "marks" ? "marks" : "words");
+else renderDashboard();
+
+/* ============================ word audit ============================ */
+/* Every word as a card: its actual ink on top, the text it was matched to
+   below. Reading order, right to left. Click a card to flag a mismatch. */
+async function renderAudit(page) {
+  const m = $("#main");
+  m.innerHTML = `<p>Loading page ${page}…</p>`;
+  let data;
+  try { data = await api("/api/page/" + page); }
+  catch (e) { m.innerHTML = `<div class="notice">Failed: ${e.message}</div>`; return; }
+
+  // hidden but rendered copy of the page, for geometry
+  const holder = el("div", {style:
+    "position:absolute;left:-100000px;top:0;width:900px"});
+  document.body.appendChild(holder);
+  holder.innerHTML = data.svg;
+  const svg = holder.querySelector("svg");
+
+  const groups = new Map();          // wid -> [wrapper groups]
+  svg.querySelectorAll("g.word").forEach(g => {
+    const key = `${g.dataset.surah}:${g.dataset.ayah}:${g.dataset.word}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(g);
+  });
+
+  m.innerHTML =
+    `<div class="pagehead"><h2>Page ${page} — word audit</h2>
+      <a href="${withUser({page, step: "words"})}">words step</a> ·
+      <a href="${withUser({page, step: "marks"})}">marks step</a> ·
+      <a href="${withUser({page: Math.max(1, page - 1), step: "audit"})}">‹ prev</a>
+      <a href="${withUser({page: page + 1, step: "audit"})}">next ›</a>
+      <span style="color:var(--muted);margin-right:12px">
+        click a card if ink and text disagree — it is recorded for review</span>
+    </div><div class="audgrid" id="audgrid"></div>`;
+  const grid = $("#audgrid");
+
+  // existing mismatch flags → wid -> edit id
+  const flagged = new Map();
+  data.edits.forEach(e => {
+    const p = e.payload || {};
+    if (e.kind === "note" && (p.note || "") === "audit-mismatch" && p.word)
+      flagged.set(p.word, e.id);
+  });
+
+  const NS = "http://www.w3.org/2000/svg";
+  const ordered = [...groups.entries()].sort((a, b) => {
+    const ka = a[0].split(":").map(Number), kb = b[0].split(":").map(Number);
+    return (ka[0] - kb[0]) || (ka[1] - kb[1]) || (ka[2] - kb[2]);
+  });
+  for (const [wid, gs] of ordered) {
+    // union bbox in root svg space
+    let X1 = 1e9, Y1 = 1e9, X2 = -1e9, Y2 = -1e9;
+    const clones = [];
+    for (const g of gs) {
+      let bb;
+      try { bb = g.getBBox(); } catch (e) { continue; }
+      if (!bb.width && !bb.height) continue;
+      const ctm = g.getCTM();
+      for (const [px, py] of [[bb.x, bb.y], [bb.x + bb.width, bb.y],
+                              [bb.x, bb.y + bb.height],
+                              [bb.x + bb.width, bb.y + bb.height]]) {
+        const x = ctm.a * px + ctm.c * py + ctm.e;
+        const y = ctm.b * px + ctm.d * py + ctm.f;
+        X1 = Math.min(X1, x); Y1 = Math.min(Y1, y);
+        X2 = Math.max(X2, x); Y2 = Math.max(Y2, y);
+      }
+      const wrap = document.createElementNS(NS, "g");
+      wrap.setAttribute("transform",
+        `matrix(${ctm.a} ${ctm.b} ${ctm.c} ${ctm.d} ${ctm.e} ${ctm.f})`);
+      const c = g.cloneNode(true);
+      c.querySelectorAll(".word-hit").forEach(r => r.remove());
+      wrap.appendChild(c);
+      clones.push(wrap);
+    }
+    if (!clones.length) continue;
+    const pad = 2;
+    const mini = document.createElementNS(NS, "svg");
+    mini.setAttribute("viewBox",
+      `${X1 - pad} ${Y1 - pad} ${X2 - X1 + 2 * pad} ${Y2 - Y1 + 2 * pad}`);
+    mini.setAttribute("class", "aud-ink");
+    clones.forEach(c => mini.appendChild(c));
+
+    const g0 = gs[0];
+    const card = el("div", {class: "audcard" + (flagged.has(wid) ? " mismatch" : "")});
+    card.appendChild(mini);
+    card.appendChild(el("div", {class: "aud-word", dir: "rtl"},
+                        g0.dataset.uthmani || ""));
+    card.appendChild(el("div", {class: "aud-id"}, wid));
+    card.onclick = async () => {
+      try {
+        if (flagged.has(wid)) {
+          await api("/api/edit/delete", {id: flagged.get(wid), editor: USER});
+          flagged.delete(wid);
+          card.classList.remove("mismatch");
+        } else {
+          const r = await api("/api/edit", {page, step: "words", kind: "note",
+            payload: {word: wid, note: "audit-mismatch"}, editor: USER});
+          flagged.set(wid, r.record.id);
+          card.classList.add("mismatch");
+        }
+      } catch (e) { alert(e.message); }
+    };
+    grid.appendChild(card);
+  }
+  holder.remove();
+}
+
+/* ============================ dashboard ============================ */
+async function renderDashboard() {
+  const m = $("#main");
+  m.innerHTML = "<p>Loading overview…</p>";
+  const ov = await api("/api/overview");
+  const t = ov.totals;
+  m.innerHTML = "";
+  const stats = el("div", {class: "stats"});
+  const stat = (n, label) => stats.appendChild(
+    el("div", {class: "stat"}, `<b>${n}</b>${label}`));
+  stat(`${t.words_done}/${ov.num_pages}`, "pages words-done");
+  stat(`${t.marks_done}/${ov.num_pages}`, "pages marks-done");
+  stat(t.pending_edits, `<a href="${withUser({queue: 1})}">pending edits → queue</a>`);
+  stat(t.total_edits, "total edits recorded");
+  m.appendChild(stats);
+  m.appendChild(el("div", {class: "legendline"},
+    `<span><i class="st-pending"></i>untouched</span>` +
+    `<span><i class="st-in-review"></i>in review</span>` +
+    `<span><i class="st-done"></i>done</span>` +
+    `<span><i style="background:var(--bad);border-radius:50%"></i>has pending edits</span>` +
+    `<span>each cell: top bar = words step, bottom = marks step</span>`));
+  const grid = el("div", {class: "grid"});
+  for (let p = 1; p <= ov.num_pages; p++) {
+    const st = ov.pages[p] || {words: "pending", marks: "pending", pending: 0};
+    const c = el("div", {
+      class: "cell" + (st.pending ? " haspending" : ""),
+      title: `page ${p} — words: ${st.words}, marks: ${st.marks}` +
+             (st.pending ? `, ${st.pending} pending edit(s)` : "")
+    });
+    c.innerHTML = `${p}<div class="bars"><i class="st-${st.words}"></i></div>` +
+                  `<div class="bars"><i class="st-${st.marks}"></i></div>`;
+    c.onclick = () => location.href = withUser({page: p, step: "words"});
+    grid.appendChild(c);
+  }
+  m.appendChild(grid);
+}
+
+/* ============================ page review ============================ */
+async function renderPage(page, step) {
+  const m = $("#main");
+  m.innerHTML = `<p>Loading page ${page}… (first open of a page can take ~20s while its SVG is generated)</p>`;
+  let data;
+  try { data = await api("/api/page/" + page); }
+  catch (e) { m.innerHTML = `<div class="notice">Failed: ${e.message}</div>`; return; }
+
+  const KNOWN = data.labels;
+  let liveEdits = data.edits.filter(e => e.state !== "rejected");
+  const recentKey = "recentLabels";
+  const recent = () => JSON.parse(localStorage.getItem(recentKey) || "[]");
+  const pushRecent = l => {
+    const r = recent().filter(x => x !== l); r.unshift(l);
+    localStorage.setItem(recentKey, JSON.stringify(r.slice(0, 9)));
+  };
+
+  m.innerHTML = `
+  <div class="review-layout">
+    <div class="svg-holder step-${step}" id="svgholder"></div>
+    <div class="sidebar">
+      <div class="card">
+        <h3>Page ${page} — ${step} step</h3>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <button onclick="location.href='${withUser({page: Math.max(1, page - 1), step})}'">◀ p${page - 1}</button>
+          <button onclick="location.href='${withUser({page: Math.min(604, page + 1), step})}'">p${page + 1} ▶</button>
+          <button id="stepbtn"></button>
+        </div>
+        <div style="margin-top:8px">
+          words: <span class="st ${data.status.words}">${data.status.words}</span>
+          marks: <span class="st ${data.status.marks}">${data.status.marks}</span>
+        </div>
+        <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
+          <button class="primary" id="completebtn">Mark ${step} step complete</button>
+        </div>
+        <div id="completewarn" style="color:var(--bad);font-size:12px;margin-top:4px"></div>
+      </div>
+      <div class="card" id="hovercard">
+        <h3>Word</h3>
+        <div id="hoverword" class="arab" dir="rtl">&nbsp;</div>
+        <div id="hovermeta">hover a word</div>
+      </div>
+      <div class="card" id="actioncard">
+        <h3>Actions</h3>
+        <div id="selinfo" style="font-size:12px;color:var(--muted)">nothing selected</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px" id="actionbtns"></div>
+      </div>
+      <div class="card" id="legendcard" style="display:none">
+        <h3>Mark labels</h3>
+        <div class="legend" id="legend"></div>
+      </div>
+      <div class="card">
+        <h3>Flagged lines (priority)</h3>
+        <ul class="flaglist" id="flaglist"></ul>
+      </div>
+      <div class="card">
+        <h3>Edits on this page (<span id="editcount"></span>)</h3>
+        <ul class="editlist" id="editlist"></ul>
+      </div>
+      <div class="card shortcuts">
+        <h3>How to edit</h3>
+        <b>Words:</b> hover shows the word. Shift-click pieces (any number),
+        then click the word they belong to — done. Or click one piece / a word
+        for actions (move, merge, split, note).<br>
+        <b>Marks:</b> click a mark → pick a label; it offers to label all
+        identical shapes (mushaf-wide once approved). Shift-click for a batch.<br>
+        <kbd>n</kbd>/<kbd>p</kbd> flagged lines · <kbd>u</kbd> next unlabeled ·
+        <kbd>1</kbd>–<kbd>9</kbd> recent label · <kbd>Esc</kbd> cancel ·
+        ✕ deletes an edit
+      </div>
+    </div>
+  </div>`;
+
+  const holder = $("#svgholder");
+  holder.innerHTML = data.svg;
+  const svg = holder.querySelector("svg");
+  const stepbtn = $("#stepbtn");
+  stepbtn.textContent = step === "words" ? "→ marks step" : "→ words step";
+  stepbtn.onclick = () => location.href =
+    withUser({page, step: step === "words" ? "marks" : "words"});
+  const auditLink = el("a", {href: withUser({page, step: "audit"}),
+                             style: "margin-right:10px"}, "word audit view");
+  stepbtn.parentNode.insertBefore(auditLink, stepbtn.nextSibling);
+
+  /* ---- shared state ---- */
+  let selEl = null;          // selected <path>
+  let mergeMode = false, mergePick = null;
+  const words = [...svg.querySelectorAll("g.word")];
+  words.forEach((w, i) => w.classList.add("wc" + (i % 6)));
+  const wid = w => `${w.dataset.surah}:${w.dataset.ayah}:${w.dataset.word}`;
+
+  // Forgiving hit areas: a transparent rect behind each word so gaps between
+  // strokes still hover/click. Ink always wins over a box (see pickTarget).
+  const NS = "http://www.w3.org/2000/svg";
+  words.forEach(w => {
+    try {
+      const bb = w.getBBox();
+      if (!bb.width) return;
+      const r = document.createElementNS(NS, "rect");
+      r.setAttribute("x", bb.x); r.setAttribute("y", bb.y);
+      r.setAttribute("width", bb.width); r.setAttribute("height", bb.height);
+      r.setAttribute("class", "word-hit");
+      w.insertBefore(r, w.firstChild);
+    } catch (e) {}
+  });
+  // Resolve what the pointer is really on: prefer real ink (any path with an
+  // eid) over hit boxes, since neighbouring word boxes overlap in Arabic.
+  const pickTarget = ev => {
+    const direct = ev.target.closest && ev.target.closest("path[data-eid]");
+    const under = document.elementsFromPoint(ev.clientX, ev.clientY);
+    const ink = direct
+      || under.find(e => e.matches && e.matches("path[data-eid]")) || null;
+    const w = ink ? ink.closest("g.word")
+                  : (ev.target.closest && ev.target.closest("g.word"));
+    return {path: ink, w};
+  };
+
+  const refreshEditUI = () => {
+    $("#editcount").textContent = data.edits.length;
+    const ul = $("#editlist");
+    ul.innerHTML = "";
+    [...data.edits].reverse().forEach(e => {
+      const li = el("li", {}, `${KIND_DESC(e)} <span class="st ${e.state}">${e.state}</span>`);
+      if (e.state === "proposed") {
+        const del = el("button", {class: "delbtn", title: "delete this edit"}, "✕");
+        del.onclick = async ev => {
+          ev.stopPropagation();
+          try {
+            await api("/api/edit/delete", {id: e.id, editor: USER});
+            location.reload();
+          } catch (err) { alert("Failed to delete: " + err.message); }
+        };
+        li.appendChild(del);
+      }
+      ul.appendChild(li);
+    });
+    updateCompleteGate();
+  };
+
+  const postEdit = async (kind, payload) => {
+    try {
+      const r = await api("/api/edit", {page, step, kind, payload, editor: USER});
+      const rec = r.record; rec.state = "proposed";
+      data.edits.push(rec); liveEdits.push(rec);
+      applyEditVisual(rec);
+      refreshEditUI();
+    } catch (e) { alert("Failed to record edit: " + e.message); }
+  };
+
+  const applyEditVisual = e => {
+    const p = e.payload || {};
+    if (p.eid) {
+      const path = svg.querySelector(`path[data-eid="${p.eid}"]`);
+      if (path) {
+        path.classList.add("edited-el");
+        if (e.kind === "relabel-mark" || e.kind === "label-unlabeled") {
+          path.setAttribute("data-mark", p.to_label);
+          if (step === "marks") colorMarks();
+        }
+      }
+    }
+  };
+
+  const clearSel = () => {
+    if (selEl) selEl.classList.remove("sel-el");
+    selEl = null; mergePick = null;
+    svg.querySelectorAll(".merge-pick").forEach(g => g.classList.remove("merge-pick"));
+    $("#selinfo").textContent = "nothing selected";
+    $("#actionbtns").innerHTML = "";
+    hidePicker();
+  };
+
+  /* ---- flagged lines ---- */
+  const flagged = data.report.filter(r => r.review);
+  let flagIdx = -1;
+  const fl = $("#flaglist");
+  if (!flagged.length) fl.innerHTML = "<li style='color:var(--muted)'>no flagged lines 🎉</li>";
+  flagged.forEach((r, i) => {
+    const li = el("li", {},
+      `line ${r.line} — dev ${r.deviation}` +
+      (r.flags.length ? ` — ${r.flags.join(", ")}` : "") +
+      (r.marks_unmatched ? ` — ${r.marks_unmatched} marks unmatched` : ""));
+    li.onclick = () => gotoFlag(i);
+    fl.appendChild(li);
+  });
+  function gotoFlag(i) {
+    if (!flagged.length) return;
+    flagIdx = ((i % flagged.length) + flagged.length) % flagged.length;
+    [...fl.children].forEach((li, j) => li.classList.toggle("current", j === flagIdx));
+    svg.querySelectorAll("rect.line-hl").forEach(r => r.remove());
+    const line = svg.querySelector(`g.line[data-line="${flagged[flagIdx].line}"]`);
+    if (!line) return;
+    const bb = line.getBBox();
+    const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    rect.setAttribute("class", "line-hl");
+    rect.setAttribute("x", bb.x - 2); rect.setAttribute("y", bb.y - 2);
+    rect.setAttribute("width", bb.width + 4); rect.setAttribute("height", bb.height + 4);
+    line.parentNode.appendChild(rect);
+    rect.scrollIntoView({behavior: "smooth", block: "center"});
+  }
+
+  /* ---- words step ---- */
+  if (step === "words") {
+    /* One simple flow: click ink → "this piece" actions; click a word's empty
+       area → whole-word actions; while something is picked, clicking another
+       word completes the move/merge. Esc or ✕ cancels. */
+    const fbar = el("div", {id: "floatbar"});
+    document.body.appendChild(fbar);
+    const hideFloat = () => { fbar.style.display = "none"; };
+    function showFloat(x, y, title, hint, actions) {
+      fbar.innerHTML = "";
+      fbar.appendChild(el("div", {class: "fb-title"}, title));
+      if (hint) fbar.appendChild(el("div", {class: "fb-hint"}, hint));
+      const row = el("div");
+      actions.forEach(([label, fn]) => {
+        const b = el("button", {}, label);
+        b.onclick = ev => { ev.stopPropagation(); fn(); };
+        row.appendChild(b);
+      });
+      const x2 = el("button", {}, "✕");
+      x2.onclick = () => clearSel();
+      row.appendChild(x2);
+      fbar.appendChild(row);
+      fbar.style.display = "block";
+      fbar.style.left = Math.min(x + 10, innerWidth - 290) + "px";
+      fbar.style.top = Math.min(y + 10, innerHeight - 130) + "px";
+    }
+    svg.addEventListener("mousemove", ev => {
+      const {w} = pickTarget(ev);
+      if (!w) return;
+      $("#hoverword").textContent = w.dataset.uthmani || "";
+      $("#hovermeta").textContent = `${wid(w)} — imlaei: ${w.dataset.imlaei || "?"}`;
+    });
+    document.addEventListener("keydown", ev => {
+      if (ev.key === "Escape") { pickSet.clear(); refreshPicks(); hideFloat(); }
+    });
+    // shift-click collects pieces (across any words); a plain click on the
+    // destination word then moves them all there in one go
+    const pickSet = new Set();
+    const refreshPicks = () => {
+      svg.querySelectorAll(".multi-sel").forEach(p => p.classList.remove("multi-sel"));
+      pickSet.forEach(p => p.classList.add("multi-sel"));
+      if (pickSet.size)
+        $("#selinfo").textContent =
+          `${pickSet.size} piece(s) selected — click the word they belong to (Esc cancels)`;
+    };
+    svg.addEventListener("click", ev => {
+      const {path, w} = pickTarget(ev);
+      if (ev.shiftKey) {
+        if (path) {
+          pickSet.has(path) ? pickSet.delete(path) : pickSet.add(path);
+          hideFloat();
+          refreshPicks();
+        }
+        return;
+      }
+      if (pickSet.size) {                 // destination click
+        if (w) {
+          pickSet.forEach(p => {
+            const home = p.closest("g.word");
+            if (home !== w)
+              postEdit("move-element", {eid: p.dataset.eid, box: boxOf(p), from: wid(home), to: wid(w)});
+          });
+        }
+        pickSet.clear(); refreshPicks(); clearSel();
+        return;
+      }
+      if (!w) { clearSel(); return; }
+      // a piece is picked: clicking any OTHER word moves it there
+      if (selEl) {
+        const home = selEl.closest("g.word");
+        if (path === selEl) { clearSel(); return; }          // click again = cancel
+        if (w !== home) {
+          postEdit("move-element", {eid: selEl.dataset.eid, box: boxOf(selEl), from: wid(home), to: wid(w)});
+          clearSel(); return;
+        }
+      }
+      // a word is picked for merging: clicking another word completes it
+      if (mergePick) {
+        if (w !== mergePick) {
+          postEdit("merge-words", {words: [wid(mergePick), wid(w)]});
+        }
+        clearSel(); return;
+      }
+      if (path) {                                            // pick this ink piece
+        clearSel();
+        selEl = path; path.classList.add("sel-el");
+        $("#selinfo").innerHTML = `piece <b>${path.dataset.eid}</b> of <b>${w.dataset.uthmani}</b>`;
+        showFloat(ev.clientX, ev.clientY,
+          `Piece of ${w.dataset.uthmani} (${wid(w)})`,
+          "Wrong word? Just click the word it belongs to.",
+          [["Split word…", () => {
+              const note = prompt(`Describe how to split ${wid(w)}:`);
+              if (note) { postEdit("split-word", {word: wid(w), note}); clearSel(); }
+            }],
+           ["Note", () => {
+              const note = prompt("Note about this piece:");
+              if (note) { postEdit("note", {eid: path.dataset.eid, word: wid(w), note}); clearSel(); }
+            }]]);
+      } else {                                               // pick the whole word
+        clearSel();
+        mergePick = null;
+        $("#selinfo").innerHTML = `word <b>${w.dataset.uthmani}</b> (${wid(w)})`;
+        showFloat(ev.clientX, ev.clientY,
+          `${w.dataset.uthmani} — ${wid(w)}`,
+          "",
+          [["Merge into…", () => {
+              mergePick = w; w.classList.add("merge-pick");
+              hideFloat();
+              $("#selinfo").textContent = `now click the word to merge ${wid(w)} with`;
+            }],
+           ["Split…", () => {
+              const note = prompt(`Describe how to split ${wid(w)}:`);
+              if (note) { postEdit("split-word", {word: wid(w), note}); clearSel(); }
+            }],
+           ["Note", () => {
+              const note = prompt("Note about this word:");
+              if (note) { postEdit("note", {word: wid(w), note}); clearSel(); }
+            }]]);
+      }
+    });
+  }
+
+  /* ---- marks step ---- */
+  const LABEL_COLORS = {};
+  function labelColor(label) {
+    if (!(label in LABEL_COLORS)) {
+      const i = Object.keys(LABEL_COLORS).length;
+      LABEL_COLORS[label] = `hsl(${(i * 137.508) % 360} 62% 42%)`;
+    }
+    return LABEL_COLORS[label];
+  }
+  const hiddenLabels = new Set();
+  function colorMarks() {
+    svg.querySelectorAll('path[data-kind="mark"]').forEach(p => {
+      const l = p.getAttribute("data-mark");
+      if (l) { p.style.fill = labelColor(l); p.style.animation = "none"; }
+      else { p.style.fill = ""; p.style.animation = ""; }
+      const key = l || "(unlabeled)";
+      p.style.display = hiddenLabels.has(key) ? "none" : "";
+    });
+    buildLegend();
+    updateCompleteGate();
+  }
+  function buildLegend() {
+    const present = new Map(); // label -> count
+    svg.querySelectorAll('path[data-kind="mark"]').forEach(p => {
+      const key = p.getAttribute("data-mark") || "(unlabeled)";
+      present.set(key, (present.get(key) || 0) + 1);
+    });
+    const lg = $("#legend");
+    lg.innerHTML = "";
+    [...present.entries()].sort((a, b) =>
+      a[0] === "(unlabeled)" ? -1 : b[0] === "(unlabeled)" ? 1 : b[1] - a[1]
+    ).forEach(([label, count]) => {
+      const color = label === "(unlabeled)" ? "#d21f1f" : labelColor(label);
+      const lab = el("label");
+      const cb = el("input", {type: "checkbox"});
+      cb.checked = !hiddenLabels.has(label);
+      cb.onchange = () => {
+        cb.checked ? hiddenLabels.delete(label) : hiddenLabels.add(label);
+        colorMarks();
+      };
+      lab.appendChild(cb);
+      lab.insertAdjacentHTML("beforeend",
+        `<i style="background:${color}"></i>${label} <span style="color:var(--muted)">(${count})</span>`);
+      lg.appendChild(lab);
+    });
+  }
+
+  function unlabeledPaths() {
+    return [...svg.querySelectorAll('path[data-kind="mark"]:not([data-mark])')];
+  }
+  function unresolvedUnlabeled() {
+    const covered = new Set();
+    liveEdits.forEach(e => {
+      const p = e.payload || {};
+      if (e.kind === "label-unlabeled" && p.eid) covered.add(p.eid);
+      if (e.kind === "note" && p.eid && (p.note || "").includes("confirm-unlabeled"))
+        covered.add(p.eid);
+    });
+    return unlabeledPaths().filter(p => !covered.has(p.dataset.eid));
+  }
+  function updateCompleteGate() {
+    const btn = $("#completebtn"), warn = $("#completewarn");
+    if (step === "marks") {
+      const left = unresolvedUnlabeled().length;
+      btn.disabled = left > 0;
+      warn.textContent = left > 0 ?
+        `${left} unlabeled mark(s) still need a label or a confirm-unlabeled note (press u)` : "";
+    } else { btn.disabled = false; warn.textContent = ""; }
+  }
+  $("#completebtn").onclick = async () => {
+    try {
+      await api("/api/page-status", {page, step, status: "done", user: USER});
+      location.reload();
+    } catch (e) { alert(e.message); }
+  };
+
+  /* label picker */
+  const picker = $("#labelpicker"), popts = $("#labelopts"), psearch = $("#labelsearch");
+  let pickerTarget = null;
+  function showPicker(path, x, y) {
+    pickerTarget = path;
+    psearch.value = "";
+    fillPicker("");
+    picker.style.display = "block";
+    picker.style.left = Math.min(x, innerWidth - 270) + "px";
+    picker.style.top = Math.min(y, innerHeight - 320) + "px";
+    psearch.focus();
+  }
+  function hidePicker() { picker.style.display = "none"; pickerTarget = null; }
+  function fillPicker(filter) {
+    const cur = pickerTarget && pickerTarget.getAttribute("data-mark");
+    const rec = recent();
+    const list = [...new Set([...rec, ...KNOWN])]
+      .filter(l => l.includes(filter.toLowerCase()));
+    popts.innerHTML = "";
+    list.slice(0, 200).forEach((l, i) => {
+      const d = el("div", {class: (i === 0 ? "hot " : "") +
+        (["word", "letter-part", "letter-hamza", "ignore"].includes(l) ? "special" : "")},
+        l + (l === cur ? " ✓" : "") + (rec.includes(l) ? " ★" : ""));
+      d.onclick = () => chooseLabel(l);
+      popts.appendChild(d);
+    });
+    if (pickerTarget && !pickerTarget.getAttribute("data-mark")) {
+      const d = el("div", {class: "special"}, "· confirm as intentionally unlabeled ·");
+      d.onclick = () => {
+        postEdit("note", {eid: pickerTarget.dataset.eid, note: "confirm-unlabeled"});
+        hidePicker();
+      };
+      popts.appendChild(d);
+    }
+  }
+  psearch.oninput = () => fillPicker(psearch.value);
+  psearch.onkeydown = ev => {
+    if (ev.key === "Enter") { const h = popts.querySelector(".hot"); if (h) h.click(); }
+    if (ev.key === "Escape") hidePicker();
+  };
+  function labelOne(path, label) {
+    const from = path.getAttribute("data-mark");
+    if (from === label) return;
+    const base = {eid: path.dataset.eid, to_label: label};
+    if (path.dataset.sig) base.sig = path.dataset.sig;   // approved => applies mushaf-wide
+    if (from) postEdit("relabel-mark", {...base, from_label: from});
+    else postEdit("label-unlabeled", base);
+  }
+  function chooseLabel(label) {
+    pushRecent(label);
+    if (multiSel.size) {                       // mass assignment: shift-selection
+      [...multiSel].forEach(p => labelOne(p, label));
+      multiSel.clear(); refreshMulti();
+      hidePicker();
+      return;
+    }
+    if (!pickerTarget) return;
+    // mass assignment: identical twins on this page in the same state (compute
+    // before labelling the target — its data-mark is about to change)
+    const state0 = pickerTarget.getAttribute("data-mark") || "";
+    const sameState = twins(pickerTarget, !state0)
+      .filter(p => (p.getAttribute("data-mark") || "") === state0);
+    labelOne(pickerTarget, label);
+    if (sameState.length &&
+        confirm(`Apply "${label}" to ${sameState.length} identical mark(s) too?\n` +
+                `(Once approved, this shape's label applies across the whole mushaf.)`)) {
+      sameState.forEach(p => labelOne(p, label));
+    }
+    hidePicker();
+  }
+  document.addEventListener("mousedown", ev => {
+    if (picker.style.display === "block" && !picker.contains(ev.target)) hidePicker();
+  });
+
+  /* shape key: command sequence + rounded box — identical glyphs share it,
+     so one decision can label every twin on the page (mass assignment). */
+  function shapeKey(path) {
+    if (path.dataset.sig) return path.dataset.sig;   // exact pipeline signature
+    const d = path.getAttribute("d") || "";
+    const cmds = d.replace(/[-\d. ,eE]+/g, "");
+    let bb = {width: 0, height: 0};
+    try { bb = path.getBBox(); } catch (e) {}
+    return cmds + "|" + bb.width.toFixed(1) + "x" + bb.height.toFixed(1);
+  }
+  function twins(path, onlyUnlabeled) {
+    const key = shapeKey(path);
+    return [...svg.querySelectorAll('path[data-kind="mark"]')].filter(p =>
+      p !== path && shapeKey(p) === key &&
+      (!onlyUnlabeled || !p.getAttribute("data-mark")));
+  }
+  const multiSel = new Set();
+  function refreshMulti() {
+    svg.querySelectorAll(".multi-sel").forEach(p => p.classList.remove("multi-sel"));
+    multiSel.forEach(p => p.classList.add("multi-sel"));
+    $("#selinfo").textContent = multiSel.size
+      ? `${multiSel.size} marks selected — pick a label to apply to all`
+      : "nothing selected";
+  }
+  if (step === "marks") {
+    $("#legendcard").style.display = "";
+    colorMarks();
+    svg.addEventListener("click", ev => {
+      const path = ev.target.closest && ev.target.closest('path[data-kind="mark"]');
+      if (!path) return;
+      if (ev.shiftKey) {                    // build a multi-selection
+        multiSel.has(path) ? multiSel.delete(path) : multiSel.add(path);
+        refreshMulti();
+        if (multiSel.size) showPicker(path, ev.clientX + 8, ev.clientY + 8);
+        return;
+      }
+      multiSel.clear(); refreshMulti();
+      if (selEl) selEl.classList.remove("sel-el");
+      selEl = path; path.classList.add("sel-el");
+      const w = path.closest("g.word");
+      $("#selinfo").innerHTML = `mark <b>${path.dataset.eid}</b>` +
+        ` (${path.getAttribute("data-mark") || "UNLABELED"})` +
+        (w ? ` in <b>${wid(w)}</b>` : "");
+      if (w) {
+        $("#hoverword").textContent = w.dataset.uthmani || "";
+        $("#hovermeta").textContent = wid(w);
+      }
+      showPicker(path, ev.clientX + 8, ev.clientY + 8);
+    });
+    svg.addEventListener("mousemove", ev => {
+      const {w} = pickTarget(ev);
+      if (!w) return;
+      $("#hoverword").textContent = w.dataset.uthmani || "";
+      $("#hovermeta").textContent = wid(w);
+    });
+  }
+
+  /* apply visuals for already-recorded edits */
+  liveEdits.forEach(applyEditVisual);
+  if (step === "marks") colorMarks();
+  refreshEditUI();
+
+  /* ---- keyboard ---- */
+  document.addEventListener("keydown", ev => {
+    if (ev.target.tagName === "INPUT" || ev.target.tagName === "TEXTAREA") return;
+    if (ev.key === "n") gotoFlag(flagIdx + 1);
+    else if (ev.key === "p") gotoFlag(flagIdx - 1);
+    else if (ev.key === "Escape") clearSel();
+    else if (ev.key === "u" && step === "marks") {
+      const un = unresolvedUnlabeled();
+      if (!un.length) return;
+      const path = un[0];
+      path.scrollIntoView({behavior: "smooth", block: "center"});
+      if (selEl) selEl.classList.remove("sel-el");
+      selEl = path; path.classList.add("sel-el");
+      const bb = path.getBoundingClientRect();
+      showPicker(path, bb.right + 10, bb.top);
+    } else if (/^[1-9]$/.test(ev.key) && step === "marks" && selEl &&
+               selEl.getAttribute("data-kind") === "mark") {
+      const r = recent();
+      const label = r[+ev.key - 1];
+      if (label) { pickerTarget = selEl; chooseLabel(label); }
+    }
+  });
+}
+
+/* ============================ approval queue ============================ */
+async function renderQueue() {
+  const m = $("#main");
+  m.innerHTML = "<p>Loading queue…</p>";
+  const q = await api("/api/queue");
+  m.innerHTML = `<h2>Approval queue — ${q.count} proposed edit(s)</h2>`;
+  if (!q.count) m.insertAdjacentHTML("beforeend",
+    "<p style='color:var(--muted)'>Nothing waiting for review.</p>");
+  q.queue.forEach(e => {
+    const item = el("div", {class: "qitem", id: "q-" + e.id});
+    const ctx = el("div", {class: "qctx"});
+    if (e.context_svg) ctx.innerHTML = e.context_svg;
+    else ctx.innerHTML = "<span class='noctx'>no preview</span>";
+    const body = el("div", {class: "qbody"});
+    body.innerHTML = `
+      <div class="qdesc">${KIND_DESC(e)}</div>
+      <div class="qmeta">
+        <span class="badge">page ${e.page}</span>
+        <span class="badge">${e.step} step</span>
+        <span class="badge">${e.kind}</span>
+        by <b>${e.editor}</b> at ${e.ts}
+        · <a href="${withUser({page: e.page, step: e.step})}">open page</a>
+      </div>
+      <div class="qpayload">${JSON.stringify(e.payload, null, 1)}</div>
+      <div class="qactions">
+        <button class="primary" data-act="approve">Approve</button>
+        <button class="danger" data-act="reject">Reject</button>
+        <button data-act="edit">Edit…</button>
+      </div>
+      <textarea class="qedit">${JSON.stringify(e.payload, null, 2)}</textarea>`;
+    item.append(ctx, body);
+    m.appendChild(item);
+    const ta = body.querySelector(".qedit");
+    body.querySelectorAll("button").forEach(b => b.onclick = async () => {
+      const act = b.dataset.act;
+      if (act === "edit") {
+        if (ta.style.display === "block") {
+          let payload;
+          try { payload = JSON.parse(ta.value); }
+          catch { alert("Invalid JSON"); return; }
+          await api("/api/review", {id: e.id, action: "amend",
+            amended_payload: payload, reviewer: USER});
+          item.remove();
+        } else { ta.style.display = "block"; b.textContent = "Save amended & approve"; }
+        return;
+      }
+      await api("/api/review", {id: e.id, action: act, reviewer: USER});
+      item.remove();
+    });
+  });
+  // tighten context viewBoxes once rendered
+  requestAnimationFrame(() => {
+    document.querySelectorAll(".qctx svg").forEach(s => {
+      try {
+        const bb = s.getBBox();
+        if (bb.width && bb.height)
+          s.setAttribute("viewBox",
+            `${bb.x - 2} ${bb.y - 2} ${bb.width + 4} ${bb.height + 4}`);
+      } catch (_) {}
+    });
+  });
+}
+</script>
+</body>
+</html>

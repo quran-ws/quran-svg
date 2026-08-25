@@ -1,0 +1,5438 @@
+[
+ {
+  "page": 1,
+  "words": 29,
+  "ayahs": 7,
+  "lines": 7,
+  "words_per_line": 4.142857142857143,
+  "mean_width": 35.78047041419577,
+  "mean_gap": 3.9771542859249167
+ },
+ {
+  "page": 2,
+  "words": 36,
+  "ayahs": 5,
+  "lines": 6,
+  "words_per_line": 6.0,
+  "mean_width": 25.34906602757231,
+  "mean_gap": 3.2648295629714243
+ },
+ {
+  "page": 3,
+  "words": 127,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.24132351026375,
+  "mean_gap": 4.346937087954314
+ },
+ {
+  "page": 4,
+  "words": 134,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.782267508552515,
+  "mean_gap": 4.149735553430449
+ },
+ {
+  "page": 5,
+  "words": 125,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 35.1483084940965,
+  "mean_gap": 3.8215527128167865
+ },
+ {
+  "page": 6,
+  "words": 138,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 32.10748749005049,
+  "mean_gap": 3.818085804674538
+ },
+ {
+  "page": 8,
+  "words": 120,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 37.00099533402153,
+  "mean_gap": 3.3356567446559144
+ },
+ {
+  "page": 7,
+  "words": 129,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 34.042192922044684,
+  "mean_gap": 3.560969420249659
+ },
+ {
+  "page": 9,
+  "words": 125,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 35.77215591984945,
+  "mean_gap": 3.2249860320061945
+ },
+ {
+  "page": 10,
+  "words": 134,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.44396466681615,
+  "mean_gap": 4.161987919047435
+ },
+ {
+  "page": 12,
+  "words": 119,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.933333333333334,
+  "mean_width": 36.836476814230544,
+  "mean_gap": 4.1058680075268805
+ },
+ {
+  "page": 11,
+  "words": 141,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 31.045957909996712,
+  "mean_gap": 3.572075023918017
+ },
+ {
+  "page": 14,
+  "words": 121,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.066666666666666,
+  "mean_width": 36.1628287337712,
+  "mean_gap": 3.9698067247270648
+ },
+ {
+  "page": 13,
+  "words": 115,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 7.666666666666667,
+  "mean_width": 38.95011187471778,
+  "mean_gap": 2.91834933028817
+ },
+ {
+  "page": 15,
+  "words": 123,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.901157928416595,
+  "mean_gap": 3.641595558728477
+ },
+ {
+  "page": 16,
+  "words": 123,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.80175352849014,
+  "mean_gap": 3.681404155424221
+ },
+ {
+  "page": 17,
+  "words": 139,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 31.34235906025365,
+  "mean_gap": 3.716282440017505
+ },
+ {
+  "page": 18,
+  "words": 132,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.18886048947866,
+  "mean_gap": 3.770988170472321
+ },
+ {
+  "page": 20,
+  "words": 132,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 32.81297537307509,
+  "mean_gap": 4.521497246669078
+ },
+ {
+  "page": 19,
+  "words": 146,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.733333333333333,
+  "mean_width": 29.932794138529765,
+  "mean_gap": 3.6966193341880906
+ },
+ {
+  "page": 22,
+  "words": 132,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.524068068117934,
+  "mean_gap": 3.5928023801189126
+ },
+ {
+  "page": 21,
+  "words": 134,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.804277593223155,
+  "mean_gap": 3.4309911820127073
+ },
+ {
+  "page": 23,
+  "words": 121,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.066666666666666,
+  "mean_width": 36.87000013986399,
+  "mean_gap": 3.6080523194110166
+ },
+ {
+  "page": 24,
+  "words": 130,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 33.775168081023686,
+  "mean_gap": 3.4965091656863043
+ },
+ {
+  "page": 25,
+  "words": 136,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.38837908782673,
+  "mean_gap": 3.2930078143035857
+ },
+ {
+  "page": 26,
+  "words": 133,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 33.18259290062346,
+  "mean_gap": 3.5043081587275124
+ },
+ {
+  "page": 28,
+  "words": 123,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 36.400316701865286,
+  "mean_gap": 3.454698437854444
+ },
+ {
+  "page": 27,
+  "words": 125,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 35.192744689960946,
+  "mean_gap": 4.0132735262889625
+ },
+ {
+  "page": 29,
+  "words": 122,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 36.69781053389284,
+  "mean_gap": 2.9322760160622976
+ },
+ {
+  "page": 30,
+  "words": 155,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 10.333333333333334,
+  "mean_width": 29.187731489431954,
+  "mean_gap": 2.7712825851113387
+ },
+ {
+  "page": 31,
+  "words": 113,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.533333333333333,
+  "mean_width": 38.9956164072438,
+  "mean_gap": 3.696930733481982
+ },
+ {
+  "page": 32,
+  "words": 123,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.095345264637615,
+  "mean_gap": 3.9369459279810743
+ },
+ {
+  "page": 33,
+  "words": 141,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 31.427064992636787,
+  "mean_gap": 3.2532790774431715
+ },
+ {
+  "page": 34,
+  "words": 124,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 36.3153828933533,
+  "mean_gap": 3.4123346652190834
+ },
+ {
+  "page": 35,
+  "words": 122,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 37.04343810185832,
+  "mean_gap": 3.053545784570507
+ },
+ {
+  "page": 36,
+  "words": 150,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 10.0,
+  "mean_width": 29.66522902371171,
+  "mean_gap": 3.1274138853482394
+ },
+ {
+  "page": 38,
+  "words": 132,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 34.29938574914015,
+  "mean_gap": 2.8111867148649727
+ },
+ {
+  "page": 37,
+  "words": 142,
+  "ayahs": 3,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 32.04743025754523,
+  "mean_gap": 3.0237936208218836
+ },
+ {
+  "page": 39,
+  "words": 116,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.733333333333333,
+  "mean_width": 37.954709669751175,
+  "mean_gap": 4.210228655424051
+ },
+ {
+  "page": 40,
+  "words": 127,
+  "ayahs": 3,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.63703463216437,
+  "mean_gap": 3.95260550719483
+ },
+ {
+  "page": 41,
+  "words": 111,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.4,
+  "mean_width": 39.52955024518082,
+  "mean_gap": 4.397995314617147
+ },
+ {
+  "page": 42,
+  "words": 147,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 9.8,
+  "mean_width": 30.134868649901765,
+  "mean_gap": 3.502070549954894
+ },
+ {
+  "page": 43,
+  "words": 134,
+  "ayahs": 3,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 33.21399274493652,
+  "mean_gap": 3.157621507601802
+ },
+ {
+  "page": 44,
+  "words": 136,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.75767916290751,
+  "mean_gap": 3.2345307519863487
+ },
+ {
+  "page": 45,
+  "words": 120,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 37.00293120178405,
+  "mean_gap": 3.5775844965993087
+ },
+ {
+  "page": 46,
+  "words": 110,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 7.333333333333333,
+  "mean_width": 40.6659774292258,
+  "mean_gap": 4.004584689966989
+ },
+ {
+  "page": 47,
+  "words": 134,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 33.13743110869635,
+  "mean_gap": 3.5769233510348655
+ },
+ {
+  "page": 48,
+  "words": 128,
+  "ayahs": 1,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 35.47737356610913,
+  "mean_gap": 2.7960524141920176
+ },
+ {
+  "page": 49,
+  "words": 136,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.32964697057972,
+  "mean_gap": 3.573712174026603
+ },
+ {
+  "page": 50,
+  "words": 135,
+  "ayahs": 9,
+  "lines": 13,
+  "words_per_line": 10.384615384615385,
+  "mean_width": 27.836686298004373,
+  "mean_gap": 4.1998341142758235
+ },
+ {
+  "page": 51,
+  "words": 116,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.733333333333333,
+  "mean_width": 38.14471212032679,
+  "mean_gap": 4.076572634231321
+ },
+ {
+  "page": 52,
+  "words": 116,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.733333333333333,
+  "mean_width": 37.9359545635225,
+  "mean_gap": 4.340142767934131
+ },
+ {
+  "page": 53,
+  "words": 145,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.666666666666666,
+  "mean_width": 30.278419032036304,
+  "mean_gap": 3.5798783827467417
+ },
+ {
+  "page": 54,
+  "words": 145,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.666666666666666,
+  "mean_width": 30.5036917269345,
+  "mean_gap": 3.4119897730670856
+ },
+ {
+  "page": 55,
+  "words": 131,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.306006336595466,
+  "mean_gap": 4.342027899000264
+ },
+ {
+  "page": 56,
+  "words": 127,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.57921553810349,
+  "mean_gap": 3.7408569086115984
+ },
+ {
+  "page": 57,
+  "words": 123,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.708658628031,
+  "mean_gap": 4.290512743162418
+ },
+ {
+  "page": 58,
+  "words": 134,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.62977088848196,
+  "mean_gap": 3.672082979542715
+ },
+ {
+  "page": 59,
+  "words": 138,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 31.515944282021316,
+  "mean_gap": 3.820959194877055
+ },
+ {
+  "page": 60,
+  "words": 124,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.6787203584117,
+  "mean_gap": 4.10857331571329
+ },
+ {
+  "page": 61,
+  "words": 127,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.465097224675326,
+  "mean_gap": 4.517984341347862
+ },
+ {
+  "page": 62,
+  "words": 141,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 30.83100642438793,
+  "mean_gap": 3.9030154521718345
+ },
+ {
+  "page": 64,
+  "words": 118,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.866666666666666,
+  "mean_width": 37.36717488655424,
+  "mean_gap": 4.291529588334803
+ },
+ {
+  "page": 63,
+  "words": 129,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 34.104238138787856,
+  "mean_gap": 3.733396316539284
+ },
+ {
+  "page": 65,
+  "words": 130,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 34.4179212135828,
+  "mean_gap": 3.2213777320766988
+ },
+ {
+  "page": 66,
+  "words": 126,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.71963911126107,
+  "mean_gap": 4.022556823701793
+ },
+ {
+  "page": 67,
+  "words": 114,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.6,
+  "mean_width": 38.72686543315694,
+  "mean_gap": 3.7962606780764236
+ },
+ {
+  "page": 68,
+  "words": 132,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.256063056618736,
+  "mean_gap": 4.114352081385209
+ },
+ {
+  "page": 69,
+  "words": 102,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 6.8,
+  "mean_width": 43.8055933422728,
+  "mean_gap": 3.6201545866124225
+ },
+ {
+  "page": 70,
+  "words": 146,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 9.733333333333333,
+  "mean_width": 30.705505346023934,
+  "mean_gap": 2.931698122714045
+ },
+ {
+  "page": 71,
+  "words": 142,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 30.96010168213779,
+  "mean_gap": 3.603307507193599
+ },
+ {
+  "page": 72,
+  "words": 133,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 33.37734721201581,
+  "mean_gap": 3.555402618148073
+ },
+ {
+  "page": 73,
+  "words": 143,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.533333333333333,
+  "mean_width": 30.665294973164098,
+  "mean_gap": 3.498489571407154
+ },
+ {
+  "page": 74,
+  "words": 118,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.866666666666666,
+  "mean_width": 37.42088604476256,
+  "mean_gap": 3.899744462642428
+ },
+ {
+  "page": 75,
+  "words": 127,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.36266060872052,
+  "mean_gap": 4.081840784608411
+ },
+ {
+  "page": 76,
+  "words": 118,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.866666666666666,
+  "mean_width": 37.74739394038776,
+  "mean_gap": 3.571957949110834
+ },
+ {
+  "page": 78,
+  "words": 131,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.762085065145506,
+  "mean_gap": 3.5136363915092157
+ },
+ {
+  "page": 77,
+  "words": 139,
+  "ayahs": 6,
+  "lines": 13,
+  "words_per_line": 10.692307692307692,
+  "mean_width": 28.784459917894484,
+  "mean_gap": 2.0967435006165465
+ },
+ {
+  "page": 79,
+  "words": 119,
+  "ayahs": 3,
+  "lines": 15,
+  "words_per_line": 7.933333333333334,
+  "mean_width": 37.08172832992907,
+  "mean_gap": 3.8195325120808197
+ },
+ {
+  "page": 81,
+  "words": 99,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 6.6,
+  "mean_width": 45.21504284933433,
+  "mean_gap": 3.839285345381818
+ },
+ {
+  "page": 80,
+  "words": 114,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 7.6,
+  "mean_width": 38.933405058955394,
+  "mean_gap": 3.751853493604419
+ },
+ {
+  "page": 82,
+  "words": 114,
+  "ayahs": 3,
+  "lines": 15,
+  "words_per_line": 7.6,
+  "mean_width": 39.1789504789331,
+  "mean_gap": 3.186179308302516
+ },
+ {
+  "page": 83,
+  "words": 115,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.666666666666667,
+  "mean_width": 38.262949051656555,
+  "mean_gap": 4.040450749973605
+ },
+ {
+  "page": 84,
+  "words": 109,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.266666666666667,
+  "mean_width": 40.84024150375441,
+  "mean_gap": 4.419568784374063
+ },
+ {
+  "page": 85,
+  "words": 136,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.74846031174791,
+  "mean_gap": 3.766198323225143
+ },
+ {
+  "page": 86,
+  "words": 139,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 31.917201495587108,
+  "mean_gap": 3.299960247795272
+ },
+ {
+  "page": 87,
+  "words": 143,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.533333333333333,
+  "mean_width": 30.961464690097348,
+  "mean_gap": 3.0466055292956375
+ },
+ {
+  "page": 88,
+  "words": 119,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.933333333333334,
+  "mean_width": 37.0772505753335,
+  "mean_gap": 4.1591630091487986
+ },
+ {
+  "page": 89,
+  "words": 127,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.49414461929862,
+  "mean_gap": 4.017782372827786
+ },
+ {
+  "page": 90,
+  "words": 153,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 10.2,
+  "mean_width": 29.64845176581287,
+  "mean_gap": 2.7396980378182367
+ },
+ {
+  "page": 91,
+  "words": 138,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 31.84116056749595,
+  "mean_gap": 3.622658848221933
+ },
+ {
+  "page": 93,
+  "words": 115,
+  "ayahs": 3,
+  "lines": 15,
+  "words_per_line": 7.666666666666667,
+  "mean_width": 38.30641052262681,
+  "mean_gap": 4.091511022093716
+ },
+ {
+  "page": 92,
+  "words": 135,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 33.80552836420347,
+  "mean_gap": 2.6019023912110586
+ },
+ {
+  "page": 94,
+  "words": 144,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.6,
+  "mean_width": 31.20341839540923,
+  "mean_gap": 2.9646790885855094
+ },
+ {
+  "page": 95,
+  "words": 119,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.933333333333334,
+  "mean_width": 37.87512235687198,
+  "mean_gap": 3.1504532735835458
+ },
+ {
+  "page": 96,
+  "words": 131,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.2679653486556,
+  "mean_gap": 4.079938358061555
+ },
+ {
+  "page": 97,
+  "words": 120,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 36.42731215950733,
+  "mean_gap": 4.411187102150812
+ },
+ {
+  "page": 98,
+  "words": 126,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.67702702619426,
+  "mean_gap": 4.208274123734363
+ },
+ {
+  "page": 99,
+  "words": 130,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 33.77127448229545,
+  "mean_gap": 3.3624989823178946
+ },
+ {
+  "page": 100,
+  "words": 138,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 32.07566338649747,
+  "mean_gap": 3.6032830058724588
+ },
+ {
+  "page": 101,
+  "words": 128,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 34.6492217848267,
+  "mean_gap": 3.5205673037716103
+ },
+ {
+  "page": 102,
+  "words": 131,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.50130587779744,
+  "mean_gap": 3.954284787516384
+ },
+ {
+  "page": 103,
+  "words": 138,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 32.12365615922284,
+  "mean_gap": 3.7453008019737317
+ },
+ {
+  "page": 104,
+  "words": 124,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.2608067831173,
+  "mean_gap": 3.9114036673995907
+ },
+ {
+  "page": 105,
+  "words": 123,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.704791834368734,
+  "mean_gap": 4.046632674561217
+ },
+ {
+  "page": 106,
+  "words": 125,
+  "ayahs": 3,
+  "lines": 13,
+  "words_per_line": 9.615384615384615,
+  "mean_width": 31.163211551681897,
+  "mean_gap": 2.809664316130847
+ },
+ {
+  "page": 107,
+  "words": 135,
+  "ayahs": 3,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 33.84042414573552,
+  "mean_gap": 2.499899928957699
+ },
+ {
+  "page": 108,
+  "words": 116,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.733333333333333,
+  "mean_width": 38.832679518282745,
+  "mean_gap": 3.2843672940585638
+ },
+ {
+  "page": 109,
+  "words": 107,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.133333333333334,
+  "mean_width": 42.131828484380485,
+  "mean_gap": 3.5938678596325353
+ },
+ {
+  "page": 110,
+  "words": 108,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.2,
+  "mean_width": 40.831724878856,
+  "mean_gap": 4.248467998145256
+ },
+ {
+  "page": 111,
+  "words": 132,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.433172641618896,
+  "mean_gap": 3.7390611456510814
+ },
+ {
+  "page": 112,
+  "words": 130,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 33.07061674216304,
+  "mean_gap": 4.174979820001724
+ },
+ {
+  "page": 113,
+  "words": 124,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.28762188953715,
+  "mean_gap": 3.995704621725482
+ },
+ {
+  "page": 114,
+  "words": 125,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 35.065697531088404,
+  "mean_gap": 4.347948238602654
+ },
+ {
+  "page": 115,
+  "words": 113,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.533333333333333,
+  "mean_width": 39.67899321165547,
+  "mean_gap": 3.7076774627948135
+ },
+ {
+  "page": 116,
+  "words": 136,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.52284846776141,
+  "mean_gap": 3.6649054797190734
+ },
+ {
+  "page": 117,
+  "words": 149,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.933333333333334,
+  "mean_width": 29.880312532518534,
+  "mean_gap": 3.3266012345688214
+ },
+ {
+  "page": 118,
+  "words": 148,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.866666666666667,
+  "mean_width": 30.37518331115706,
+  "mean_gap": 2.654708568292856
+ },
+ {
+  "page": 119,
+  "words": 129,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 34.70601757007952,
+  "mean_gap": 3.3536758517027563
+ },
+ {
+  "page": 120,
+  "words": 149,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.933333333333334,
+  "mean_width": 29.748529374749786,
+  "mean_gap": 3.2152797878259984
+ },
+ {
+  "page": 121,
+  "words": 108,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.2,
+  "mean_width": 41.338733344361934,
+  "mean_gap": 4.279777568614916
+ },
+ {
+  "page": 122,
+  "words": 125,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 35.625170856832135,
+  "mean_gap": 3.627265512744817
+ },
+ {
+  "page": 123,
+  "words": 130,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 34.071868336331576,
+  "mean_gap": 3.5349936007388054
+ },
+ {
+  "page": 124,
+  "words": 137,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 32.2029579044719,
+  "mean_gap": 3.9182257048832896
+ },
+ {
+  "page": 125,
+  "words": 142,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 31.51857848792094,
+  "mean_gap": 3.262069886708555
+ },
+ {
+  "page": 126,
+  "words": 127,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.492198144208835,
+  "mean_gap": 3.9179618555802165
+ },
+ {
+  "page": 127,
+  "words": 158,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 10.533333333333333,
+  "mean_width": 28.055298378592973,
+  "mean_gap": 3.4587766934188515
+ },
+ {
+  "page": 128,
+  "words": 123,
+  "ayahs": 8,
+  "lines": 13,
+  "words_per_line": 9.461538461538462,
+  "mean_width": 31.62321370147034,
+  "mean_gap": 3.2532282928235707
+ },
+ {
+  "page": 129,
+  "words": 132,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.353789459079415,
+  "mean_gap": 3.9619097566683195
+ },
+ {
+  "page": 131,
+  "words": 147,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.8,
+  "mean_width": 30.346486362612502,
+  "mean_gap": 2.911781768081119
+ },
+ {
+  "page": 130,
+  "words": 157,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 10.466666666666667,
+  "mean_width": 28.334921660156873,
+  "mean_gap": 2.8722446699349145
+ },
+ {
+  "page": 132,
+  "words": 140,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.333333333333334,
+  "mean_width": 31.209265784555225,
+  "mean_gap": 3.7287409451366957
+ },
+ {
+  "page": 133,
+  "words": 139,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 31.639101537896227,
+  "mean_gap": 3.6482816151336785
+ },
+ {
+  "page": 134,
+  "words": 136,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 31.846243264889495,
+  "mean_gap": 3.882626786178719
+ },
+ {
+  "page": 135,
+  "words": 142,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 31.303355916465097,
+  "mean_gap": 3.4693476389028897
+ },
+ {
+  "page": 136,
+  "words": 128,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 34.427781883694486,
+  "mean_gap": 3.8539965215239564
+ },
+ {
+  "page": 137,
+  "words": 132,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 32.60672211256709,
+  "mean_gap": 4.247604016556541
+ },
+ {
+  "page": 138,
+  "words": 119,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 7.933333333333334,
+  "mean_width": 36.53272808871157,
+  "mean_gap": 4.167395535560463
+ },
+ {
+  "page": 139,
+  "words": 144,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 9.6,
+  "mean_width": 31.058132768464425,
+  "mean_gap": 2.9381321472343034
+ },
+ {
+  "page": 140,
+  "words": 135,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 32.30447389157304,
+  "mean_gap": 3.796979089167261
+ },
+ {
+  "page": 141,
+  "words": 133,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 33.131109186515495,
+  "mean_gap": 3.43231769016193
+ },
+ {
+  "page": 142,
+  "words": 130,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 33.71202600899914,
+  "mean_gap": 3.819426034262435
+ },
+ {
+  "page": 143,
+  "words": 130,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 34.279934375390084,
+  "mean_gap": 3.3158943856001444
+ },
+ {
+  "page": 144,
+  "words": 117,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.8,
+  "mean_width": 37.969666621209754,
+  "mean_gap": 3.6435150121169264
+ },
+ {
+  "page": 145,
+  "words": 113,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.533333333333333,
+  "mean_width": 38.87867698850434,
+  "mean_gap": 3.829667889462087
+ },
+ {
+  "page": 146,
+  "words": 115,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 7.666666666666667,
+  "mean_width": 38.680931213178056,
+  "mean_gap": 4.217285551328015
+ },
+ {
+  "page": 147,
+  "words": 130,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 34.202434325621304,
+  "mean_gap": 3.072777784545539
+ },
+ {
+  "page": 148,
+  "words": 127,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.68554412762094,
+  "mean_gap": 4.010427361721057
+ },
+ {
+  "page": 149,
+  "words": 126,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.98333737598312,
+  "mean_gap": 3.1931155973400402
+ },
+ {
+  "page": 150,
+  "words": 155,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 10.333333333333334,
+  "mean_width": 28.123279699480946,
+  "mean_gap": 3.118947788246384
+ },
+ {
+  "page": 151,
+  "words": 109,
+  "ayahs": 11,
+  "lines": 13,
+  "words_per_line": 8.384615384615385,
+  "mean_width": 34.33388648038997,
+  "mean_gap": 4.403778802560204
+ },
+ {
+  "page": 152,
+  "words": 147,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 9.8,
+  "mean_width": 29.76801997248142,
+  "mean_gap": 3.5347442091758046
+ },
+ {
+  "page": 153,
+  "words": 134,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.90432985557356,
+  "mean_gap": 3.403201538289315
+ },
+ {
+  "page": 154,
+  "words": 147,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.8,
+  "mean_width": 30.236940218715006,
+  "mean_gap": 3.252798179944325
+ },
+ {
+  "page": 155,
+  "words": 138,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 32.35579637057367,
+  "mean_gap": 3.255319350495495
+ },
+ {
+  "page": 156,
+  "words": 137,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 32.72978865309775,
+  "mean_gap": 3.057368626064713
+ },
+ {
+  "page": 157,
+  "words": 132,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.4641530500081,
+  "mean_gap": 3.5032895661579864
+ },
+ {
+  "page": 158,
+  "words": 133,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.15107621075558,
+  "mean_gap": 4.320053658552741
+ },
+ {
+  "page": 159,
+  "words": 123,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.605918729987,
+  "mean_gap": 3.6702046640512376
+ },
+ {
+  "page": 161,
+  "words": 108,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.2,
+  "mean_width": 41.19238535763375,
+  "mean_gap": 4.396071121346278
+ },
+ {
+  "page": 160,
+  "words": 115,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.666666666666667,
+  "mean_width": 37.51955255198276,
+  "mean_gap": 4.9969346186660974
+ },
+ {
+  "page": 163,
+  "words": 121,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.066666666666666,
+  "mean_width": 36.213556478492805,
+  "mean_gap": 3.8854522967721583
+ },
+ {
+  "page": 162,
+  "words": 140,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.333333333333334,
+  "mean_width": 31.17852548095629,
+  "mean_gap": 3.934102602234187
+ },
+ {
+  "page": 164,
+  "words": 129,
+  "ayahs": 16,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 32.761229626658235,
+  "mean_gap": 5.240794392204499
+ },
+ {
+  "page": 165,
+  "words": 124,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 34.81481322164615,
+  "mean_gap": 4.3676473570000045
+ },
+ {
+  "page": 166,
+  "words": 120,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 36.51783275533061,
+  "mean_gap": 3.968945096289991
+ },
+ {
+  "page": 167,
+  "words": 124,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.466281639112225,
+  "mean_gap": 4.37409072979489
+ },
+ {
+  "page": 168,
+  "words": 123,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.591868136243775,
+  "mean_gap": 3.999865563716372
+ },
+ {
+  "page": 169,
+  "words": 135,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 32.4243329365949,
+  "mean_gap": 3.8271004597442326
+ },
+ {
+  "page": 171,
+  "words": 107,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.133333333333334,
+  "mean_width": 42.08473453029725,
+  "mean_gap": 3.1925881691001625
+ },
+ {
+  "page": 170,
+  "words": 112,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.466666666666667,
+  "mean_width": 38.84052745013958,
+  "mean_gap": 4.4202175412217155
+ },
+ {
+  "page": 172,
+  "words": 131,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.66276035144696,
+  "mean_gap": 3.2217819610646026
+ },
+ {
+  "page": 173,
+  "words": 127,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.32238501779264,
+  "mean_gap": 4.308705522300871
+ },
+ {
+  "page": 174,
+  "words": 144,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.6,
+  "mean_width": 30.38313156626877,
+  "mean_gap": 3.684219312910961
+ },
+ {
+  "page": 175,
+  "words": 135,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 32.43159728633452,
+  "mean_gap": 3.5350285859692177
+ },
+ {
+  "page": 177,
+  "words": 104,
+  "ayahs": 8,
+  "lines": 13,
+  "words_per_line": 8.0,
+  "mean_width": 36.13624306262589,
+  "mean_gap": 4.62778276696822
+ },
+ {
+  "page": 176,
+  "words": 125,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 34.25857380907713,
+  "mean_gap": 5.186427437253498
+ },
+ {
+  "page": 179,
+  "words": 124,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.074503062561284,
+  "mean_gap": 4.485414849739604
+ },
+ {
+  "page": 178,
+  "words": 124,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 34.612462189948886,
+  "mean_gap": 4.8130471531141845
+ },
+ {
+  "page": 180,
+  "words": 122,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 36.17008783396662,
+  "mean_gap": 4.045759835915975
+ },
+ {
+  "page": 181,
+  "words": 115,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.666666666666667,
+  "mean_width": 37.96092758183708,
+  "mean_gap": 4.7136006426721675
+ },
+ {
+  "page": 182,
+  "words": 119,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 7.933333333333334,
+  "mean_width": 36.64280120487583,
+  "mean_gap": 4.272874184708219
+ },
+ {
+  "page": 183,
+  "words": 123,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.54168129356713,
+  "mean_gap": 4.594471337608716
+ },
+ {
+  "page": 184,
+  "words": 134,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.326322595029296,
+  "mean_gap": 3.759191514729418
+ },
+ {
+  "page": 185,
+  "words": 133,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.58000972119622,
+  "mean_gap": 4.450574306936672
+ },
+ {
+  "page": 187,
+  "words": 121,
+  "ayahs": 6,
+  "lines": 14,
+  "words_per_line": 8.642857142857142,
+  "mean_width": 34.141030305009444,
+  "mean_gap": 3.3143008237354645
+ },
+ {
+  "page": 186,
+  "words": 135,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 32.857216829146004,
+  "mean_gap": 3.482184800918927
+ },
+ {
+  "page": 188,
+  "words": 113,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.533333333333333,
+  "mean_width": 38.89504956481573,
+  "mean_gap": 4.433362045409582
+ },
+ {
+  "page": 189,
+  "words": 127,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.743212418103276,
+  "mean_gap": 3.4488854790543764
+ },
+ {
+  "page": 190,
+  "words": 111,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.4,
+  "mean_width": 40.10162380809865,
+  "mean_gap": 4.396272078272632
+ },
+ {
+  "page": 191,
+  "words": 114,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 7.6,
+  "mean_width": 38.591706144813195,
+  "mean_gap": 4.207322562029506
+ },
+ {
+  "page": 192,
+  "words": 112,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 7.466666666666667,
+  "mean_width": 39.61308238747916,
+  "mean_gap": 4.354383961478513
+ },
+ {
+  "page": 193,
+  "words": 118,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.866666666666666,
+  "mean_width": 36.79775445879403,
+  "mean_gap": 4.7575336517817
+ },
+ {
+  "page": 195,
+  "words": 117,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.8,
+  "mean_width": 37.48215535414136,
+  "mean_gap": 4.7960235719568285
+ },
+ {
+  "page": 194,
+  "words": 111,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.4,
+  "mean_width": 39.89012077223523,
+  "mean_gap": 3.9224168515638596
+ },
+ {
+  "page": 196,
+  "words": 121,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.066666666666666,
+  "mean_width": 36.112097049918276,
+  "mean_gap": 4.128300255853644
+ },
+ {
+  "page": 197,
+  "words": 109,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.266666666666667,
+  "mean_width": 40.25379892980336,
+  "mean_gap": 4.9438432447527045
+ },
+ {
+  "page": 198,
+  "words": 106,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 7.066666666666666,
+  "mean_width": 42.464481641471586,
+  "mean_gap": 3.6683315780581904
+ },
+ {
+  "page": 199,
+  "words": 124,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.107640496782096,
+  "mean_gap": 4.2713598593481565
+ },
+ {
+  "page": 201,
+  "words": 123,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.622558858518474,
+  "mean_gap": 4.073560352563324
+ },
+ {
+  "page": 200,
+  "words": 137,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 32.23975426788396,
+  "mean_gap": 3.49632942037553
+ },
+ {
+  "page": 202,
+  "words": 121,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.066666666666666,
+  "mean_width": 36.38469998873675,
+  "mean_gap": 3.703372111534974
+ },
+ {
+  "page": 203,
+  "words": 124,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.92274039168065,
+  "mean_gap": 3.682050316021018
+ },
+ {
+  "page": 204,
+  "words": 126,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.11535352530512,
+  "mean_gap": 4.476623964949354
+ },
+ {
+  "page": 205,
+  "words": 120,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 36.13117471377843,
+  "mean_gap": 4.714055326474709
+ },
+ {
+  "page": 206,
+  "words": 131,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.44059363287368,
+  "mean_gap": 3.8898755814093025
+ },
+ {
+  "page": 207,
+  "words": 112,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.466666666666667,
+  "mean_width": 39.17864133537377,
+  "mean_gap": 4.382873312726631
+ },
+ {
+  "page": 209,
+  "words": 122,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 36.158309188827054,
+  "mean_gap": 4.19639612169545
+ },
+ {
+  "page": 208,
+  "words": 125,
+  "ayahs": 6,
+  "lines": 13,
+  "words_per_line": 9.615384615384615,
+  "mean_width": 30.412261717408573,
+  "mean_gap": 3.270671437985183
+ },
+ {
+  "page": 210,
+  "words": 133,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.40591985104951,
+  "mean_gap": 3.991906458757471
+ },
+ {
+  "page": 211,
+  "words": 142,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 31.194343655453864,
+  "mean_gap": 3.012324792157436
+ },
+ {
+  "page": 212,
+  "words": 135,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 32.791149004648666,
+  "mean_gap": 3.816766468070163
+ },
+ {
+  "page": 213,
+  "words": 158,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 10.533333333333333,
+  "mean_width": 27.616606417399137,
+  "mean_gap": 3.33730341486426
+ },
+ {
+  "page": 214,
+  "words": 144,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 9.6,
+  "mean_width": 30.083601269432734,
+  "mean_gap": 3.7520509799062327
+ },
+ {
+  "page": 215,
+  "words": 147,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.8,
+  "mean_width": 29.62436825595258,
+  "mean_gap": 3.5966785443917595
+ },
+ {
+  "page": 216,
+  "words": 126,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.33824883081716,
+  "mean_gap": 4.624459641595416
+ },
+ {
+  "page": 218,
+  "words": 134,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.38640984667043,
+  "mean_gap": 4.465320279582804
+ },
+ {
+  "page": 217,
+  "words": 139,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 31.64814667713014,
+  "mean_gap": 3.158113791381154
+ },
+ {
+  "page": 219,
+  "words": 131,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.23480052779705,
+  "mean_gap": 3.6636824972103286
+ },
+ {
+  "page": 220,
+  "words": 140,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.333333333333334,
+  "mean_width": 30.921907190572576,
+  "mean_gap": 3.7304840916601525
+ },
+ {
+  "page": 221,
+  "words": 128,
+  "ayahs": 8,
+  "lines": 13,
+  "words_per_line": 9.846153846153847,
+  "mean_width": 29.651756701821363,
+  "mean_gap": 3.6636775896081937
+ },
+ {
+  "page": 222,
+  "words": 130,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 32.86634402503822,
+  "mean_gap": 4.559163836904416
+ },
+ {
+  "page": 223,
+  "words": 137,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 31.863960784862552,
+  "mean_gap": 4.053065726441884
+ },
+ {
+  "page": 224,
+  "words": 133,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.87184039682371,
+  "mean_gap": 3.464538903894243
+ },
+ {
+  "page": 225,
+  "words": 143,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.533333333333333,
+  "mean_width": 29.95133465571987,
+  "mean_gap": 4.200144537602069
+ },
+ {
+  "page": 226,
+  "words": 140,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.333333333333334,
+  "mean_width": 30.692345965643575,
+  "mean_gap": 4.099501100896247
+ },
+ {
+  "page": 227,
+  "words": 141,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 30.477819044844374,
+  "mean_gap": 3.9732430876252605
+ },
+ {
+  "page": 228,
+  "words": 153,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 10.2,
+  "mean_width": 28.032515032966465,
+  "mean_gap": 3.6629606919610174
+ },
+ {
+  "page": 229,
+  "words": 130,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 32.88779403151943,
+  "mean_gap": 4.814638495558898
+ },
+ {
+  "page": 230,
+  "words": 148,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.866666666666667,
+  "mean_width": 28.874949995640506,
+  "mean_gap": 4.127631038961266
+ },
+ {
+  "page": 231,
+  "words": 126,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.1579812151612,
+  "mean_gap": 5.068981612083069
+ },
+ {
+  "page": 232,
+  "words": 127,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.37537906397103,
+  "mean_gap": 4.225477125201811
+ },
+ {
+  "page": 233,
+  "words": 136,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 30.888766866904884,
+  "mean_gap": 4.548620704857619
+ },
+ {
+  "page": 234,
+  "words": 132,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 32.902625085440164,
+  "mean_gap": 4.157308182815808
+ },
+ {
+  "page": 235,
+  "words": 112,
+  "ayahs": 10,
+  "lines": 13,
+  "words_per_line": 8.615384615384615,
+  "mean_width": 33.254345018504544,
+  "mean_gap": 4.527569281291911
+ },
+ {
+  "page": 236,
+  "words": 133,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 31.838461906352087,
+  "mean_gap": 5.1868165221516485
+ },
+ {
+  "page": 237,
+  "words": 123,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.12051248181118,
+  "mean_gap": 4.767170876544693
+ },
+ {
+  "page": 238,
+  "words": 135,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 31.184006411269063,
+  "mean_gap": 5.045070418193868
+ },
+ {
+  "page": 239,
+  "words": 142,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 30.400818120574737,
+  "mean_gap": 4.276914809769514
+ },
+ {
+  "page": 240,
+  "words": 128,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 33.64378971152791,
+  "mean_gap": 4.225932656576332
+ },
+ {
+  "page": 241,
+  "words": 144,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.6,
+  "mean_width": 29.621256691037143,
+  "mean_gap": 4.256482956888876
+ },
+ {
+  "page": 242,
+  "words": 133,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.13942651401244,
+  "mean_gap": 4.229684482295394
+ },
+ {
+  "page": 243,
+  "words": 139,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 31.208777319813393,
+  "mean_gap": 4.026978556083015
+ },
+ {
+  "page": 244,
+  "words": 133,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.11357681494214,
+  "mean_gap": 4.543667186535411
+ },
+ {
+  "page": 245,
+  "words": 133,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.93728543911823,
+  "mean_gap": 3.7154042616697116
+ },
+ {
+  "page": 246,
+  "words": 124,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 34.743488358461924,
+  "mean_gap": 4.599549591629325
+ },
+ {
+  "page": 247,
+  "words": 138,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 31.19868213896739,
+  "mean_gap": 4.690981675212836
+ },
+ {
+  "page": 248,
+  "words": 130,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 33.52246147574666,
+  "mean_gap": 3.9660510175357295
+ },
+ {
+  "page": 249,
+  "words": 117,
+  "ayahs": 5,
+  "lines": 13,
+  "words_per_line": 9.0,
+  "mean_width": 33.11821678062664,
+  "mean_gap": 3.6927690767996704
+ },
+ {
+  "page": 250,
+  "words": 132,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 32.55488985746311,
+  "mean_gap": 4.699298350089624
+ },
+ {
+  "page": 251,
+  "words": 152,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 10.133333333333333,
+  "mean_width": 29.256229382791012,
+  "mean_gap": 3.4553237432357764
+ },
+ {
+  "page": 252,
+  "words": 145,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.666666666666666,
+  "mean_width": 29.995309223428546,
+  "mean_gap": 3.79535205661719
+ },
+ {
+  "page": 253,
+  "words": 153,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 10.2,
+  "mean_width": 28.91518968306329,
+  "mean_gap": 3.022657105246936
+ },
+ {
+  "page": 254,
+  "words": 139,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 31.381603009348908,
+  "mean_gap": 3.6747168036472404
+ },
+ {
+  "page": 255,
+  "words": 101,
+  "ayahs": 6,
+  "lines": 13,
+  "words_per_line": 7.769230769230769,
+  "mean_width": 36.28808065328651,
+  "mean_gap": 4.270025279925978
+ },
+ {
+  "page": 256,
+  "words": 120,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 36.64080507082158,
+  "mean_gap": 3.58517921615863
+ },
+ {
+  "page": 257,
+  "words": 122,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 35.48646785402271,
+  "mean_gap": 4.170984558592301
+ },
+ {
+  "page": 258,
+  "words": 129,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 34.450508365331245,
+  "mean_gap": 3.5081648253498408
+ },
+ {
+  "page": 259,
+  "words": 126,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.42194606588986,
+  "mean_gap": 4.323919554270534
+ },
+ {
+  "page": 260,
+  "words": 130,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 33.19711909592168,
+  "mean_gap": 4.430758226096638
+ },
+ {
+  "page": 261,
+  "words": 117,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 7.8,
+  "mean_width": 36.97715562662431,
+  "mean_gap": 4.696763969518084
+ },
+ {
+  "page": 262,
+  "words": 111,
+  "ayahs": 15,
+  "lines": 13,
+  "words_per_line": 8.538461538461538,
+  "mean_width": 32.6512139532823,
+  "mean_gap": 5.086514366066502
+ },
+ {
+  "page": 263,
+  "words": 128,
+  "ayahs": 16,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 32.70339125744735,
+  "mean_gap": 5.18696235414002
+ },
+ {
+  "page": 264,
+  "words": 127,
+  "ayahs": 20,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 32.70171795219147,
+  "mean_gap": 4.987157792653952
+ },
+ {
+  "page": 265,
+  "words": 124,
+  "ayahs": 19,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 33.5920857210518,
+  "mean_gap": 5.841130198824526
+ },
+ {
+  "page": 266,
+  "words": 120,
+  "ayahs": 20,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 35.06115583671109,
+  "mean_gap": 5.461269284514555
+ },
+ {
+  "page": 267,
+  "words": 102,
+  "ayahs": 15,
+  "lines": 13,
+  "words_per_line": 7.846153846153846,
+  "mean_width": 35.60639815809831,
+  "mean_gap": 5.545801209925827
+ },
+ {
+  "page": 268,
+  "words": 111,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.4,
+  "mean_width": 39.169765759932865,
+  "mean_gap": 4.195767362143205
+ },
+ {
+  "page": 269,
+  "words": 124,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.13059042289155,
+  "mean_gap": 4.162051955436073
+ },
+ {
+  "page": 270,
+  "words": 127,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.84829020508978,
+  "mean_gap": 3.300574696548606
+ },
+ {
+  "page": 271,
+  "words": 136,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.09632119612029,
+  "mean_gap": 3.4990929600943885
+ },
+ {
+  "page": 272,
+  "words": 141,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 30.503610486161424,
+  "mean_gap": 3.876079667460344
+ },
+ {
+  "page": 273,
+  "words": 136,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.28459110597821,
+  "mean_gap": 3.3640001305896803
+ },
+ {
+  "page": 274,
+  "words": 148,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.866666666666667,
+  "mean_width": 29.617808320873735,
+  "mean_gap": 3.273343470898918
+ },
+ {
+  "page": 275,
+  "words": 133,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.94924849102541,
+  "mean_gap": 3.679619693961348
+ },
+ {
+  "page": 276,
+  "words": 117,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.8,
+  "mean_width": 37.88783865840001,
+  "mean_gap": 3.306750108377415
+ },
+ {
+  "page": 277,
+  "words": 122,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 36.290462475613346,
+  "mean_gap": 3.3783887920923497
+ },
+ {
+  "page": 278,
+  "words": 124,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 34.84108964990712,
+  "mean_gap": 4.172177929637445
+ },
+ {
+  "page": 279,
+  "words": 112,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.466666666666667,
+  "mean_width": 39.0270101740921,
+  "mean_gap": 3.78359920662584
+ },
+ {
+  "page": 280,
+  "words": 125,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 35.19494307851586,
+  "mean_gap": 3.6182612721208907
+ },
+ {
+  "page": 281,
+  "words": 131,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.01157359514151,
+  "mean_gap": 3.461296929662777
+ },
+ {
+  "page": 282,
+  "words": 106,
+  "ayahs": 7,
+  "lines": 13,
+  "words_per_line": 8.153846153846153,
+  "mean_width": 35.4132284344114,
+  "mean_gap": 3.588102386862715
+ },
+ {
+  "page": 283,
+  "words": 135,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 32.463607015997425,
+  "mean_gap": 3.248636370419305
+ },
+ {
+  "page": 285,
+  "words": 144,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 9.6,
+  "mean_width": 30.02630152752427,
+  "mean_gap": 3.9458211471620093
+ },
+ {
+  "page": 284,
+  "words": 130,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 33.322967376733054,
+  "mean_gap": 4.266749461686781
+ },
+ {
+  "page": 287,
+  "words": 133,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.815276611151695,
+  "mean_gap": 3.9910777718366544
+ },
+ {
+  "page": 286,
+  "words": 147,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 9.8,
+  "mean_width": 29.54003442971451,
+  "mean_gap": 3.218490097838704
+ },
+ {
+  "page": 288,
+  "words": 126,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.39115473406744,
+  "mean_gap": 4.395095782511222
+ },
+ {
+  "page": 289,
+  "words": 132,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.419452484239905,
+  "mean_gap": 3.7897496064760587
+ },
+ {
+  "page": 290,
+  "words": 136,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 31.482891973066238,
+  "mean_gap": 4.323370158007788
+ },
+ {
+  "page": 291,
+  "words": 141,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 30.42761874478111,
+  "mean_gap": 4.398981695146277
+ },
+ {
+  "page": 292,
+  "words": 134,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.6696158813391,
+  "mean_gap": 3.7263756283729452
+ },
+ {
+  "page": 293,
+  "words": 127,
+  "ayahs": 11,
+  "lines": 13,
+  "words_per_line": 9.76923076923077,
+  "mean_width": 29.259404232467737,
+  "mean_gap": 3.501360713391327
+ },
+ {
+  "page": 294,
+  "words": 134,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.016778931664,
+  "mean_gap": 4.087857919172351
+ },
+ {
+  "page": 295,
+  "words": 126,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 35.14612375215114,
+  "mean_gap": 3.4024366519817635
+ },
+ {
+  "page": 296,
+  "words": 135,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 32.37479275075691,
+  "mean_gap": 3.699359347999926
+ },
+ {
+  "page": 297,
+  "words": 136,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.28823766152827,
+  "mean_gap": 3.822050545105507
+ },
+ {
+  "page": 298,
+  "words": 152,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 10.133333333333333,
+  "mean_width": 28.105958460313744,
+  "mean_gap": 4.03260981761033
+ },
+ {
+  "page": 299,
+  "words": 129,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 34.316454834025116,
+  "mean_gap": 3.5470224503639494
+ },
+ {
+  "page": 301,
+  "words": 149,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 9.933333333333334,
+  "mean_width": 28.148730660481622,
+  "mean_gap": 4.616554874321942
+ },
+ {
+  "page": 300,
+  "words": 132,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.15263760606465,
+  "mean_gap": 3.590409856470777
+ },
+ {
+  "page": 302,
+  "words": 138,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 31.25790013863786,
+  "mean_gap": 4.221198495507354
+ },
+ {
+  "page": 303,
+  "words": 160,
+  "ayahs": 14,
+  "lines": 15,
+  "words_per_line": 10.666666666666666,
+  "mean_width": 26.551304866481235,
+  "mean_gap": 4.410511572183111
+ },
+ {
+  "page": 304,
+  "words": 153,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 10.2,
+  "mean_width": 28.70097014428119,
+  "mean_gap": 3.5904390493311302
+ },
+ {
+  "page": 305,
+  "words": 110,
+  "ayahs": 11,
+  "lines": 13,
+  "words_per_line": 8.461538461538462,
+  "mean_width": 33.039170085396606,
+  "mean_gap": 5.344752488054354
+ },
+ {
+  "page": 306,
+  "words": 128,
+  "ayahs": 14,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 32.81903330076538,
+  "mean_gap": 5.198705263495433
+ },
+ {
+  "page": 307,
+  "words": 138,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 30.840845343357824,
+  "mean_gap": 4.878012947303932
+ },
+ {
+  "page": 308,
+  "words": 145,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 9.666666666666666,
+  "mean_width": 29.051008592218675,
+  "mean_gap": 4.3703923605416675
+ },
+ {
+  "page": 309,
+  "words": 146,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 9.733333333333333,
+  "mean_width": 29.131222451800856,
+  "mean_gap": 4.573971338295835
+ },
+ {
+  "page": 310,
+  "words": 136,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 31.81814481551049,
+  "mean_gap": 4.263903844269648
+ },
+ {
+  "page": 311,
+  "words": 125,
+  "ayahs": 19,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 33.343442102257704,
+  "mean_gap": 5.754920591525988
+ },
+ {
+  "page": 312,
+  "words": 115,
+  "ayahs": 15,
+  "lines": 13,
+  "words_per_line": 8.846153846153847,
+  "mean_width": 31.560777885942926,
+  "mean_gap": 5.280378513269494
+ },
+ {
+  "page": 313,
+  "words": 134,
+  "ayahs": 25,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 30.33756289794726,
+  "mean_gap": 6.892160311738373
+ },
+ {
+  "page": 315,
+  "words": 131,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 32.71517489342851,
+  "mean_gap": 4.5589690195157955
+ },
+ {
+  "page": 314,
+  "words": 151,
+  "ayahs": 14,
+  "lines": 15,
+  "words_per_line": 10.066666666666666,
+  "mean_width": 28.027474759908444,
+  "mean_gap": 4.455571625820882
+ },
+ {
+  "page": 317,
+  "words": 135,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 32.3199888477338,
+  "mean_gap": 4.36286621588881
+ },
+ {
+  "page": 316,
+  "words": 152,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 10.133333333333333,
+  "mean_width": 28.447234565812593,
+  "mean_gap": 4.30126757387976
+ },
+ {
+  "page": 318,
+  "words": 138,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 30.830327246887432,
+  "mean_gap": 4.809681350921461
+ },
+ {
+  "page": 319,
+  "words": 139,
+  "ayahs": 15,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 30.331208695731736,
+  "mean_gap": 4.620588233904936
+ },
+ {
+  "page": 320,
+  "words": 134,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 31.713957772734673,
+  "mean_gap": 4.504236220046775
+ },
+ {
+  "page": 321,
+  "words": 139,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 31.065701332204195,
+  "mean_gap": 4.08083703374365
+ },
+ {
+  "page": 322,
+  "words": 104,
+  "ayahs": 10,
+  "lines": 13,
+  "words_per_line": 8.0,
+  "mean_width": 36.20437300203501,
+  "mean_gap": 3.8670007096395405
+ },
+ {
+  "page": 323,
+  "words": 137,
+  "ayahs": 14,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 31.308994978723465,
+  "mean_gap": 4.39960983357325
+ },
+ {
+  "page": 324,
+  "words": 127,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 33.928285721566475,
+  "mean_gap": 4.635205528262292
+ },
+ {
+  "page": 325,
+  "words": 116,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 7.733333333333333,
+  "mean_width": 38.204361230597875,
+  "mean_gap": 4.154249405865335
+ },
+ {
+  "page": 326,
+  "words": 125,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 34.1355511638314,
+  "mean_gap": 5.04821872437148
+ },
+ {
+  "page": 327,
+  "words": 117,
+  "ayahs": 15,
+  "lines": 15,
+  "words_per_line": 7.8,
+  "mean_width": 36.54487685201303,
+  "mean_gap": 4.935086070897511
+ },
+ {
+  "page": 328,
+  "words": 113,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 7.533333333333333,
+  "mean_width": 38.81010473659615,
+  "mean_gap": 4.458275714157331
+ },
+ {
+  "page": 329,
+  "words": 112,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 7.466666666666667,
+  "mean_width": 38.218063597442566,
+  "mean_gap": 4.6330239766255925
+ },
+ {
+  "page": 330,
+  "words": 109,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 7.266666666666667,
+  "mean_width": 39.70573419188092,
+  "mean_gap": 4.744629171869686
+ },
+ {
+  "page": 331,
+  "words": 109,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 7.266666666666667,
+  "mean_width": 39.482497670883404,
+  "mean_gap": 5.103302550635244
+ },
+ {
+  "page": 332,
+  "words": 123,
+  "ayahs": 5,
+  "lines": 13,
+  "words_per_line": 9.461538461538462,
+  "mean_width": 30.969226352741053,
+  "mean_gap": 3.3509385778034813
+ },
+ {
+  "page": 333,
+  "words": 150,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 10.0,
+  "mean_width": 28.274339222211886,
+  "mean_gap": 4.613531639451005
+ },
+ {
+  "page": 334,
+  "words": 129,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 33.61534759482532,
+  "mean_gap": 4.281010977713725
+ },
+ {
+  "page": 335,
+  "words": 116,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.733333333333333,
+  "mean_width": 37.651473973971996,
+  "mean_gap": 4.1505172569057915
+ },
+ {
+  "page": 336,
+  "words": 136,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.44925648920286,
+  "mean_gap": 3.4254128245295457
+ },
+ {
+  "page": 337,
+  "words": 123,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 35.75858191260996,
+  "mean_gap": 4.4900213431266085
+ },
+ {
+  "page": 338,
+  "words": 129,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 33.278839827816725,
+  "mean_gap": 4.543515247105352
+ },
+ {
+  "page": 339,
+  "words": 120,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 36.097233018370844,
+  "mean_gap": 4.772927400130943
+ },
+ {
+  "page": 340,
+  "words": 135,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 32.37737919093054,
+  "mean_gap": 3.765069335712953
+ },
+ {
+  "page": 342,
+  "words": 111,
+  "ayahs": 17,
+  "lines": 13,
+  "words_per_line": 8.538461538461538,
+  "mean_width": 33.541945134075455,
+  "mean_gap": 4.946966954782911
+ },
+ {
+  "page": 341,
+  "words": 113,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 7.533333333333333,
+  "mean_width": 39.05612103733418,
+  "mean_gap": 3.813777504370073
+ },
+ {
+  "page": 343,
+  "words": 143,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.533333333333333,
+  "mean_width": 30.178994158427518,
+  "mean_gap": 3.968175189633723
+ },
+ {
+  "page": 344,
+  "words": 141,
+  "ayahs": 15,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 30.31966464876759,
+  "mean_gap": 4.183644880611784
+ },
+ {
+  "page": 345,
+  "words": 133,
+  "ayahs": 17,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.06006909085918,
+  "mean_gap": 4.875603914786269
+ },
+ {
+  "page": 346,
+  "words": 136,
+  "ayahs": 15,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 31.865423672509163,
+  "mean_gap": 4.076755825097123
+ },
+ {
+  "page": 347,
+  "words": 129,
+  "ayahs": 15,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 33.0761711193646,
+  "mean_gap": 5.528061116547171
+ },
+ {
+  "page": 348,
+  "words": 131,
+  "ayahs": 15,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 32.28289723250887,
+  "mean_gap": 4.679213304126506
+ },
+ {
+  "page": 349,
+  "words": 126,
+  "ayahs": 14,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.14855953241431,
+  "mean_gap": 3.542731930452636
+ },
+ {
+  "page": 351,
+  "words": 144,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.6,
+  "mean_width": 30.252112965558027,
+  "mean_gap": 4.056250156359606
+ },
+ {
+  "page": 352,
+  "words": 127,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 35.07698124627848,
+  "mean_gap": 3.511474094203343
+ },
+ {
+  "page": 350,
+  "words": 138,
+  "ayahs": 10,
+  "lines": 13,
+  "words_per_line": 10.615384615384615,
+  "mean_width": 27.80835279540574,
+  "mean_gap": 3.3134514348329898
+ },
+ {
+  "page": 353,
+  "words": 132,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 34.256723530563704,
+  "mean_gap": 2.932201924826379
+ },
+ {
+  "page": 354,
+  "words": 140,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 9.333333333333334,
+  "mean_width": 31.51865538685271,
+  "mean_gap": 3.2934001384349516
+ },
+ {
+  "page": 355,
+  "words": 154,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 10.266666666666667,
+  "mean_width": 28.141761668959365,
+  "mean_gap": 3.7287022671488503
+ },
+ {
+  "page": 356,
+  "words": 146,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.733333333333333,
+  "mean_width": 29.69681329291716,
+  "mean_gap": 3.751772620906593
+ },
+ {
+  "page": 357,
+  "words": 129,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 35.00758398895738,
+  "mean_gap": 2.821268782641096
+ },
+ {
+  "page": 358,
+  "words": 118,
+  "ayahs": 3,
+  "lines": 15,
+  "words_per_line": 7.866666666666666,
+  "mean_width": 38.82359881219292,
+  "mean_gap": 2.955459756494565
+ },
+ {
+  "page": 359,
+  "words": 116,
+  "ayahs": 5,
+  "lines": 13,
+  "words_per_line": 8.923076923076923,
+  "mean_width": 32.80729702765599,
+  "mean_gap": 3.807699043370918
+ },
+ {
+  "page": 360,
+  "words": 126,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.39253875651032,
+  "mean_gap": 4.4358725201157
+ },
+ {
+  "page": 361,
+  "words": 121,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.066666666666666,
+  "mean_width": 36.05943363888856,
+  "mean_gap": 3.6400378480047046
+ },
+ {
+  "page": 362,
+  "words": 124,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 34.89563177761149,
+  "mean_gap": 4.746916627958286
+ },
+ {
+  "page": 363,
+  "words": 118,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 7.866666666666666,
+  "mean_width": 36.69442464232883,
+  "mean_gap": 4.704109900419667
+ },
+ {
+  "page": 364,
+  "words": 134,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.30054159849544,
+  "mean_gap": 4.457126687036447
+ },
+ {
+  "page": 365,
+  "words": 129,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 33.21717809537079,
+  "mean_gap": 4.868463568057298
+ },
+ {
+  "page": 366,
+  "words": 113,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 7.533333333333333,
+  "mean_width": 38.2552034369887,
+  "mean_gap": 4.847085107757041
+ },
+ {
+  "page": 367,
+  "words": 133,
+  "ayahs": 19,
+  "lines": 13,
+  "words_per_line": 10.23076923076923,
+  "mean_width": 27.921208658605018,
+  "mean_gap": 4.564191632866215
+ },
+ {
+  "page": 368,
+  "words": 133,
+  "ayahs": 20,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 31.35644527910306,
+  "mean_gap": 4.958814804116802
+ },
+ {
+  "page": 369,
+  "words": 134,
+  "ayahs": 21,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 31.674016925329227,
+  "mean_gap": 4.5649321473366085
+ },
+ {
+  "page": 370,
+  "words": 126,
+  "ayahs": 23,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 33.19029717295279,
+  "mean_gap": 5.52668249011737
+ },
+ {
+  "page": 372,
+  "words": 136,
+  "ayahs": 25,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 30.39412916735502,
+  "mean_gap": 5.67254657236446
+ },
+ {
+  "page": 371,
+  "words": 140,
+  "ayahs": 28,
+  "lines": 15,
+  "words_per_line": 9.333333333333334,
+  "mean_width": 29.21747244211564,
+  "mean_gap": 6.4876695024301
+ },
+ {
+  "page": 373,
+  "words": 131,
+  "ayahs": 23,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 31.634700108727454,
+  "mean_gap": 5.65590020371249
+ },
+ {
+  "page": 374,
+  "words": 137,
+  "ayahs": 24,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 30.339559143567257,
+  "mean_gap": 5.281437001989949
+ },
+ {
+  "page": 375,
+  "words": 128,
+  "ayahs": 23,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 32.34302337307313,
+  "mean_gap": 6.297527846789268
+ },
+ {
+  "page": 376,
+  "words": 119,
+  "ayahs": 21,
+  "lines": 15,
+  "words_per_line": 7.933333333333334,
+  "mean_width": 35.64653727461854,
+  "mean_gap": 5.400888246387774
+ },
+ {
+  "page": 378,
+  "words": 131,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.455874558756946,
+  "mean_gap": 4.045182519949876
+ },
+ {
+  "page": 377,
+  "words": 138,
+  "ayahs": 13,
+  "lines": 13,
+  "words_per_line": 10.615384615384615,
+  "mean_width": 27.686496561686614,
+  "mean_gap": 3.6743273193828
+ },
+ {
+  "page": 379,
+  "words": 134,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.46431188999716,
+  "mean_gap": 4.603638274411209
+ },
+ {
+  "page": 380,
+  "words": 159,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 10.6,
+  "mean_width": 27.437576925732387,
+  "mean_gap": 3.5178260556571863
+ },
+ {
+  "page": 381,
+  "words": 113,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 7.533333333333333,
+  "mean_width": 38.14915120039866,
+  "mean_gap": 5.711104230357833
+ },
+ {
+  "page": 382,
+  "words": 124,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.095851380501294,
+  "mean_gap": 4.127253635195089
+ },
+ {
+  "page": 383,
+  "words": 142,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 30.357160515208864,
+  "mean_gap": 4.024173477994806
+ },
+ {
+  "page": 384,
+  "words": 143,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 9.533333333333333,
+  "mean_width": 30.23829612443989,
+  "mean_gap": 4.19169265450786
+ },
+ {
+  "page": 385,
+  "words": 112,
+  "ayahs": 10,
+  "lines": 13,
+  "words_per_line": 8.615384615384615,
+  "mean_width": 33.107564022043675,
+  "mean_gap": 4.373070102953656
+ },
+ {
+  "page": 386,
+  "words": 125,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 34.866927850328445,
+  "mean_gap": 3.453431901308875
+ },
+ {
+  "page": 387,
+  "words": 146,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.733333333333333,
+  "mean_width": 29.535279743012698,
+  "mean_gap": 4.218819577459778
+ },
+ {
+  "page": 388,
+  "words": 133,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.96246241182778,
+  "mean_gap": 4.109824772046419
+ },
+ {
+  "page": 389,
+  "words": 128,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 33.86944113517361,
+  "mean_gap": 4.52586624693185
+ },
+ {
+  "page": 390,
+  "words": 119,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.933333333333334,
+  "mean_width": 36.6326664689966,
+  "mean_gap": 4.259864846431568
+ },
+ {
+  "page": 391,
+  "words": 131,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.60781417538791,
+  "mean_gap": 3.961187133735854
+ },
+ {
+  "page": 392,
+  "words": 131,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.20905957539469,
+  "mean_gap": 4.4679600420395005
+ },
+ {
+  "page": 393,
+  "words": 131,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 33.46664573960318,
+  "mean_gap": 4.25923554749949
+ },
+ {
+  "page": 394,
+  "words": 133,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.76364042855864,
+  "mean_gap": 4.195724528637126
+ },
+ {
+  "page": 395,
+  "words": 139,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 30.96330901788628,
+  "mean_gap": 4.451345345039013
+ },
+ {
+  "page": 396,
+  "words": 123,
+  "ayahs": 10,
+  "lines": 13,
+  "words_per_line": 9.461538461538462,
+  "mean_width": 30.232050637122747,
+  "mean_gap": 4.662294480827047
+ },
+ {
+  "page": 397,
+  "words": 122,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 36.33862365066103,
+  "mean_gap": 3.4308938565690714
+ },
+ {
+  "page": 398,
+  "words": 129,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 33.35343311015778,
+  "mean_gap": 4.661531417042419
+ },
+ {
+  "page": 399,
+  "words": 120,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 35.928225914332025,
+  "mean_gap": 4.631419236271345
+ },
+ {
+  "page": 400,
+  "words": 112,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.466666666666667,
+  "mean_width": 39.16030106771122,
+  "mean_gap": 3.9207697674381885
+ },
+ {
+  "page": 401,
+  "words": 111,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.4,
+  "mean_width": 39.56836805174401,
+  "mean_gap": 4.407685571743081
+ },
+ {
+  "page": 402,
+  "words": 121,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.066666666666666,
+  "mean_width": 35.89462757441794,
+  "mean_gap": 4.484519398367318
+ },
+ {
+  "page": 403,
+  "words": 129,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 33.76563577574374,
+  "mean_gap": 4.10461256373533
+ },
+ {
+  "page": 404,
+  "words": 109,
+  "ayahs": 11,
+  "lines": 13,
+  "words_per_line": 8.384615384615385,
+  "mean_width": 34.10480922831141,
+  "mean_gap": 4.230648533368172
+ },
+ {
+  "page": 406,
+  "words": 118,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 7.866666666666666,
+  "mean_width": 36.31943405074266,
+  "mean_gap": 5.098975219866123
+ },
+ {
+  "page": 405,
+  "words": 124,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.411968133495336,
+  "mean_gap": 3.725276011840136
+ },
+ {
+  "page": 407,
+  "words": 127,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.286343559987124,
+  "mean_gap": 4.551115775011721
+ },
+ {
+  "page": 408,
+  "words": 139,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 31.299024785365166,
+  "mean_gap": 3.915825472271702
+ },
+ {
+  "page": 409,
+  "words": 142,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 30.808315282746694,
+  "mean_gap": 3.760064835485335
+ },
+ {
+  "page": 410,
+  "words": 136,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.00009497584586,
+  "mean_gap": 3.8141803151502782
+ },
+ {
+  "page": 411,
+  "words": 116,
+  "ayahs": 11,
+  "lines": 13,
+  "words_per_line": 8.923076923076923,
+  "mean_width": 32.35337180866844,
+  "mean_gap": 4.09473687549078
+ },
+ {
+  "page": 412,
+  "words": 146,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.733333333333333,
+  "mean_width": 29.782461431180515,
+  "mean_gap": 4.029611422675505
+ },
+ {
+  "page": 413,
+  "words": 145,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.666666666666666,
+  "mean_width": 29.875867268693433,
+  "mean_gap": 3.95292516903922
+ },
+ {
+  "page": 414,
+  "words": 139,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 31.93166215768156,
+  "mean_gap": 3.3305393675506223
+ },
+ {
+  "page": 415,
+  "words": 131,
+  "ayahs": 11,
+  "lines": 13,
+  "words_per_line": 10.076923076923077,
+  "mean_width": 28.872674841457666,
+  "mean_gap": 3.801241354716535
+ },
+ {
+  "page": 416,
+  "words": 126,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 35.05570826015396,
+  "mean_gap": 3.7355720070604437
+ },
+ {
+  "page": 417,
+  "words": 115,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 7.666666666666667,
+  "mean_width": 37.90444530782165,
+  "mean_gap": 3.8762208645636154
+ },
+ {
+  "page": 419,
+  "words": 133,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.867053968666944,
+  "mean_gap": 3.838988150516395
+ },
+ {
+  "page": 418,
+  "words": 116,
+  "ayahs": 6,
+  "lines": 13,
+  "words_per_line": 8.923076923076923,
+  "mean_width": 33.50742532274009,
+  "mean_gap": 3.3468447698011574
+ },
+ {
+  "page": 420,
+  "words": 146,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.733333333333333,
+  "mean_width": 30.021381689261165,
+  "mean_gap": 3.4761157923208037
+ },
+ {
+  "page": 421,
+  "words": 124,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.42927877982983,
+  "mean_gap": 4.405895138315936
+ },
+ {
+  "page": 422,
+  "words": 102,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 6.8,
+  "mean_width": 43.156772387894144,
+  "mean_gap": 4.504628558866597
+ },
+ {
+  "page": 423,
+  "words": 147,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.8,
+  "mean_width": 29.38150683145022,
+  "mean_gap": 3.5156204850389834
+ },
+ {
+  "page": 424,
+  "words": 124,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.37262423819682,
+  "mean_gap": 4.263268134748786
+ },
+ {
+  "page": 425,
+  "words": 140,
+  "ayahs": 4,
+  "lines": 15,
+  "words_per_line": 9.333333333333334,
+  "mean_width": 31.529007250688366,
+  "mean_gap": 3.606754062080473
+ },
+ {
+  "page": 426,
+  "words": 127,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.01597763547208,
+  "mean_gap": 4.22288060142401
+ },
+ {
+  "page": 427,
+  "words": 128,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 33.61011488298099,
+  "mean_gap": 4.240240125269621
+ },
+ {
+  "page": 428,
+  "words": 120,
+  "ayahs": 7,
+  "lines": 13,
+  "words_per_line": 9.23076923076923,
+  "mean_width": 31.668901967138883,
+  "mean_gap": 3.839697770142097
+ },
+ {
+  "page": 429,
+  "words": 142,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 30.566538868352918,
+  "mean_gap": 4.145648853535887
+ },
+ {
+  "page": 430,
+  "words": 137,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 31.862708592737647,
+  "mean_gap": 3.444074864654245
+ },
+ {
+  "page": 431,
+  "words": 132,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.10371309798884,
+  "mean_gap": 3.2243425067531373
+ },
+ {
+  "page": 432,
+  "words": 136,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 31.936183585495233,
+  "mean_gap": 3.5346672760721214
+ },
+ {
+  "page": 433,
+  "words": 148,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.866666666666667,
+  "mean_width": 29.886502692158636,
+  "mean_gap": 3.3739297913192745
+ },
+ {
+  "page": 434,
+  "words": 132,
+  "ayahs": 9,
+  "lines": 13,
+  "words_per_line": 10.153846153846153,
+  "mean_width": 27.96121621915814,
+  "mean_gap": 3.9566980923428448
+ },
+ {
+  "page": 436,
+  "words": 129,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 33.83474270753771,
+  "mean_gap": 3.6691713367661247
+ },
+ {
+  "page": 435,
+  "words": 151,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 10.066666666666666,
+  "mean_width": 29.14102515434393,
+  "mean_gap": 3.281232848741605
+ },
+ {
+  "page": 437,
+  "words": 127,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 33.74059094369383,
+  "mean_gap": 4.637725660102996
+ },
+ {
+  "page": 438,
+  "words": 128,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 34.05090751299503,
+  "mean_gap": 4.1168115206034095
+ },
+ {
+  "page": 440,
+  "words": 108,
+  "ayahs": 13,
+  "lines": 13,
+  "words_per_line": 8.307692307692308,
+  "mean_width": 34.331088602687544,
+  "mean_gap": 4.619098856260031
+ },
+ {
+  "page": 439,
+  "words": 151,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 10.066666666666666,
+  "mean_width": 29.45356240915829,
+  "mean_gap": 3.1849073857262358
+ },
+ {
+  "page": 441,
+  "words": 129,
+  "ayahs": 15,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 32.680982975825046,
+  "mean_gap": 5.144888704418999
+ },
+ {
+  "page": 442,
+  "words": 129,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 33.21353374349772,
+  "mean_gap": 4.44895901590958
+ },
+ {
+  "page": 443,
+  "words": 140,
+  "ayahs": 14,
+  "lines": 15,
+  "words_per_line": 9.333333333333334,
+  "mean_width": 30.632546205218603,
+  "mean_gap": 4.358488414571528
+ },
+ {
+  "page": 444,
+  "words": 122,
+  "ayahs": 16,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 35.114571341870594,
+  "mean_gap": 4.7438818608439055
+ },
+ {
+  "page": 445,
+  "words": 122,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 35.33690602427372,
+  "mean_gap": 4.466045893800179
+ },
+ {
+  "page": 447,
+  "words": 135,
+  "ayahs": 27,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 31.173120591946525,
+  "mean_gap": 5.315148125345034
+ },
+ {
+  "page": 446,
+  "words": 125,
+  "ayahs": 24,
+  "lines": 13,
+  "words_per_line": 9.615384615384615,
+  "mean_width": 29.304999952935187,
+  "mean_gap": 4.7830564141239105
+ },
+ {
+  "page": 448,
+  "words": 123,
+  "ayahs": 25,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 33.52993991495069,
+  "mean_gap": 5.848392568581866
+ },
+ {
+  "page": 449,
+  "words": 135,
+  "ayahs": 26,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 29.646347208330116,
+  "mean_gap": 6.117184571932342
+ },
+ {
+  "page": 450,
+  "words": 106,
+  "ayahs": 24,
+  "lines": 15,
+  "words_per_line": 7.066666666666666,
+  "mean_width": 38.829209560902775,
+  "mean_gap": 7.359197186487799
+ },
+ {
+  "page": 451,
+  "words": 115,
+  "ayahs": 27,
+  "lines": 15,
+  "words_per_line": 7.666666666666667,
+  "mean_width": 34.993872905494236,
+  "mean_gap": 7.202662781541634
+ },
+ {
+  "page": 452,
+  "words": 121,
+  "ayahs": 29,
+  "lines": 15,
+  "words_per_line": 8.066666666666666,
+  "mean_width": 33.88530628366891,
+  "mean_gap": 6.012948817751341
+ },
+ {
+  "page": 454,
+  "words": 145,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.666666666666666,
+  "mean_width": 29.482588536144323,
+  "mean_gap": 3.966224475037922
+ },
+ {
+  "page": 453,
+  "words": 138,
+  "ayahs": 16,
+  "lines": 13,
+  "words_per_line": 10.615384615384615,
+  "mean_width": 27.376005430578402,
+  "mean_gap": 3.808197341971923
+ },
+ {
+  "page": 455,
+  "words": 138,
+  "ayahs": 16,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 31.219625476957706,
+  "mean_gap": 4.607402419876569
+ },
+ {
+  "page": 456,
+  "words": 133,
+  "ayahs": 19,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 31.76821890717852,
+  "mean_gap": 5.165930210687079
+ },
+ {
+  "page": 458,
+  "words": 118,
+  "ayahs": 10,
+  "lines": 13,
+  "words_per_line": 9.076923076923077,
+  "mean_width": 31.44366043205284,
+  "mean_gap": 4.554740344224489
+ },
+ {
+  "page": 457,
+  "words": 149,
+  "ayahs": 22,
+  "lines": 15,
+  "words_per_line": 9.933333333333334,
+  "mean_width": 28.034943096718973,
+  "mean_gap": 5.11172781722278
+ },
+ {
+  "page": 459,
+  "words": 146,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 9.733333333333333,
+  "mean_width": 30.195170149047687,
+  "mean_gap": 3.277541833417947
+ },
+ {
+  "page": 460,
+  "words": 150,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 10.0,
+  "mean_width": 28.535571574874048,
+  "mean_gap": 4.181942812967963
+ },
+ {
+  "page": 461,
+  "words": 137,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 31.593314764440734,
+  "mean_gap": 4.236324365020661
+ },
+ {
+  "page": 462,
+  "words": 123,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.2,
+  "mean_width": 34.694122614850905,
+  "mean_gap": 4.754403005239609
+ },
+ {
+  "page": 463,
+  "words": 129,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 33.704977107731615,
+  "mean_gap": 4.613285359424431
+ },
+ {
+  "page": 464,
+  "words": 137,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 31.438017601157597,
+  "mean_gap": 4.071451386149104
+ },
+ {
+  "page": 465,
+  "words": 120,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.0,
+  "mean_width": 35.92463015864153,
+  "mean_gap": 4.612503190539907
+ },
+ {
+  "page": 466,
+  "words": 125,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 35.137543056384295,
+  "mean_gap": 3.3564345316716424
+ },
+ {
+  "page": 467,
+  "words": 109,
+  "ayahs": 8,
+  "lines": 13,
+  "words_per_line": 8.384615384615385,
+  "mean_width": 34.729199480036996,
+  "mean_gap": 4.353156649716573
+ },
+ {
+  "page": 468,
+  "words": 124,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 34.684126137402494,
+  "mean_gap": 5.0952236121970556
+ },
+ {
+  "page": 469,
+  "words": 124,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.12067498473927,
+  "mean_gap": 4.77080424267846
+ },
+ {
+  "page": 470,
+  "words": 142,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.466666666666667,
+  "mean_width": 30.037300137615905,
+  "mean_gap": 4.315370628450104
+ },
+ {
+  "page": 471,
+  "words": 127,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.10754224268063,
+  "mean_gap": 4.592793015682958
+ },
+ {
+  "page": 472,
+  "words": 125,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 34.12931731861107,
+  "mean_gap": 4.491673659776717
+ },
+ {
+  "page": 473,
+  "words": 109,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 7.266666666666667,
+  "mean_width": 40.13274885386767,
+  "mean_gap": 4.448299484872368
+ },
+ {
+  "page": 474,
+  "words": 118,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.866666666666666,
+  "mean_width": 36.76295649039663,
+  "mean_gap": 4.353054595431865
+ },
+ {
+  "page": 475,
+  "words": 130,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 33.121396966810345,
+  "mean_gap": 4.619761349418689
+ },
+ {
+  "page": 476,
+  "words": 128,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 34.026287183793,
+  "mean_gap": 4.11115542046313
+ },
+ {
+  "page": 477,
+  "words": 114,
+  "ayahs": 11,
+  "lines": 13,
+  "words_per_line": 8.76923076923077,
+  "mean_width": 32.49111404722385,
+  "mean_gap": 4.759581109875972
+ },
+ {
+  "page": 478,
+  "words": 134,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.75815560769437,
+  "mean_gap": 3.609081405166254
+ },
+ {
+  "page": 479,
+  "words": 134,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 33.07824560332922,
+  "mean_gap": 3.0389785759208015
+ },
+ {
+  "page": 480,
+  "words": 122,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 35.35159927520395,
+  "mean_gap": 4.679294915228531
+ },
+ {
+  "page": 481,
+  "words": 146,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.733333333333333,
+  "mean_width": 29.694754952637258,
+  "mean_gap": 3.85629670497376
+ },
+ {
+  "page": 482,
+  "words": 144,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.6,
+  "mean_width": 29.37964430268354,
+  "mean_gap": 4.427395910872246
+ },
+ {
+  "page": 483,
+  "words": 125,
+  "ayahs": 10,
+  "lines": 13,
+  "words_per_line": 9.615384615384615,
+  "mean_width": 29.363499843436777,
+  "mean_gap": 4.493577433790345
+ },
+ {
+  "page": 484,
+  "words": 134,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 32.61590339206088,
+  "mean_gap": 4.08310449791873
+ },
+ {
+  "page": 485,
+  "words": 128,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 33.51392543086846,
+  "mean_gap": 4.203840762197773
+ },
+ {
+  "page": 486,
+  "words": 145,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 9.666666666666666,
+  "mean_width": 29.802521646580946,
+  "mean_gap": 4.000554153084117
+ },
+ {
+  "page": 487,
+  "words": 147,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 9.8,
+  "mean_width": 29.54658906685101,
+  "mean_gap": 4.1618574408123
+ },
+ {
+  "page": 488,
+  "words": 139,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.266666666666667,
+  "mean_width": 30.903893060136475,
+  "mean_gap": 4.672291201225674
+ },
+ {
+  "page": 489,
+  "words": 108,
+  "ayahs": 12,
+  "lines": 13,
+  "words_per_line": 8.307692307692308,
+  "mean_width": 33.92087814567674,
+  "mean_gap": 4.978167844810255
+ },
+ {
+  "page": 490,
+  "words": 130,
+  "ayahs": 12,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 32.636693681240615,
+  "mean_gap": 5.051382881515711
+ },
+ {
+  "page": 491,
+  "words": 133,
+  "ayahs": 11,
+  "lines": 15,
+  "words_per_line": 8.866666666666667,
+  "mean_width": 32.16443285954383,
+  "mean_gap": 4.334398362771041
+ },
+ {
+  "page": 492,
+  "words": 125,
+  "ayahs": 14,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 34.02563300465422,
+  "mean_gap": 5.546845104279202
+ },
+ {
+  "page": 493,
+  "words": 128,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 33.31453721283417,
+  "mean_gap": 5.045406186006834
+ },
+ {
+  "page": 494,
+  "words": 117,
+  "ayahs": 13,
+  "lines": 15,
+  "words_per_line": 7.8,
+  "mean_width": 36.60238717277065,
+  "mean_gap": 4.779813092878355
+ },
+ {
+  "page": 495,
+  "words": 131,
+  "ayahs": 16,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 32.29801862438694,
+  "mean_gap": 5.266498014335321
+ },
+ {
+  "page": 496,
+  "words": 111,
+  "ayahs": 18,
+  "lines": 13,
+  "words_per_line": 8.538461538461538,
+  "mean_width": 31.77427544393943,
+  "mean_gap": 6.129632063469625
+ },
+ {
+  "page": 497,
+  "words": 131,
+  "ayahs": 21,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 31.712711158816536,
+  "mean_gap": 5.796292867018016
+ },
+ {
+  "page": 498,
+  "words": 104,
+  "ayahs": 20,
+  "lines": 15,
+  "words_per_line": 6.933333333333334,
+  "mean_width": 39.91785935247117,
+  "mean_gap": 7.077365260394875
+ },
+ {
+  "page": 500,
+  "words": 127,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.466666666666667,
+  "mean_width": 34.27595495407751,
+  "mean_gap": 3.6005239649107503
+ },
+ {
+  "page": 499,
+  "words": 143,
+  "ayahs": 13,
+  "lines": 13,
+  "words_per_line": 11.0,
+  "mean_width": 26.878901073355685,
+  "mean_gap": 3.3549137901181973
+ },
+ {
+  "page": 501,
+  "words": 161,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 10.733333333333333,
+  "mean_width": 27.412028454271766,
+  "mean_gap": 3.402407650386779
+ },
+ {
+  "page": 502,
+  "words": 126,
+  "ayahs": 10,
+  "lines": 13,
+  "words_per_line": 9.692307692307692,
+  "mean_width": 30.03378977869543,
+  "mean_gap": 3.431134285880911
+ },
+ {
+  "page": 503,
+  "words": 153,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 10.2,
+  "mean_width": 28.411418970709864,
+  "mean_gap": 3.6748479982394686
+ },
+ {
+  "page": 504,
+  "words": 144,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.6,
+  "mean_width": 31.14647020917812,
+  "mean_gap": 3.5204799561374123
+ },
+ {
+  "page": 505,
+  "words": 141,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 31.06996146479665,
+  "mean_gap": 3.641936018391859
+ },
+ {
+  "page": 506,
+  "words": 136,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.36666286471246,
+  "mean_gap": 3.216615403374094
+ },
+ {
+  "page": 507,
+  "words": 139,
+  "ayahs": 11,
+  "lines": 13,
+  "words_per_line": 10.692307692307692,
+  "mean_width": 27.90308101201564,
+  "mean_gap": 2.9239430606908607
+ },
+ {
+  "page": 509,
+  "words": 122,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 35.749293002606116,
+  "mean_gap": 4.194496742396676
+ },
+ {
+  "page": 508,
+  "words": 152,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 10.133333333333333,
+  "mean_width": 29.71418756845314,
+  "mean_gap": 3.0769516225292213
+ },
+ {
+  "page": 511,
+  "words": 104,
+  "ayahs": 9,
+  "lines": 13,
+  "words_per_line": 8.0,
+  "mean_width": 36.49433829946396,
+  "mean_gap": 4.18015787213555
+ },
+ {
+  "page": 510,
+  "words": 126,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 8.4,
+  "mean_width": 34.913352719240734,
+  "mean_gap": 4.391337292280297
+ },
+ {
+  "page": 512,
+  "words": 136,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 31.90753300122427,
+  "mean_gap": 4.264400675014139
+ },
+ {
+  "page": 513,
+  "words": 137,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 31.97441956191388,
+  "mean_gap": 3.7780010409160294
+ },
+ {
+  "page": 514,
+  "words": 129,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.6,
+  "mean_width": 34.33955763353512,
+  "mean_gap": 3.590080740137437
+ },
+ {
+  "page": 515,
+  "words": 117,
+  "ayahs": 5,
+  "lines": 13,
+  "words_per_line": 9.0,
+  "mean_width": 32.84339070266723,
+  "mean_gap": 3.3104238212874924
+ },
+ {
+  "page": 516,
+  "words": 143,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.533333333333333,
+  "mean_width": 31.43220079103338,
+  "mean_gap": 2.7987780520407073
+ },
+ {
+  "page": 517,
+  "words": 141,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 31.42738844760803,
+  "mean_gap": 3.647203246565315
+ },
+ {
+  "page": 518,
+  "words": 120,
+  "ayahs": 15,
+  "lines": 13,
+  "words_per_line": 9.23076923076923,
+  "mean_width": 30.572066242629703,
+  "mean_gap": 4.8291861440105075
+ },
+ {
+  "page": 519,
+  "words": 153,
+  "ayahs": 20,
+  "lines": 15,
+  "words_per_line": 10.2,
+  "mean_width": 27.957771010360073,
+  "mean_gap": 4.265490483308546
+ },
+ {
+  "page": 520,
+  "words": 114,
+  "ayahs": 16,
+  "lines": 13,
+  "words_per_line": 8.76923076923077,
+  "mean_width": 32.022538141821954,
+  "mean_gap": 5.133645946537092
+ },
+ {
+  "page": 521,
+  "words": 136,
+  "ayahs": 24,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 30.830403242686856,
+  "mean_gap": 4.84173512363709
+ },
+ {
+  "page": 522,
+  "words": 143,
+  "ayahs": 21,
+  "lines": 15,
+  "words_per_line": 9.533333333333333,
+  "mean_width": 29.29273299491137,
+  "mean_gap": 5.003727367730782
+ },
+ {
+  "page": 523,
+  "words": 114,
+  "ayahs": 23,
+  "lines": 13,
+  "words_per_line": 8.76923076923077,
+  "mean_width": 30.716933186879597,
+  "mean_gap": 6.611681747400906
+ },
+ {
+  "page": 524,
+  "words": 131,
+  "ayahs": 17,
+  "lines": 15,
+  "words_per_line": 8.733333333333333,
+  "mean_width": 32.7526496846532,
+  "mean_gap": 4.649148351843404
+ },
+ {
+  "page": 525,
+  "words": 134,
+  "ayahs": 18,
+  "lines": 15,
+  "words_per_line": 8.933333333333334,
+  "mean_width": 31.778718194143604,
+  "mean_gap": 4.929027866375966
+ },
+ {
+  "page": 526,
+  "words": 138,
+  "ayahs": 26,
+  "lines": 13,
+  "words_per_line": 10.615384615384615,
+  "mean_width": 25.55842396523771,
+  "mean_gap": 5.601057945334293
+ },
+ {
+  "page": 527,
+  "words": 151,
+  "ayahs": 18,
+  "lines": 15,
+  "words_per_line": 10.066666666666666,
+  "mean_width": 27.687352490431813,
+  "mean_gap": 4.219999166982469
+ },
+ {
+  "page": 528,
+  "words": 108,
+  "ayahs": 24,
+  "lines": 13,
+  "words_per_line": 8.307692307692308,
+  "mean_width": 31.256832409897083,
+  "mean_gap": 6.345203173215266
+ },
+ {
+  "page": 529,
+  "words": 138,
+  "ayahs": 21,
+  "lines": 15,
+  "words_per_line": 9.2,
+  "mean_width": 31.003937276090873,
+  "mean_gap": 4.681661051815327
+ },
+ {
+  "page": 530,
+  "words": 135,
+  "ayahs": 22,
+  "lines": 15,
+  "words_per_line": 9.0,
+  "mean_width": 31.88241029034859,
+  "mean_gap": 4.922543039237967
+ },
+ {
+  "page": 531,
+  "words": 98,
+  "ayahs": 24,
+  "lines": 13,
+  "words_per_line": 7.538461538461538,
+  "mean_width": 35.85811744854006,
+  "mean_gap": 6.476156431824609
+ },
+ {
+  "page": 532,
+  "words": 125,
+  "ayahs": 23,
+  "lines": 15,
+  "words_per_line": 8.333333333333334,
+  "mean_width": 33.12549885312755,
+  "mean_gap": 5.844639466268054
+ },
+ {
+  "page": 533,
+  "words": 119,
+  "ayahs": 28,
+  "lines": 15,
+  "words_per_line": 7.933333333333334,
+  "mean_width": 33.71829971303867,
+  "mean_gap": 7.30808765243644
+ },
+ {
+  "page": 534,
+  "words": 91,
+  "ayahs": 25,
+  "lines": 13,
+  "words_per_line": 7.0,
+  "mean_width": 37.40854290134947,
+  "mean_gap": 8.036705776204599
+ },
+ {
+  "page": 535,
+  "words": 122,
+  "ayahs": 34,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 32.54377983961929,
+  "mean_gap": 8.333426856363847
+ },
+ {
+  "page": 536,
+  "words": 122,
+  "ayahs": 26,
+  "lines": 15,
+  "words_per_line": 8.133333333333333,
+  "mean_width": 33.74759834962753,
+  "mean_gap": 6.774520021723356
+ },
+ {
+  "page": 537,
+  "words": 114,
+  "ayahs": 23,
+  "lines": 13,
+  "words_per_line": 8.76923076923077,
+  "mean_width": 31.502882920617985,
+  "mean_gap": 5.7092101726856015
+ },
+ {
+  "page": 538,
+  "words": 152,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 10.133333333333333,
+  "mean_width": 29.001254843475795,
+  "mean_gap": 3.215579844480741
+ },
+ {
+  "page": 539,
+  "words": 137,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 9.133333333333333,
+  "mean_width": 32.86656098921702,
+  "mean_gap": 3.4759212471147816
+ },
+ {
+  "page": 541,
+  "words": 124,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.51034313558658,
+  "mean_gap": 3.9579335768645354
+ },
+ {
+  "page": 540,
+  "words": 132,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 8.8,
+  "mean_width": 33.111265069586835,
+  "mean_gap": 3.701430003640574
+ },
+ {
+  "page": 542,
+  "words": 121,
+  "ayahs": 6,
+  "lines": 13,
+  "words_per_line": 9.307692307692308,
+  "mean_width": 31.368919038727736,
+  "mean_gap": 4.023926549566593
+ },
+ {
+  "page": 543,
+  "words": 151,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 10.066666666666666,
+  "mean_width": 29.900626853033135,
+  "mean_gap": 2.643573432823494
+ },
+ {
+  "page": 545,
+  "words": 116,
+  "ayahs": 4,
+  "lines": 13,
+  "words_per_line": 8.923076923076923,
+  "mean_width": 32.89587318457671,
+  "mean_gap": 2.9268637088288894
+ },
+ {
+  "page": 544,
+  "words": 149,
+  "ayahs": 10,
+  "lines": 15,
+  "words_per_line": 9.933333333333334,
+  "mean_width": 29.75358935480084,
+  "mean_gap": 3.325975947733353
+ },
+ {
+  "page": 546,
+  "words": 136,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 32.299175272621156,
+  "mean_gap": 3.7941325987802887
+ },
+ {
+  "page": 547,
+  "words": 130,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 8.666666666666666,
+  "mean_width": 33.92116093482096,
+  "mean_gap": 3.867006440097632
+ },
+ {
+  "page": 548,
+  "words": 114,
+  "ayahs": 8,
+  "lines": 15,
+  "words_per_line": 7.6,
+  "mean_width": 38.85239978139175,
+  "mean_gap": 4.389104998606013
+ },
+ {
+  "page": 549,
+  "words": 138,
+  "ayahs": 5,
+  "lines": 13,
+  "words_per_line": 10.615384615384615,
+  "mean_width": 29.041293164551764,
+  "mean_gap": 2.273026486773275
+ },
+ {
+  "page": 550,
+  "words": 152,
+  "ayahs": 6,
+  "lines": 15,
+  "words_per_line": 10.133333333333333,
+  "mean_width": 30.032477523612396,
+  "mean_gap": 2.4180280581484683
+ },
+ {
+  "page": 551,
+  "words": 119,
+  "ayahs": 7,
+  "lines": 13,
+  "words_per_line": 9.153846153846153,
+  "mean_width": 31.70579409687121,
+  "mean_gap": 3.7957222994060347
+ },
+ {
+  "page": 553,
+  "words": 118,
+  "ayahs": 8,
+  "lines": 13,
+  "words_per_line": 9.076923076923077,
+  "mean_width": 32.62267528371878,
+  "mean_gap": 3.691660414749393
+ },
+ {
+  "page": 552,
+  "words": 159,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 10.6,
+  "mean_width": 28.469774619714943,
+  "mean_gap": 2.7014923649487366
+ },
+ {
+  "page": 554,
+  "words": 119,
+  "ayahs": 7,
+  "lines": 13,
+  "words_per_line": 9.153846153846153,
+  "mean_width": 32.409498078554265,
+  "mean_gap": 3.04610472734495
+ },
+ {
+  "page": 555,
+  "words": 118,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 7.866666666666666,
+  "mean_width": 37.19338779392714,
+  "mean_gap": 3.743445343994054
+ },
+ {
+  "page": 556,
+  "words": 135,
+  "ayahs": 9,
+  "lines": 13,
+  "words_per_line": 10.384615384615385,
+  "mean_width": 28.922395423788295,
+  "mean_gap": 2.91142665925164
+ },
+ {
+  "page": 557,
+  "words": 106,
+  "ayahs": 9,
+  "lines": 15,
+  "words_per_line": 7.066666666666666,
+  "mean_width": 41.01817279776028,
+  "mean_gap": 4.779445969087363
+ },
+ {
+  "page": 559,
+  "words": 153,
+  "ayahs": 7,
+  "lines": 15,
+  "words_per_line": 10.2,
+  "mean_width": 29.282552029390203,
+  "mean_gap": 2.8931966227482415
+ },
+ {
+  "page": 558,
+  "words": 134,
+  "ayahs": 5,
+  "lines": 13,
+  "words_per_line": 10.307692307692308,
+  "mean_width": 28.46352225461372,
+  "mean_gap": 3.047179890875722
+ },
+ {
+  "page": 560,
+  "words": 125,
+  "ayahs": 7,
+  "lines": 13,
+  "words_per_line": 9.615384615384615,
+  "mean_width": 30.38408503855384,
+  "mean_gap": 3.9718574826484265
+ },
+ {
+  "page": 561,
+  "words": 124,
+  "ayahs": 5,
+  "lines": 15,
+  "words_per_line": 8.266666666666667,
+  "mean_width": 35.75474049154928,
+  "mean_gap": 3.6178186173984668
+ },
+ {
+  "page": 562,
+  "words": 131,
+  "ayahs": 12,
+  "lines": 13,
+  "words_per_line": 10.076923076923077,
+  "mean_width": 29.485999078028616,
+  "mean_gap": 3.2566751688557782
+ },
+ {
+  "page": 563,
+  "words": 151,
+  "ayahs": 14,
+  "lines": 15,
+  "words_per_line": 10.066666666666666,
+  "mean_width": 28.820228717115526,
+  "mean_gap": 3.953965939226683
+ },
+ {
+  "page": 564,
+  "words": 122,
+  "ayahs": 20,
+  "lines": 13,
+  "words_per_line": 9.384615384615385,
+  "mean_width": 29.629077706559876,
+  "mean_gap": 4.854452530141246
+ },
+ {
+  "page": 565,
+  "words": 148,
+  "ayahs": 26,
+  "lines": 15,
+  "words_per_line": 9.866666666666667,
+  "mean_width": 28.871901280063174,
+  "mean_gap": 5.096856825277187
+ },
+ {
+  "page": 566,
+  "words": 122,
+  "ayahs": 18,
+  "lines": 13,
+  "words_per_line": 9.384615384615385,
+  "mean_width": 30.70377922210314,
+  "mean_gap": 4.64012963528097
+ },
+ {
+  "page": 568,
+  "words": 116,
+  "ayahs": 27,
+  "lines": 13,
+  "words_per_line": 8.923076923076923,
+  "mean_width": 30.17663650030707,
+  "mean_gap": 6.362056118984974
+ },
+ {
+  "page": 567,
+  "words": 143,
+  "ayahs": 27,
+  "lines": 15,
+  "words_per_line": 9.533333333333333,
+  "mean_width": 29.105099970235013,
+  "mean_gap": 5.710352589483919
+ },
+ {
+  "page": 569,
+  "words": 141,
+  "ayahs": 30,
+  "lines": 15,
+  "words_per_line": 9.4,
+  "mean_width": 29.782091379307086,
+  "mean_gap": 5.564263555914697
+ },
+ {
+  "page": 570,
+  "words": 120,
+  "ayahs": 14,
+  "lines": 13,
+  "words_per_line": 9.23076923076923,
+  "mean_width": 31.000207757759537,
+  "mean_gap": 3.9587546902079813
+ },
+ {
+  "page": 571,
+  "words": 140,
+  "ayahs": 18,
+  "lines": 15,
+  "words_per_line": 9.333333333333334,
+  "mean_width": 30.45816718607554,
+  "mean_gap": 4.551990994987511
+ },
+ {
+  "page": 572,
+  "words": 136,
+  "ayahs": 13,
+  "lines": 13,
+  "words_per_line": 10.461538461538462,
+  "mean_width": 26.683393012362178,
+  "mean_gap": 4.56822709298688
+ },
+ {
+  "page": 573,
+  "words": 149,
+  "ayahs": 15,
+  "lines": 15,
+  "words_per_line": 9.933333333333334,
+  "mean_width": 27.863043947729782,
+  "mean_gap": 5.1753730511937714
+ },
+ {
+  "page": 574,
+  "words": 121,
+  "ayahs": 19,
+  "lines": 13,
+  "words_per_line": 9.307692307692308,
+  "mean_width": 29.84348072697937,
+  "mean_gap": 4.824070424003038
+ },
+ {
+  "page": 575,
+  "words": 132,
+  "ayahs": 19,
+  "lines": 13,
+  "words_per_line": 10.153846153846153,
+  "mean_width": 28.057797414588748,
+  "mean_gap": 3.9642626306116817
+ },
+ {
+  "page": 576,
+  "words": 155,
+  "ayahs": 29,
+  "lines": 15,
+  "words_per_line": 10.333333333333334,
+  "mean_width": 26.965813766840213,
+  "mean_gap": 4.872653867924893
+ },
+ {
+  "page": 577,
+  "words": 125,
+  "ayahs": 28,
+  "lines": 13,
+  "words_per_line": 9.615384615384615,
+  "mean_width": 27.63922676331614,
+  "mean_gap": 6.764994274636931
+ },
+ {
+  "page": 578,
+  "words": 126,
+  "ayahs": 26,
+  "lines": 13,
+  "words_per_line": 9.692307692307692,
+  "mean_width": 28.0688462520994,
+  "mean_gap": 5.812174309029454
+ },
+ {
+  "page": 579,
+  "words": 147,
+  "ayahs": 20,
+  "lines": 15,
+  "words_per_line": 9.8,
+  "mean_width": 29.984721341875954,
+  "mean_gap": 3.7453552822892795
+ },
+ {
+  "page": 580,
+  "words": 107,
+  "ayahs": 25,
+  "lines": 13,
+  "words_per_line": 8.23076923076923,
+  "mean_width": 32.3029032946161,
+  "mean_gap": 6.973201652264194
+ },
+ {
+  "page": 581,
+  "words": 128,
+  "ayahs": 31,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 31.976524982711993,
+  "mean_gap": 6.420835238026664
+ },
+ {
+  "page": 582,
+  "words": 105,
+  "ayahs": 30,
+  "lines": 13,
+  "words_per_line": 8.076923076923077,
+  "mean_width": 32.55953151711677,
+  "mean_gap": 8.117814085786371
+ },
+ {
+  "page": 583,
+  "words": 119,
+  "ayahs": 26,
+  "lines": 13,
+  "words_per_line": 9.153846153846153,
+  "mean_width": 29.702453223009446,
+  "mean_gap": 6.003362681263842
+ },
+ {
+  "page": 584,
+  "words": 128,
+  "ayahs": 30,
+  "lines": 15,
+  "words_per_line": 8.533333333333333,
+  "mean_width": 31.378846541349695,
+  "mean_gap": 6.2919717672751805
+ },
+ {
+  "page": 586,
+  "words": 110,
+  "ayahs": 31,
+  "lines": 13,
+  "words_per_line": 8.461538461538462,
+  "mean_width": 30.927024826995137,
+  "mean_gap": 7.059716301998867
+ },
+ {
+  "page": 585,
+  "words": 127,
+  "ayahs": 40,
+  "lines": 13,
+  "words_per_line": 9.76923076923077,
+  "mean_width": 26.03082321122819,
+  "mean_gap": 7.644755353637473
+ },
+ {
+  "page": 587,
+  "words": 98,
+  "ayahs": 23,
+  "lines": 11,
+  "words_per_line": 8.909090909090908,
+  "mean_width": 29.979793603494898,
+  "mean_gap": 6.512124338290479
+ },
+ {
+  "page": 588,
+  "words": 136,
+  "ayahs": 29,
+  "lines": 15,
+  "words_per_line": 9.066666666666666,
+  "mean_width": 30.28017602744759,
+  "mean_gap": 5.58646217448373
+ },
+ {
+  "page": 589,
+  "words": 113,
+  "ayahs": 27,
+  "lines": 13,
+  "words_per_line": 8.692307692307692,
+  "mean_width": 30.76620941584986,
+  "mean_gap": 6.745257538690826
+ },
+ {
+  "page": 590,
+  "words": 118,
+  "ayahs": 23,
+  "lines": 13,
+  "words_per_line": 9.076923076923077,
+  "mean_width": 30.95991670990297,
+  "mean_gap": 5.941041956174202
+ },
+ {
+  "page": 591,
+  "words": 98,
+  "ayahs": 27,
+  "lines": 11,
+  "words_per_line": 8.909090909090908,
+  "mean_width": 29.553436725132123,
+  "mean_gap": 6.639885516662363
+ },
+ {
+  "page": 592,
+  "words": 112,
+  "ayahs": 31,
+  "lines": 13,
+  "words_per_line": 8.615384615384615,
+  "mean_width": 30.54797648680191,
+  "mean_gap": 7.75755032197126
+ },
+ {
+  "page": 593,
+  "words": 117,
+  "ayahs": 26,
+  "lines": 13,
+  "words_per_line": 9.0,
+  "mean_width": 29.342771529583626,
+  "mean_gap": 6.5638438981202105
+ },
+ {
+  "page": 594,
+  "words": 108,
+  "ayahs": 26,
+  "lines": 13,
+  "words_per_line": 8.307692307692308,
+  "mean_width": 31.08922301428007,
+  "mean_gap": 6.682787036353957
+ },
+ {
+  "page": 595,
+  "words": 90,
+  "ayahs": 26,
+  "lines": 11,
+  "words_per_line": 8.181818181818182,
+  "mean_width": 32.62888383856312,
+  "mean_gap": 6.999458971747985
+ },
+ {
+  "page": 596,
+  "words": 91,
+  "ayahs": 25,
+  "lines": 11,
+  "words_per_line": 8.272727272727273,
+  "mean_width": 31.38689797136733,
+  "mean_gap": 7.509621696992111
+ },
+ {
+  "page": 597,
+  "words": 99,
+  "ayahs": 26,
+  "lines": 11,
+  "words_per_line": 9.0,
+  "mean_width": 29.374863968760046,
+  "mean_gap": 6.26346697319537
+ },
+ {
+  "page": 598,
+  "words": 105,
+  "ayahs": 17,
+  "lines": 11,
+  "words_per_line": 9.545454545454545,
+  "mean_width": 28.80468518370235,
+  "mean_gap": 5.020144120122263
+ },
+ {
+  "page": 600,
+  "words": 92,
+  "ayahs": 25,
+  "lines": 11,
+  "words_per_line": 8.363636363636363,
+  "mean_width": 30.391816488558483,
+  "mean_gap": 7.431730961543523
+ },
+ {
+  "page": 599,
+  "words": 94,
+  "ayahs": 16,
+  "lines": 11,
+  "words_per_line": 8.545454545454545,
+  "mean_width": 32.64358036573529,
+  "mean_gap": 5.528787065968288
+ },
+ {
+  "page": 602,
+  "words": 52,
+  "ayahs": 14,
+  "lines": 9,
+  "words_per_line": 5.777777777777778,
+  "mean_width": 40.99525462973476,
+  "mean_gap": 7.404457092336139
+ },
+ {
+  "page": 601,
+  "words": 70,
+  "ayahs": 17,
+  "lines": 9,
+  "words_per_line": 7.777777777777778,
+  "mean_width": 34.552236128195496,
+  "mean_gap": 6.555281002083263
+ },
+ {
+  "page": 604,
+  "words": 58,
+  "ayahs": 15,
+  "lines": 9,
+  "words_per_line": 6.444444444444445,
+  "mean_width": 31.819186875940048,
+  "mean_gap": 7.605812649561692
+ },
+ {
+  "page": 603,
+  "words": 68,
+  "ayahs": 14,
+  "lines": 9,
+  "words_per_line": 7.555555555555555,
+  "mean_width": 32.02326599296877,
+  "mean_gap": 6.3692082260241065
+ }
+]

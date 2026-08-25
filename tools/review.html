@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Word assignment review</title>
+<style>
+  :root { --accent: #0b6bcb; --warn: #b4231f; --ok: #1a7f37; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.5 system-ui, sans-serif; display: flex; height: 100vh; }
+  #side { width: 340px; min-width: 340px; border-inline-end: 1px solid #ddd; padding: 12px;
+          overflow-y: auto; }
+  #stage { flex: 1; overflow: auto; background: #f6f5f2; padding: 16px; }
+  #stage svg { background: #fff; box-shadow: 0 1px 6px rgba(0,0,0,.15); width: 100%;
+               max-width: 780px; height: auto; display: block; margin: 0 auto; }
+  h1 { font-size: 16px; margin: 0 0 8px; }
+  .row { display: flex; gap: 6px; margin-bottom: 8px; align-items: center; }
+  input[type=number] { width: 70px; }
+  button { cursor: pointer; }
+  #wordinfo { direction: rtl; font-family: "KFGQPC Uthmanic Script HAFS", "Amiri Quran",
+              "Scheherazade New", serif; font-size: 30px; min-height: 52px;
+              border: 1px solid #eee; border-radius: 6px; padding: 4px 10px; margin: 8px 0; }
+  #wordmeta { color: #555; font-size: 12px; margin-bottom: 8px; }
+  .line-flag { padding: 6px 8px; border-radius: 6px; margin-bottom: 6px; cursor: pointer;
+               border: 1px solid #eee; }
+  .line-flag.review { border-color: var(--warn); background: #fff5f5; }
+  .line-flag.approved { border-color: var(--ok); background: #f2fbf5; }
+  .badge { font-size: 11px; color: #fff; border-radius: 8px; padding: 1px 7px; }
+  .review .badge { background: var(--warn); } .approved .badge { background: var(--ok); }
+  #corr { font-size: 12px; color: #555; white-space: pre-wrap; }
+  /* SVG interaction */
+  svg g.word { cursor: pointer; }
+  svg g.word.hover path { fill: var(--accent) !important; }
+  svg g.word.selword path { fill: #7c3aed !important; }
+  svg path.selel { fill: var(--warn) !important; }
+  svg path.moved { fill: var(--ok) !important; }
+  .hint { font-size: 12px; color: #777; }
+</style>
+</head>
+<body>
+<div id="side">
+  <h1>Word assignment review</h1>
+  <div class="row">
+    <select id="edition">
+      <option>hafs-kfqc</option><option>warsh-kfqc</option><option>qalon-kfqc</option>
+      <option>douri-kfqc</option><option>shubah-kfqc</option>
+    </select>
+    <input id="page" type="number" min="1" max="604" value="3">
+    <button id="prev">◀</button><button id="next">▶</button>
+  </div>
+  <div id="wordinfo" dir="rtl"></div>
+  <div id="wordmeta"></div>
+  <p class="hint">Hover a word to read it. Click an element (a letter piece or mark) to
+     select it, then click the word it belongs to — the move is recorded. Click a flagged
+     line to approve it after checking.</p>
+  <div id="lines"></div>
+  <div class="row">
+    <button id="export">Export corrections JSON</button>
+    <button id="clear">Clear page corrections</button>
+  </div>
+  <div id="corr"></div>
+</div>
+<div id="stage"></div>
+<script>
+const $ = s => document.querySelector(s);
+let report = [], selEl = null;
+
+const key = () => `corr:${$("#edition").value}:${$("#page").value}`;
+const store = () => JSON.parse(localStorage.getItem(key()) || '{"moves":[],"approved":[]}');
+const save = c => { localStorage.setItem(key(), JSON.stringify(c)); renderCorr(); };
+
+async function load() {
+  const ed = $("#edition").value, pg = String($("#page").value).padStart(3, "0");
+  const base = `../.cache/words-svg/${ed}/${pg}`;
+  const [svgText, rep] = await Promise.all([
+    fetch(base + ".svg").then(r => { if (!r.ok) throw Error("run assign_words.py for this page first"); return r.text(); }),
+    fetch(base + ".report.json").then(r => r.ok ? r.json() : []),
+  ]);
+  report = rep;
+  $("#stage").innerHTML = svgText;
+  wire();
+  renderLines();
+  renderCorr();
+  applyStoredMoves();
+}
+
+function wire() {
+  const svg = $("#stage svg");
+  svg.querySelectorAll("g.word").forEach(w => {
+    w.addEventListener("mouseenter", () => { w.classList.add("hover"); showWord(w); });
+    w.addEventListener("mouseleave", () => w.classList.remove("hover"));
+    w.addEventListener("click", ev => {
+      if (!selEl) return;
+      ev.stopPropagation();
+      moveEl(selEl, w, true);
+      selEl = null;
+    });
+  });
+  svg.querySelectorAll("path[data-eid]").forEach(p => {
+    p.addEventListener("click", ev => {
+      ev.stopPropagation();
+      if (selEl) selEl.classList.remove("selel");
+      selEl = (selEl === p) ? null : p;
+      if (selEl) { selEl.classList.add("selel"); showEl(p); }
+    });
+  });
+}
+
+function wordKey(w) {
+  return `${w.dataset.surah}:${w.dataset.ayah}:${w.dataset.word}`;
+}
+
+function moveEl(p, w, record) {
+  w.appendChild(p);
+  p.classList.remove("selel");
+  p.classList.add("moved");
+  if (record) {
+    const c = store();
+    c.moves = c.moves.filter(m => m.eid !== p.dataset.eid);
+    c.moves.push({ eid: p.dataset.eid, to: wordKey(w) });
+    save(c);
+  }
+}
+
+function applyStoredMoves() {
+  const svg = $("#stage svg");
+  for (const m of store().moves) {
+    const p = svg.querySelector(`path[data-eid="${m.eid}"]`);
+    const w = [...svg.querySelectorAll("g.word")].find(g => wordKey(g) === m.to);
+    if (p && w) moveEl(p, w, false);
+  }
+}
+
+function showWord(w) {
+  $("#wordinfo").textContent = w.dataset.uthmani || "";
+  const ligs = [...w.querySelectorAll("g.ligature")]
+    .map(g => g.dataset.text || "?").join(" · ");
+  $("#wordmeta").textContent =
+    `surah ${w.dataset.surah} · ayah ${w.dataset.ayah} · word ${w.dataset.word}` +
+    (w.dataset.imlaei ? ` · imlaei: ${w.dataset.imlaei}` : "") +
+    (ligs ? ` · ligatures: ${ligs}` : "");
+}
+function showEl(p) {
+  const w = p.closest("g.word"), lig = p.closest("g.ligature");
+  $("#wordmeta").textContent = `element ${p.dataset.eid} (${p.dataset.kind}` +
+    (p.dataset.mark ? `: ${p.dataset.mark}` : "") + ")" +
+    (lig && lig.dataset.text ? ` in ligature "${lig.dataset.text}"` : "") +
+    (w ? ` of ${wordKey(w)} — now click the correct word` : "");
+}
+
+function renderLines() {
+  const c = store();
+  $("#lines").innerHTML = report.map(r => {
+    const approved = c.approved.includes(r.line);
+    const cls = approved ? "approved" : (r.review ? "review" : "");
+    const label = approved ? "approved" : (r.review ? "review" : "auto-ok");
+    return `<div class="line-flag ${cls}" data-line="${r.line}">
+      line ${r.line} — ${r.words} words, dev ${r.deviation ?? "—"}
+      ${r.flags.length ? " · " + r.flags.join(", ") : ""}
+      <span class="badge">${label}</span></div>`;
+  }).join("");
+  $("#lines").querySelectorAll(".line-flag").forEach(div => {
+    div.addEventListener("click", () => {
+      const c = store(), ln = +div.dataset.line;
+      c.approved = c.approved.includes(ln) ? c.approved.filter(x => x !== ln)
+                                           : [...c.approved, ln];
+      save(c);
+      renderLines();
+    });
+  });
+}
+
+function renderCorr() {
+  const c = store();
+  $("#corr").textContent = `${c.moves.length} moves, ${c.approved.length} lines approved on this page`;
+}
+
+$("#export").addEventListener("click", () => {
+  const all = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k.startsWith("corr:")) all[k.slice(5)] = JSON.parse(localStorage.getItem(k));
+  }
+  const blob = new Blob([JSON.stringify(all, null, 1)], { type: "application/json" });
+  const a = Object.assign(document.createElement("a"),
+    { href: URL.createObjectURL(blob), download: "word-corrections.json" });
+  a.click();
+});
+$("#clear").addEventListener("click", () => { localStorage.removeItem(key()); load(); });
+$("#prev").addEventListener("click", () => { $("#page").value = +$("#page").value - 1; load(); });
+$("#next").addEventListener("click", () => { $("#page").value = +$("#page").value + 1; load(); });
+$("#edition").addEventListener("change", load);
+$("#page").addEventListener("change", load);
+load().catch(e => $("#stage").innerHTML = `<p style="padding:2em">${e.message}</p>`);
+</script>
+</body>
+</html>

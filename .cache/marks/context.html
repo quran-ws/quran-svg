@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Mark in context</title><style>
+body{margin:0;font:14px system-ui;background:#f4f1ea}
+#bar{padding:10px 16px;background:#fff;border-bottom:1px solid #ddd}
+#wrap{position:relative;max-width:900px;margin:14px auto;background:#fff;
+      box-shadow:0 2px 10px rgba(0,0,0,.12)}
+#wrap img{width:100%;display:block}
+#hl{position:absolute;border:2.5px solid #d00;border-radius:4px;
+    box-shadow:0 0 0 3000px rgba(30,20,0,.14);pointer-events:none}
+</style></head><body>
+<div id="bar"><b id="title"></b> — the red box marks the shape; the page around it is dimmed.</div>
+<div id="wrap"><img id="pg" alt="mushaf page"><div id="hl"></div></div>
+<script>
+const q = new URLSearchParams(location.search);
+const page = q.get("page"), ed = q.get("ed") || "hafs/kfqc";
+const [x1, y1, x2, y2] = (q.get("bbox") || "0,0,10,10").split(",").map(Number);
+const VBW = 345, VBH = 550;   // page viewBox
+document.getElementById("title").textContent = `${ed} — page ${page}`;
+const img = document.getElementById("pg");
+img.src = `../../mushafs/${ed}/svg/${page}`;
+function place() {
+  const w = img.clientWidth, h = img.clientHeight;
+  const pad = 1.2;
+  const hl = document.getElementById("hl");
+  hl.style.left   = ((x1 - pad) / VBW * w) + "px";
+  hl.style.top    = ((y1 - pad) / VBH * h) + "px";
+  hl.style.width  = ((x2 - x1 + 2 * pad) / VBW * w) + "px";
+  hl.style.height = ((y2 - y1 + 2 * pad) / VBH * h) + "px";
+  hl.scrollIntoView({block: "center"});
+}
+img.addEventListener("load", place);
+window.addEventListener("resize", place);
+</script></body></html>

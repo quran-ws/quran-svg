@@ -1,0 +1,452 @@
+{
+ "ا": {
+  "isolated": {
+   "width": 3.31,
+   "samples": 1124
+  },
+  "final": {
+   "width": 4.12,
+   "samples": 737
+  }
+ },
+ "ل": {
+  "initial": {
+   "width": 7.54,
+   "samples": 762
+  },
+  "medial": {
+   "width": 5.36,
+   "samples": 496
+  },
+  "isolated": {
+   "width": 9.19,
+   "samples": 53
+  },
+  "final": {
+   "width": 12.26,
+   "samples": 103
+  }
+ },
+ "ه": {
+  "final": {
+   "width": 4.51,
+   "samples": 196
+  },
+  "medial": {
+   "width": 8.29,
+   "samples": 225
+  },
+  "initial": {
+   "width": 10.44,
+   "samples": 98
+  },
+  "isolated": {
+   "width": 5.86,
+   "samples": 11
+  }
+ },
+ "ح": {
+  "initial": {
+   "width": 14.12,
+   "samples": 69
+  },
+  "medial": {
+   "width": 7.4,
+   "samples": 65
+  },
+  "final": {
+   "width": 7.9,
+   "samples": 3
+  },
+  "isolated": {
+   "width": 15.3,
+   "samples": 8
+  }
+ },
+ "م": {
+  "medial": {
+   "width": 8.53,
+   "samples": 243
+  },
+  "initial": {
+   "width": 8.59,
+   "samples": 427
+  },
+  "final": {
+   "width": 9.32,
+   "samples": 423
+  },
+  "isolated": {
+   "width": 9.71,
+   "samples": 27
+  }
+ },
+ "ن": {
+  "final": {
+   "width": 8.52,
+   "samples": 343
+  },
+  "initial": {
+   "width": 8.32,
+   "samples": 145
+  },
+  "isolated": {
+   "width": 10.26,
+   "samples": 218
+  },
+  "medial": {
+   "width": 6.29,
+   "samples": 239
+  }
+ },
+ "ك": {
+  "final": {
+   "width": 11.37,
+   "samples": 43
+  },
+  "isolated": {
+   "width": 10.76,
+   "samples": 3
+  },
+  "medial": {
+   "width": 17.35,
+   "samples": 199
+  },
+  "initial": {
+   "width": 18.63,
+   "samples": 97
+  }
+ },
+ "ي": {
+  "initial": {
+   "width": 7.83,
+   "samples": 269
+  },
+  "medial": {
+   "width": 6.48,
+   "samples": 323
+  },
+  "isolated": {
+   "width": 7.37,
+   "samples": 1
+  }
+ },
+ "ع": {
+  "medial": {
+   "width": 6.99,
+   "samples": 170
+  },
+  "initial": {
+   "width": 9.89,
+   "samples": 213
+  },
+  "final": {
+   "width": 5.23,
+   "samples": 19
+  },
+  "isolated": {
+   "width": 7.82,
+   "samples": 4
+  }
+ },
+ "ب": {
+  "medial": {
+   "width": 6.92,
+   "samples": 127
+  },
+  "final": {
+   "width": 15.79,
+   "samples": 41
+  },
+  "initial": {
+   "width": 7.0,
+   "samples": 198
+  },
+  "isolated": {
+   "width": 12.85,
+   "samples": 19
+  }
+ },
+ "د": {
+  "final": {
+   "width": 8.22,
+   "samples": 168
+  },
+  "isolated": {
+   "width": 5.86,
+   "samples": 35
+  }
+ },
+ "غ": {
+  "initial": {
+   "width": 12.56,
+   "samples": 10
+  },
+  "medial": {
+   "width": 6.53,
+   "samples": 21
+  },
+  "final": {
+   "width": -1.62,
+   "samples": 1
+  }
+ },
+ "ر": {
+  "final": {
+   "width": 10.01,
+   "samples": 207
+  },
+  "isolated": {
+   "width": 8.63,
+   "samples": 80
+  }
+ },
+ "ذ": {
+  "isolated": {
+   "width": 5.9,
+   "samples": 52
+  },
+  "final": {
+   "width": 4.44,
+   "samples": 65
+  }
+ },
+ "و": {
+  "isolated": {
+   "width": 9.16,
+   "samples": 417
+  },
+  "final": {
+   "width": 8.66,
+   "samples": 335
+  }
+ },
+ "ق": {
+  "initial": {
+   "width": 8.68,
+   "samples": 119
+  },
+  "medial": {
+   "width": 6.46,
+   "samples": 93
+  },
+  "isolated": {
+   "width": 10.73,
+   "samples": 8
+  },
+  "final": {
+   "width": 8.3,
+   "samples": 21
+  }
+ },
+ "ى": {
+  "final": {
+   "width": 5.88,
+   "samples": 170
+  },
+  "isolated": {
+   "width": 11.54,
+   "samples": 43
+  }
+ },
+ "ت": {
+  "initial": {
+   "width": 8.47,
+   "samples": 140
+  },
+  "medial": {
+   "width": 7.04,
+   "samples": 181
+  },
+  "final": {
+   "width": 14.0,
+   "samples": 36
+  },
+  "isolated": {
+   "width": 13.34,
+   "samples": 25
+  }
+ },
+ "خ": {
+  "initial": {
+   "width": 12.18,
+   "samples": 49
+  },
+  "medial": {
+   "width": 10.96,
+   "samples": 19
+  }
+ },
+ "س": {
+  "initial": {
+   "width": 12.81,
+   "samples": 60
+  },
+  "isolated": {
+   "width": 17.08,
+   "samples": 23
+  },
+  "medial": {
+   "width": 12.59,
+   "samples": 90
+  },
+  "final": {
+   "width": 7.99,
+   "samples": 7
+  }
+ },
+ "ص": {
+  "medial": {
+   "width": 16.39,
+   "samples": 33
+  },
+  "initial": {
+   "width": 18.94,
+   "samples": 17
+  },
+  "isolated": {
+   "width": 15.65,
+   "samples": 3
+  },
+  "final": {
+   "width": 14.98,
+   "samples": 3
+  }
+ },
+ "ظ": {
+  "medial": {
+   "width": 10.15,
+   "samples": 15
+  },
+  "initial": {
+   "width": 11.12,
+   "samples": 11
+  }
+ },
+ "ء": {
+  "isolated": {
+   "width": 4.98,
+   "samples": 84
+  }
+ },
+ "ف": {
+  "medial": {
+   "width": 8.91,
+   "samples": 76
+  },
+  "initial": {
+   "width": 7.71,
+   "samples": 236
+  },
+  "final": {
+   "width": 17.45,
+   "samples": 8
+  },
+  "isolated": {
+   "width": 14.09,
+   "samples": 11
+  }
+ },
+ "ش": {
+  "medial": {
+   "width": 12.43,
+   "samples": 31
+  },
+  "initial": {
+   "width": 13.53,
+   "samples": 33
+  }
+ },
+ "ض": {
+  "isolated": {
+   "width": 18.23,
+   "samples": 14
+  },
+  "initial": {
+   "width": 17.48,
+   "samples": 10
+  },
+  "medial": {
+   "width": 11.73,
+   "samples": 27
+  },
+  "final": {
+   "width": 17.31,
+   "samples": 4
+  }
+ },
+ "ز": {
+  "final": {
+   "width": 9.87,
+   "samples": 39
+  },
+  "isolated": {
+   "width": 8.79,
+   "samples": 9
+  }
+ },
+ "ط": {
+  "medial": {
+   "width": 10.45,
+   "samples": 20
+  },
+  "initial": {
+   "width": 9.51,
+   "samples": 11
+  },
+  "final": {
+   "width": 10.68,
+   "samples": 2
+  },
+  "isolated": {
+   "width": 12.8,
+   "samples": 3
+  }
+ },
+ "ة": {
+  "final": {
+   "width": 9.37,
+   "samples": 53
+  },
+  "isolated": {
+   "width": 6.85,
+   "samples": 20
+  }
+ },
+ "ج": {
+  "medial": {
+   "width": 11.36,
+   "samples": 29
+  },
+  "initial": {
+   "width": 14.0,
+   "samples": 43
+  },
+  "isolated": {
+   "width": 10.49,
+   "samples": 2
+  },
+  "final": {
+   "width": 9.94,
+   "samples": 6
+  }
+ },
+ "ث": {
+  "medial": {
+   "width": 2.95,
+   "samples": 25
+  },
+  "initial": {
+   "width": 9.27,
+   "samples": 29
+  },
+  "final": {
+   "width": 14.11,
+   "samples": 13
+  },
+  "isolated": {
+   "width": 11.99,
+   "samples": 2
+  }
+ }
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "page": 90,
+  "line": 12,
+  "holder": "سَيِّئَةٌۭ",
+  "key": "4:78:20",
+  "kind": "mark",
+  "mark": "fatha",
+  "other_line": 11,
+  "other": "وَإِن",
+  "gap_own": 19.9,
+  "gap_other": 2.7,
+  "x_gap": 0.0
+ },
+ {
+  "page": 90,
+  "line": 12,
+  "holder": "سَيِّئَةٌۭ",
+  "key": "4:78:20",
+  "kind": "mark",
+  "mark": "fatha",
+  "other_line": 11,
+  "other": "مُّشَيَّدَةٍۢ ۗ",
+  "gap_own": 23.4,
+  "gap_other": 1.7,
+  "x_gap": 0.0
+ }
+]
