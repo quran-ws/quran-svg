@@ -1,0 +1,215 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>quran-svg — edition viewer</title>
+<style>
+  :root{
+    --bg:#faf8f4; --panel:#fff; --ink:#1c1a17; --muted:#6b6558; --line:#e2ddd2;
+    --hit:#f0c419; --band:#3a86ff; --accent:#8a6d1f;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#17161a; --panel:#201f24; --ink:#eceae4; --muted:#9a948a; --line:#33313a; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+  header{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--line);
+         padding:10px 14px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  h1{font-size:14px;margin:0 10px 0 0;font-weight:600;letter-spacing:.01em}
+  label{display:inline-flex;gap:5px;align-items:center;color:var(--muted);white-space:nowrap}
+  select,input[type=number],button{font:inherit;color:var(--ink);background:var(--bg);
+        border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+  button{cursor:pointer}
+  button:hover{border-color:var(--accent)}
+  #cropbtns button{margin-right:4px}
+  #cropbtns button[aria-pressed=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
+  #crops{display:inline-flex;gap:5px;align-items:center;color:var(--muted)}
+  input[type=number]{width:70px}
+  #status{margin-left:auto;font-variant-numeric:tabular-nums;color:var(--muted)}
+  #status b{color:var(--ink);font-weight:600}
+  main{display:flex;gap:14px;padding:14px;align-items:flex-start;justify-content:center;flex-wrap:wrap}
+  .pane{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px;
+        flex:1 1 420px;max-width:760px;min-width:320px}
+  .pane h2{margin:0 0 8px;font-size:12px;font-weight:600;color:var(--muted);
+           display:flex;justify-content:space-between;letter-spacing:.03em;text-transform:uppercase}
+  .stage{background:#fff;border-radius:6px;overflow:hidden}
+  .stage svg{display:block;width:100%;height:auto}
+  .stage svg #content path, .stage svg #ayah_markers path{pointer-events:none}
+  .hl .ayahPolygon{fill:var(--hit);fill-opacity:0;cursor:pointer;transition:fill-opacity .08s}
+  .hl .ayahPolygon:hover{fill-opacity:.34}
+  .hl .ayahPolygon.pick{fill-opacity:.46}
+  .bands rect{fill:none;stroke:var(--band);stroke-width:.4;opacity:.75}
+  .bands text{fill:var(--band);font-size:5px;opacity:.85}
+  .err{color:#c0392b;padding:20px;font-family:ui-monospace,monospace;font-size:12px}
+  footer{color:var(--muted);padding:0 14px 24px;text-align:center;font-size:12px}
+  kbd{border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 4px;font-size:11px}
+</style>
+
+<header>
+  <h1>quran-svg</h1>
+  <label>page
+    <button id="prev" title="previous page">‹</button>
+    <input type="number" id="page" min="1" max="604" value="3">
+    <button id="next" title="next page">›</button>
+  </label>
+  <label>view
+    <select id="view">
+      <option value="both">1422 vs 1441</option>
+      <option value="hafs/kfqc-1422">1422 only</option>
+      <option value="hafs/kfqc-1441">1441 only</option>
+    </select>
+  </label>
+  <span id="crops" hidden>crop <span id="cropbtns"></span></span>
+  <label><input type="checkbox" id="hl" checked> ayah highlights</label>
+  <label><input type="checkbox" id="bands"> line bands</label>
+  <div id="status">—</div>
+</header>
+
+<main id="main"></main>
+<footer><kbd>←</kbd> <kbd>→</kbd> change page · hover an ayah to highlight it · click to pin</footer>
+
+<script>
+const EDITIONS = ["hafs/kfqc-1422", "hafs/kfqc-1441"];
+const pad = n => String(n).padStart(3, "0");
+const $ = s => document.querySelector(s);
+const state = { page: 3, crop: "", pinned: null, surahs: {} };
+
+async function surahNames(ed){
+  if (state.surahs[ed]) return state.surahs[ed];
+  try {
+    const r = await fetch(`../mushafs/${ed}/json/surah.json`);
+    const list = await r.json();
+    state.surahs[ed] = Object.fromEntries(list.map(s => [s.number, s]));
+  } catch { state.surahs[ed] = {}; }
+  return state.surahs[ed];
+}
+
+function stem(){ return state.crop ? `${pad(state.page)}-${state.crop}` : pad(state.page); }
+
+async function loadPane(ed){
+  const pane = document.createElement("section");
+  pane.className = "pane";
+  const url = `../mushafs/${ed}/svg/${stem()}.svg`;
+  pane.innerHTML = `<h2><span>${ed}</span><span class="meta">…</span></h2>
+                    <div class="stage">loading…</div>`;
+  const stage = pane.querySelector(".stage");
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`${res.status} ${url}`);
+    const text = await res.text();
+    stage.innerHTML = text;
+    const svg = stage.querySelector("svg");
+    svg.removeAttribute("width"); svg.removeAttribute("height");
+    const polys = svg.querySelectorAll(".ayahPolygon");
+    const names = await surahNames(ed);
+    pane.querySelector(".meta").textContent =
+      `${polys.length} ayat · ${(text.length/1e6).toFixed(2)} MB · viewBox ${svg.getAttribute("viewBox")}`;
+    polys.forEach(p => {
+      const s = p.getAttribute("surah"), a = p.getAttribute("ayah");
+      const nm = names[+s]?.nameArabic || "";
+      p.addEventListener("mouseenter", () => say(ed, s, a, nm, p.id));
+      p.addEventListener("click", () => {
+        stage.querySelectorAll(".pick").forEach(e => e.classList.remove("pick"));
+        p.classList.add("pick"); say(ed, s, a, nm, p.id);
+      });
+    });
+    if (bandsOn()) await drawBands(svg, ed);
+    applyToggles(stage);
+  } catch (e) {
+    stage.innerHTML = `<div class="err">could not load<br>${url}<br>${e.message}</div>`;
+  }
+  return pane;
+}
+
+function say(ed, s, a, nm, id){
+  $("#status").innerHTML =
+    `<b>${nm} ${s}:${a}</b> · ${id || ""} · <span style="opacity:.7">${ed}</span>`;
+}
+
+const bandsOn = () => $("#bands").checked;
+
+async function drawBands(svg, ed){
+  try {
+    const r = await fetch(`../mushafs/${ed}/lines/${pad(state.page)}.json`);
+    if (!r.ok) return;
+    const lines = await r.json();
+    const vb = svg.getAttribute("viewBox").split(/\s+/).map(Number);
+    const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+    g.setAttribute("class", "bands");
+    for (const l of lines) {
+      const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+      rect.setAttribute("x", vb[0] + 1); rect.setAttribute("y", l.top);
+      rect.setAttribute("width", vb[2] - 2); rect.setAttribute("height", l.bottom - l.top);
+      g.appendChild(rect);
+      const t = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      t.setAttribute("x", vb[0] + 3); t.setAttribute("y", l.top + 6);
+      t.textContent = l.lineNumber;
+      g.appendChild(t);
+    }
+    svg.appendChild(g);
+  } catch {}
+}
+
+function applyToggles(stage){
+  stage.classList.toggle("hl", $("#hl").checked);
+}
+
+async function crops(){
+  // A page that carries more than one surah also ships a crop per surah, named NNN-surahS.
+  const box = $("#crops"), btns = $("#cropbtns");
+  btns.innerHTML = "";
+  let surahs = [];
+  try {
+    const r = await fetch(`../mushafs/hafs/kfqc-1422/json/${pad(state.page)}.json`);
+    const entries = await r.json();
+    surahs = [...new Set(entries.filter(e => !e.continuation).map(e => e.surahNumber))];
+  } catch {}
+  box.hidden = surahs.length < 2;
+  if (surahs.length < 2) return;
+  const add = (value, label) => {
+    const b = document.createElement("button");
+    b.textContent = label;
+    b.setAttribute("aria-pressed", String(state.crop === value));
+    b.addEventListener("click", () => {
+      state.crop = value;
+      [...btns.children].forEach(c => c.setAttribute("aria-pressed", "false"));
+      b.setAttribute("aria-pressed", "true");
+      render();
+    });
+    btns.appendChild(b);
+  };
+  add("", "whole page");
+  surahs.forEach(s => add(`surah${s}`, `surah ${s}`));
+}
+
+async function render(){
+  const view = $("#view").value;
+  const eds = view === "both" ? EDITIONS : [view];
+  const main = $("#main");
+  main.innerHTML = "";
+  const panes = await Promise.all(eds.map(loadPane));
+  panes.forEach(p => main.appendChild(p));
+}
+
+async function go(page){
+  state.page = Math.min(604, Math.max(1, page));
+  $("#page").value = state.page;
+  state.crop = "";
+  await crops();
+  await render();
+}
+
+$("#page").addEventListener("change", e => go(+e.target.value));
+$("#prev").addEventListener("click", () => go(state.page - 1));
+$("#next").addEventListener("click", () => go(state.page + 1));
+$("#view").addEventListener("change", render);
+$("#hl").addEventListener("change", () =>
+  document.querySelectorAll(".stage").forEach(applyToggles));
+$("#bands").addEventListener("change", render);
+addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.key === "ArrowLeft") go(state.page + 1);
+  if (e.key === "ArrowRight") go(state.page - 1);
+});
+
+go(3);
+</script>
