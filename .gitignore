@@ -6,3 +6,6 @@ __pycache__/
 tools/_pipeline_cand.py
 tools/assign_words.py.orig
 .cache/words/
+# scratch: the unpacked .ai files and raw Inkscape output
+.work/
+.DS_Store

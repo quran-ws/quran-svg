@@ -14,9 +14,9 @@ merged. Nesting is therefore decided by an exact even-odd point test against the
 outline, not by boxes. Contour source text is copied verbatim (same technique as
 add_line_structure.py), so the ink is bit-identical; a render diff proves it.
 
-    tools/split_line_elements.py hafs/kfqc 3                 # one page, to scratch dir
-    tools/split_line_elements.py hafs/kfqc 3 -o out.svg      # explicit output
-    tools/split_line_elements.py hafs/kfqc 3 --verify        # + rsvg-convert pixel diff
+    tools/split_line_elements.py hafs/kfqc-1441 3                 # one page, to scratch dir
+    tools/split_line_elements.py hafs/kfqc-1441 3 -o out.svg      # explicit output
+    tools/split_line_elements.py hafs/kfqc-1441 3 --verify        # + rsvg-convert pixel diff
     tools/split_line_elements.py --batch --verify            # every edition, sample pages
     tools/split_line_elements.py --batch warsh/kfqc --pages all --verify --jobs 8
 """
@@ -342,7 +342,7 @@ def process(job):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("edition", nargs="?", help="e.g. hafs/kfqc (batch: default all)")
+    ap.add_argument("edition", nargs="?", help="e.g. hafs/kfqc-1441 (batch: default all)")
     ap.add_argument("page", nargs="?", type=int, help="single-page mode")
     ap.add_argument("-o", "--out", help="output SVG path (single-page mode)")
     ap.add_argument("--verify", action="store_true", help="pixel-diff with rsvg-convert")

@@ -7,7 +7,7 @@ tools/assign_words.py) and a small JSON API.  All review state lives under
 .cache/review/ as append-only JSONL files; nothing here touches the source
 SVGs or the pipeline.
 
-Usage:  python3 tools/review_server.py [--port 8777] [--edition hafs/kfqc]
+Usage:  python3 tools/review_server.py [--port 8777] [--edition hafs/kfqc-1441]
 """
 import argparse
 import ast
@@ -25,13 +25,17 @@ from urllib.parse import urlparse, parse_qs
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOOLS = os.path.join(ROOT, "tools")
+sys.path.insert(0, TOOLS)
+
+import editions                                                  # noqa: E402
+
 PLATFORM = os.path.join(TOOLS, "review-platform")
 REVIEW_DIR = os.path.join(ROOT, ".cache", "review")
 EDITS_PATH = os.path.join(REVIEW_DIR, "edits.jsonl")
 DECISIONS_PATH = os.path.join(REVIEW_DIR, "decisions.jsonl")
 STATUS_PATH = os.path.join(REVIEW_DIR, "status.json")
 
-EDITION = "hafs/kfqc"
+EDITION = editions.DEFAULT
 NUM_PAGES = 604
 SVGNS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVGNS)
@@ -474,7 +478,7 @@ def main():
     global EDITION
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--port", type=int, default=8777)
-    ap.add_argument("--edition", default="hafs/kfqc")
+    ap.add_argument("--edition", default=editions.DEFAULT)
     args = ap.parse_args()
     EDITION = args.edition
     os.makedirs(REVIEW_DIR, exist_ok=True)

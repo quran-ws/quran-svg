@@ -19,6 +19,8 @@ from collections import Counter
 
 ROOT = "/Users/abdullah/Documents/Github/quran-svg"
 sys.path.insert(0, ROOT + "/tools")
+
+import editions
 spec = importlib.util.spec_from_file_location("assign_words", ROOT + "/tools/assign_words.py")
 aw = importlib.util.module_from_spec(spec); sys.modules["assign_words"] = aw
 spec.loader.exec_module(aw)
@@ -41,7 +43,7 @@ def eff_bodies(els):
 
 
 def scan(pg):
-    aw.assign_page("hafs/kfqc", pg, ROOT + "/.cache/words")
+    aw.assign_page(editions.DEFAULT, pg, ROOT + "/.cache/words")
     lines = {}
     for w, at in cap["a"]:
         if not w:

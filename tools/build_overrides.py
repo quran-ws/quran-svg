@@ -14,6 +14,8 @@ import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
+
+import editions
 REVIEW = os.path.join(ROOT, ".cache", "review")
 OUT = os.path.join(REVIEW, "overrides.json")
 
@@ -61,7 +63,7 @@ def main():
             return orig(pg, assignment)
         aw.rewrite = spy
         try:
-            aw.assign_page("hafs/kfqc", page, os.path.join(ROOT, ".cache", "words"))
+            aw.assign_page(editions.DEFAULT, page, os.path.join(ROOT, ".cache", "words"))
         finally:
             aw.rewrite = orig
         # eids are handed out in emission order, word by word

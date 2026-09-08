@@ -7,9 +7,9 @@ that overlap cancel while they share an element and both fill once they are spli
 That can only happen between contours the segmentation put on different lines, so this
 renders the page as git has it against the page on disk and compares the bitmaps.
 
-    tools/verify_render.py hafs/kfqc              # every page of an edition
-    tools/verify_render.py hafs/kfqc --pages 1,255
-    tools/verify_render.py hafs/kfqc --scale 4    # render at 4x page size
+    tools/verify_render.py hafs/kfqc-1441              # every page of an edition
+    tools/verify_render.py hafs/kfqc-1441 --pages 1,255
+    tools/verify_render.py hafs/kfqc-1441 --scale 4    # render at 4x page size
 
 Needs `rsvg-convert` (librsvg) on PATH and reads the pre-change SVG from git.
 """
@@ -90,7 +90,7 @@ def measure(a, b):
 
 def main(argv=None):
     ap = argparse.ArgumentParser()
-    ap.add_argument("mushaf", help="edition, e.g. hafs/kfqc")
+    ap.add_argument("mushaf", help="edition, e.g. hafs/kfqc-1441")
     ap.add_argument("--pages", help="comma-separated page numbers")
     ap.add_argument("--scale", type=float, default=3.0,
                     help="render width as a multiple of the page's viewBox width")

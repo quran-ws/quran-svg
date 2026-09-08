@@ -22,6 +22,8 @@ from collections import defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
+
+import editions
 # Families whose final name is DERIVED from one outline rather than chosen by
 # shape, so a disagreement inside them is not a question for a reviewer:
 #   position    - the same stroke is a fatha above the letter, a kasra below it
@@ -115,7 +117,7 @@ def gather(cand, per):
     for pg in pages + spread:
         try:
             with contextlib.redirect_stdout(io.StringIO()):
-                aw.assign_page("hafs/kfqc", pg,
+                aw.assign_page(editions.DEFAULT, pg,
                                os.path.join(ROOT, ".cache", "words"))
         except Exception:
             continue

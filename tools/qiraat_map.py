@@ -111,7 +111,7 @@ if __name__ == "__main__":
     import sys
     repo = os.path.dirname(HERE)
     kufi = kufi_counts_from_surah_json(
-        os.path.join(repo, "mushafs", "hafs", "kfqc", "json", "surah.json"))
+        os.path.join(repo, "mushafs", "hafs", "kfqc-1441", "json", "surah.json"))
     print("Kufan reference: 114 surahs, %d ayat\n" % sum(kufi.values()))
     print("%-8s %-8s %-14s %8s %8s  %s" % ("mushaf", "qiraa", "counting", "derived", "stated", ""))
     ok = True

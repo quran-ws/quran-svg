@@ -9,8 +9,8 @@ marks wherever the word's own diacritics match the drawn marks one-to-one), and
 confirmed by a human on the generated sample sheet. Waqf marks, sajdah ۩, and anything
 the per-word prediction can't see still cluster cleanly and get named on the sheet.
 
-    tools/cluster_marks.py hafs/kfqc --pages 1-30
-    tools/cluster_marks.py hafs/kfqc --pages all -o .cache/marks
+    tools/cluster_marks.py hafs/kfqc-1441 --pages 1-30
+    tools/cluster_marks.py hafs/kfqc-1441 --pages all -o .cache/marks
 
 Outputs <out>/clusters.json (signature -> label, members) and <out>/sheet.html
 (one row per cluster: sample drawing, count, predicted-label votes) for review.

@@ -29,11 +29,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import brotli
 
+from editions import EDITIONS, base as edition_base, index_path, page_path, resolve
 from polygon_lib import (build_polygons, ink_mask, line_grid, markers, merge_rects,
                          path_d, read_page, recover_markers)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MUSHAFS = ("douri", "hafs", "qalon", "shubah", "warsh")
 FIRST_PAGE, LAST_PAGE = 3, 604
 BROTLI_QUALITY = 11        # what the shipped .svg.br files were produced with
 
@@ -41,16 +41,14 @@ _ELEMENT = re.compile(r'<path class="ayahPolygon"[^>]*?/>')
 
 
 def paths(mushaf, page, stem=None):
-    base = os.path.join(ROOT, "mushafs", mushaf, "kfqc")
-    stem = stem or "%03d" % page
-    return (os.path.join(base, "svg", stem + ".svg"),
-            os.path.join(base, "json", stem + ".json"),
-            os.path.join(base, "svg-br", stem + ".svg.br"))
+    return (page_path(mushaf, page, "svg", "svg", stem),
+            page_path(mushaf, page, "json", "json", stem),
+            page_path(mushaf, page, "svg-br", "svg.br", stem))
 
 
 def variants(mushaf, page):
     """The surah-specific crops of a page: same coordinate space, narrower viewBox."""
-    svg_dir = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "svg")
+    svg_dir = os.path.join(edition_base(mushaf), "svg")
     return sorted(f[:-4] for f in os.listdir(svg_dir)
                   if re.fullmatch(r"%03d-surah\d+\.svg" % page, f))
 
@@ -61,7 +59,7 @@ _MARKERS_JSON = {}
 def markers_json(mushaf):
     """markers.json grouped by page, loaded once."""
     if mushaf not in _MARKERS_JSON:
-        path = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "json", "markers.json")
+        path = index_path(mushaf, "markers.json")
         by_page = collections.defaultdict(list)
         if os.path.exists(path):
             with open(path, encoding="utf-8") as fh:
@@ -255,13 +253,14 @@ def write_variant(mushaf, page, stem, entries, stats, dry):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--mushaf", help="comma-separated subset (default: all five)")
+    ap.add_argument("--mushaf", help="comma-separated editions, e.g. hafs/kfqc-1422 "
+                    "(default: every edition)")
     ap.add_argument("--pages", help="comma-separated pages or A-B ranges")
     ap.add_argument("--workers", type=int, default=min(12, (os.cpu_count() or 4)))
     ap.add_argument("--dry-run", action="store_true", help="report what would change")
     args = ap.parse_args(argv)
 
-    mushafs = args.mushaf.split(",") if args.mushaf else list(MUSHAFS)
+    mushafs = resolve(args.mushaf)
     if args.pages:
         pages = []
         for part in args.pages.split(","):

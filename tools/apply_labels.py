@@ -85,7 +85,7 @@ def main():
     json.dump(table, open(TABLE, "w", encoding="utf-8"),
               ensure_ascii=False, indent=0)
     print("written %s   (previous table kept at %s)" % (TABLE, os.path.basename(bak)))
-    print("next: clear .cache/words-svg/hafs-kfqc, then re-run bench and the sweep")
+    print("next: clear .cache/words-svg/hafs-kfqc-1441, then re-run bench and the sweep")
 
 
 if __name__ == "__main__":

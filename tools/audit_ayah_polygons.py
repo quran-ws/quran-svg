@@ -30,13 +30,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import numpy as np
 
+import editions
 import qiraat_map
 from polygon_lib import (EPS, INKCOL, Z, band_spans, build_polygons, ink_mask,
                          line_grid, markers, read_page, recover_markers, score, text_margins,
                          translation_fit)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MUSHAFS = ("douri", "hafs", "qalon", "shubah", "warsh")
 FIRST_PAGE, LAST_PAGE = 3, 604          # 1-2 are the ornate opening spread, hand-made
 
 IDENTITY_SIGS = ("COUNT", "GAP", "DUP", "SURAHJSON", "IDSEQ")
@@ -59,7 +59,7 @@ _MARKERS_JSON = {}
 def markers_json(mushaf):
     """markers.json grouped by page, loaded once."""
     if mushaf not in _MARKERS_JSON:
-        path = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "json", "markers.json")
+        path = editions.index_path(mushaf, "markers.json")
         by_page = collections.defaultdict(list)
         if os.path.exists(path):
             with open(path, encoding="utf-8") as fh:
@@ -92,7 +92,7 @@ def marker_metadata(text):
 
 
 def page_path(mushaf, page, kind="svg", ext="svg"):
-    return os.path.join(ROOT, "mushafs", mushaf, "kfqc", kind, "%03d.%s" % (page, ext))
+    return editions.page_path(mushaf, page, kind, ext)
 
 
 # --------------------------------------------------------------------------- per page
@@ -294,7 +294,7 @@ def audit_files(mushaf, page, text, polys):
     else:
         found.append(("JSONDIFF", "no json/%03d.json" % page))
 
-    br = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "svg-br", "%03d.svg.br" % page)
+    br = editions.page_path(mushaf, page, "svg-br", "svg.br")
     if not os.path.exists(br):
         found.append(("BRDIFF", "no svg-br/%03d.svg.br" % page))
     else:
@@ -307,7 +307,7 @@ def audit_files(mushaf, page, text, polys):
             found.append(("BRDIFF", "svg-br/%03d.svg.br is unreadable: %s" % (page, exc)))
 
     page_d = [p["d"].strip() for p in polys]
-    base = os.path.join(ROOT, "mushafs", mushaf, "kfqc")
+    base = editions.base(mushaf)
     for variant in sorted(os.listdir(os.path.join(base, "svg"))):
         if not re.fullmatch(r"%03d-surah\d+\.svg" % page, variant):
             continue
@@ -345,7 +345,7 @@ def audit_files(mushaf, page, text, polys):
 
 def audit_identity(mushaf, per_page, kufi):
     """The ayat a mushaf claims, against the counting system its qiraa follows."""
-    system = qiraat_map.counting_system(mushaf)
+    system = qiraat_map.counting_system(editions.riwaya(mushaf))
     expected = qiraat_map.ayah_counts(system, kufi)
     seen = collections.defaultdict(list)
     for page, keys in per_page.items():
@@ -376,7 +376,7 @@ def audit_identity(mushaf, per_page, kufi):
 
 
 def audit_surah_json(mushaf, system, expected):
-    path = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "json", "surah.json")
+    path = editions.index_path(mushaf, "surah.json")
     if not os.path.exists(path):
         return [("SURAHJSON", "no surah.json")]
     with open(path, encoding="utf-8") as fh:
@@ -431,7 +431,8 @@ def parse_pages(spec):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--mushaf", help="comma-separated subset (default: all five)")
+    ap.add_argument("--mushaf", help="comma-separated editions, e.g. hafs/kfqc-1422 "
+                    "(default: every edition)")
     ap.add_argument("--pages", help="comma-separated pages or A-B ranges")
     ap.add_argument("--tier", choices=("all",) + tuple(TIERS), default="all")
     ap.add_argument("--workers", type=int, default=min(12, (os.cpu_count() or 4)))
@@ -440,13 +441,13 @@ def main(argv=None):
     ap.add_argument("--json", help="write the full report here")
     args = ap.parse_args(argv)
 
-    mushafs = args.mushaf.split(",") if args.mushaf else list(MUSHAFS)
+    mushafs = editions.resolve(args.mushaf)
     pages = parse_pages(args.pages)
     keep = set(sum((list(TIERS[t]) for t in TIERS), [])) if args.tier == "all" else set(TIERS[args.tier])
     want_files = args.tier in ("all", "files")
 
     kufi = qiraat_map.kufi_counts_from_surah_json(
-        os.path.join(ROOT, "mushafs", "hafs", "kfqc", "json", "surah.json"))
+        editions.index_path(editions.DEFAULT, "surah.json"))
 
     from multiprocessing import Pool
     report, totals = {}, collections.Counter()
@@ -457,7 +458,7 @@ def main(argv=None):
             for page, found, keys in pool.imap_unordered(audit_page, jobs, chunksize=4):
                 per_page[page] = keys
                 findings += [(page, sig, msg) for sig, msg in found]
-        system = qiraat_map.counting_system(mushaf)
+        system = qiraat_map.counting_system(editions.riwaya(mushaf))
         whole_mushaf = pages == list(range(FIRST_PAGE, LAST_PAGE + 1))
         if whole_mushaf:
             system, expected, ident = audit_identity(mushaf, per_page, kufi)

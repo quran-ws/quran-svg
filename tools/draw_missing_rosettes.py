@@ -37,11 +37,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import brotli
 import numpy as np
 
-from polygon_lib import (INKCOL, Z, ink_mask, line_grid, markers, read_page, recover_markers,
-                         translation_fit, viewbox)
+import editions
+from polygon_lib import (INKCOL, Z, _D, _glyph_bbox, ink_mask, line_grid, markers,
+                         read_page, recover_markers, translation_fit, viewbox)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MUSHAFS = ("douri", "hafs", "qalon", "shubah", "warsh")
 FIRST_PAGE, LAST_PAGE = 3, 604
 BROTLI_QUALITY = 11
 
@@ -66,7 +66,6 @@ def rosette_template(text):
 
 def glyph_centre(element):
     """The medallion path's own bbox centre, in glyph units."""
-    from polygon_lib import _glyph_bbox, _D
     d = _D.findall(element)[0]
     bb = _glyph_bbox(d)
     return (bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2
@@ -99,7 +98,7 @@ def numeral_box(mask, bands, band, approx_x, box, reach=11.0, gap=1.6, z=Z):
 
 def missing_rosettes(mushaf, page, entries):
     """[(centre_x, centre_y)] for the ayah ends this page draws without a medallion."""
-    svg = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "svg", "%03d.svg" % page)
+    svg = editions.page_path(mushaf, page, "svg", "svg")
     text, box, polys = read_page(svg)
     mk = markers(text)
     if len(mk) >= len(polys):
@@ -223,14 +222,14 @@ def main(argv=None):
 
     total = 0
     for mushaf in (args.mushaf.split(",") if args.mushaf else list(MUSHAFS)):
-        path = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "json", "markers.json")
+        path = editions.index_path(mushaf, "markers.json")
         by_page = collections.defaultdict(list)
         if os.path.exists(path):
             with open(path, encoding="utf-8") as fh:
                 for entry in json.load(fh):
                     by_page[entry["page"]].append(entry)
         for page in range(FIRST_PAGE, LAST_PAGE + 1):
-            svg = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "svg", "%03d.svg" % page)
+            svg = editions.page_path(mushaf, page, "svg", "svg")
             if not os.path.exists(svg):
                 continue
             text, box, centres, meta = missing_rosettes(mushaf, page, by_page.get(page, []))
@@ -245,7 +244,7 @@ def main(argv=None):
                 continue
             with open(svg, "w", encoding="utf-8") as fh:
                 fh.write(new_text)
-            br = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "svg-br", "%03d.svg.br" % page)
+            br = editions.page_path(mushaf, page, "svg-br", "svg.br")
             with open(br, "wb") as fh:
                 fh.write(brotli.compress(new_text.encode("utf-8"), quality=BROTLI_QUALITY))
             for variant in sorted(os.listdir(os.path.dirname(svg))):
@@ -257,8 +256,8 @@ def main(argv=None):
                 vnew, _ = draw(vtext, centres, meta)
                 with open(vpath, "w", encoding="utf-8") as fh:
                     fh.write(vnew)
-                vbr = os.path.join(ROOT, "mushafs", mushaf, "kfqc", "svg-br",
-                                   variant[:-4] + ".svg.br")
+                vbr = editions.page_path(mushaf, page, "svg-br", "svg.br",
+                                         stem=variant[:-4])
                 with open(vbr, "wb") as fh:
                     fh.write(brotli.compress(vnew.encode("utf-8"), quality=BROTLI_QUALITY))
     print("\n%d rosette(s)%s" % (total, " would be drawn" if args.dry_run else " drawn"))

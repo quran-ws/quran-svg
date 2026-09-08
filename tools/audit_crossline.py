@@ -19,6 +19,8 @@ from collections import Counter, defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
+
+import editions
 PIPE = os.environ.get("QSVG_PIPE", os.path.join(ROOT, "tools", "assign_words.py"))
 spec = importlib.util.spec_from_file_location("assign_words", PIPE)
 aw = importlib.util.module_from_spec(spec)
@@ -39,7 +41,7 @@ aw.rewrite = _spy
 def scan(pg):
     try:
         with contextlib.redirect_stdout(io.StringIO()):
-            aw.assign_page("hafs/kfqc", pg, os.path.join(ROOT, ".cache", "words"))
+            aw.assign_page(editions.DEFAULT, pg, os.path.join(ROOT, ".cache", "words"))
     except Exception as e:
         return pg, []
     words = []

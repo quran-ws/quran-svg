@@ -16,10 +16,10 @@ those round-trip through float64 exactly. The filled region is therefore identic
 Usage:
 
     tools/add_line_structure.py                       # every mushaf
-    tools/add_line_structure.py --mushaf hafs/kfqc    # one edition
+    tools/add_line_structure.py --mushaf hafs/kfqc-1441    # one edition
     tools/add_line_structure.py --check               # validate only, write nothing
     tools/add_line_structure.py --no-brotli           # skip regenerating svg-br/
-    tools/verify_render.py hafs/kfqc                  # render every page before and after
+    tools/verify_render.py hafs/kfqc-1441                  # render every page before and after
 
 Re-running is safe: a page that already carries line groups is restored to its original
 shape first, so the tool is idempotent and can be re-run whenever the pages are
@@ -518,7 +518,7 @@ def editions(selector=None):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--mushaf", help="restrict to one edition, e.g. hafs/kfqc")
+    ap.add_argument("--mushaf", help="restrict to one edition, e.g. hafs/kfqc-1441")
     ap.add_argument("--pages", help="comma-separated page numbers")
     ap.add_argument("--check", action="store_true", help="validate only, write nothing")
     ap.add_argument("--no-brotli", action="store_true", help="do not refresh svg-br/")

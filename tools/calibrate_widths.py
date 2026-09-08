@@ -8,7 +8,7 @@ least squares recovers the script's true metrics — replacing the hand-made WID
 with values measured from the calligraphy. The solution feeds word clustering, ligature
 alignment, and the letter-boundary priors.
 
-    tools/calibrate_widths.py hafs/kfqc --pages 1-40
+    tools/calibrate_widths.py hafs/kfqc-1441 --pages 1-40
 """
 
 import argparse

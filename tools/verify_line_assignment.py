@@ -34,8 +34,8 @@ was assigned to, the contour must be within `--eps` of some contour in its group
 distance between the outlines**, not between their boxes. Distances are computed on flattened
 curves; boxes are used only to skip pairs that cannot possibly be close.
 
-    tools/verify_line_assignment.py hafs/kfqc
-    tools/verify_line_assignment.py hafs/kfqc --pages 300,48
+    tools/verify_line_assignment.py hafs/kfqc-1441
+    tools/verify_line_assignment.py hafs/kfqc-1441 --pages 300,48
     tools/verify_line_assignment.py                        # every edition
 
 Exits non-zero if any contour is assigned to a line it neither belongs to nor touches.
@@ -250,7 +250,7 @@ def editions(only):
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("mushaf", nargs="?", help="edition, e.g. hafs/kfqc; omit for all")
+    ap.add_argument("mushaf", nargs="?", help="edition, e.g. hafs/kfqc-1441; omit for all")
     ap.add_argument("--pages", help="comma-separated page numbers")
     ap.add_argument("--eps", type=float, default=DEFAULT_EPS)
     ap.add_argument("--jobs", type=int, default=os.cpu_count())
