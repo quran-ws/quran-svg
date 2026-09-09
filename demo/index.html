@@ -54,13 +54,17 @@
   <label>view
     <select id="view">
       <option value="both">1422 vs 1441</option>
+      <option value="opt">1422 vs 1422-optimized</option>
+      <option value="all">all three</option>
       <option value="hafs/kfqc-1422">1422 only</option>
+      <option value="hafs/kfqc-1422-optimized">1422-optimized only</option>
       <option value="hafs/kfqc-1441">1441 only</option>
     </select>
   </label>
   <span id="crops" hidden>crop <span id="cropbtns"></span></span>
   <label><input type="checkbox" id="hl" checked> ayah highlights</label>
   <label><input type="checkbox" id="bands"> line bands</label>
+  <a href="trace.html" style="color:var(--accent)">trace comparison →</a>
   <div id="status">—</div>
 </header>
 
@@ -69,6 +73,7 @@
 
 <script>
 const EDITIONS = ["hafs/kfqc-1422", "hafs/kfqc-1441"];
+const ALL = ["hafs/kfqc-1422", "hafs/kfqc-1422-optimized", "hafs/kfqc-1441"];
 const pad = n => String(n).padStart(3, "0");
 const $ = s => document.querySelector(s);
 const state = { page: 3, crop: "", pinned: null, surahs: {} };
@@ -183,7 +188,9 @@ async function crops(){
 
 async function render(){
   const view = $("#view").value;
-  const eds = view === "both" ? EDITIONS : [view];
+  const eds = view === "both" ? EDITIONS
+            : view === "opt" ? ["hafs/kfqc-1422", "hafs/kfqc-1422-optimized"]
+            : view === "all" ? ALL : [view];
   const main = $("#main");
   main.innerHTML = "";
   const panes = await Promise.all(eds.map(loadPane));

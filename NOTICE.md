@@ -17,7 +17,8 @@ The mushaf pages are derived from the following publishers' editions. All rights
 original editions remain with their respective publishers.
 
 ### 2.1 King Fahd Glorious Qur'an Printing Complex (KFQC) — مجمع الملك فهد لطباعة المصحف الشريف
-Covers: `hafs/kfqc`, `warsh/kfqc`, `qalon/kfqc`, `douri/kfqc`, `shubah/kfqc`.
+Covers: `hafs/kfqc-1441`, `hafs/kfqc-1422`, `hafs/kfqc-1422-optimized`, `warsh/kfqc`,
+`qalon/kfqc`, `douri/kfqc`, `shubah/kfqc`.
 
 The Complex publishes a **complete free digital copy** of Muṣḥaf al‑Madinah (as Adobe
 Illustrator files, PDF, high‑quality images, and a TrueType font). Per the Complex's stated
@@ -41,6 +42,14 @@ usage rights:
 media, web, and software use — worldwide. The **only** restriction is the physical
 **print‑for‑commercial‑sale** trade of muṣḥafs, which is reserved to the Complex.
 Source: <https://qurancomplex.gov.sa>.
+
+**On the two Ḥafṣ editions.** The Complex has printed the Madani muṣḥaf more than once, and
+we carry two of its Ḥafṣ editions, named by printing year. `hafs/kfqc-1422` reproduces the
+Complex's 1422 artwork exactly — every path is the publisher's, verified unchanged.
+`hafs/kfqc-1422-optimized` is a derived copy in which the traced outlines have been re-fitted
+to reduce the file size; the letterforms are the Complex's and nothing was drawn from
+elsewhere, but the curves are ours and the edition is **still under testing**. Where the two
+disagree, `hafs/kfqc-1422` is the muṣḥaf.
 
 ## 3. This repository's own contribution — CC0 1.0 (public domain)
 

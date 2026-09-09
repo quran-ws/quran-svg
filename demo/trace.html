@@ -1,0 +1,160 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>quran-svg — line-by-line trace comparison</title>
+<style>
+  :root{ --bg:#faf8f4; --panel:#fff; --ink:#1c1a17; --muted:#6b6558; --line:#e2ddd2; --accent:#8a6d1f; }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#17161a; --panel:#201f24; --ink:#eceae4; --muted:#9a948a; --line:#33313a; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+  header{position:sticky;top:0;z-index:9;background:var(--panel);border-bottom:1px solid var(--line);
+         padding:10px 14px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  h1{font-size:14px;margin:0;font-weight:600}
+  a{color:var(--accent)}
+  label{display:inline-flex;gap:5px;align-items:center;color:var(--muted);white-space:nowrap}
+  select,input,button{font:inherit;color:var(--ink);background:var(--bg);
+        border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+  #note{margin-left:auto;color:var(--muted);font-size:12px}
+  .lineblock{margin:16px 14px;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+             padding:10px 12px 14px}
+  .lineblock h2{margin:0 0 8px;font-size:12px;color:var(--muted);text-transform:uppercase;
+                letter-spacing:.04em;display:flex;gap:14px;align-items:baseline}
+  .strip{position:relative;background:#fff;border-radius:6px;overflow-x:auto;overflow-y:hidden;
+         margin-bottom:6px}
+  .strip img{display:block;height:auto}
+  .tag{font-size:11px;color:var(--muted);margin:0 0 2px;font-variant-numeric:tabular-nums}
+  .tag b{color:var(--ink)}
+  .diff{position:relative;background:#fff;border-radius:6px;overflow-x:auto}
+  .diff .layer{display:block}
+  .diff .layer.b{position:absolute;left:0;top:0;mix-blend-mode:multiply}
+  .redify{filter:url(#redify)}
+  .bluify{filter:url(#bluify)}
+  .legend{font-size:11px;color:var(--muted);margin-top:4px}
+  .sw{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin:0 3px 0 8px}
+</style>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="redify" color-interpolation-filters="sRGB">
+    <feColorMatrix type="matrix" values="0 0 0 0 0.83  0 0 0 0 0.11  0 0 0 0 0.11  0 0 0 1 0"/>
+  </filter>
+  <filter id="bluify" color-interpolation-filters="sRGB">
+    <feColorMatrix type="matrix" values="0 0 0 0 0.10  0 0 0 0 0.35  0 0 0 0 0.85  0 0 0 1 0"/>
+  </filter>
+</svg>
+
+<header>
+  <h1>trace comparison</h1>
+  <label>page <select id="page"></select></label>
+  <label>zoom <select id="zoom">
+    <option value="4">4×</option><option value="8" selected>8×</option>
+    <option value="16">16×</option><option value="32">32×</option></select></label>
+  <label>mode <select id="mode">
+    <option value="stack">stacked</option>
+    <option value="diff">difference vs shipped</option></select></label>
+  <span id="vars"></span>
+  <div id="note"><a href="./">← page viewer</a></div>
+</header>
+
+<main id="main">loading…</main>
+
+<script>
+window.addEventListener("error", e => {
+  document.querySelector("#main").innerHTML =
+    '<div class="lineblock"><b>script error:</b> ' + e.message + '</div>';
+});
+const BASE = "../.work/trace";
+const $ = s => document.querySelector(s);
+const state = { index: null, page: null, zoom: 8, mode: "stack", on: new Set(["shipped","E3"]) };
+
+const kb = n => (n/1024).toFixed(0) + " kB";
+
+async function boot(){
+  try {
+    state.index = await (await fetch(`${BASE}/index.json`)).json();
+  } catch {
+    $("#main").innerHTML = `<div class="lineblock">No samples yet. Generate them with
+      <code>python3 pipeline/make_trace_samples.py</code></div>`;
+    return;
+  }
+  const pages = Object.keys(state.index.pages);
+  $("#page").innerHTML = pages.map(p => `<option>${p}</option>`).join("");
+  state.page = pages[0];
+  $("#vars").innerHTML = state.index.variants.map(v =>
+    `<label><input type="checkbox" value="${v}" ${state.on.has(v)?"checked":""}> ${v}</label>`).join(" ");
+  $("#vars").addEventListener("change", e => {
+    e.target.checked ? state.on.add(e.target.value) : state.on.delete(e.target.value);
+    render();
+  });
+  render();
+}
+
+async function sizeOf(url){
+  try {
+    const r = await fetch(url, {method:"HEAD"});
+    return +r.headers.get("content-length") || 0;
+  } catch { return 0; }
+}
+
+async function render(){
+  const main = $("#main");
+  const info = state.index.pages[state.page];
+  const vb = info.viewBox;
+  const width = vb[2] * state.zoom;
+  const chosen = state.index.variants.filter(v => state.on.has(v));
+  main.innerHTML = "";
+
+  const head = document.createElement("div");
+  head.className = "lineblock";
+  head.innerHTML = `<h2>page ${state.page} — whole file</h2>` +
+    state.index.variants.map(v =>
+      `<div class="tag"><b>${v}</b> ${kb(info.bytes[v])}` +
+      (v === "shipped" ? "" : ` — ${(100*info.bytes[v]/info.bytes.shipped).toFixed(1)}% of shipped`) +
+      `</div>`).join("");
+  main.appendChild(head);
+
+  for (const n of info.lines){
+    const block = document.createElement("div");
+    block.className = "lineblock";
+    const nn = String(n).padStart(2,"0");
+    const url = v => `${BASE}/${String(state.page).padStart(3,"0")}/line${nn}-${v}.svg`;
+    block.innerHTML = `<h2>line ${n}</h2>`;
+
+    if (state.mode === "diff"){
+      for (const v of chosen.filter(v => v !== "shipped")){
+        const wrap = document.createElement("div");
+        wrap.innerHTML =
+          `<div class="tag"><b>shipped vs ${v}</b></div>
+           <div class="diff" style="width:100%">
+             <div style="position:relative;width:${width}px">
+               <img class="layer redify" src="${url("shipped")}" style="width:${width}px">
+               <img class="layer b bluify" src="${url(v)}" style="width:${width}px">
+             </div>
+           </div>
+           <div class="legend"><span class="sw" style="background:#d41c1c"></span>only in shipped
+             <span class="sw" style="background:#1a59d9"></span>only in ${v}
+             <span class="sw" style="background:#241436"></span>shared</div>`;
+        block.appendChild(wrap);
+      }
+    } else {
+      for (const v of chosen){
+        const tag = document.createElement("div");
+        tag.className = "tag";
+        tag.innerHTML = `<b>${v}</b> <span class="sz">…</span>`;
+        block.appendChild(tag);
+        const strip = document.createElement("div");
+        strip.className = "strip";
+        strip.innerHTML = `<img src="${url(v)}" style="width:${width}px">`;
+        block.appendChild(strip);
+        sizeOf(url(v)).then(b => { if (b) tag.querySelector(".sz").textContent = kb(b); });
+      }
+    }
+    main.appendChild(block);
+  }
+}
+
+$("#page").addEventListener("change", e => { state.page = e.target.value; render(); });
+$("#zoom").addEventListener("change", e => { state.zoom = +e.target.value; render(); });
+$("#mode").addEventListener("change", e => { state.mode = e.target.value; render(); });
+boot();
+</script>

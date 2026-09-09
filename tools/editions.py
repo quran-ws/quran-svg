@@ -18,6 +18,7 @@ MUSHAFS = os.path.join(ROOT, "mushafs")
 EDITIONS = (
     "douri/kfqc",
     "hafs/kfqc-1422",
+    "hafs/kfqc-1422-optimized",
     "hafs/kfqc-1441",
     "qalon/kfqc",
     "shubah/kfqc",
