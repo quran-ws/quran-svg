@@ -1,121 +1,169 @@
-Creative Commons Legal Code
+Copyright 2026 Quran.ws
 
-CC0 1.0 Universal
+This work is dedicated as a waqf for the sake of Allah, seeking His pleasure
+through the benefit it brings to people. We publish it to enable the widest
+possible beneficial use, with as few restrictions as possible.
 
-    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
-    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
-    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
-    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
-    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
-    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
-    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
-    HEREUNDER.
+Quran.ws publishes code under the MIT License, and data and content under the
+Creative Commons Attribution 4.0 International License,
+with a standing waiver of attribution for use inside a product.
 
-Statement of Purpose
+We license only what we have the right to license; third-party material keeps
+the licence and terms of its own rights holders.
 
-The laws of most jurisdictions throughout the world automatically confer
-exclusive Copyright and Related Rights (defined below) upon the creator
-and subsequent owner(s) (each and all, an "owner") of an original work of
-authorship and/or a database (each, a "Work").
+Full policy: https://github.com/quran-ws/guidelines
 
-Certain owners wish to permanently relinquish those rights to a Work for
-the purpose of contributing to a commons of creative, cultural and
-scientific works ("Commons") that the public can reliably and without fear
-of later claims of infringement build upon, modify, incorporate in other
-works, reuse and redistribute as freely as possible in any form whatsoever
-and for any purposes, including without limitation commercial purposes.
-These owners may contribute to the Commons to promote the ideal of a free
-culture and the further production of creative, cultural and scientific
-works, or to gain reputation or greater distribution for their Work in
-part through the use and efforts of others.
 
-For these and/or other purposes and motivations, and without any
-expectation of additional consideration or compensation, the person
-associating CC0 with a Work (the "Affirmer"), to the extent that he or she
-is an owner of Copyright and Related Rights in the Work, voluntarily
-elects to apply CC0 to the Work and publicly distribute the Work under its
-terms, with knowledge of his or her Copyright and Related Rights in the
-Work and the meaning and intended legal effect of CC0 on those rights.
+═══════════════════════════════════════════════════════════════════════════════
+WHAT IS COVERED BY WHAT
+═══════════════════════════════════════════════════════════════════════════════
 
-1. Copyright and Related Rights. A Work made available under CC0 may be
-protected by copyright and related or neighboring rights ("Copyright and
-Related Rights"). Copyright and Related Rights include, but are not
-limited to, the following:
+  mushafs/ CC BY 4.0    — vectorised from KFGQPC mushaf printings
+  tools/   MIT
 
-  i. the right to reproduce, adapt, distribute, perform, display,
-     communicate, and translate a Work;
- ii. moral rights retained by the original author(s) and/or performer(s);
-iii. publicity and privacy rights pertaining to a person's image or
-     likeness depicted in a Work;
- iv. rights protecting against unfair competition in regards to a Work,
-     subject to the limitations in paragraph 4(a), below;
-  v. rights protecting the extraction, dissemination, use and reuse of data
-     in a Work;
- vi. database rights (such as those arising under Directive 96/9/EC of the
-     European Parliament and of the Council of 11 March 1996 on the legal
-     protection of databases, and under any national implementation
-     thereof, including any amended or successor version of such
-     directive); and
-vii. other similar, equivalent or corresponding rights throughout the
-     world based on applicable law or treaty, and any national
-     implementations thereof.
+Where a directory or file carries its own LICENSE or NOTICE, that notice
+governs for that material. Names, logos and trademarks are not licensed.
 
-2. Waiver. To the greatest extent permitted by, but not in contravention
-of, applicable law, Affirmer hereby overtly, fully, permanently,
-irrevocably and unconditionally waives, abandons, and surrenders all of
-Affirmer's Copyright and Related Rights and associated claims and causes
-of action, whether now known or unknown (including existing as well as
-future claims and causes of action), in the Work (i) in all territories
-worldwide, (ii) for the maximum duration provided by applicable law or
-treaty (including future time extensions), (iii) in any current or future
-medium and for any number of copies, and (iv) for any purpose whatsoever,
-including without limitation commercial, advertising or promotional
-purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
-member of the public at large and to the detriment of Affirmer's heirs and
-successors, fully intending that such Waiver shall not be subject to
-revocation, rescission, cancellation, termination, or any other legal or
-equitable action to disrupt the quiet enjoyment of the Work by the public
-as contemplated by Affirmer's express Statement of Purpose.
 
-3. Public License Fallback. Should any part of the Waiver for any reason
-be judged legally invalid or ineffective under applicable law, then the
-Waiver shall be preserved to the maximum extent permitted taking into
-account Affirmer's express Statement of Purpose. In addition, to the
-extent the Waiver is so judged Affirmer hereby grants to each affected
-person a royalty-free, non transferable, non sublicensable, non exclusive,
-irrevocable and unconditional license to exercise Affirmer's Copyright and
-Related Rights in the Work (i) in all territories worldwide, (ii) for the
-maximum duration provided by applicable law or treaty (including future
-time extensions), (iii) in any current or future medium and for any number
-of copies, and (iv) for any purpose whatsoever, including without
-limitation commercial, advertising or promotional purposes (the
-"License"). The License shall be deemed effective as of the date CC0 was
-applied by Affirmer to the Work. Should any part of the License for any
-reason be judged legally invalid or ineffective under applicable law, such
-partial invalidity or ineffectiveness shall not invalidate the remainder
-of the License, and in such case Affirmer hereby affirms that he or she
-will not (i) exercise any of his or her remaining Copyright and Related
-Rights in the Work or (ii) assert any associated claims and causes of
-action with respect to the Work, in either case contrary to Affirmer's
-express Statement of Purpose.
+═══════════════════════════════════════════════════════════════════════════════
+ATTRIBUTION WAIVED FOR USE IN PRODUCTS
+═══════════════════════════════════════════════════════════════════════════════
 
-4. Limitations and Disclaimers.
+As rights holders of our original data and content, we grant a permanent,
+worldwide, royalty-free, irrevocable waiver of the attribution requirement of
+CC BY 4.0 (Section 3(a)) when the material is used within an application,
+website, service, API, bot, tool, research work, or product, whether free or
+commercial. This permission expands what you may do and adds no restriction to
+CC BY 4.0.
 
- a. No trademark or patent rights held by Affirmer are waived, abandoned,
-    surrendered, licensed or otherwise affected by this document.
- b. Affirmer offers the Work as-is and makes no representations or
-    warranties of any kind concerning the Work, express, implied,
-    statutory or otherwise, including without limitation warranties of
-    title, merchantability, fitness for a particular purpose, non
-    infringement, or the absence of latent or other defects, accuracy, or
-    the present or absence of errors, whether or not discoverable, all to
-    the greatest extent permissible under applicable law.
- c. Affirmer disclaims responsibility for clearing rights of other persons
-    that may apply to the Work or any use thereof, including without
-    limitation any person's Copyright and Related Rights in the Work.
-    Further, Affirmer disclaims responsibility for obtaining any necessary
-    consents, permissions or other rights required for any use of the
-    Work.
- d. Affirmer understands and acknowledges that Creative Commons is not a
-    party to this document and has no duty or obligation with respect to
-    this CC0 or use of the Work.
+Attribution is still required on republication — when the data or content
+itself is made available to others as a resource in its own right. The test:
+if a third party can obtain the data AS DATA from what you distribute, that is
+republication, and CC BY 4.0 attribution applies.
+
+Suggested attribution:
+
+  Data from [resource] by Quran.ws, licensed under CC BY 4.0.
+  Source: [canonical URL]. Version: [version]. Modified: [yes/no].
+
+Use for training, fine-tuning, evaluating, indexing or retrieval by machine
+learning systems is permitted and treated as use, not republication.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+THIRD-PARTY MATERIAL — KING FAHD GLORIOUS QUR'AN PRINTING COMPLEX
+═══════════════════════════════════════════════════════════════════════════════
+
+The Qur'anic text editions, mushaf typesettings and fonts in this repository
+derive from material published by the King Fahd Glorious Qur'an Printing
+Complex. That material is not ours to license. It is used under the Complex's
+own published usage rights, reproduced in full below in Arabic and English.
+
+Our processing, correction, organisation or transformation of that material
+creates no ownership in it and does not override these terms.
+
+
+───────────────────────────────────────────────────────────── حقوق الاستخدام ───
+
+بناء على موافقة معالي وزير الشؤون الإسلامية والدعوة والإرشاد، المشرف العام على
+مجمع الملك فهد لطباعة المصحف الشريف، يتشـرَّف المجمع بإتاحة نسخة رقمية كاملة من
+مصحف المدينة النبوية المطبوع في المجمع، وذلك بالصيغ التالية:
+
+رسم المتجهات Illustrator
+وثيقة بي دي إف PDF
+صور ذات جودة عالية Images
+خط حاسوبي True Type Font
+
+ويمكن استخدام النسخة المذكورة مجاناً في المجالات الشخصية والأعمال الفردية كافة،
+وأعمال الجهات الحكومية والجهات والمؤسسات الخاصة والأهلية، وأعمال الطباعة
+الورقية*، والنشـر المكتبي والإعلامي، ومواقع الإنترنت والبرامج الحاسوبية وغيرها،
+وذلك داخل المملكة العربية السعودية وخارجها.
+
+نسأل الله أن ينفع المسلمين بهذا العمل المبارك.
+
+والحمد لله رب العالمين
+
+* أعمال طباعة المصاحف داخل المملكة واستيرادها من الخارج لغرض البيع التجاري
+تخضع للأمر السامي الكريم ذي الرقم 136/8 المؤرخ في 1/2/1406هـ وأكّد على ذلك
+الأمر السامي الكريم رقم 9/ب/46356 بتاريخ 28/9/1424هـ. والذي وجه بمنع طباعة
+المصاحف في الداخل في غير المجمع، وكذلك منع استيرادها من الخارج لغرض البيع
+التجاري.
+
+
+──────────────────────────────────────────────────────────────── Copyright ────
+
+Based on the approval of His Excellency the Minister of Islamic Affairs,
+Endowments, Da'wah and Guidance, General Supervisor of the King Fahd Qur'an
+Printing Complex.
+
+The Qur'an Printing Complex is honored to present to the Muslim public a
+complete free digital copy of Mus'haf al-Madinah published by the Complex, in
+the following formats:
+
+  • Adobe Illustrator files
+  • PDF files
+  • High quality images
+  • True Type Font
+
+Mus'haf al-Madinah in these previous formats can be used for free in all
+personal, individual businesses, in works of governmental departments &
+agencies, in the publications of both private and national institutions, also
+suitable for Qur'an printing,* digital publishing, & for media use, can be used
+also in websites, software, and other similar intermediates.
+
+We ask Allah that He renders this blessed project beneficial to all Muslims.
+
+* Printing of Qur'anic copies in the Kingdom, and their import from outside for
+sale are subject to the Royal Decree No 136/8 dated 1/2/1406 AH which has been
+reiterated by the Royal Decree No 9/B/46356 dated 28/9/1424 AH which prohibit
+printing of Qur'anic copies in the Kingdom except in the Complex, likewise
+their import from outside for sale.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ACCURACY AND NO WARRANTY
+═══════════════════════════════════════════════════════════════════════════════
+
+This material is provided AS IS, without warranty of any kind, as stated in
+the MIT License and in CC BY 4.0 (Sections 5 and 6).
+
+Qur'anic text, transliteration, translation, recitation and mushaf rendering
+may contain errors, and releases are corrected over time. Anyone publishing
+Qur'anic text to end users is responsible for verifying it against an
+authorised printed mushaf and for tracking our corrections.
+
+Corrections:          corrections@quran.ws — treated as a priority.
+Licensing questions:  legal@quran.ws
+
+
+═══════════════════════════════════════════════════════════════════════════════
+FULL LICENCE TEXTS
+═══════════════════════════════════════════════════════════════════════════════
+
+The full CC BY 4.0 legal text is in LICENSES/CC-BY-4.0.txt and at
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+MIT License
+
+Copyright (c) 2026 Quran.ws
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This notice is published in Arabic and English. Where the two differ, the
+Arabic version governs.
