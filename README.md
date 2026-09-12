@@ -23,7 +23,12 @@ Use it when you want to display printed Mushaf pages in a website or application
 | **Licence** | CC BY 4.0 for the metadata and polygon layer, MIT for `tools/`; attribution waived for use inside a product |
 
 ```sh
+# one page
 curl -O https://raw.githubusercontent.com/quran-ws/quran-svg/main/mushafs/hafs/kfqc/svg/001.svg
+
+# one whole mushaf, without the 5.29 GiB a plain `git clone` fetches
+git clone --depth 1 --filter=blob:none --sparse https://github.com/quran-ws/quran-svg.git
+cd quran-svg && git sparse-checkout set mushafs/hafs/kfqc
 ```
 
 ## Where the documentation is
@@ -45,6 +50,6 @@ Everything about using it lives on the site. This repository is the source.
 |---|---|
 | `mushafs/` | the artwork and the ayah polygon layer, one directory per muṣḥaf |
 | `tools/` | how the polygon layer is built and audited |
-| `docs/` | [how the polygon layer ships](docs/FORMAT.md) — stacking order, the two `polygon` shapes, the opening spread |
+| `docs/` | [how the polygon layer ships](docs/FORMAT.md) — stacking order, the two `polygon` shapes, the opening spread · [getting the files](docs/GETTING-THE-FILES.md) — what to fetch, and what not to clone |
 
 Issues and pull requests are welcome here. Everything that is not about *changing* this repository is on the site.
