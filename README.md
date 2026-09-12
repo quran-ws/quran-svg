@@ -17,7 +17,6 @@ Use it when you want to display printed Mushaf pages in a website or application
 
 | | |
 |---|---|
-| **Package** | `@quran-ws/svg` · `1.0.0` |
 | **Riwayat** | 5 |
 | **Ayah polygons** | 31,118 |
 | **Licence** | CC BY 4.0 for the metadata and polygon layer, MIT for `tools/`; attribution waived for use inside a product |
