@@ -2,14 +2,18 @@
 
 <img src=".github/banner.svg" alt="Quran SVG — Pages & Assets, Stable" width="820">
 
-**The archive of vectorised mushafs. Every page, every ayah mapped — the widest coverage in the project, and open to new mushafs.**
+**Vector Mushaf pages in SVG, with the position of every ayah mapped on the page.**
 
 <a href="https://quran.ws/blocks/quran-svg"><img alt="See it work" src="https://img.shields.io/badge/See_it_work-15705D?style=for-the-badge&labelColor=102F29"></a>
 <a href="https://quran.ws/docs/reference/quran-svg"><img alt="Documentation" src="https://img.shields.io/badge/Documentation-102F29?style=for-the-badge&labelColor=102F29"></a>
 
 </div>
 
-> صفحات المصحف مرسومةً شعاعيًّا، مع طبقة إحداثيّاتٍ لكل آية، في خمس روايات.
+Use it when you want to display printed Mushaf pages in a website or application and make individual ayahs selectable or connect them to recitation, Tafsir, and other features.
+
+> صفحات مصاحف جاهزة بصيغة SVG، مع إحداثيات كل آية داخل الصفحة.
+>
+> استخدمه عندما تريد عرض صفحة المصحف كما هي في موقع أو تطبيق، مع إمكانية تحديد الآيات وربطها بالتلاوة أو التفسير أو غيرها من وظائف التطبيق.
 
 | | |
 |---|---|
