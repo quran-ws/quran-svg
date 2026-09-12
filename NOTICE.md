@@ -4,12 +4,12 @@ This repository contains vector (SVG) renderings of Qur'an muṣḥaf pages toge
 transparent, clickable ayah‑polygon layer and per‑page JSON metadata. Please read the
 following before using the material.
 
-**In one line:** everything *we* made is CC0 (public domain); the muṣḥaf page artwork
-belongs to its publishers, whose terms are permissive and set out below.
+**In one line:** everything *we* made is CC BY 4.0, with attribution waived when you use
+it inside a product; the muṣḥaf page artwork belongs to its publishers, whose terms are
+permissive and set out below.
 
-`LICENSE` holds the plain text of CC0 1.0 so that automated tools can identify it. It is
-the licence for **our** contribution only — the scope is spelled out in §3, and the
-publishers' terms for the artwork are in §2.
+`LICENSE` holds the standard Quran.ws notice. It covers **our** contribution only — the
+scope is spelled out in §3, and the publishers' terms for the artwork are in §2.
 
 ## 1. The Qur'anic text itself
 
@@ -56,14 +56,17 @@ Libyan Ministry of Endowments (Awqāf). No such edition is published in this rep
 today — the five editions above are all KFQC — but the term is recorded here so it travels
 with the project if that artwork is ever added.
 
-## 3. This repository's own contribution — CC0 1.0 (public domain)
+## 3. This repository's own contribution — CC BY 4.0, attribution waived in products
 
 Everything **we** authored — the ayah‑polygon hit‑layer, the JSON metadata (per‑page
 polygons, `surah.json`, `markers.json` — the per‑riwaya ayah counts, ayah↔page mapping, and
-hit‑region coordinates), and the repository structure/tooling — is dedicated to the public
-domain under **CC0 1.0** (see `LICENSE`). Reuse freely, including commercially, with no
-attribution required (attribution to *Quranpedia — quran‑svg* is appreciated). This makes the
-data a clean foundation for an open, shared Qur'anic‑data standard.
+hit‑region coordinates), and the repository structure — is **CC BY 4.0**, and `tools/` is
+**MIT** (see `LICENSE`). Reuse it freely, including commercially.
+
+Attribution is **waived** when the material is used inside an application, website,
+service, API, bot, tool, research work or product, free or commercial. It is asked for when
+the data itself is republished as a resource in its own right, so that a path stays open
+from every copy back to its corrections and later releases.
 
 ## 4. Disclaimer
 
