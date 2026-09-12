@@ -16,7 +16,7 @@
 | **Package** | `@quran-ws/svg` · `1.0.0` |
 | **Riwayat** | 5 |
 | **Ayah polygons** | 31,118 |
-| **Licence** | CC0 1.0 (metadata and polygon layer) |
+| **Licence** | CC BY 4.0 for the metadata and polygon layer, MIT for `tools/`; attribution waived for use inside a product |
 
 ```sh
 curl -O https://raw.githubusercontent.com/quran-ws/quran-svg/main/mushafs/hafs/kfqc/svg/001.svg
