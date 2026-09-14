@@ -47,19 +47,25 @@ def marker_element(
 ) -> ET.Element:
     center_x, center_y = local_transform_number_center(number)
     if marker_inner_transform is not None:
-        wrapper = ET.Element(f"{{{SVG_NS}}}g", {"class": "ayah_marker"})
+        wrapper = ET.Element(f"{{{SVG_NS}}}g", {"class": "ayah-mark"})
+        # The inner transform only NORMALISES the source glyph, so it is the
+        # same for every marker in a mushaf. `transform` takes a list applied
+        # left to right, so carrying it on the group places the ink identically
+        # while leaving the <path> clean — consumers' converters measure that
+        # no path carries a transform, and stamping a constant onto 41,402
+        # paths broke it.
         mark = ET.SubElement(
             wrapper,
             f"{{{SVG_NS}}}g",
             {
-                "class": "ayah_marker_mark",
-                "transform": f"translate({center_x:.6f} {center_y:.6f}) scale({marker_scale:g} {-marker_scale:g})",
+                "class": "ayah-mark-ornament",
+                "transform": f"translate({center_x:.6f} {center_y:.6f}) scale({marker_scale:g} {-marker_scale:g}) {marker_inner_transform}",
             },
         )
         ET.SubElement(
             mark,
             f"{{{SVG_NS}}}path",
-            {"d": marker_path, "transform": marker_inner_transform, "fill": "#231f20", "fill-rule": "evenodd"},
+            {"d": marker_path, "fill": "#231f20", "fill-rule": "evenodd"},
         )
         wrapper.append(number)
         return wrapper
@@ -77,22 +83,24 @@ def marker_element(
         f"matrix({sx:.8f} 0 0 {-sy:.8f} "
         f"{-sx * douri_cx:.8f} {sy * douri_cy:.8f})"
     )
-    wrapper = ET.Element(f"{{{SVG_NS}}}g", {"class": "ayah_marker"})
+    wrapper = ET.Element(f"{{{SVG_NS}}}g", {"class": "ayah-mark"})
     mark = ET.SubElement(
         wrapper,
         f"{{{SVG_NS}}}g",
         {
-            "class": "ayah_marker_mark",
+            "class": "ayah-mark-ornament",
             "transform": (
                 f"translate({center_x:.6f} {marker_center_y:.6f}) "
-                f"scale({marker_scale:g} {-marker_scale:g})"
+                f"scale({marker_scale:g} {-marker_scale:g}) {inner}"
             ),
         },
     )
+    # `inner` normalises the glyph and is constant per mushaf — it belongs on
+    # the group, not stamped onto every path. See the note in the branch above.
     ET.SubElement(
         mark,
         f"{{{SVG_NS}}}path",
-        {"d": marker_path, "transform": inner, "fill": "#231f20", "fill-rule": "evenodd"},
+        {"d": marker_path, "fill": "#231f20", "fill-rule": "evenodd"},
     )
     # Keep the supplied number group as-is and put it after the mark.
     wrapper.append(number)
@@ -117,7 +125,11 @@ def replace_page(
     children = list(layer)
     # Make the sweep resumable after an interrupted run. Rebuild existing
     # wrappers with the final scale while keeping their number child intact.
-    if children and all(child.attrib.get("class") == "ayah_marker" and len(child) == 2 for child in children):
+    # Accept the old spelling too: a sweep interrupted before the rename left
+    # wrappers named `ayah_marker`, and failing to recognise them here would
+    # rebuild markers on top of markers rather than resuming.
+    _WRAPPER_CLASSES = ("ayah-mark", "ayah_marker")
+    if children and all(child.attrib.get("class") in _WRAPPER_CLASSES and len(child) == 2 for child in children):
         rebuilt = []
         for wrapper in children:
             number = wrapper[-1]

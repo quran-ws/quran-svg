@@ -14,8 +14,10 @@ digits. `svg-br/` beside it holds the same pages Brotli-compressed — 72 MB
 against 414 MB for Ḥafṣ — and `json/` holds the ayah polygon layer, which is
 what [`FORMAT.md`](FORMAT.md) describes.
 
-Pin a commit rather than `main` if you need the bytes to stay put. This
-repository publishes no release assets, so a SHA is the only pin there is.
+Pin a commit rather than `main` if you need the bytes to stay put. Releases
+also carry per-muṣḥaf archives — `<riwayah>-kfqc-svg.zip` and
+`<riwayah>-kfqc-svg-br.zip` — so a release tag is a pin too, and the cheapest
+way to take one muṣḥaf whole without `git`.
 
 ## One muṣḥaf
 
