@@ -9,6 +9,9 @@
 #   svg/pages/v1.1.1/hafs-kfqc/001.svg     the artwork
 #   svg/pages/v1.1.1/hafs-kfqc/001.json    the ayah polygons for that page
 #
+# Every mushaf the release carries is published, one folder per edition. A page that holds
+# two surahs also has a per-surah file beside it, and those travel with it.
+#
 # The artwork comes from the release zips, which are the canonical artefact. The polygon
 # layer is not in them, so it is read from the working tree; the workflow checks out only
 # those directories.
@@ -34,15 +37,22 @@ done
 
 FAMILY=svg/pages
 PREFIX="$FAMILY/$(cdn_version "$VERSION")"
-PRINT=kfqc
-RIWAYAT="${RIWAYAT:-douri hafs qalon shubah warsh}"
 STAGE="dist/cdn/$VERSION"
 SRC="$STAGE/src"
 
+# Every mushaf in the release is published. The list comes from the release itself rather
+# than from a constant here, so another riwayah or another print is carried the moment it
+# ships, with no edit to this script. Set EDITIONS to publish a subset while testing.
+EDITIONS="${EDITIONS:-$(gh release view "$VERSION" --repo quran-ws/quran-svg --json assets \
+  --jq '.assets[] | select(.name | endswith("-svg.zip")) | .name | rtrimstr("-svg.zip")')}"
+[ -n "$EDITIONS" ] || { echo "$VERSION publishes no *-svg.zip asset" >&2; exit 1; }
+echo "== $VERSION: $(echo "$EDITIONS" | wc -w | tr -d ' ') mushafs — $(echo $EDITIONS)"
+
 echo "== fetching $VERSION"
 rm -rf "$STAGE" && mkdir -p "$SRC"
-for riwayah in $RIWAYAT; do
-  edition="$riwayah-$PRINT"
+for edition in $EDITIONS; do
+  # `hafs-kfqc` is riwayah `hafs`, print `kfqc`; the polygon layer sits under both.
+  riwayah="${edition%-*}"; print="${edition##*-}"
   zip="$STAGE/$edition-svg.zip"
   gh release download "$VERSION" --repo quran-ws/quran-svg --clobber -D "$STAGE" -p "$edition-svg.zip"
   mkdir -p "$SRC/$edition"
@@ -57,7 +67,7 @@ for riwayah in $RIWAYAT; do
   [ -f "$SRC/$edition/001.svg" ] || { echo "$edition: the release zip had no 001.svg" >&2; exit 1; }
 
   # The polygon layer travels with the artwork: a page without it cannot highlight an ayah.
-  poly="mushafs/$riwayah/$PRINT/json"
+  poly="mushafs/$riwayah/$print/json"
   [ -d "$poly" ] || { echo "$edition: $poly is missing — check out the polygon layer" >&2; exit 1; }
   cp "$poly"/*.json "$SRC/$edition/"
   echo "   $edition: $(ls "$SRC/$edition"/*.svg | wc -l | tr -d ' ') pages, $(ls "$SRC/$edition"/*.json | wc -l | tr -d ' ') polygon files"
@@ -71,7 +81,7 @@ while IFS= read -r f; do
 done < "$STAGE/.files"
 
 jq -n --arg version "$(cdn_version "$VERSION")" --arg base "https://$CDN_HOST/$PREFIX/" \
-      --arg release "$VERSION" --arg editions "$(for r in $RIWAYAT; do printf '%s-%s\n' "$r" "$PRINT"; done)" \
+      --arg release "$VERSION" --arg editions "$EDITIONS" \
       --rawfile tsv "$STAGE/.files.tsv" '
   {version: $version, release: $release, base: $base, encoding: "identity",
    editions: ($editions | rtrimstr("\n") | split("\n")),
