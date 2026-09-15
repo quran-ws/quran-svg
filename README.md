@@ -30,6 +30,22 @@ git clone --depth 1 --filter=blob:none --sparse https://github.com/quran-ws/qura
 cd quran-svg && git sparse-checkout set mushafs/hafs/kfqc
 ```
 
+## On the CDN
+
+Releases are mirrored to `cdn.quran.ws` under immutable, versioned URLs, so an
+application can fetch one page over HTTPS without cloning the repository:
+
+```
+https://cdn.quran.ws/svg/pages/v1.1.1/manifest.json
+https://cdn.quran.ws/svg/pages/v1.1.1/001.svg
+```
+
+A folder is written once and never rewritten, so every file is served
+`Cache-Control: immutable`. `manifest.json` lists each file with its size and
+sha256. `https://cdn.quran.ws/svg/pages/latest.json` names the current version.
+
+The CDN mirrors the GitHub release, which remains the canonical artifact.
+
 ## Where the documentation is
 
 Everything about using it lives on the site. This repository is the source.
