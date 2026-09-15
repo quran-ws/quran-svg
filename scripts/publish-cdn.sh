@@ -47,8 +47,12 @@ for riwayah in $RIWAYAT; do
   gh release download "$VERSION" --repo quran-ws/quran-svg --clobber -D "$STAGE" -p "$edition-svg.zip"
   mkdir -p "$SRC/$edition"
   # The zip's internal layout is not part of the contract, so take the pages by name wherever
-  # they sit inside it and flatten them under the edition.
+  # they sit inside it and flatten them under the edition. Flattening would silently drop a
+  # page if two directories in the zip held the same basename, so count both sides.
+  want=$(unzip -Z1 "$zip" '*.svg' | wc -l | tr -d ' ')
   unzip -q -j -o "$zip" '*.svg' -d "$SRC/$edition"
+  got=$(find "$SRC/$edition" -name '*.svg' | wc -l | tr -d ' ')
+  [ "$want" = "$got" ] || { echo "$edition: zip holds $want pages but $got survived flattening" >&2; exit 1; }
   rm -f "$zip"
   [ -f "$SRC/$edition/001.svg" ] || { echo "$edition: the release zip had no 001.svg" >&2; exit 1; }
 
