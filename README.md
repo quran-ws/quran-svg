@@ -41,9 +41,11 @@ https://cdn.quran.ws/svg/pages/v1.1.1/hafs-kfqc/001.svg    the artwork
 https://cdn.quran.ws/svg/pages/v1.1.1/hafs-kfqc/001.json   its ayah polygons
 ```
 
-Every riwayah is published under its own edition folder: `douri-kfqc`,
-`hafs-kfqc`, `qalon-kfqc`, `shubah-kfqc` and `warsh-kfqc`. Only the raw
-`svg` set goes up, because the CDN negotiates zstd, brotli or gzip per client.
+Every mushaf in the release is published under its own edition folder:
+`douri-kfqc`, `hafs-kfqc`, `qalon-kfqc`, `shubah-kfqc` and `warsh-kfqc`. A
+page that holds two surahs also has a per-surah file beside it, such as
+`106-surah4.svg`. Only the raw `svg` set goes up, because the CDN negotiates
+zstd, brotli or gzip per client.
 
 A folder is written once and never rewritten, so every file is served
 `Cache-Control: immutable`. `manifest.json` lists each file with its size and
