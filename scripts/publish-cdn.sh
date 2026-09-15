@@ -12,9 +12,9 @@
 # Every mushaf the release carries is published, one folder per edition. A page that holds
 # two surahs also has a per-surah file beside it, and those travel with it.
 #
-# The artwork comes from the release zips, which are the canonical artefact. The polygon
-# layer is not in them, so it is read from the working tree; the workflow checks out only
-# those directories.
+# Everything comes from the release, which is the canonical artefact: the artwork from
+# `<edition>-svg.zip` and the polygons from `<edition>-json.zip`, each checked against the
+# checksum published beside it. Nothing is read from a working tree.
 #
 # Only the raw `svg` set is published. The repository also ships `svg-br`, but a Compression
 # Rule on cdn.quran.ws negotiates zstd, brotli or gzip per client, so a second pre-compressed
@@ -53,23 +53,30 @@ rm -rf "$STAGE" && mkdir -p "$SRC"
 for edition in $EDITIONS; do
   # `hafs-kfqc` is riwayah `hafs`, print `kfqc`; the polygon layer sits under both.
   riwayah="${edition%-*}"; print="${edition##*-}"
-  zip="$STAGE/$edition-svg.zip"
-  gh release download "$VERSION" --repo quran-ws/quran-svg --clobber -D "$STAGE" -p "$edition-svg.zip"
+  gh release download "$VERSION" --repo quran-ws/quran-svg --clobber -D "$STAGE" \
+    -p "$edition-svg.zip" -p "$edition-json.zip" -p "$edition-json.zip.sha256"
   mkdir -p "$SRC/$edition"
-  # The zip's internal layout is not part of the contract, so take the pages by name wherever
-  # they sit inside it and flatten them under the edition. Flattening would silently drop a
-  # page if two directories in the zip held the same basename, so count both sides.
+
+  # The artwork. The zip's internal layout is not part of the contract, so take the pages by
+  # name wherever they sit inside it and flatten them under the edition. Flattening would
+  # silently drop a page if two directories held the same basename, so count both sides.
+  zip="$STAGE/$edition-svg.zip"
   want=$(unzip -Z1 "$zip" '*.svg' | wc -l | tr -d ' ')
   unzip -q -j -o "$zip" '*.svg' -d "$SRC/$edition"
   got=$(find "$SRC/$edition" -name '*.svg' | wc -l | tr -d ' ')
   [ "$want" = "$got" ] || { echo "$edition: zip holds $want pages but $got survived flattening" >&2; exit 1; }
-  rm -f "$zip"
   [ -f "$SRC/$edition/001.svg" ] || { echo "$edition: the release zip had no 001.svg" >&2; exit 1; }
+  rm -f "$zip"
 
-  # The polygon layer travels with the artwork: a page without it cannot highlight an ayah.
-  poly="mushafs/$riwayah/$print/json"
-  [ -d "$poly" ] || { echo "$edition: $poly is missing — check out the polygon layer" >&2; exit 1; }
-  cp "$poly"/*.json "$SRC/$edition/"
+  # The polygon layer, which travels with the artwork: a page without it cannot highlight an
+  # ayah. It carries a checksum, so verify before reading anything out of it.
+  zip="$STAGE/$edition-json.zip"
+  ( cd "$STAGE" && shasum -a 256 -c "$edition-json.zip.sha256" >/dev/null 2>&1 \
+    || sha256sum -c "$edition-json.zip.sha256" >/dev/null ) \
+    || { echo "$edition: $edition-json.zip fails its checksum" >&2; exit 1; }
+  unzip -q -j -o "$zip" '*.json' -d "$SRC/$edition"
+  rm -f "$zip" "$zip.sha256"
+
   echo "   $edition: $(ls "$SRC/$edition"/*.svg | wc -l | tr -d ' ') pages, $(ls "$SRC/$edition"/*.json | wc -l | tr -d ' ') polygon files"
 done
 
