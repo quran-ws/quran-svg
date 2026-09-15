@@ -44,6 +44,9 @@ usage rights:
 > anywhere other than the King Fahd Glorious Qur'an Printing Complex, and prohibit importing
 > it from abroad for the purpose of commercial sale.
 
+The exact bundle behind each edition here — filename, size and SHA-256 — is recorded in
+[`docs/PROVENANCE.md`](docs/PROVENANCE.md).
+
 **In practice:** free for essentially every personal, commercial, governmental, digital,
 media, web, and software use — worldwide. The **only** restriction is the physical
 **print‑for‑commercial‑sale** trade of muṣḥafs, which is reserved to the Complex.

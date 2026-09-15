@@ -49,6 +49,6 @@ Everything about using it lives on the site. This repository is the source.
 |---|---|
 | `mushafs/` | the artwork and the ayah polygon layer, one directory per muṣḥaf |
 | `tools/` | how the polygon layer is built and audited |
-| `docs/` | [how the polygon layer ships](docs/FORMAT.md) — stacking order, the two `polygon` shapes, the opening spread · [getting the files](docs/GETTING-THE-FILES.md) — what to fetch, and what not to clone |
+| `docs/` | [how the polygon layer ships](docs/FORMAT.md) — stacking order, the two `polygon` shapes, the opening spread · [getting the files](docs/GETTING-THE-FILES.md) — what to fetch, and what not to clone · [where the artwork came from](docs/PROVENANCE.md) — the source bundle and digest behind each muṣḥaf |
 
 Issues and pull requests are welcome here. Everything that is not about *changing* this repository is on the site.
