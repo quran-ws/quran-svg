@@ -88,7 +88,7 @@ while IFS= read -r f; do
 done < "$STAGE/.files"
 
 jq -n --arg version "$(cdn_version "$VERSION")" --arg base "https://$CDN_HOST/$PREFIX/" \
-      --arg release "$VERSION" --arg editions "$EDITIONS" \
+      --arg release "$VERSION" --arg editions "$(printf '%s\n' $EDITIONS)" \
       --rawfile tsv "$STAGE/.files.tsv" '
   {version: $version, release: $release, base: $base, encoding: "identity",
    editions: ($editions | rtrimstr("\n") | split("\n")),
