@@ -21,15 +21,12 @@ jobs:
     permissions:
       contents: read
     steps:
-      # Only the polygon layer and the scripts are needed; the artwork comes from the
-      # release zips. A full checkout of this repository is several gigabytes.
+      # Only the scripts are needed. Every file published comes from the release, and a
+      # full checkout of this repository is several gigabytes.
       - uses: actions/checkout@v4
         with:
           filter: blob:none
-          sparse-checkout-cone-mode: false
-          sparse-checkout: |
-            /scripts/
-            /mushafs/*/kfqc/json/
+          sparse-checkout: scripts
 
       - name: Publish
         env:
